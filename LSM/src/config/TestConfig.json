@@ -1,0 +1,31 @@
+{
+  "run": "lsm",
+  "config": {
+    "new_panel_chrome": {
+      "platform": "web",
+      "browser": "chrome",
+      "capabilities": {
+        "browserName": "chrome",
+        "browserVersion": "latest"
+      }
+    },
+    "lsm": {
+      "appiumPlatform": "Android",
+      "platform": "Android",
+      "app": "base.apk",
+      "capabilities": {
+        "projectName": "LSM Mobile App",
+        "platformName": "Android",
+        "deviceName": "ce051715b2392a1203",
+        "platformVersion": "9",
+        "appiumPlatform": "Android",
+        "automationName": "UiAutomator2",
+        "noReset": false
+      },
+      "testNGsuite": [
+        "lsm_android_test.xml"
+      ],
+      "appiumURL": "http://127.0.0.1:4723/"
+    }
+  }
+}

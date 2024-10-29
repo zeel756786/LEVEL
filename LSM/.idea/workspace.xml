@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="712da437-be86-42bc-be0d-a78608c3d551" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/TestConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/TestConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/object_repository/signin/signin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/object_repository/signin/signin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/object_repository/sleep_playlist/Sleep_Playlist.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/object_repository/sleep_playlist/Sleep_Playlist.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/object_repository/sleep_playlist/Sleep_Playlist_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/object_repository/sleep_playlist/Sleep_Playlist_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/tests/Sleep_Playlist/Sleep_Playlist_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/tests/Sleep_Playlist/Sleep_Playlist_Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\Amazon Corretto\apache-maven-3.9.6" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2o44zGBKMNxXmslfJDZkOXg4qnV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/LSM_Project/LSM/src/test/java/mobile/app",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LSM_Project\LSM\src\test\java\mobile\app" />
+      <recent name="E:\LSM_Project\LSM\src\test\java\mobile\tests" />
+      <recent name="E:\LSM_Project\LSM\src\test\java\mobile\object_repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020">
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="712da437-be86-42bc-be0d-a78608c3d551" name="Changes" comment="" />
+      <created>1730115774728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730115774728</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Al_Mulla" parallel="tests" thread-count="1">
+
+    <test name="Customer onboarding test">
+        <classes>
+            <class name="web.tests.Customer_onboarding.customer_onboarding_test">
+                <methods>
+                    <include name="login_with_valid_credentials"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
