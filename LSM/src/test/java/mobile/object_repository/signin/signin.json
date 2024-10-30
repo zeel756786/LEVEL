@@ -407,5 +407,17 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "(//android.widget.TextView[@text=\"Delete Account\"])[1]"
+  },
+  "please_fill_all_the_details": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"Please fill all the details\"]"
+  },
+  "invalid_otp": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"Invalid OTP\"]"
   }
 }

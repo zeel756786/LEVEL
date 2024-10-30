@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 import java.util.Random;
-
+import java.util.concurrent.TimeoutException;
 
 
 public class signin_page {
@@ -151,10 +151,9 @@ public class signin_page {
     public void verify_and_click_on_right_arrow() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("right_arrow");
+        verify.element_is_enable("right_arrow");
         element.click("right_arrow");
-        wait.wait_for_second(5);
     }
-
     public void click_on_enter_the_code_text_field() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("enter_the_code_text_box");
@@ -228,6 +227,17 @@ public class signin_page {
     public void verify_text_i_agree_to_terms_and_conditions_present_on_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("i_agree_to_the_terms_and_conditions");
+    }
+    public void verify_text_invalid_otp_present_on_page() {
+        wait.wait_until_element_is_visible("invalid_otp");
+        verify.element_text_is_equal_to("invalid_otp","Invalid OTP");
+        System.out.println("invalid OTP");
+    }
+    public void verify_text_please_fill_all_the_details() {
+        wait.wait_until_element_is_visible("please_fill_all_the_details");
+        verify.element_is_enable("please_fill_all_the_details");
+      //  verify.element_is_present("please_fill_all_the_details");
+        System.out.println("please fill all the details");
     }
 
     public void verify_text_got_a_referral_code_present_on_page() {
@@ -506,17 +516,77 @@ public class signin_page {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
             WebElement arrowRightButton = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(arrowRightLocator)));
-            if (!arrowRightButton.isEnabled()) {
-                System.out.println("User is able to click on Arrow Right button");
+            if (arrowRightButton.isEnabled()) {
+                System.out.println("Button is disable on UI User is not able to click on it ");
                 arrowRightButton.click();
             } else {
 
-                System.out.println("Arrow Right button is disabled");
+                System.out.println("Right button is is enabled");
             }
         } catch (NoSuchElementException e) {
 
             System.out.println("Arrow Right button not found.");
         } catch (Exception e) {
+            System.out.println("An error occurred: " + e.getMessage());
+        }
+    }
+    public void clickArrowRightAndVerifyConfirmationMessage() {
+
+        String arrowRightLocator = "//android.view.View[@content-desc='Arrow Right']";
+
+        String confirmationMessage = "//android.widget.Toast[@text=\"Please fill all the details\"]";
+
+        try {
+
+            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+            WebElement arrowRightButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(arrowRightLocator)));
+            arrowRightButton.click();
+            WebElement confirmationToast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(confirmationMessage)));
+
+            String actualMessage = confirmationToast.getText();
+
+            if (actualMessage.equals("Please fill all the details")) {
+                System.out.println("Toast message verified successfully: " + actualMessage);
+            } else {
+                System.out.println("Expected Toast message not found. Actual message: " + actualMessage);
+            }
+
+        } catch (NoSuchElementException e) {
+
+            System.out.println("No such element found: " + e.getMessage());
+        } catch (Exception e) {
+
+            System.out.println("An error occurred: " + e.getMessage());
+        }
+    }
+
+    public void clickArrowRightAndVerifyConfirmationInvalidOTPMessage() {
+
+        String arrowRightLocator = "//android.view.View[@content-desc='Arrow Right']";
+
+        String confirmationMessage = "//android.widget.Toast[@text=\"Invalid OTP\"]";
+
+        try {
+
+            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+            WebElement arrowRightButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(arrowRightLocator)));
+            arrowRightButton.click();
+            WebElement confirmationToast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(confirmationMessage)));
+
+
+            String actualMessage = confirmationToast.getText();
+
+            if (actualMessage.equals("Invalid OTP")) {
+                System.out.println("Toast message verified successfully: " + actualMessage);
+            } else {
+                System.out.println("Expected Toast message not found. Actual message: " + actualMessage);
+            }
+
+        } catch (NoSuchElementException e) {
+
+            System.out.println("No such element found: " + e.getMessage());
+        } catch (Exception e) {
+
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
