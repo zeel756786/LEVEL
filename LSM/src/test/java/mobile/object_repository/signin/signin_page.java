@@ -7,9 +7,13 @@ import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Random;
 
@@ -492,6 +496,28 @@ public class signin_page {
             System.out.println("Close button clicked.");
         } else {
             System.out.println("Feature Alert is not visible. Skipping...");
+        }
+    }
+    public void clickOnArrowRightButton() {
+        String arrowRightLocator = "(//android.view.View[@content-desc='Arrow Right'])[1]";
+
+        try {
+
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+            WebElement arrowRightButton = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(arrowRightLocator)));
+            if (!arrowRightButton.isEnabled()) {
+                System.out.println("User is able to click on Arrow Right button");
+                arrowRightButton.click();
+            } else {
+
+                System.out.println("Arrow Right button is disabled");
+            }
+        } catch (NoSuchElementException e) {
+
+            System.out.println("Arrow Right button not found.");
+        } catch (Exception e) {
+            System.out.println("An error occurred: " + e.getMessage());
         }
     }
 }
