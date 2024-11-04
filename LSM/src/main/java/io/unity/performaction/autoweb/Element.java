@@ -5,6 +5,7 @@ import com.google.common.net.MediaType;
 import io.appium.java_client.AppiumBy;
 import io.unity.framework.exception.locator_validation_exception;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
@@ -528,7 +529,10 @@ public class Element {
                 .perform();
     }
 
-
-
+    public String getRandomalphabet()
+    {
+        String ra = RandomStringUtils.randomAlphabetic(3);
+        return ra;
+    }
 
 }

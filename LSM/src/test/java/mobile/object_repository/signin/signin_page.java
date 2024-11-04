@@ -34,8 +34,9 @@ public class signin_page {
         wait = new Wait(driver);
         androidDriver = (AndroidDriver) driver;
     }
-
-
+    public void wait_for_ten_second(){
+        wait.wait_for_second(10);
+    }
     public void enterTextInSpecificTextBox(String text, int textBoxIndex) {
         try {
 
@@ -81,6 +82,7 @@ public class signin_page {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("sleep");
     }
+
     public void click_on_sleep_tab_button() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("sleep");
@@ -154,6 +156,7 @@ public class signin_page {
         verify.element_is_enable("right_arrow");
         element.click("right_arrow");
     }
+
     public void click_on_enter_the_code_text_field() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("enter_the_code_text_box");
@@ -228,15 +231,17 @@ public class signin_page {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("i_agree_to_the_terms_and_conditions");
     }
+
     public void verify_text_invalid_otp_present_on_page() {
         wait.wait_until_element_is_visible("invalid_otp");
-        verify.element_text_is_equal_to("invalid_otp","Invalid OTP");
+        verify.element_text_is_equal_to("invalid_otp", "Invalid OTP");
         System.out.println("invalid OTP");
     }
+
     public void verify_text_please_fill_all_the_details() {
         wait.wait_until_element_is_visible("please_fill_all_the_details");
         verify.element_is_enable("please_fill_all_the_details");
-      //  verify.element_is_present("please_fill_all_the_details");
+        //  verify.element_is_present("please_fill_all_the_details");
         System.out.println("please fill all the details");
     }
 
@@ -304,9 +309,27 @@ public class signin_page {
         wait.wait_for_second(2);
         element.click("stress_relief");
     }
+    public void click_on_show_now_present_on_page(){
+        try {
+            wait.wait_until_element_is_visible("shop_now");
+            element.click("shop_now");
+        }
+        catch (Exception e)
+        {
+            System.out.println("Shop now  not found");
+        }
+    }
 
-    public void verify_thank_you_text_present_on_page() {
-        wait.wait_until_element_is_visible("thank_you");
+
+    public void click_on_navigate_back_button_present_on_page() {
+        try {
+            wait.wait_until_element_is_visible("navigate_back");
+            element.click("navigate_back");
+        }
+        catch (Exception e)
+        {
+            System.out.println("Navigate back not found");
+        }
     }
 
     public void verify_how_your_free_trail_works_text_present_on_page() {

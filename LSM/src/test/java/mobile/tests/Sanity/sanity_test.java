@@ -1,0 +1,194 @@
+package mobile.tests.Sanity;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.unity.framework.init.base;
+import io.unity.framework.remotegrid.LambdaTestConfig;
+import mobile.object_repository.signin.signin_page;
+import mobile.object_repository.sleep_playlist.Sleep_Playlist_Page;
+import org.testng.annotations.Test;
+
+import java.time.Duration;
+
+public class sanity_test extends base {
+
+    @Test
+    public void To_verify_user_can_create_playlist(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("To verify user can create playlist");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enterTextInSpecificTextBox("fawas16656@operades.com", 0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.wait_for_ten_second();
+        signin_page.keyboard_hide();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_and_enter_your_name();
+        signin_page.enterTextInSpecificTextBox("sigma", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("7546765434", 1);
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_and_anxiety();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_relief();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_cross_button();
+        signin_page.click_on_i_ll_lose_out_on_the_offer();
+        sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
+        Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
+        sleep_playlist_page.verify_playlist_name_highlighted();
+        sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");
+        sleep_playlist_page.verify_and_click_on_create_button();
+        sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
+        sleep_playlist_page.scroll_down_to_the_Text("A Ride to Athens");
+        sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
+        sleep_playlist_page.verify_and_click_on_go_to_playlist();
+        sleep_playlist_page.verify_and_click_on_more_vert();
+        sleep_playlist_page.click_on_delete_playlist();
+        sleep_playlist_page.verify_and_click_on_yes_delete_playlist();
+        sleep_playlist_page.verify_sleep_tab_icon_highlighted();
+    }
+    @Test
+    public void To_verify_user_can_edit_playlist_name(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("To verify user can edit playlist name");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enterTextInSpecificTextBox("posit84548@inikale.com", 0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.wait_for_ten_second();
+        signin_page.keyboard_hide();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_and_enter_your_name();
+        signin_page.enterTextInSpecificTextBox("Testing", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("7546123478", 1);
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_and_anxiety();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_relief();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_cross_button();
+        signin_page.click_on_i_ll_lose_out_on_the_offer();
+        sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
+        Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
+        sleep_playlist_page.verify_playlist_name_highlighted();
+        sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");
+        sleep_playlist_page.verify_and_click_on_create_button();
+        sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
+        sleep_playlist_page.scroll_down_to_the_Text("A Ride to Athens");
+        sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
+        sleep_playlist_page.verify_and_click_on_go_to_playlist();
+        sleep_playlist_page.verify_and_click_on_more_vert();
+        sleep_playlist_page.click_on_edit_playlist();
+        sleep_playlist_page.click_on_edit_playlist_name();
+        sleep_playlist_page.verify_and_click_save_button_playlist();
+        sleep_playlist_page.verify_playlist_page_present_on_page();
+    }
+    @Test
+    public void To_verify_user_can_search_music_in_add_item_to_playlist(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("To_verify_user_can_search_music_in_add_item_to_playlist");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enterTextInSpecificTextBox("fawas16656@operades.com", 0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.wait_for_ten_second();
+        signin_page.keyboard_hide();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_and_enter_your_name();
+        signin_page.enterTextInSpecificTextBox("sigma", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("7546765434", 1);
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_and_anxiety();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_relief();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_cross_button();
+        signin_page.click_on_i_ll_lose_out_on_the_offer();
+        sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
+        Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
+        sleep_playlist_page.verify_playlist_name_highlighted();
+        sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");
+        sleep_playlist_page.verify_and_click_on_create_button();
+        sleep_playlist_page.verify_add_item_to_playlist_present_on_page();
+        sleep_playlist_page.verify_search_text_present_on_page();
+        sleep_playlist_page.verify_search_box_enter_and_clear_text();
+    }
+    @Test
+    public void To_verify_user_can_play_music_in_playlist_item(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("To verify user can edit playlist name");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enterTextInSpecificTextBox("fawas16656@operades.com", 0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.wait_for_ten_second();
+        signin_page.keyboard_hide();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_and_enter_your_name();
+        signin_page.enterTextInSpecificTextBox("sigma", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("7546765434", 1);
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_and_anxiety();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_relief();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_cross_button();
+        signin_page.click_on_i_ll_lose_out_on_the_offer();
+        sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
+        Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
+        sleep_playlist_page.verify_playlist_name_highlighted();
+        sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");
+        sleep_playlist_page.verify_and_click_on_create_button();
+        sleep_playlist_page.verify_add_item_to_playlist_present_on_page();
+        sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
+        sleep_playlist_page.scroll_down_to_the_Text("A Ride to Athens");
+        sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
+        sleep_playlist_page.verify_and_click_on_go_to_playlist();
+        sleep_playlist_page.wait_for_five_second();
+        sleep_playlist_page.verify_and_click_on_golden_values_of_life_music();
+        sleep_playlist_page.click_on_stop_music();
+        sleep_playlist_page.verify_and_click_on_video_back_button();
+        sleep_playlist_page.verify_and_click_on_navigate_back_button();
+        sleep_playlist_page.click_on_stop_music_from_playlist();
+        sleep_playlist_page.verify_the_playlist_name_on_sleep_page();
+    }
+}

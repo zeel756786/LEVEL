@@ -419,5 +419,17 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.Toast[@text=\"Invalid OTP\"]"
+  },
+  "shop_now": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Shop Now\"]"
+  },
+  "navigate_back": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]"
   }
 }

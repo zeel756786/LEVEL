@@ -75,7 +75,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Search…']"
+    "android_locator": "//android.widget.TextView[@text=\"Search for sleep stories\"]"
   },
   "clear": {
     "platform": "android",
@@ -237,12 +237,78 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Automation Testing\"]"
+    "android_locator": "//android.widget.TextView[starts-with(@text, 'Automation')]"
   },
   "new_plus": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"New\"]"
+  },
+  "navigate_back": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]"
+  },
+  "close_button_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.view.View[2]"
+  },
+  "add_to_this_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add to this playlist\"]"
+  },
+  "delete_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Delete playlist\"]"
+  },
+  "edit_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Edit playlist\"]"
+  },
+  "edit_playlist_name": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.EditText[contains(@text, 'Automation')]"
+  },
+  "save_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Save\"]"
+  },
+  "golden_values_of_life": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"thumbnail_holder\"])[2]"
+  },
+  "stop_music": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[3]/android.widget.Button"
+  },
+  "close_video_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"close\"]"
+  },
+  "stop_music_permanently": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.ImageView[4]"
   }
 }

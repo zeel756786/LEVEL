@@ -1,6 +1,5 @@
 package io.unity.performaction.autoweb;
 
-import io.unity.performaction.autoweb.Element;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -29,9 +28,10 @@ public class Wait {
     }
 
 
-    public void wait_until_element_is_visible(String locator_value) {
+    public boolean wait_until_element_is_visible(String locator_value) {
         new WebDriverWait(driver, Duration.ofSeconds(60))
                 .until(ExpectedConditions.visibilityOf((element.find(locator_value))));
+        return false;
     }
 
     public void wait_until_element_is_disappear(String locator_value) {
