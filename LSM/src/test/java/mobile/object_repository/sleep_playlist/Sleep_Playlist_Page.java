@@ -174,6 +174,7 @@ public class Sleep_Playlist_Page {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("ancient_wisdom_drop_down");
         element.click("ancient_wisdom_drop_down");
+        wait.wait_for_second(10);
     }
     public void verify_and_click_on_collapse_icon_button(){
         wait.wait_for_second(2);
@@ -250,6 +251,11 @@ public class Sleep_Playlist_Page {
         wait.wait_until_element_is_visible("yes_delete_playlist");
         verify.element_is_present("yes_delete_playlist");
         element.click("yes_delete_playlist");
+    }
+    public void verify_and_click_on_no_button_delete_playlist(){
+        wait.wait_until_element_is_visible("no");
+        verify.element_is_present("no");
+        element.click("no");
     }
     public void verify_and_click_on_remove_filter(){
         wait.wait_for_second(2);
@@ -334,6 +340,33 @@ public class Sleep_Playlist_Page {
         element.click("golden_values_of_life");
         wait.wait_for_second(15);
     }
+    public void verify_golden_values_of_life_music_present_on_playlist_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("golden_values_of_life");
+        verify.element_is_present("golden_values_of_life");
+    }
+    public void verify_siddhartha_chapter_present_on_playlist_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("siddhartha_chapter");
+        verify.element_is_present("siddhartha_chapter");
+    }
+    public void click_on_music_play_button_playlist(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("music_play_button_playlist");
+        element.click("music_play_button_playlist");
+        wait.wait_for_second(15);
+    }
+    public void click_on_music_forward_button(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("music_forward_button");
+        element.click("music_forward_button");
+    }
+    public void verify_and_click_on_siddhartha_chapter(){
+        wait.wait_for_second(10);
+        wait.wait_until_element_is_visible("siddhartha_chapter");
+        element.click("siddhartha_chapter");
+        wait.wait_for_second(15);
+    }
     public void verify_and_click_on_video_back_button(){
         wait.wait_until_element_is_visible("close_video_button");
         element.click("close_video_button");
@@ -347,6 +380,61 @@ public class Sleep_Playlist_Page {
         wait.wait_until_element_is_visible("stop_music_permanently");
         element.click("stop_music_permanently");
     }
+    public void click_on_more_vert_icon_playlist(){
+        wait.wait_for_second(5);
+        wait.wait_until_element_is_visible("more_vert_icon_playlist");
+        element.click("more_vert_icon_playlist");
+    }
+    public void verify_logo_of_music_on_playlist_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("logo_image_golden_values_of_life");
+        verify.element_is_present("logo_image_golden_values_of_life");
+    }
+    public void verify_name_of_golden_values_of_life(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("name_of_golden_values_of_life");
+        verify.element_is_present("name_of_golden_values_of_life");
+    }
+    public void verify_duration_of_golden_values_of_life(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("duration_of_golden_values_of_life");
+        verify.element_is_present("duration_of_golden_values_of_life");
+    }
+    public void verify_close_button_golden_values_of_life(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("close_button_golden_values_of_life");
+        verify.element_is_present("close_button_golden_values_of_life");
+    }
+    public void click_on_close_button_golden_values_of_life(){
+        wait.wait_until_element_is_visible("close_button_golden_values_of_life");
+        element.click("close_button_golden_values_of_life");
+    }
+    public void verify_add_to_favorites(){
+        wait.wait_until_element_is_visible("add_to_favorites");
+        verify.element_is_present("add_to_favorites");
+    }
+    public void verify_schedule_a_reminder(){
+        wait.wait_until_element_is_visible("schedule_a_reminder");
+        verify.element_is_present("schedule_a_reminder");
+    }
+    public void verify_share_this_sleep_story(){
+        wait.wait_until_element_is_visible("share_this_sleep_story");
+        verify.element_is_present("share_this_sleep_story");
+    }
+    public void verify_rate_this_sleep_story(){
+        wait.wait_until_element_is_visible("rate_this_sleep_story");
+        verify.element_is_present("rate_this_sleep_story");
+    }
+    public void verify_and_click_on_add_items_button(){
+        wait.wait_until_element_is_visible("add_items_playlist");
+        verify.element_is_present("add_items_playlist");
+        element.click("add_items_playlist");
+    }
+    public void verify_emoji_present_on_delete_confirmation_pop(){
+        wait.wait_until_element_is_visible("emoji_dialog");
+        verify.element_is_present("emoji_dialog");
+    }
+
     public void verify_the_playlist_name_on_sleep_page(){
         By dynamicLocator = By.xpath("//android.widget.TextView[starts-with(@text, 'Automation')]");
         WebElement element= driver.findElement(dynamicLocator);
@@ -557,7 +645,7 @@ public class Sleep_Playlist_Page {
                     isYourPlaylistVisible = true;
 
                     androidDriver.findElement(By.xpath(
-                                    "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View/android.view.View")).click();
+                                    "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View")).click();
 
 
                     System.out.println("Clicked on the specified element in Your Playlists");

@@ -122,8 +122,8 @@
   "ancient_wisdom_drop_down": {
     "platform": "android",
     "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "(//android.widget.ImageView[@content-desc=\"Drop Up\"])[1]"
+    "locator_type": "accessibility-id",
+    "android_locator": "Drop Up"
   },
   "close_drop_down_collapse_button": {
     "platform": "android",
@@ -215,6 +215,12 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Yes, delete playlist\"]"
   },
+  "no": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"No\"]"
+  },
   "Remove_Filters": {
     "platform": "android",
     "element_type": "button",
@@ -291,7 +297,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//android.view.View[@content-desc=\"thumbnail_holder\"])[2]"
+    "android_locator": "//android.widget.TextView[@text=\"4 Golden Values of Life\"]"
   },
   "stop_music": {
     "platform": "android",
@@ -310,5 +316,95 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.ImageView[4]"
+  },
+  "music_forward_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"previous_button\"])[2]"
+  },
+  "siddhartha_chapter": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Siddhartha Chapter 1\"]"
+  },
+  "music_play_button_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]"
+  },
+  "more_vert_icon_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[3]/android.widget.ImageView"
+  },
+  "logo_image_golden_values_of_life": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@content-desc=\"thumbnail_holder\"]"
+  },
+  "name_of_golden_values_of_life": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"4 Golden Values of Life\"]"
+  },
+  "duration_of_golden_values_of_life": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"30 mins  •  10 XP\"]"
+  },
+  "close_button_golden_values_of_life": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.view.View[2]"
+  },
+  "add_to_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add to favorites\"]"
+  },
+  "schedule_a_reminder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Schedule a reminder\"]"
+  },
+  "share_this_sleep_story": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Share this sleep story\"]"
+  },
+  "rate_this_sleep_story": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Rate this sleep story\"]"
+  },
+  "add_items_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add items\"]"
+  },
+  "emoji_dialog": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"Shocked emoji dialog\"]"
+  },
+  "pop_up_disappear": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.ViewGroup/android.view.View/android.view.View/android.view.View"
   }
 }

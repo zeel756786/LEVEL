@@ -12,7 +12,7 @@
     "lsm": {
       "appiumPlatform": "Android",
       "platform": "Android",
-      "app": "base.apk",
+      "app": "app-release 2.apk",
       "capabilities": {
         "projectName": "LSM Mobile App",
         "platformName": "Android",
