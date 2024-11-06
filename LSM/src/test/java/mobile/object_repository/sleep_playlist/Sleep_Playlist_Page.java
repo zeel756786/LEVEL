@@ -3,10 +3,12 @@ package mobile.object_repository.sleep_playlist;
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.LongPressOptions;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -17,6 +19,10 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.ElementOption;
+import static java.time.Duration.ofSeconds;
 
 public class Sleep_Playlist_Page {
 
@@ -264,9 +270,9 @@ public class Sleep_Playlist_Page {
         element.click("Remove_Filters");
     }
     public void verify_and_click_on_see_all(){
-        wait.wait_for_second(2);
+        wait.wait_for_second(10);
         wait.wait_until_element_is_visible("see_all");
-      //  verify.element_is_present("see_all");
+        verify.element_is_present("see_all");
         element.click("see_all");
     }
     public void verify_newly_added_playlist_present_on_page(){
@@ -315,10 +321,12 @@ public class Sleep_Playlist_Page {
         verify.element_is_present("add_to_this_playlist");
     }
     public void verify_edit_playlist_present_on_page(){
+        wait.wait_for_second(2);
         wait.wait_until_element_is_visible("edit_playlist");
         verify.element_is_present("edit_playlist");
     }
     public void click_on_edit_playlist(){
+        wait.wait_for_second(2);
         wait.wait_until_element_is_visible("edit_playlist");
         element.click("edit_playlist");
     }
@@ -329,6 +337,25 @@ public class Sleep_Playlist_Page {
         element.clear_text_field("edit_playlist_name");
         element.clear_and_enter_in_text_field("edit_playlist_name","Automation"+element.getRandomalphabet());
         androidDriver.hideKeyboard();
+    }
+
+    public void edit_the_playlist_name(){
+        wait.wait_for_second(2);
+        WebElement textField = androidDriver.findElement(By.xpath("//android.widget.EditText[contains(@text, 'Automation')]"));
+
+        TouchAction touchAction = new TouchAction(androidDriver);
+        touchAction.longPress(LongPressOptions.longPressOptions()
+                        .withElement(ElementOption.element(textField))
+                        .withDuration(Duration.ofSeconds(1)))
+                .release()
+                .perform();
+
+        textField.clear();
+        androidDriver.hideKeyboard();
+    }
+    public void edit_the_playlist_name_present_on_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Edit_playlist_name");
     }
     public void verify_and_click_save_button_playlist(){
         wait.wait_until_element_is_visible("save_playlist");
@@ -413,9 +440,30 @@ public class Sleep_Playlist_Page {
         wait.wait_until_element_is_visible("add_to_favorites");
         verify.element_is_present("add_to_favorites");
     }
+    public void verify_and_click_add_to_favorites(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("add_to_favorites");
+        element.click("add_to_favorites");
+    }
+    public void verify_and_click_Remove_from_favorites(){
+        try {
+            wait.wait_for_second(2);
+            wait.wait_until_element_is_visible("Remove_from_favorites");
+            element.click("Remove_from_favorites");
+        }
+        catch (Exception e)
+        {
+            System.out.println("Remove from favorites element not found");
+        }
+    }
     public void verify_schedule_a_reminder(){
         wait.wait_until_element_is_visible("schedule_a_reminder");
         verify.element_is_present("schedule_a_reminder");
+    }
+    public void verify_and_click_schedule_a_reminder(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("schedule_a_reminder");
+        element.click("schedule_a_reminder");
     }
     public void verify_share_this_sleep_story(){
         wait.wait_until_element_is_visible("share_this_sleep_story");
@@ -433,6 +481,31 @@ public class Sleep_Playlist_Page {
     public void verify_emoji_present_on_delete_confirmation_pop(){
         wait.wait_until_element_is_visible("emoji_dialog");
         verify.element_is_present("emoji_dialog");
+    }
+    public void verify_Edit_Playlist_Screen_present_on_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Edit_Playlist_Screen");
+        verify.element_is_present("Edit_Playlist_Screen");
+    }
+    public void verify_and_click_on_Remove_x_icon_playlist(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Remove_x_icon_playlist");
+        element.click("Remove_x_icon_playlist");
+    }
+    public void verify_and_click_on_favorite_list(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("favorite_list");
+        element.click("favorite_list");
+    }
+    public void verify_favorites_screen_present_on_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("favorites_page");
+
+    }
+    public void verify_set_a_reminder_present_on_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("set_a_reminder");
+
     }
 
     public void verify_the_playlist_name_on_sleep_page(){
@@ -581,6 +654,26 @@ public class Sleep_Playlist_Page {
                         ".setAsHorizontalList()" +
                         ".scrollForward().scrollIntoView(new UiSelector().text(\"" + text + "\"));"));
     }
+
+    public void dragAndDrop(WebElement source, WebElement target) {
+        TouchAction action = new TouchAction(androidDriver);
+        action
+                .press(ElementOption.element(source))
+                .waitAction(WaitOptions.waitOptions(ofSeconds(1)))
+                .moveTo(ElementOption.element(target))
+                .release()
+                .perform();
+    }
+    public void verify_reorder_music_playlist() {
+        Actions actions = new Actions(androidDriver);
+        wait.wait_for_second(10);
+        WebElement sourceElement = androidDriver.findElement(By.xpath("//android.widget.TextView[@text=\"4 Golden Values of Life\"]"));
+        WebElement targetElement = androidDriver.findElement(By.xpath("//android.widget.TextView[@text=\"Siddhartha Chapter 1\"]"));
+
+        actions.dragAndDrop(sourceElement, targetElement).build().perform();
+        wait.wait_for_second(10);
+
+    }
     public void scrollDownToCreatePlaylistSection() {
         boolean isCreatePlaylistVisible = false;
         boolean isYourPlaylistVisible = false;
@@ -617,48 +710,45 @@ public class Sleep_Playlist_Page {
         }
     }
     public static  void scrollDownAndClickPlaylists(AndroidDriver androidDriver) {
-        boolean isCreatePlaylistVisible = false;
         boolean isYourPlaylistVisible = false;
+        boolean isCreatePlaylistVisible = false;
 
         try {
-            WebElement createPlaylistElement = androidDriver.findElement(AppiumBy.androidUIAutomator(
-                    "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Create Playlist\"));"));
 
-            if (createPlaylistElement.isDisplayed()) {
-                isCreatePlaylistVisible = true;
-                createPlaylistElement.click();
-                System.out.println("Clicked on: Create Playlist");
+            WebElement yourPlaylistsElement = androidDriver.findElement(AppiumBy.androidUIAutomator(
+                    "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Your Playlists\"));"));
+
+            if (yourPlaylistsElement.isDisplayed()) {
+                isYourPlaylistVisible = true;
+
+                androidDriver.findElement(By.xpath(
+                        "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View")).click();
+
+                System.out.println("Clicked on the specified element in Your Playlists");
                 return;
             }
         } catch (NoSuchElementException e) {
-            System.out.println("Create Playlist not found.");
+            System.out.println("Your Playlists not found.");
         } catch (Exception e) {
-            System.out.println("Create Playlist is not visible.");
+            System.out.println("Your Playlists is not visible.");
         }
 
-        if (!isCreatePlaylistVisible) {
+        if (!isYourPlaylistVisible) {
             try {
-                WebElement yourPlaylistsElement = androidDriver.findElement(AppiumBy.androidUIAutomator(
-                        "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Your Playlists\"));"));
+                WebElement createPlaylistElement = androidDriver.findElement(AppiumBy.androidUIAutomator(
+                        "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Create Playlist\"));"));
 
-                if (yourPlaylistsElement.isDisplayed()) {
-                    isYourPlaylistVisible = true;
-
-                    androidDriver.findElement(By.xpath(
-                                    "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View")).click();
-
-
-                    System.out.println("Clicked on the specified element in Your Playlists");
-                    return;
+                if (createPlaylistElement.isDisplayed()) {
+                    isCreatePlaylistVisible = true;
+                    createPlaylistElement.click();
+                    System.out.println("Clicked on: Create Playlist");
                 }
             } catch (NoSuchElementException e) {
-                System.out.println("Your Playlists not found.");
+                System.out.println("Create Playlist not found.");
             } catch (Exception e) {
-                System.out.println("Your Playlists is not visible.");
+                System.out.println("Create Playlist is not visible.");
             }
         }
-
-        System.out.println("Neither Create Playlist nor Your Playlists found.");
     }
 
     public void selectAndDeleteTextInTextBox() {
@@ -666,16 +756,13 @@ public class Sleep_Playlist_Page {
 
              WebElement textBox = driver.findElement(By.xpath("//android.widget.EditText[contains(@text, 'Automation')]"));
 
-                    // Click on the text box to focus
                     textBox.click();
 
-                    // Click again to ensure the cursor is positioned at the end of the text
                     textBox.click();
 
-                    // Get the current text in the text box
                     String text = textBox.getText();
 
-                    // Delete each character using backspace (DEL) key until all text is cleared
+
                     for (int i = 0; i < text.length(); i++) {
                         androidDriver.pressKey(new KeyEvent(AndroidKey.DEL));
                     }

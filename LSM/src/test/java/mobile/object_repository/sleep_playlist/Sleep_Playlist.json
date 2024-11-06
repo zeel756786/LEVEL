@@ -231,7 +231,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='See all']"
+    "android_locator": "//android.widget.TextView[@text=\"See all\"]"
   },
   "newly_added": {
     "platform": "android",
@@ -286,6 +286,12 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.EditText[contains(@text, 'Automation')]"
+  },
+  "Edit_playlist_name": {
+    "platform": "android",
+    "element_type": "textfield",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[starts-with(@text, 'Test')]"
   },
   "save_playlist": {
     "platform": "android",
@@ -371,6 +377,12 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Add to favorites\"]"
   },
+  "Remove_from_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Remove from favorites\"]"
+  },
   "schedule_a_reminder": {
     "platform": "android",
     "element_type": "button",
@@ -401,10 +413,34 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.ImageView[@content-desc=\"Shocked emoji dialog\"]"
   },
-  "pop_up_disappear": {
+  "Edit_Playlist_Screen": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.view.ViewGroup/android.view.View/android.view.View/android.view.View"
+    "android_locator": "//android.widget.TextView[@text=\"Edit Playlist\"]"
+  },
+  "Remove_x_icon_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"Close\"])[1]"
+  },
+  "favorite_list": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.ImageView[@content-desc=\"favorite\"])[1]"
+  },
+  "favorites_page": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Favorites\"]"
+  },
+  "set_a_reminder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Set a Reminder\"]"
   }
 }
