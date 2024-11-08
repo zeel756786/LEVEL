@@ -2,19 +2,22 @@ package mobile.object_repository.sleep_playlist;
 
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.offset.PointOption;
+import io.unity.performaction.automob.Device;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import java.time.Duration;
-import java.util.List;
+import java.util.*;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import io.appium.java_client.android.nativekey.AndroidKey;
@@ -23,7 +26,7 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import static java.time.Duration.ofSeconds;
-
+import org.openqa.selenium.interactions.Sequence;
 public class Sleep_Playlist_Page {
 
     WebDriver driver = null;
@@ -330,6 +333,28 @@ public class Sleep_Playlist_Page {
         wait.wait_until_element_is_visible("edit_playlist");
         element.click("edit_playlist");
     }
+    public void verify_and_click_on_Rate_this_meditations(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Rate_this_meditations");
+        element.click("Rate_this_meditations");
+    }
+    public void verify_submit_feedback_form_present_on_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("submit_feedback");
+        verify.element_is_present("submit_feedback");
+    }
+    public void verify_and_click_on_story_of_Tulsi(){
+        wait.wait_for_second(5);
+        wait.wait_until_element_is_visible("story_of_Tulsi_Vivaha");
+        element.click("story_of_Tulsi_Vivaha");
+        wait.wait_for_second(5);
+    }
+    public void verify_and_click_on_story_of_Tulsi_Vivaha_more_vert(){
+        wait.wait_for_second(5);
+        wait.wait_until_element_is_visible("story_of_Tulsi_Vivaha_more_vert");
+        element.click("story_of_Tulsi_Vivaha_more_vert");
+
+    }
     public void click_on_edit_playlist_name(){
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("edit_playlist_name");
@@ -505,7 +530,25 @@ public class Sleep_Playlist_Page {
     public void verify_set_a_reminder_present_on_page(){
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("set_a_reminder");
-
+    }
+    public void verify_and_click_on_add_to_playlist(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("add_to_playlist");
+        element.click("add_to_playlist");
+    }
+    public void verify_and_click_on_music(){
+        wait.wait_for_second(5);
+        wait.wait_until_element_is_visible("music_playlist");
+        element.click("music_playlist");
+    }
+    public void verify_today_music_screen_present_on_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("music_screen");
+    }
+    public void verify_and_click_on_add_playlist(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Add_Playlist");
+        element.click("Add_Playlist");
     }
 
     public void verify_the_playlist_name_on_sleep_page(){
@@ -633,7 +676,7 @@ public class Sleep_Playlist_Page {
 
 
         for (WebElement checkbox : checkboxes) {
-            if (count < 2) {
+            if (count < 1) {
                 checkbox.click();
                 count++;
             } else {
@@ -750,28 +793,56 @@ public class Sleep_Playlist_Page {
             }
         }
     }
-
-    public void selectAndDeleteTextInTextBox() {
+    public void verify_and_click_on_custom_music_playlists() {
         try {
+            WebElement customMusicPlaylistsElement = driver.findElement(By.xpath("//android.widget.TextView[@text='Custom Music Playlists!']"));
 
-             WebElement textBox = driver.findElement(By.xpath("//android.widget.EditText[contains(@text, 'Automation')]"));
-
-                    textBox.click();
-
-                    textBox.click();
-
-                    String text = textBox.getText();
-
-
-                    for (int i = 0; i < text.length(); i++) {
-                        androidDriver.pressKey(new KeyEvent(AndroidKey.DEL));
-                    }
-
-                    System.out.println("Selected text deleted successfully.");
-                } catch (Exception e) {
-                    System.out.println("Error selecting and deleting text: " + e.getMessage());
-                }
+            if (customMusicPlaylistsElement.isDisplayed()) {
+                WebElement targetElement = driver.findElement(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[3]"));
+                targetElement.click();
             }
+        } catch (NoSuchElementException e) {
+            System.out.println("Custom Music Playlists element is not visible");
+        }
+    }
+
+    private boolean isBottomReached() {
+        return false;
+    }
+
+
+    public void swipeUntilBottom1() {
+        Dimension size = driver.manage().window().getSize();
+        int startX = size.width / 2;
+        int startY = (int) (size.height * 0.8);
+        int endY = (int) (size.height * 0.2);
+
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        Sequence swipe = new Sequence(finger, 0);
+        swipe.addAction(finger.createPointerMove(Duration.ofMillis(0), PointerInput.Origin.viewport(), startX, startY));
+        swipe.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+        swipe.addAction(finger.createPointerMove(Duration.ofMillis(3000), PointerInput.Origin.viewport(), startX, endY));
+        swipe.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+        androidDriver.perform(Arrays.asList(swipe));
+
+        if (isBottomReached()) {
+            return ;
+        }
+    }
+    public void click_on_current_playlist(){
+        wait.wait_for_second(10);
+        WebElement playlist= driver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'Automation')]"));
+        WebElement pl= driver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'Test')]"));
+        if(playlist.isDisplayed()){
+            playlist.click();
+        }
+        else {
+            pl.click();
+        }
+    }
+
+
+
 }
 
 

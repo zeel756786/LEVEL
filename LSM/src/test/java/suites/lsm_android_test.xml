@@ -1,0 +1,518 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "LSM Android App Regression" >
+
+    <test name = "To verify when the user taps on the Sleep menu on th bottom menu bar SLP PL 001">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Create Playlist button on the Your Playlist section SLP PL 002">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_SLP_PL_002"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify the UI of theCreate Playlist screen SLP PL 003">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_the_UI_of_theCreate_Playlist_screen_SLP_PL_003"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the use taps on the Playlist Name filed SLP PL 004">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_use_taps_on_the_Playlist_Name_filed_SLP_PL_004"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = " To verify when the user taps on the Cancel button SLP PL 005">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name=" To_verify_when_the_user_taps_on_the_Cancel_button_SLP_PL_005"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when user try to taps on the Create Button on the Create Playlist screen without entering any data in the Playlist Name field SLP PL 006">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_SLP_PL_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when user try to taps on the Create Button on the Create Playlist screen after entering any data in the Playlist Name field SLP PL 007">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_SLP_PL_007"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify the UI of the Add Items to playlist screen SLP PL 008">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_the_UI_of_the_Add_Items_to_playlist_screen_SLP_PL_008"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user enters the any keyword in search field of the Add item to playlist screen SLP PL 009">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the any language filter below the search field SLP PL 010 and SLP PL 011">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_any_language_filter_below_the_search_field_SLP_PL_010_and_SLP_PL_011"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Collapse icon on the any category from the list SLP PL 012">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_SLP_PL_012"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when user try to add more than 50 tracks in the any created playlist SLP PL 014">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_SLP_PL_014"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Add music plus button on the any music track from the expanded music list SLP PL 015">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Selected icon on the selected music track from the expanded music list SLP PL 016">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Remove Filters button in the expanded music track list SLP PL 017">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps swaps left from the categories Screen SLP PL 018">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try to taping on the Go To Playlist button without selecting any music track SLP PL 019">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try to taping on the Go To Playlist button after selecting music track SLP PL 020">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Back button SLP PL 022">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Back_button_SLP_PL_022"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the More Vert icon beside the playlist name SLP PL 023">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Play button SLP PL 024">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Play_button_SLP_PL_024"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the More Vert icon on the any added track from the playlist SLP PL 025">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_025"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Close icon on the bottom sheet SLP PL 026">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_026"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the plus Add to this Playlist option on the bottom sheet SLP PL 027">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_plus_Add_to_this_Playlist_option_on_the_bottom_sheet_SLP_PL_027"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Delete playlist option on the bottom sheet SLP PL 028">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Delete_playlist_option_on_the_bottom_sheet_SLP_PL_028"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify the UI of the delete playlist confirmation popup SLP PL 029">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_the_UI_of_the_delete_playlist_confirmation_popup_SLP_PL_029"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the No button on the delete playlist confirmation popup SLP PL 030">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_SLP_PL_030"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Yes delete playlist button on the delete playlist confirmation popup SLP PL 031">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Yes_delete_playlist_button_on_the_delete_playlist_confirmation_popup_SLP_PL_031"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Edit Playlist option option on the bottom sheet SLP PL 032">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Edit_Playlist_option_option_on_the_bottom_sheet_SLP_PL_032"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try to tap on the Save button without applying any changes in the created playlist SLP PL 034">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_to_tap_on_the_Save_button_without_applying_any_changes_in_the_created_playlist_SLP_PL_034"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify that the user is able to update the playlist name SLP PL 035">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_that_the_user_is_able_to_update_the_playlist_name_SLP_PL_035"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the x Remove icon on the any available track in the playlist SLP PL 036">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_x_Remove_icon_on_the_any_available_track_in_the_playlist_SLP_PL_036"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try to tap on the Save button after removing the playlist SLP PL 038">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user tap on the Save button after removing the tracks in the playlist SLP PL 040">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the More Vert icon on the any added track from the playlist SLP PL 042">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Close icon on the bottom sheet SLP PL 043">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Add to favorites option on the bottom sheet SLP PL 044">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Schedule a reminder option on the bottom sheet SLP PL 045">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_SLP_PL_045"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Rate this meditation option on the bottom sheet SLP PL 047">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Add Items button SLP PL 048">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify that the user is able to add the any currently played track after creating new playlist SLP PL 050">
+        <classes>
+            <class name = "mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid email id format">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_email_id_format"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid email id format with special character not allowed">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_email_id_format_with_special_character_not_allowed"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid email id format with spaces not allowed">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_email_id_format_with_spaces_not_allowed"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with valid email id format with invalid otp">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_valid_email_id_format_with_invalid_otp"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid phone no format with few digits">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_few_digits"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid phone no format with more than 10 digits">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_more_than_10_digits"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid phone no format with spaces">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_spaces"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid phone no format with dash">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_dash"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with invalid phone no format with space">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_space"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with valid email id without enter phone no in onb registration form">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_valid_email_id_without_enter_phone_no_in_onb_registration_form"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user try login with valid email id without enter name in onb registration form">
+        <classes>
+            <class name = "mobile.tests.SignInNegativeTest.SignInNegative_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_try_login_with_valid_email_id_without_enter_name_in_onb_registration_form"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Create Playlist button on the Your Playlist section Music PL 001">
+        <classes>
+            <class name = "mobile.tests.Music_Playlist.Music_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the use taps on the the Playlist Name filed Music PL 003">
+        <classes>
+            <class name = "mobile.tests.Music_Playlist.Music_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when the user taps on the Cancel button Music PL 004">
+        <classes>
+            <class name = "mobile.tests.Music_Playlist.Music_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when user try to taps on the Create Button on the Create Playlist screen without entering any data in the Playlist Name field Music PL 005">
+        <classes>
+            <class name = "mobile.tests.Music_Playlist.Music_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "To verify when user try to taps on the Create Button on the Create Playlist screen after entering any data in the Playlist Name field Music PL 006">
+        <classes>
+            <class name = "mobile.tests.Music_Playlist.Music_Playlist_Test" >
+                <methods>
+                    <include name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_Music_PL_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

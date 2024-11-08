@@ -46,9 +46,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Runner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml.executor": "Run",
+    "TestNG.Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003.executor": "Run",
+    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004.executor": "Run",
+    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001.executor": "Run",
+    "TestNG.Music_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005.executor": "Run",
+    "TestNG.Music_Playlist_Test.executor": "Run",
     "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format.executor": "Run",
     "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_spaces_not_allowed.executor": "Run",
     "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_special_character_not_allowed.executor": "Run",
@@ -59,6 +66,8 @@
     "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_format_with_invalid_otp.executor": "Run",
     "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_name_in_onb_registration_form.executor": "Run",
     "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_phone_no_in_onb_registration_form.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_into_the_created_playlist_SLP_PL_049.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_reorder_the_track_availables_in_the_playlist_SLP_PL_037.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_update_the_playlist_name_SLP_PL_035.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_theCreate_Playlist_screen_SLP_PL_003.executor": "Run",
@@ -67,6 +76,7 @@
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_use_taps_on_the_Playlist_Name_filed_SLP_PL_004.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Back_buttonSLP_PL_022.executor": "Run",
@@ -83,6 +93,7 @@
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_SLP_PL_030.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Play_button_SLP_PL_024.executor": "Run",
+    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018.executor": "Run",
     "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_SLP_PL_045.executor": "Run",
@@ -120,104 +131,190 @@
       <recent name="E:\LSM_Project\LSM\src\test\java\mobile\object_repository" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044">
-    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="runner.Runner" />
       <module name="LSM" />
+      <option name="PROGRAM_PARAMETERS" value="-c lsm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
+          <option name="PATTERN" value="runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
-      <option name="METHOD_NAME" value="To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/suites/lsm_android_test.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
-      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
-      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
-      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mobile.tests.Sleep_Playlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Sleep_Playlist" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" />
-      <option name="METHOD_NAME" value="To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038" />
+      <option name="METHOD_NAME" value="To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Runner" />
+      <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023" />
+      <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016" />
+      <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001" />
+      <item itemvalue="TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml" />
+      <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044" />
-        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042" />
-        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043" />
-        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040" />
-        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001" />
+        <item itemvalue="TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml" />
+        <item itemvalue="TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048" />
       </list>
     </recent_temporary>
   </component>

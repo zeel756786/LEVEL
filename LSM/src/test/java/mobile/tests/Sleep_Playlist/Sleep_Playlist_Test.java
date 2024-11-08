@@ -30,6 +30,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -58,6 +59,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -83,6 +85,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -109,6 +112,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -135,6 +139,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -162,6 +167,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -189,6 +195,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -216,6 +223,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -243,6 +251,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -272,6 +281,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -308,6 +318,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -343,6 +354,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -378,6 +390,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -410,6 +423,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -444,6 +458,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -455,7 +470,7 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
         sleep_playlist_page.scroll_down_to_the_Text("Remove Filters");
         sleep_playlist_page.verify_and_click_on_remove_filter();
-        sleep_playlist_page.verify_and_click_on_see_all();
+       // sleep_playlist_page.verify_and_click_on_see_all();
         sleep_playlist_page.verify_add_item_to_playlist_present_on_page();
     }
     @Test()
@@ -476,6 +491,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -503,6 +519,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -531,6 +548,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -563,6 +581,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -588,6 +607,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -595,9 +615,9 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.verify_playlist_name_highlighted();
         sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");
         sleep_playlist_page.verify_and_click_on_create_button();
-        sleep_playlist_page.verify_and_click_on_hindi_language();
+      //  sleep_playlist_page.verify_and_click_on_hindi_language();
         sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
-        sleep_playlist_page.scroll_down_to_the_Text("A Ride to Athens");
+        sleep_playlist_page.scroll_down_to_the_Text("Siddhartha Chapter 2");
         sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
         sleep_playlist_page.wait_for_five_second();
         sleep_playlist_page.verify_and_click_on_go_to_playlist();
@@ -626,6 +646,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -665,6 +686,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -707,6 +729,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -742,6 +765,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -777,6 +801,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -813,6 +838,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -847,6 +873,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -882,6 +909,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -916,6 +944,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -950,6 +979,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -985,6 +1015,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1021,6 +1052,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1056,6 +1088,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1091,6 +1124,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1127,6 +1161,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1166,6 +1201,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1199,6 +1235,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1238,6 +1275,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_show_now_present_on_page();
         signin_page.click_on_navigate_back_button_present_on_page();
+        signin_page.verify_and_close_feature_alert_pop_up();
         sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
@@ -1253,5 +1291,89 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.click_on_more_vert_icon_playlist();
         sleep_playlist_page.verify_and_click_schedule_a_reminder();
         sleep_playlist_page.verify_set_a_reminder_present_on_page();
+    }
+    @Test
+    public void To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("To verify when the user taps on the 'Rate this meditation' option on the bottom sheet");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.verify_and_close_feature_alert_pop_up();
+        sleep_playlist_page.checkWelcomePopUpAndClose();
+        sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
+        Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
+        sleep_playlist_page.verify_playlist_name_highlighted();
+        sleep_playlist_page.enterTextInPlaylistNameTextBox("Test");
+        sleep_playlist_page.verify_and_click_on_create_button();
+        sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
+        sleep_playlist_page.scroll_down_to_the_Text("Siddhartha Chapter 2");
+        sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
+        sleep_playlist_page.wait_for_five_second();
+        sleep_playlist_page.verify_and_click_on_go_to_playlist();
+        sleep_playlist_page.click_on_more_vert_icon_playlist();
+        sleep_playlist_page.verify_and_click_on_Rate_this_meditations();
+        sleep_playlist_page.verify_submit_feedback_form_present_on_page();
+    }
+    @Test
+    public void To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("To verify when the user taps on the 'Add Items' button");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.verify_and_close_feature_alert_pop_up();
+        sleep_playlist_page.checkWelcomePopUpAndClose();
+        sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
+        sleep_playlist_page.scroll_down_to_the_Text("51 mins • 20 XP");
+        sleep_playlist_page.click_on_current_playlist();
+
+    }
+    @Test
+    public void To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("To verify that the user is able to add the any currently played track after creating new playlist");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.verify_and_close_feature_alert_pop_up();
+        sleep_playlist_page.checkWelcomePopUpAndClose();
+        sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
+        sleep_playlist_page.scroll_down_to_the_Text("Story of Tulsi Vivaha (हिन्दी)");
+        sleep_playlist_page.verify_and_click_on_story_of_Tulsi();
+        sleep_playlist_page.verify_and_click_on_story_of_Tulsi_Vivaha_more_vert();
+        sleep_playlist_page.verify_and_click_on_add_to_playlist();
+        sleep_playlist_page.verify_and_click_on_add_playlist();
+        sleep_playlist_page.verify_playlist_name_highlighted();
     }
 }

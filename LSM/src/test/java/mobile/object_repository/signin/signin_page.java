@@ -316,7 +316,7 @@ public class signin_page {
         }
         catch (Exception e)
         {
-            System.out.println("Shop now  not found");
+            System.out.println("LSM Shop not found");
         }
     }
 
@@ -611,6 +611,19 @@ public class signin_page {
         } catch (Exception e) {
 
             System.out.println("An error occurred: " + e.getMessage());
+        }
+    }
+    public void verify_and_close_feature_alert_pop_up() {
+        try {
+            WebElement featureAlertElement = driver.findElement(By.xpath("//android.widget.TextView[@text='Feature Alert']"));
+
+            if (featureAlertElement.isDisplayed()) {
+                WebElement  closeButton = driver.findElement(By.xpath("//android.widget.ImageView[@content-desc='close']"));
+                closeButton.click();
+                System.out.println("Feature Alert closed.");
+            }
+        } catch (java.util.NoSuchElementException e) {
+            System.out.println("Feature Alert is not visible.");
         }
     }
 }
