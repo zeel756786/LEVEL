@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Onboarding Flow " >
+    <test name = "Verify that the user open the installed app OB 001">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_open_the_installed_app_OB_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Get Started button OB 002">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Get_Started_button_OB_002"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Sign In button OB 003">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Sign_In_button_OB_003"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user Sign in with valid Email OB 004">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_Sign_in_with_valid_Email_OB_004"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user Sign in with invalid Email OB 005">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_Sign_in_with_invalid_Email_OB_005"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user Sign with valid Phone number OB 006">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_Sign_with_valid_Phone_number_OB_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user Sign with invalid Phone number OB 007">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

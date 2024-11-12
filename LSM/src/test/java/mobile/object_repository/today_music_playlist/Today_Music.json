@@ -1,0 +1,80 @@
+{
+  "quick_wind_down": {
+    "platform": "android",
+    "element_type": "search",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Quick Wind Down \"]"
+  },
+  "get_rapid_calm": {
+    "platform": "android",
+    "element_type": "search",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Get Rapid Calm\"]"
+  },
+  "Ease_Anxiety_Stress": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.ImageView[@content-desc=\"Drop Up\"])[1]"
+  },
+  "For_Focus": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.ImageView[@content-desc=\"Drop Up\"])[2]"
+  },
+  "close_drop_down_collapse_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "accessibility-id",
+    "android_locator": "Drop Up"
+  },
+  "music_playlist": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"thumbnail_holder\"])[5]"
+  },
+  "oops_it_seems_we_dont_have_what_youre_searching_for": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Oops, it seems we don’t have what you’re searching for.\"]"
+  },
+  "Natures_Sound": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Nature's Sound\"]"
+  },
+  "create": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Create\"]"
+  },
+  "natures_lullaby": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Nature's Lullaby\"]"
+  },
+  "radio_button_for_select_all_music": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.RadioButton"
+  },
+  "quick_wind_down_unselect_the_song": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@resource-id=\"playlist_card\"])[1]/android.view.View[3]"
+  },
+  "hamburger": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.widget.ImageView[2]"
+  }
+}

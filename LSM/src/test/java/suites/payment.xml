@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Payment Flow " >
+    <test name = "Verify that the user tap on hamburger icon on Today PYT 001">
+        <classes>
+            <class name = "mobile.tests.Payment.Payment_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Manage Subscription PYT 002">
+        <classes>
+            <class name = "mobile.tests.Payment.Payment_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Show all plans PYT 003 and PYT 004">
+        <classes>
+            <class name = "mobile.tests.Payment.Payment_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

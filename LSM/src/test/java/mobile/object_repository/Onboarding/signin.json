@@ -1,34 +1,39 @@
 {
+  "Get_started": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Get Started\"]"
+  },
   "welcome_to_level_supermind": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Welcome to Level SuperMind']"
+    "android_locator": "//android.widget.TextView[@text=\"Welcome to\nLevel SuperMind\"]"
   },
   "learn_from_experts": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Learn from Experts']"
+    "android_locator": "//android.widget.TextView[@text=\"Learn from Experts\"]"
   },
   "meditation": {
-
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Meditation']"
+    "android_locator": "//android.widget.TextView[@text=\"Meditation\n\"]"
   },
   "workouts": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Workouts']"
+    "android_locator": "//android.widget.TextView[@text=\"Workouts\n\"]"
   },
   "sleep": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Sleep']"
+    "android_locator": "//android.widget.TextView[@text=\"Sleep\n\"]"
   },
   "back_arrow": {
     "platform": "android",
@@ -40,7 +45,19 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Sign In']"
+    "android_locator": "//android.widget.TextView[@text=\"Sign In\"]"
+  },
+  "sign_in_page": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sign in\"]"
+  },
+  "login_with_google_account": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"Arrow Right\"])[2]"
   },
   "email": {
     "platform": "android",

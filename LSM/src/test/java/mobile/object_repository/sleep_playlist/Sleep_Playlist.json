@@ -75,7 +75,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Search for sleep stories\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Search…\"]"
   },
   "clear": {
     "platform": "android",
@@ -490,5 +490,11 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Add Playlist\"]"
+  },
+  "Natures_Sound": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Nature's Sound\"]"
   }
 }

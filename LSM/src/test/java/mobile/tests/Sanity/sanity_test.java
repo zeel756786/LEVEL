@@ -3,7 +3,7 @@ package mobile.tests.Sanity;
 import io.appium.java_client.android.AndroidDriver;
 import io.unity.framework.init.base;
 import io.unity.framework.remotegrid.LambdaTestConfig;
-import mobile.object_repository.signin.signin_page;
+import mobile.object_repository.Onboarding.signin_page;
 import mobile.object_repository.sleep_playlist.Sleep_Playlist_Page;
 import org.testng.annotations.Test;
 

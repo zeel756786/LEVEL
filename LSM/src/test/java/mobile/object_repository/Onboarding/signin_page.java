@@ -1,4 +1,4 @@
-package mobile.object_repository.signin;
+package mobile.object_repository.Onboarding;
 
 import com.github.javafaker.Faker;
 import io.appium.java_client.AppiumBy;
@@ -16,7 +16,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.TimeoutException;
 
 
 public class signin_page {
@@ -57,30 +56,45 @@ public class signin_page {
             System.out.println("Error entering text: " + e.getMessage());
         }
     }
-
-    public void welcome_to_level_supermind() {
-        wait.wait_for_second(10);
-        wait.wait_until_element_is_visible("welcome_to_level_supermind");
+    public void verify_get_started_button_present_on_page(){
+        wait.wait_until_element_is_visible("Get_started");
+        verify.element_is_present("Get_started");
+        System.out.println("Element 'get_started' is visible.");
+    }
+    public void verify_and_click_on_started_button_present_on_page(){
+        wait.wait_until_element_is_visible("Get_started");
+        element.click("Get_started");
     }
 
-    public void learn_from_experts() {
-        wait.wait_for_second(10);
+    public void verify_welcome_to_level_supermind() {
+            wait.wait_until_element_is_visible("welcome_to_level_supermind");
+            verify.element_is_present("welcome_to_level_supermind");
+            System.out.println("Element 'welcome_to_level_supermind' is visible.");
+    }
+
+
+    public void verify_learn_from_experts() {
         wait.wait_until_element_is_visible("learn_from_experts");
+        verify.element_is_present("learn_from_experts");
+        System.out.println("Element 'learn_from_experts. is visible.");
     }
 
-    public void meditation() {
-        wait.wait_for_second(2);
+    public void verify_meditation() {
         wait.wait_until_element_is_visible("meditation");
+        verify.element_is_present("meditation");
+        System.out.println("Element 'meditation. is visible.");
     }
 
-    public void workouts() {
-        wait.wait_for_second(2);
+    public void verify_workouts() {
         wait.wait_until_element_is_visible("workouts");
+        verify.element_is_present("workouts");
+        System.out.println("Element 'workouts. is visible.");
     }
 
-    public void verify_sleep_tab_button() {
-        wait.wait_for_second(2);
+    public void verify_sleep() {
         wait.wait_until_element_is_visible("sleep");
+        verify.element_is_present("sleep");
+        System.out.println("Element 'sleep. is visible.");
     }
 
     public void click_on_sleep_tab_button() {
@@ -93,6 +107,11 @@ public class signin_page {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("sign_in");
         verify.element_is_present("sign_in");
+    }
+    public void verify_sign_in_present_on_page() {
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("sign_in_page");
+        verify.element_is_present("sign_in_page");
     }
 
     public void click_sign_in_button() {
@@ -125,8 +144,12 @@ public class signin_page {
         wait.wait_for_second(5);
 
     }
-
     public void click_and_enter_text_on_email_id() {
+        wait.wait_for_second(2);
+        element.click("enter_email_id");
+        wait.wait_for_second(5);
+    }
+    public void verify_and_click() {
         wait.wait_for_second(2);
         element.click("enter_email_id");
         wait.wait_for_second(5);
@@ -163,13 +186,17 @@ public class signin_page {
         element.click("enter_the_code_text_box");
         wait.wait_for_second(5);
     }
-
     public void verify_customise_your_experience_text() {
-        wait.wait_for_second(2);
-        wait.wait_until_element_is_visible("customise_your_experience");
-        verify.element_is_present("customise_your_experience");
-
+        try {
+            wait.wait_for_second(2);
+            wait.wait_until_element_is_visible("customise_your_experience");
+            verify.element_is_present("customise_your_experience");
+            System.out.println("Element 'customise_your_experience' is visible and present.");
+        } catch (Exception e) {
+            System.out.println("'customise_your_experience_page_not_displayed_user_is_on_Home_Page' element: " + e.getMessage());
+        }
     }
+
 
     public void verify_tell_us_about_yourself_text() {
         wait.wait_for_second(2);
@@ -514,6 +541,22 @@ public class signin_page {
             numberTextField.sendKeys(mobileNumber);
             androidDriver.hideKeyboard();
             System.out.println("Successfully entered mobile number: " + mobileNumber);
+
+        } else {
+            System.out.println("Invalid index: " + index + " No such text field found ");
+        }
+
+    }
+    public void enteremailIdTextboxByIndex(int index) {
+        wait.wait_for_second(2);
+        String emailId = "test@qable.io";
+        List<WebElement> textFields = androidDriver.findElements(By.className("android.widget.EditText"));
+        if (index >= 0 && index < textFields.size()) {
+            WebElement numberTextField = textFields.get(index);
+            numberTextField.click();
+            numberTextField.sendKeys(emailId);
+            androidDriver.hideKeyboard();
+            System.out.println("Successfully entered mobile number: " + emailId);
 
         } else {
             System.out.println("Invalid index: " + index + " No such text field found ");

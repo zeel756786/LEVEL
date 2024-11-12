@@ -550,6 +550,10 @@ public class Sleep_Playlist_Page {
         wait.wait_until_element_is_visible("Add_Playlist");
         element.click("Add_Playlist");
     }
+    public void verify_Natures_Sound_Present_On_Page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Natures_Sound");
+    }
 
     public void verify_the_playlist_name_on_sleep_page(){
         By dynamicLocator = By.xpath("//android.widget.TextView[starts-with(@text, 'Automation')]");
@@ -838,6 +842,30 @@ public class Sleep_Playlist_Page {
         }
         else {
             pl.click();
+        }
+    }
+    public void verify_search_box_enter_and_clear_box() {
+        WebElement searchButton = androidDriver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"clear\"]"));
+        String[] searchTerms = {"Sonu", "Zeel"};
+
+        for (String searchTerm : searchTerms) {
+            WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
+            searchBox.click();
+            searchBox.clear();
+            searchBox.sendKeys(searchTerm);
+            searchButton.click();
+
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+            if (searchTerm.equals("Sonu")) {
+                verify_Natures_Sound_Present_On_Page();
+                System.out.println("Search for 'Sonu' passed.");
+
+            } else if (searchTerm.equals("Zeel")) {
+                verify_oops_it_seems_we_dont_have_what_youre_searching_for();
+                System.out.println("Search for 'Zeel' passed.");
+            }
+            searchButton.click();
         }
     }
 
