@@ -51,6 +51,34 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Newest_on_Mindfulness_screen_Mind_012.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_013.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Newest_on_Mindfulness_screen_Mind_006.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_008.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_007.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_on_Mindfulness_screen_Mind_009.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_011.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_010.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_play_the_trending_Meditation_series_Mind_028.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_search_for_meditations_mantras_pranayama_using_search_field_Mind_002.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_share_a_Breakdown_at_work_Find_out_here_Mind_027.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Bengali_language_tab_Mind_020.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_tab_Mind_016.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Explore_Meditations_button_Mind_005.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Gujarati_language_tab_Mind_019.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Hindi_language_tab_Mind_017.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Marathi_language_tab_Mind_018.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Meditation_footer_menu_Mind_001.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_i_icon_of_any_technique_of_Meditation_Finder_Find_your_style_Mind_004.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030.executor": "Run",
+    "TestNG.Meditations_Test.Verify_that_the_user_user_tap_on_the_any_technique_of_Meditation_Finder_Find_your_style_Mind_003.executor": "Run",
+    "TestNG.Meditations_Test.executor": "Run",
     "TestNG.Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003.executor": "Run",
     "TestNG.Music_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_Music_PL_008.executor": "Run",
     "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_button_on_the_any_music_track_from_the_expanded_music_list_Music_PL_014.executor": "Run",
@@ -127,13 +155,16 @@
     "TestNG.sanity_test.To_verify_user_can_edit_playlist_name.executor": "Run",
     "TestNG.sanity_test.To_verify_user_can_play_music_in_playlist_item.executor": "Run",
     "TestNG.sanity_test.To_verify_user_can_search_music_in_add_item_to_playlist.executor": "Run",
+    "TestNG.signin_test.Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009.executor": "Run",
     "TestNG.signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005.executor": "Run",
     "TestNG.signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004.executor": "Run",
     "TestNG.signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007.executor": "Run",
     "TestNG.signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006.executor": "Run",
+    "TestNG.signin_test.Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017.executor": "Run",
     "TestNG.signin_test.Verify_that_the_user_open_the_installed_app_OB_001.executor": "Run",
     "TestNG.signin_test.Verify_that_the_user_tap_on_the_Get_Started_button_OB_002.executor": "Run",
     "TestNG.signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003.executor": "Run",
+    "TestNG.signin_test.Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016.executor": "Run",
     "TestNG.signin_test.user_can_login_the_account_by_mobile_no.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -149,7 +180,7 @@
       <recent name="E:\LSM_Project\LSM\src\test\java\mobile\object_repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036">
     <configuration name="Runner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="runner.Runner" />
       <module name="LSM" />
@@ -160,6 +191,146 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Meditations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Meditations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Meditations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Meditations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Meditations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,161 +355,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LSM" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.tests.Onboarding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mobile.tests.Onboarding" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Onboarding.signin_test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_Sign_in_with_invalid_Email_OB_005" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LSM" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.tests.Onboarding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mobile.tests.Onboarding" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Onboarding.signin_test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_Sign_in_with_valid_Email_OB_004" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LSM" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.tests.Onboarding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mobile.tests.Onboarding" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Onboarding.signin_test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LSM" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.tests.Onboarding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mobile.tests.Onboarding" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Onboarding.signin_test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_Sign_with_valid_Phone_number_OB_006" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LSM" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.tests.Onboarding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mobile.tests.Onboarding" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Onboarding.signin_test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_Sign_In_button_OB_003" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Runner" />
-      <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005" />
-      <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004" />
-      <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007" />
-      <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006" />
-      <item itemvalue="TestNG.signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005" />
-        <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007" />
-        <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006" />
-        <item itemvalue="TestNG.signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004" />
-        <item itemvalue="TestNG.signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" />
       </list>
     </recent_temporary>
   </component>
@@ -370,5 +401,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/mobile/tests/Sleep_Playlist/Sleep_Playlist_Test.java</url>
+          <line>1130</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,11 +1,13 @@
 package io.unity.performaction.automob;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.unity.framework.readers.json_file_readers;
 import io.unity.framework.runner.TestRunner;
 import io.unity.performaction.autoweb.Element;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Pause;
@@ -14,9 +16,17 @@ import org.openqa.selenium.interactions.Sequence;
 
 import java.time.Duration;
 import java.util.Arrays;
+import java.util.Collections;
 
 import static java.time.Duration.ofMillis;
 import static java.util.Collections.singletonList;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+
+import java.time.Duration;
+import java.util.Arrays;
 
 public class Device {
     AppiumDriver driver;
@@ -94,6 +104,139 @@ public void switch_to_context(String context_name) {
                 PointerInput.Origin.viewport(), source.x + 400, source.y));
         sequence.addAction(finger.createPointerUp(PointerInput.MouseButton.MIDDLE.asArg()));
         driver.perform(singletonList(sequence));
+    }
 
+    public void sliding(String element_name, int moveX, int moveY) {
+
+        WebElement slider = element.find(element_name);
+
+        Point source = slider.getLocation();
+
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        Sequence sequence = new Sequence(finger, 1);
+
+        sequence.addAction(finger.createPointerMove(Duration.ofMillis(0),
+                PointerInput.Origin.viewport(), source.x, source.y));
+        sequence.addAction(finger.createPointerDown(PointerInput.MouseButton.MIDDLE.asArg()));
+
+        sequence.addAction(new Pause(finger, Duration.ofMillis(600)));
+
+        sequence.addAction(finger.createPointerMove(Duration.ofMillis(600),
+
+                PointerInput.Origin.viewport(), source.x + moveX, source.y + moveY));
+
+        sequence.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+        driver.perform(Collections.singletonList(sequence));
+    }
+    public void scrollAndClick(String text) {
+        By locator = By.xpath("//*[contains(@text,'" + text + "')]");
+
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+
+        int startY = (int) ((driver.manage().window().getSize().getHeight()) * 0.80);
+        int endY = (int) ((driver.manage().window().getSize().getHeight()) * 0.20);
+        int startX = (int) ((driver.manage().window().getSize().getWidth()) * 0.50);
+
+        boolean isElementVisible = false;
+
+        while (!isElementVisible) {
+            try {
+                WebElement element = driver.findElement(locator);
+                if (element.isDisplayed()) {
+                    isElementVisible = true;
+                    element.click();
+                    return;
+                }
+            } catch (Exception e) {
+                scroll_down();
+            }
+
+            Sequence swipe = new Sequence(finger, 0);
+            swipe.addAction(finger.createPointerMove(Duration.ofMillis(0), PointerInput.Origin.viewport(), startX, startY));
+            swipe.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+            swipe.addAction(finger.createPointerMove(Duration.ofMillis(500), PointerInput.Origin.viewport(), startX, endY));
+            swipe.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+            driver.perform(Collections.singletonList(swipe));
+        }
+    }
+    public void scroll_up_to_the_Text(String Text) {
+        try {
+            driver.findElement(AppiumBy.androidUIAutomator(
+                    "new UiScrollable(new UiSelector().scrollable(true))" +
+                            ".setAsVerticalList().scrollBackward()" +
+                            ".scrollIntoView(new UiSelector().text(\"" + Text + "\"));"));
+        } catch (Exception e) {
+            System.out.println("An error occurred while scrolling up to the text: " + Text);
+            e.printStackTrace();
+        }
+    }
+
+    public void scrollDownToBottom(String element_name) {
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        Dimension screenSize = driver.manage().window().getSize();
+
+        int startX = (int) (screenSize.getWidth() * 0.50);
+        int startY = (int) (screenSize.getHeight() * 0.80);
+        int endY = (int) (screenSize.getHeight() * 0.20);
+
+        boolean canScrollFurther = true;
+
+        while (canScrollFurther) {
+            Sequence scroll = new Sequence(finger, 0);
+
+            scroll.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY));
+            scroll.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+            scroll.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), startX, endY));
+            scroll.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+            driver.perform(Arrays.asList(scroll));
+
+            canScrollFurther = isScrollable( element_name);
+        }
+    }
+    public  boolean isScrollable(String element_name) {
+        try {
+            WebElement lastVisibleElement = element.find(element_name);
+            //   WebElement lastVisibleElement = driver.findElement(By.xpath("your_last_element_locator"));
+            return !lastVisibleElement.isDisplayed();
+        } catch (Exception e) {
+            return true;
+        }
+    }
+
+
+    public void scrollDownToBottoms(String elementLocator) {
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        Dimension screenSize = driver.manage().window().getSize();
+
+        int startX = (int) (screenSize.getWidth() * 0.50);
+        int startY = (int) (screenSize.getHeight() * 0.80);
+        int endY = (int) (screenSize.getHeight() * 0.20);
+
+        boolean canScrollFurther = true;
+
+        while (canScrollFurther) {
+            try {
+                WebElement targetElement = element.find(elementLocator);
+                if (targetElement.isDisplayed()) {
+                    System.out.println("Element is visible: " + elementLocator);
+                    canScrollFurther = false;
+                } else {
+                    System.out.println("Element is not fully visible, scrolling...");
+                }
+            } catch (Exception e) {
+                System.out.println("Element not found, continuing to scroll...");
+            }
+            if (canScrollFurther) {
+                Sequence scroll = new Sequence(finger, 0);
+                scroll.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY));
+                scroll.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+                scroll.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), startX, endY));
+                scroll.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+                driver.perform(Arrays.asList(scroll));
+            }
+        }
     }
 }

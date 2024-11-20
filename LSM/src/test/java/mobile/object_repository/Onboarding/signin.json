@@ -189,19 +189,37 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Enter the code']"
+    "android_locator": "//android.widget.TextView[@text=\"Enter the code\"]"
   },
   "what_type_of_meditations_are_you_looking_for": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='What type of meditations are you looking for?']"
+    "android_locator": "//android.widget.TextView[@text=\"What type of meditations are you looking for? \"]"
+  },
+  "what_are_you_looking_for ": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"What are you looking for?\"]"
   },
   "stress_and_anxiety": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text='Stress and anxiety']"
+  },
+  "focus_and_productivity": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Focus and Productivity\"]"
+  },
+  "Relaxation": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Relaxation\"]"
   },
   "focus": {
     "platform": "android",
@@ -220,12 +238,6 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text='Anger']"
-  },
-  "what_are_you_looking_for": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='What are you looking for?']"
   },
   "stress_relief": {
     "platform": "android",
@@ -255,13 +267,19 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='Thank You']"
+    "android_locator": "//android.widget.TextView[@text=\"Thank You\"]"
   },
   "how_your_free_trail_works": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='How your free trial works']"
+    "android_locator": "//android.widget.TextView[@text=\"How your free trial works\"]"
+  },
+  "start_my_free_trial": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Start my free trial\"]"
   },
   "cross_button": {
     "platform": "android",
@@ -448,5 +466,17 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]"
+  },
+  "check_box_of_I_agree_receive_marketing": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[4]"
+  },
+  "check_box_of_I_agree_to_the_terms_and_conditions": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[5]"
   }
 }

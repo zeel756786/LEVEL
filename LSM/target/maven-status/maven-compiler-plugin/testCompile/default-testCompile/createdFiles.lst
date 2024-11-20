@@ -1,0 +1,15 @@
+mobile\object_repository\sleep\sleep_page.class
+runner\Runner.class
+mobile\object_repository\sleep_playlist\Sleep_Playlist_Page.class
+mobile\object_repository\Onboarding\signin_page.class
+mobile\object_repository\today_music_playlist\Today_Music_Page.class
+mobile\tests\Meditations\Meditations_Test.class
+mobile\object_repository\Meditation\Meditation_Page.class
+mobile\object_repository\payment\payment_page.class
+mobile\tests\SignInNegativeTest\SignInNegative_Test.class
+mobile\tests\Music_Playlist\Music_Playlist_Test.class
+mobile\tests\Onboarding\signin_test.class
+mobile\tests\Playlist\playlist_test.class
+mobile\tests\Payment\Payment_Test.class
+mobile\tests\Sleep_Playlist\Sleep_Playlist_Test.class
+mobile\tests\Sanity\sanity_test.class

@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="107.346" tests="280" errors="0" skipped="270" failures="10">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\target\test-classes;C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\target\classes;C:\Users\Harshal\.m2\repository\com\slack\api\bolt\1.30.0\bolt-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\slack\api\slack-api-model\1.30.0\slack-api-model-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\slack\api\slack-api-client\1.30.0\slack-api-client-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\squareup\okhttp3\okhttp\4.11.0\okhttp-4.11.0.jar;C:\Users\Harshal\.m2\repository\com\squareup\okio\okio\3.2.0\okio-3.2.0.jar;C:\Users\Harshal\.m2\repository\com\squareup\okio\okio-jvm\3.2.0\okio-jvm-3.2.0.jar;C:\Users\Harshal\.m2\repository\com\slack\api\slack-app-backend\1.30.0\slack-app-backend-1.30.0.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\Harshal\.m2\repository\com\mashape\unirest\unirest-java\1.4.9\unirest-java-1.4.9.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Harshal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.1.1\httpasyncclient-4.1.1.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Harshal\.m2\repository\com\slack\api\bolt-servlet\1.30.0\bolt-servlet-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\diogonunes\JColor\5.5.1\JColor-5.5.1.jar;C:\Users\Harshal\.m2\repository\io\javalin\javalin\4.6.7\javalin-4.6.7.jar;C:\Users\Harshal\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-server\9.4.48.v20220622\jetty-server-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-http\9.4.48.v20220622\jetty-http-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-util\9.4.48.v20220622\jetty-util-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-io\9.4.48.v20220622\jetty-io-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.48.v20220622\jetty-webapp-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.48.v20220622\jetty-xml-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.48.v20220622\jetty-servlet-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-security\9.4.48.v20220622\jetty-security-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.48.v20220622\jetty-util-ajax-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.48.v20220622\websocket-server-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.48.v20220622\websocket-common-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.48.v20220622\websocket-api-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.48.v20220622\websocket-client-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-client\9.4.48.v20220622\jetty-client-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.48.v20220622\websocket-servlet-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.32\kotlin-stdlib-jdk8-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.32\kotlin-stdlib-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.32\kotlin-stdlib-common-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.32\kotlin-stdlib-jdk7-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jfree\jfreechart\1.5.3\jfreechart-1.5.3.jar;C:\Users\Harshal\.m2\repository\org\jfree\jcommon\1.0.24\jcommon-1.0.24.jar;C:\Users\Harshal\.m2\repository\org\slf4j\slf4j-simple\2.0.3\slf4j-simple-2.0.3.jar;C:\Users\Harshal\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\Harshal\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\Harshal\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Harshal\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Harshal\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Harshal\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Harshal\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Harshal\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Harshal\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Harshal\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Harshal\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Harshal\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Harshal\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Harshal\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Harshal\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Harshal\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Harshal\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Harshal\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Harshal\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Harshal\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Harshal\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Harshal\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Harshal\.m2\repository\com\codoid\products\fillo\1.21\fillo-1.21.jar;C:\Users\Harshal\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Harshal\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Harshal\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Harshal\.m2\repository\com\github\appium\java-client\9.2.0\java-client-9.2.0.jar;C:\Users\Harshal\.m2\repository\org\jboss\forge\roaster\roaster-api\2.25.0.Final\roaster-api-2.25.0.Final.jar;C:\Users\Harshal\.m2\repository\org\jboss\forge\roaster\roaster-jdt\2.25.0.Final\roaster-jdt-2.25.0.Final.jar;C:\Users\Harshal\.m2\repository\org\tinylog\tinylog-api\2.5.0\tinylog-api-2.5.0.jar;C:\Users\Harshal\.m2\repository\org\tinylog\tinylog-impl\2.4.1\tinylog-impl-2.4.1.jar;C:\Users\Harshal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Harshal\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\Harshal\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Harshal\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Harshal\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Harshal\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\Harshal\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Harshal\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Harshal\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\Harshal\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Harshal\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\Harshal\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Harshal\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Harshal\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Harshal\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Harshal\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\Harshal\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\Harshal\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\Harshal\.m2\repository\com\konghq\unirest-java\3.13.10\unirest-java-3.13.10.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.4.13\httpcore-nio-4.4.13.jar;C:\Users\Harshal\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Harshal\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Harshal\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Harshal\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Harshal\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Harshal\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Harshal\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Harshal\.m2\repository\com\github\surpsg\kombi\3.1.0\kombi-3.1.0.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.9_8\bin"/>
+    <property name="sun.java.command" value="C:\Users\Harshal\AppData\Local\Temp\surefire14289127948171658352\surefirebooter-20241118173316094_3.jar C:\Users\Harshal\AppData\Local\Temp\surefire14289127948171658352 2024-11-18T17-33-15_872-jvmRun1 surefire-20241118173316094_1tmp surefire_0-20241118173316094_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\target\test-classes;C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\target\classes;C:\Users\Harshal\.m2\repository\com\slack\api\bolt\1.30.0\bolt-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\slack\api\slack-api-model\1.30.0\slack-api-model-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\slack\api\slack-api-client\1.30.0\slack-api-client-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\squareup\okhttp3\okhttp\4.11.0\okhttp-4.11.0.jar;C:\Users\Harshal\.m2\repository\com\squareup\okio\okio\3.2.0\okio-3.2.0.jar;C:\Users\Harshal\.m2\repository\com\squareup\okio\okio-jvm\3.2.0\okio-jvm-3.2.0.jar;C:\Users\Harshal\.m2\repository\com\slack\api\slack-app-backend\1.30.0\slack-app-backend-1.30.0.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\Harshal\.m2\repository\com\mashape\unirest\unirest-java\1.4.9\unirest-java-1.4.9.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Harshal\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.1.1\httpasyncclient-4.1.1.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Harshal\.m2\repository\com\slack\api\bolt-servlet\1.30.0\bolt-servlet-1.30.0.jar;C:\Users\Harshal\.m2\repository\com\diogonunes\JColor\5.5.1\JColor-5.5.1.jar;C:\Users\Harshal\.m2\repository\io\javalin\javalin\4.6.7\javalin-4.6.7.jar;C:\Users\Harshal\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-server\9.4.48.v20220622\jetty-server-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-http\9.4.48.v20220622\jetty-http-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-util\9.4.48.v20220622\jetty-util-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-io\9.4.48.v20220622\jetty-io-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.48.v20220622\jetty-webapp-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.48.v20220622\jetty-xml-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.48.v20220622\jetty-servlet-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-security\9.4.48.v20220622\jetty-security-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.48.v20220622\jetty-util-ajax-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.48.v20220622\websocket-server-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.48.v20220622\websocket-common-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.48.v20220622\websocket-api-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.48.v20220622\websocket-client-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\jetty-client\9.4.48.v20220622\jetty-client-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.48.v20220622\websocket-servlet-9.4.48.v20220622.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.32\kotlin-stdlib-jdk8-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.32\kotlin-stdlib-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.32\kotlin-stdlib-common-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.32\kotlin-stdlib-jdk7-1.5.32.jar;C:\Users\Harshal\.m2\repository\org\jfree\jfreechart\1.5.3\jfreechart-1.5.3.jar;C:\Users\Harshal\.m2\repository\org\jfree\jcommon\1.0.24\jcommon-1.0.24.jar;C:\Users\Harshal\.m2\repository\org\slf4j\slf4j-simple\2.0.3\slf4j-simple-2.0.3.jar;C:\Users\Harshal\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\Harshal\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\Harshal\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Harshal\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Harshal\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Harshal\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Harshal\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Harshal\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Harshal\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Harshal\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Harshal\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Harshal\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Harshal\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Harshal\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Harshal\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Harshal\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Harshal\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Harshal\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Harshal\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Harshal\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Harshal\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Harshal\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Harshal\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Harshal\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Harshal\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Harshal\.m2\repository\com\codoid\products\fillo\1.21\fillo-1.21.jar;C:\Users\Harshal\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Harshal\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Harshal\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Harshal\.m2\repository\com\github\appium\java-client\9.2.0\java-client-9.2.0.jar;C:\Users\Harshal\.m2\repository\org\jboss\forge\roaster\roaster-api\2.25.0.Final\roaster-api-2.25.0.Final.jar;C:\Users\Harshal\.m2\repository\org\jboss\forge\roaster\roaster-jdt\2.25.0.Final\roaster-jdt-2.25.0.Final.jar;C:\Users\Harshal\.m2\repository\org\tinylog\tinylog-api\2.5.0\tinylog-api-2.5.0.jar;C:\Users\Harshal\.m2\repository\org\tinylog\tinylog-impl\2.4.1\tinylog-impl-2.4.1.jar;C:\Users\Harshal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Harshal\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\Harshal\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Harshal\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Harshal\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Harshal\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\Harshal\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\Harshal\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Harshal\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Harshal\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\Harshal\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Harshal\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\Harshal\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Harshal\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Harshal\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Harshal\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Harshal\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\Harshal\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\Harshal\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\Harshal\.m2\repository\com\konghq\unirest-java\3.13.10\unirest-java-3.13.10.jar;C:\Users\Harshal\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.4.13\httpcore-nio-4.4.13.jar;C:\Users\Harshal\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Harshal\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Harshal\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Harshal\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Harshal\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Harshal\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Harshal\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Harshal\.m2\repository\com\github\surpsg\kombi\3.1.0\kombi-3.1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Harshal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk17.0.9_8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Harshal\AppData\Local\Temp\surefire14289127948171658352\surefirebooter-20241118173316094_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+8-LTS"/>
+    <property name="user.name" value="Harshal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.9.8.1"/>
+    <property name="localRepository" value="C:\Users\Harshal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Harshal\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.9_8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.9_8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.1\lib;C:\Program Files\Amazon Corretto\apache-maven-3.9.6\bin;C:\Users\Harshal\AppData\Local\Android\Sdk\platform-tools;C:\Users\Harshal\AppData\Local\Android\Sdk\tools\bin;C:\Users\Harshal\AppData\Local\Android\Sdk\tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Users\Harshal\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.1\bin;;C:\Users\Harshal\AppData\Local\GitHubDesktop\bin;C:\Program Files\Amazon Corretto\apache-maven-3.9.6\bin;C:\Users\Harshal\AppData\Roaming\npm;C:\Users\Harshal\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.9+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015" classname="mobile.tests.Meditations.Meditations_Test" time="0.012">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+	at mobile.tests.Meditations.Meditations_Test.Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015(Meditations_Test.java:387)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-out><![CDATA[18-Nov-2024
+2024-11-18 17:33:19 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : lsm
+Inside android
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'DESKTOP-LSM8SKP', ip: '192.168.1.128'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\src\test\java\mobile\app\Level_3_0_142.apk, appium:appiumPlatform=Android, appium:automationName=UiAutomator2, appium:deviceName=ce051715b2392a1203, appium:noReset=false, platformName=ANDROID, appium:platformVersion=9, appium:projectName=LSM Mobile App}], desiredCapabilities=Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}}]
+Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at io.unity.framework.init.base.setup_android(base.java:293)
+	at io.unity.framework.init.base.init(base.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="tear_down[[TestResult name=Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015 status=FAILURE method=Meditations_Test.Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015()[pri:0, instance:mobile.tests.Meditations.Meditations_Test@47eaca72] output={null}]](0)" classname="mobile.tests.Meditations.Meditations_Test" time="0.035">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at io.unity.framework.init.base.tear_down(base.java:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at io.unity.framework.init.base.tear_down(base.java:337)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Newest_on_Mindfulness_screen_Mind_012" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_014" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_013" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Newest_on_Mindfulness_screen_Mind_006" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_008" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_007" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_on_Mindfulness_screen_Mind_009" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_011" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_010" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_play_the_trending_Meditation_series_Mind_028" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_search_for_meditations_mantras_pranayama_using_search_field_Mind_002" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_share_a_Breakdown_at_work_Find_out_here_Mind_027" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Bengali_language_tab_Mind_020" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_English_language_tab_Mind_016" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Explore_Meditations_button_Mind_005" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Gujarati_language_tab_Mind_019" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Hindi_language_tab_Mind_017" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Marathi_language_tab_Mind_018" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Meditation_footer_menu_Mind_001" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_i_icon_of_any_technique_of_Meditation_Finder_Find_your_style_Mind_004" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_user_tap_on_the_any_technique_of_Meditation_Finder_Find_your_style_Mind_003" classname="mobile.tests.Meditations.Meditations_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+	at mobile.tests.Music_Playlist.Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003(Music_Playlist_Test.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-out><![CDATA[2024-11-18 17:33:41 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : lsm
+Inside android
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'DESKTOP-LSM8SKP', ip: '192.168.1.128'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\src\test\java\mobile\app\Level_3_0_142.apk, appium:appiumPlatform=Android, appium:automationName=UiAutomator2, appium:deviceName=ce051715b2392a1203, appium:noReset=false, platformName=ANDROID, appium:platformVersion=9, appium:projectName=LSM Mobile App}], desiredCapabilities=Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}}]
+Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at io.unity.framework.init.base.setup_android(base.java:293)
+	at io.unity.framework.init.base.init(base.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="tear_down[[TestResult name=To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003 status=FAILURE method=Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003()[pri:0, instance:mobile.tests.Music_Playlist.Music_Playlist_Test@77888435] output={null}]](0)" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.01">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at io.unity.framework.init.base.tear_down(base.java:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at io.unity.framework.init.base.tear_down(base.java:337)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_Music_PL_008" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Add_music_button_on_the_any_music_track_from_the_expanded_music_list_Music_PL_014" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_Music_PL_011" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Expand_icon_on_the_any_category_from_the_list_Music_PL_010" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Select_all_radio_button_of_the_expanded_list_of_music_tracks_Music_PL_012" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_Music_PL_015" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_Music_PL_013" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_Music_PL_006" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005" classname="mobile.tests.Music_Playlist.Music_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+	at mobile.tests.Payment.Payment_Test.Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001(Payment_Test.java:126)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-out><![CDATA[2024-11-18 17:34:02 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : lsm
+Inside android
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'DESKTOP-LSM8SKP', ip: '192.168.1.128'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\src\test\java\mobile\app\Level_3_0_142.apk, appium:appiumPlatform=Android, appium:automationName=UiAutomator2, appium:deviceName=ce051715b2392a1203, appium:noReset=false, platformName=ANDROID, appium:platformVersion=9, appium:projectName=LSM Mobile App}], desiredCapabilities=Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}}]
+Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at io.unity.framework.init.base.setup_android(base.java:293)
+	at io.unity.framework.init.base.init(base.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="tear_down[[TestResult name=Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001 status=FAILURE method=Payment_Test.Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001()[pri:0, instance:mobile.tests.Payment.Payment_Test@73a1e9a9] output={null}]](0)" classname="mobile.tests.Payment.Payment_Test" time="0.01">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at io.unity.framework.init.base.tear_down(base.java:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at io.unity.framework.init.base.tear_down(base.java:337)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="user_can_cancel_the_subscription" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="user_can_subscribe_plan" classname="mobile.tests.Payment.Payment_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_email_id_format" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+	at mobile.tests.SignInNegativeTest.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format(SignInNegative_Test.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-out><![CDATA[2024-11-18 17:34:23 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : lsm
+Inside android
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'DESKTOP-LSM8SKP', ip: '192.168.1.128'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\src\test\java\mobile\app\Level_3_0_142.apk, appium:appiumPlatform=Android, appium:automationName=UiAutomator2, appium:deviceName=ce051715b2392a1203, appium:noReset=false, platformName=ANDROID, appium:platformVersion=9, appium:projectName=LSM Mobile App}], desiredCapabilities=Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}}]
+Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at io.unity.framework.init.base.setup_android(base.java:293)
+	at io.unity.framework.init.base.init(base.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="tear_down[[TestResult name=To_verify_when_the_user_try_login_with_invalid_email_id_format status=FAILURE method=SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format()[pri:0, instance:mobile.tests.SignInNegativeTest.SignInNegative_Test@71d44a3] output={null}]](0)" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.01">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at io.unity.framework.init.base.tear_down(base.java:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at io.unity.framework.init.base.tear_down(base.java:337)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_email_id_format_with_spaces_not_allowed" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_email_id_format_with_special_character_not_allowed" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_dash" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_few_digits" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_more_than_10_digits" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_space" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_spaces" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_valid_email_id_format_with_invalid_otp" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_valid_email_id_without_enter_name_in_onb_registration_form" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_login_with_valid_email_id_without_enter_phone_no_in_onb_registration_form" classname="mobile.tests.SignInNegativeTest.SignInNegative_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+	at mobile.tests.Sleep_Playlist.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050(Sleep_Playlist_Test.java:1356)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-out><![CDATA[2024-11-18 17:34:44 [TestNG-tests-1] io.unity.framework.init.base.init()
+INFO: Base config to run : lsm
+Inside android
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20000ms 
+Host info: host: 'DESKTOP-LSM8SKP', ip: '192.168.1.128'
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:app=C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\src\test\java\mobile\app\Level_3_0_142.apk, appium:appiumPlatform=Android, appium:automationName=UiAutomator2, appium:deviceName=ce051715b2392a1203, appium:noReset=false, platformName=ANDROID, appium:platformVersion=9, appium:projectName=LSM Mobile App}], desiredCapabilities=Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}}]
+Capabilities {appium:app: C:\Users\Harshal\Desktop\LS..., appiumPlatform: Android, automationName: UiAutomator2, deviceName: ce051715b2392a1203, noReset: false, platformName: ANDROID, platformVersion: 9, projectName: LSM Mobile App}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:176)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:90)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:102)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at io.unity.framework.init.base.setup_android(base.java:293)
+	at io.unity.framework.init.base.init(base.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="tear_down[[TestResult name=To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050 status=FAILURE method=Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050()[pri:0, instance:mobile.tests.Sleep_Playlist.Sleep_Playlist_Test@7b98f307] output={null}]](0)" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.014">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at io.unity.framework.init.base.tear_down(base.java:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "screenshot" is null
+	at io.unity.framework.init.base.tear_down(base.java:337)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="To_verify_that_the_user_is_able_to_update_the_playlist_name_SLP_PL_035" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="tear_down" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="To_verify_the_UI_of_theCreate_Playlist_screen_SLP_PL_003" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_the_UI_of_the_Add_Items_to_playlist_screen_SLP_PL_008" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_the_UI_of_the_delete_playlist_confirmation_popup_SLP_PL_029" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_use_taps_on_the_Playlist_Name_filed_SLP_PL_004" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Back_button_SLP_PL_022" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Cancel_button_SLP_PL_005" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_026" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_SLP_PL_012" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_SLP_PL_002" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Delete_playlist_option_on_the_bottom_sheet_SLP_PL_028" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Edit_Playlist_option_option_on_the_bottom_sheet_SLP_PL_032" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_025" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_SLP_PL_030" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Play_button_SLP_PL_024" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_SLP_PL_045" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_Yes_delete_playlist_button_on_the_delete_playlist_confirmation_popup_SLP_PL_031" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_any_language_filter_below_the_search_field_SLP_PL_010_and_SLP_PL_011" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_plus_Add_to_this_Playlist_option_on_the_bottom_sheet_SLP_PL_027" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_on_the_x_Remove_icon_on_the_any_available_track_in_the_playlist_SLP_PL_036" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_to_tap_on_the_Save_button_without_applying_any_changes_in_the_created_playlist_SLP_PL_034" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_SLP_PL_014" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_SLP_PL_007" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_SLP_PL_006" classname="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test" time="0.0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+</testsuite>

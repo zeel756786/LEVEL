@@ -46,7 +46,6 @@ public class signin_page {
 
                 textBoxes.get(textBoxIndex).sendKeys(text);
 
-
                 androidDriver.hideKeyboard();
             } else {
                 System.out.println("There are less than " + (textBoxIndex + 1) + " text boxes on the screen.");
@@ -304,12 +303,24 @@ public class signin_page {
 
     public void click_on_stress_and_anxiety() {
         wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("stress_and_anxiety");
         element.click("stress_and_anxiety");
+    }
+    public void click_on_focus_and_productivity() {
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("focus_and_productivity");
+        element.click("focus_and_productivity");
+    }
+    public void verify_and_click_on_Relaxation() {
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Relaxation");
+        element.click("Relaxation");
     }
 
     public void verify_text_what_are_you_looking_for_present_on_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("what_are_you_looking_for");
+        verify.element_is_present("what_are_you_looking_for");
     }
 
     public void verify_text_stress_relief_present_on_page() {
@@ -362,6 +373,13 @@ public class signin_page {
     public void verify_how_your_free_trail_works_text_present_on_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("how_your_free_trail_works");
+        verify.element_is_present("how_your_free_trail_works");
+    }
+    public void verify_and_click_start_my_free_trial() {
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("start_my_free_trial");
+        verify.element_is_present("start_my_free_trial");
+        element.click("start_my_free_trial");
     }
 
     public void click_on_cross_button() {
@@ -495,6 +513,43 @@ public class signin_page {
         wait.wait_until_element_is_visible("Delete_Account");
         element.click("Delete_Account");
     }
+    public void verify_and_click_on_i_agree_receive_marketing() {
+        wait.wait_for_second(1);
+        wait.wait_until_element_is_visible("check_box_of_I_agree_receive_marketing");
+        element.click("check_box_of_I_agree_receive_marketing");
+        wait.wait_for_second(1);
+        element.click("check_box_of_I_agree_receive_marketing");
+    }
+    public void verify_and_uncheck_on_i_agree_receive_marketing() {
+        wait.wait_for_second(1);
+        wait.wait_until_element_is_visible("check_box_of_I_agree_receive_marketing");
+        element.click("check_box_of_I_agree_receive_marketing");
+    }
+    public void verify_and_click_on_i_agree_terms_and_conditions() {
+        wait.wait_for_second(1);
+        wait.wait_until_element_is_visible("check_box_of_I_agree_to_the_terms_and_conditions");
+        element.click("check_box_of_I_agree_to_the_terms_and_conditions");
+        wait.wait_for_second(1);
+        element.click("check_box_of_I_agree_to_the_terms_and_conditions");
+    }
+    public void verify_and_uncheck_on_i_agree_terms_and_conditions() {
+        wait.wait_until_element_is_visible("check_box_of_I_agree_to_the_terms_and_conditions");
+        element.click("check_box_of_I_agree_to_the_terms_and_conditions");
+    }
+    public void verify_the_thank_you_present_on_page() {
+        wait.wait_until_element_is_visible("thank_you");
+        verify.element_is_present("thank_you");
+        System.out.println("Element 'Thank You Page' is visible.");
+
+    }
+    public void click_on_enter_the_referral_code() {
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("enter_the_code_text_field");
+        verify.element_is_present("enter_the_code_text_field");
+        element.click("enter_the_code_text_field");
+        element.enter_text("enter_the_code_text_field","12345");
+        wait.wait_for_second(5);
+    }
     public void keyboard_hide() {
         wait.wait_for_second(2);
         try {
@@ -556,7 +611,7 @@ public class signin_page {
             numberTextField.click();
             numberTextField.sendKeys(emailId);
             androidDriver.hideKeyboard();
-            System.out.println("Successfully entered mobile number: " + emailId);
+            System.out.println("Successfully entered  email id: " + emailId);
 
         } else {
             System.out.println("Invalid index: " + index + " No such text field found ");
@@ -665,8 +720,53 @@ public class signin_page {
                 closeButton.click();
                 System.out.println("Feature Alert closed.");
             }
-        } catch (java.util.NoSuchElementException e) {
+        } catch (Exception e) {
             System.out.println("Feature Alert is not visible.");
+        }
+    }
+    public void click_on_terms_and_conditions() {
+        WebElement termsElement = driver.findElement(By.xpath("//android.widget.TextView[@text='I agree to the terms and conditions of Level SuperMind. *']"));
+
+        String fullText = termsElement.getText();
+
+        String termsAndConditions = "terms and conditions";
+
+        if (fullText.contains(termsAndConditions)) {
+            WebElement  clickableTerms = driver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'terms and conditions')]"));
+            clickableTerms.click();
+            wait.wait_for_second(5);
+        } else {
+            System.out.println("Text does not contain 'terms and conditions'");
+        }
+    }
+    public void verifyTheToastMessaageUserCanSelectThreeMeditations() {
+
+        String RelationShip = "//android.widget.TextView[@text=\"Relationship\"]";
+
+        String ToastMessage = "//android.widget.Toast[@text=\"You can select upto 3 options\"]";
+
+        try {
+
+            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+            WebElement arrowRightButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(RelationShip)));
+            arrowRightButton.click();
+            WebElement confirmationToast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(ToastMessage)));
+
+
+            String actualMessage = confirmationToast.getText();
+
+            if (actualMessage.equals("You can select upto 3 options")) {
+                System.out.println("Toast message verified successfully: " + actualMessage);
+            } else {
+                System.out.println("Expected Toast message not found. Actual message: " + actualMessage);
+            }
+
+        } catch (NoSuchElementException e) {
+
+            System.out.println("No such element found: " + e.getMessage());
+        } catch (Exception e) {
+
+            System.out.println("An error occurred: " + e.getMessage());
         }
     }
 }

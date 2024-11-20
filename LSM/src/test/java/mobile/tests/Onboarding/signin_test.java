@@ -3,6 +3,7 @@ package mobile.tests.Onboarding;
 import io.unity.framework.init.base;
 import io.unity.framework.remotegrid.LambdaTestConfig;
 import mobile.object_repository.Onboarding.signin_page;
+import mobile.object_repository.sleep_playlist.Sleep_Playlist_Page;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -99,6 +100,10 @@ public class signin_test extends base {
     @Test()
     public void Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
+        //Verify that the user Enter correct Mobile number in Your Phone Number field on Tell us about yourself for personalised recommendations screen_OB_010
+        //Verify that the user select the Gender on Tell us about yourself for personalised recommendations screen_OB_011
+        //Verify that the user check the checkbox of "I agree to receive marketing communications from Level SuperMind on Tell us about yourself for personalised recommendations screen_OB_012
+        //Verify that the user check the check box of "I agree to the terms and conditions of Level SuperMind on Tell us about yourself for personalised recommendations screen_OB_013
         config.addTestName("Verify that the user Enter correct name in your Name field on Tell us about yourself for personalised recommendations screen");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
@@ -111,9 +116,116 @@ public class signin_test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         signin_page.verify_customise_your_experience_text();
+        signin_page.verify_tell_us_about_yourself_text();
         signin_page.click_and_enter_your_name();
-        signin_page.enterTextInSpecificTextBox("zeel", 0);
+        signin_page.enterTextInSpecificTextBox("priyanka", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("3535353355", 1);
+        signin_page.verify_gender_text();
+        signin_page.verify_male_text();
+        signin_page.verify_other_text();
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.verify_and_click_on_i_agree_receive_marketing();
+        signin_page.verify_and_click_on_i_agree_terms_and_conditions();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.verify_text_what_type_of_meditations_are_you_looking_for_present_on_page();
     }
+    @Test()
+    public void Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015(){
+        //Verify that the user uncheck the check box of "I agree to the terms and conditions of Level SuperMind on Tell us about yourself for personalised recommendations screen_OB_015
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user uncheck the checkbox of \"I agree to receive marketing communications from Level SuperMind on Tell us about yourself for personalised recommendations screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enteremailIdTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.verify_customise_your_experience_text();
+        signin_page.verify_tell_us_about_yourself_text();
+        signin_page.click_and_enter_your_name();
+        signin_page.enterTextInSpecificTextBox("priyanka", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("3535353355", 1);
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.verify_and_uncheck_on_i_agree_receive_marketing();
+        signin_page.verify_and_uncheck_on_i_agree_terms_and_conditions();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the terms and conditions hyperlink on Tell us about yourself for personalised recommendations screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enteremailIdTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_terms_and_conditions();
+    }
+    @Test()
+    public void Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user enter the valid referral code on on Tell us about yourself for personalised recommendations screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enteremailIdTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_and_enter_your_name();
+        signin_page.enterTextInSpecificTextBox("priyanka", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("3535353355", 1);
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.click_on_enter_the_referral_code();
+    }
+    @Test()
+    public void Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019(){
+        //Verify that the user select morethen three type of meditations from the "What type of meditations are you looking for?" screen_OB_020
+        //Verify that the user select any one option from the "What are you looking for?" screen and tap on right arrow_OB_021
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user select only three type of meditations from the What type of meditations are you looking for?  screen and tap on right arrow icon");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_and_enter_your_name();
+        signin_page.enterTextInSpecificTextBox("priyanka", 0);
+        signin_page.click_and_enter_your_email_or_mobile(false);
+        signin_page.enterTextInSpecificTextBox("3535353355", 1);
+        signin_page.verify_and_click_female_checkbox();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_stress_and_anxiety();
+        signin_page.click_on_focus_and_productivity();
+        signin_page.verify_and_click_on_Relaxation();
+        signin_page.verifyTheToastMessaageUserCanSelectThreeMeditations();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.verify_text_what_are_you_looking_for_present_on_page();
+        signin_page.click_on_stress_relief();
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.verify_the_thank_you_present_on_page();
+        signin_page.verify_how_your_free_trail_works_text_present_on_page();
+      //  signin_page.verify_and_click_start_my_free_trial();
+    }
+
     @Test
     public void user_can_login_the_account_by_email() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

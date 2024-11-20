@@ -1,7 +1,7 @@
 package io.unity.framework.runner;
 
 import com.beust.jcommander.JCommander;
-import io.tesbo.report.ReportGenerator;
+import io.report.ReportGenerator;
 import io.unity.framework.readers.CommandlineOption;
 import io.unity.framework.readers.json_file_readers;
 import org.json.JSONArray;
