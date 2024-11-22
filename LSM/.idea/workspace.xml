@@ -44,134 +44,140 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Runner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Newest_on_Mindfulness_screen_Mind_012.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_013.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Newest_on_Mindfulness_screen_Mind_006.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_008.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_007.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_on_Mindfulness_screen_Mind_009.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_011.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_010.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_play_the_trending_Meditation_series_Mind_028.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_search_for_meditations_mantras_pranayama_using_search_field_Mind_002.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_share_a_Breakdown_at_work_Find_out_here_Mind_027.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Bengali_language_tab_Mind_020.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_tab_Mind_016.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Explore_Meditations_button_Mind_005.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Gujarati_language_tab_Mind_019.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Hindi_language_tab_Mind_017.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Marathi_language_tab_Mind_018.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Meditation_footer_menu_Mind_001.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_i_icon_of_any_technique_of_Meditation_Finder_Find_your_style_Mind_004.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_user_tap_on_the_any_technique_of_Meditation_Finder_Find_your_style_Mind_003.executor": "Run",
-    "TestNG.Meditations_Test.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_Music_PL_008.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_button_on_the_any_music_track_from_the_expanded_music_list_Music_PL_014.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_Music_PL_011.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Expand_icon_on_the_any_category_from_the_list_Music_PL_010.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Select_all_radio_button_of_the_expanded_list_of_music_tracks_Music_PL_012.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_Music_PL_015.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_Music_PL_013.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005.executor": "Run",
-    "TestNG.Music_Playlist_Test.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_004.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_spaces_not_allowed.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_special_character_not_allowed.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_dash.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_few_digits.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_more_than_10_digits.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_spaces.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_format_with_invalid_otp.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_name_in_onb_registration_form.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_phone_no_in_onb_registration_form.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_into_the_created_playlist_SLP_PL_049.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_reorder_the_track_availables_in_the_playlist_SLP_PL_037.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_update_the_playlist_name_SLP_PL_035.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_theCreate_Playlist_screen_SLP_PL_003.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_Add_Items_to_playlist_screen_SLP_PL_008.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_delete_playlist_confirmation_popup_SLP_PL_029.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_use_taps_on_the_Playlist_Name_filed_SLP_PL_004.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Back_buttonSLP_PL_022.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_SLP_PL_005.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_026.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_SLP_PL_012.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_SLP_PL_002.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Delete_playlist_option_on_the_bottom_sheet_SLP_PL_028.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Edit_Playlist_option_option_on_the_bottom_sheet_SLP_PL_032.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_025.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_041.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_SLP_PL_030.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Play_button_SLP_PL_024.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_SLP_PL_045.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Yes_delete_playlist_button_on_the_delete_playlist_confirmation_popup_SLP_PL_031.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_any_language_filter_below_the_search_field_SLP_PL_010_and_SLP_PL_011.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_plus_Add_to_this_Playlist_option_on_the_bottom_sheet_SLP_PL_027.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_x_Remove_icon_on_the_any_available_track_in_the_playlist_SLP_PL_036.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_without_applying_any_changes_in_the_created_playlist_SLP_PL_034.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_SLP_PL_014.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_SLP_PL_007.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_SLP_PL_006.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_create_playlist.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_edit_playlist_name.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_play_music_in_playlist_item.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_search_music_in_add_item_to_playlist.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_open_the_installed_app_OB_001.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_tap_on_the_Get_Started_button_OB_002.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016.executor": "Run",
-    "TestNG.signin_test.user_can_login_the_account_by_mobile_no.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/mobile/app",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Newest_on_Mindfulness_screen_Mind_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_013.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Newest_on_Mindfulness_screen_Mind_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_on_Mindfulness_screen_Mind_009.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_010.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_play_the_trending_Meditation_series_Mind_028.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_search_for_meditations_mantras_pranayama_using_search_field_Mind_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_share_a_Breakdown_at_work_Find_out_here_Mind_027.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Bengali_language_tab_Mind_020.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_tab_Mind_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Explore_Meditations_button_Mind_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Gujarati_language_tab_Mind_019.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Hindi_language_tab_Mind_017.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Marathi_language_tab_Mind_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Meditation_footer_menu_Mind_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_i_icon_of_any_technique_of_Meditation_Finder_Find_your_style_Mind_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Serieson_stress_Anxiety_screen_Mind_039.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_user_tap_on_the_any_technique_of_Meditation_Finder_Find_your_style_Mind_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_Music_PL_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_button_on_the_any_music_track_from_the_expanded_music_list_Music_PL_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_Music_PL_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Expand_icon_on_the_any_category_from_the_list_Music_PL_010.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Select_all_radio_button_of_the_expanded_list_of_music_tracks_Music_PL_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_Music_PL_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_Music_PL_013.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_spaces_not_allowed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_special_character_not_allowed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_dash.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_few_digits.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_more_than_10_digits.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_spaces.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_format_with_invalid_otp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_name_in_onb_registration_form.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_phone_no_in_onb_registration_form.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_into_the_created_playlist_SLP_PL_049.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_reorder_the_track_availables_in_the_playlist_SLP_PL_037.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_update_the_playlist_name_SLP_PL_035.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_theCreate_Playlist_screen_SLP_PL_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_Add_Items_to_playlist_screen_SLP_PL_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_delete_playlist_confirmation_popup_SLP_PL_029.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_use_taps_on_the_Playlist_Name_filed_SLP_PL_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Back_buttonSLP_PL_022.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_SLP_PL_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_026.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_SLP_PL_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_SLP_PL_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Delete_playlist_option_on_the_bottom_sheet_SLP_PL_028.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Edit_Playlist_option_option_on_the_bottom_sheet_SLP_PL_032.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_025.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_041.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_SLP_PL_030.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Play_button_SLP_PL_024.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_SLP_PL_045.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Yes_delete_playlist_button_on_the_delete_playlist_confirmation_popup_SLP_PL_031.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_any_language_filter_below_the_search_field_SLP_PL_010_and_SLP_PL_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_plus_Add_to_this_Playlist_option_on_the_bottom_sheet_SLP_PL_027.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_x_Remove_icon_on_the_any_available_track_in_the_playlist_SLP_PL_036.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_without_applying_any_changes_in_the_created_playlist_SLP_PL_034.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_SLP_PL_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_SLP_PL_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_SLP_PL_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_create_playlist.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_edit_playlist_name.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_play_music_in_playlist_item.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_search_music_in_add_item_to_playlist.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_open_the_installed_app_OB_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_tap_on_the_Get_Started_button_OB_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.user_can_login_the_account_by_mobile_no.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/mobile/app&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\src\test\java\mobile\app" />
@@ -180,7 +186,7 @@
       <recent name="E:\LSM_Project\LSM\src\test\java\mobile\object_repository" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036">
+  <component name="RunManager" selected="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060">
     <configuration name="Runner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="runner.Runner" />
       <module name="LSM" />
@@ -195,7 +201,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -208,7 +214,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -223,7 +229,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -236,7 +242,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -251,7 +257,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -264,7 +270,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -279,7 +285,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -292,7 +298,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -307,7 +313,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -320,7 +326,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -357,19 +363,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Runner" />
-      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" />
-      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" />
-      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" />
-      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" />
-      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061" />
+      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036" />
-        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030" />
-        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029" />
-        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026" />
-        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052" />
+        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051" />
       </list>
     </recent_temporary>
   </component>

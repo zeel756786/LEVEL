@@ -405,11 +405,25 @@ public class Meditation_Page {
         element.click("meditations_trending_series");
 
     }
+    public void verify_and_click_on_meditations_series_first_video() {
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("meditation_series_first_video");
+        verify.element_is_present("meditation_series_first_video");
+        String Text =  element.get_element_text("meditation_series_first_video");
+        System.out.println("Text is: " + Text);
+        element.click("meditation_series_first_video");
+
+    }
     public void verify_user_able_to_edit_meditations_page(){
         wait.wait_for_second(2);
         click_on_motivation_button();
         click_on_motivation_button();
         click_on_cross_button();
+    }
+    public void verify_motivation_present_page(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Motivation");
+        verify.element_is_present("Motivation");
     }
     public void verify_and_click_on_meditations_series_play_button() {
         try {
@@ -417,6 +431,31 @@ public class Meditation_Page {
             wait.wait_until_element_is_visible("meditations_trending_play_button");
             verify.element_is_present("meditations_trending_play_button");
             element.click("meditations_trending_play_button");
+            wait.wait_for_second(5);
+        } catch (Exception e) {
+            System.out.println("An error occurred while verifying and clicking on the meditations series play button: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+    public void verify_and_click_on_meditations_series_stop_button() {
+        try {
+            wait.wait_for_second(2);
+            wait.wait_until_element_is_visible("meditations_trending_play_button");
+            verify.element_is_present("meditations_trending_play_button");
+            element.click("meditations_trending_play_button");
+        } catch (Exception e) {
+            System.out.println("An error occurred while verifying and clicking on the meditations series play button: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+    public void verify_and_click_on_meditations_series_add_to_fav_and_share() {
+        try {
+            wait.wait_for_second(2);
+            wait.wait_until_element_is_visible("meditations_series_add_to_fav");
+            verify.element_is_present("meditations_series_add_to_fav");
+            element.click("meditations_series_add_to_fav");
+            wait.wait_for_second(2);
+            element.click("meditations_series_share");
             wait.wait_for_second(5);
         } catch (Exception e) {
             System.out.println("An error occurred while verifying and clicking on the meditations series play button: " + e.getMessage());
@@ -596,8 +635,9 @@ public class Meditation_Page {
         }
     }
     public void scroll_up_to_meditations_series(){
-        wait.wait_for_second(2);
-        device.scroll_up_to_the_Text("Meditation Series");
+        wait.wait_for_second(5);
+     //   device.scroll_up_to_the_Text("Meditation Series");
+        device.scrollUpToTop("Meditation Series");
     }
     public void verify_hindi_track_present_on_page(){
         wait.wait_for_second(2);
@@ -607,22 +647,120 @@ public class Meditation_Page {
         wait.wait_for_second(2);
         waitForTextElementAppear("Om Mantra Series (मराठी)");
     }
+    public void verify_scroll_Down_to_Quick_Picks(){
+        wait.wait_for_second(2);
+        device.scrollDownToBottoms("Quick_Picks");
+    }
     public void verify_and_click_on_Meditation_Series_Kebab_Icon(){
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Meditation_Series_Kebab_Icon");
         element.click("Meditation_Series_Kebab_Icon");
-        verify.element_is_present("Add_to_favorities");
-        verify.element_is_present("Share");
-        element.click("Meditation_Series_Kebab_Icon");
+        if(verify.check_element_is_present("Remove_from_favorites")){
+            element.click("Remove_from_favorites");
+            wait.wait_for_second(5);
+            wait.wait_until_element_is_visible("Add_to_favorities");
+            verify.element_is_present("Add_to_favorities");
+        }
+        else {
+            wait.wait_for_second(2);
+            wait.wait_until_element_is_visible("Add_to_favorities");
+            verify.element_is_present("Add_to_favorities");
+        }
     }
     public void verify_and_click_on_Quick_Picks_Kebab_Icon(){
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Quick_Picks_Kebab_Icon");
         element.click("Quick_Picks_Kebab_Icon");
-        verify.element_is_present("Add_to_favorities");
-        verify.element_is_present("Share");
-        element.click("Meditation_Series_Kebab_Icon");
+     //   wait.wait_for_second(5);
+     //   verify.element_is_present("Add_to_favorities");
+//        element.click("Add_to_favorities");
+//        wait.wait_until_element_is_visible("Share_button");
+//        verify.element_is_present("Share_button");
+//        wait.wait_until_element_is_visible("Download_button");
+//        verify.element_is_present("Download_button");
     }
+    public void verify_english_track_series_motivation_present_on_page(){
+        wait.wait_for_second(2);
+        waitForTextElementAppear("Breakup Series");
+        waitForTextElementAppear("Eat Mindfully");
+        waitForTextElementAppear("Maa Durga Series");
+        waitForTextElementAppear("Ganesh Mantra Series");
+        waitForTextElementAppear("Quick Picks");
+    }
+    public void verify_english_track_series_quick_picks_motivation_present_on_page(){
+        wait.wait_for_second(2);
+        waitForTextElementAppear("Find Your Inner Strength");
+        waitForTextElementAppear("Visualise Your Future");
+        waitForTextElementAppear("Face Your Fears");
+    }
+
+    public void verify_hindi_track_series_motivation_present_on_page(){
+        wait.wait_for_second(2);
+        waitForTextElementAppear("Ganesh Mantra Series");
+        waitForTextElementAppear("Sun Sign Meditation Series");
+    }
+    public void verify_marathi_track_series_motivation_present_on_page(){
+        wait.wait_for_second(2);
+        waitForTextElementAppear("Ganesh Mantra Series");
+    }
+    public void scroll_up_to_top_of_the_page(){
+        wait.wait_for_second(5);
+        device.scrollUpToTop("Navigate_back");
+    }
+    public void scroll_up_to_top_hindi_present_on_page(){
+        wait.wait_for_second(5);
+        device.scrollUpToTop("hindi_language");
+    }
+    public void print_text_value() {
+        WebElement element =  driver.findElement(By.xpath("(//android.widget.TextView)[3]"));
+
+        String textValue = element.getAttribute("text");
+
+        System.out.println("The text value is: " + textValue);
+    }
+    public void scroll_down_Quick_Picks(){
+        wait.wait_for_second(2);
+        device.scrollDownToBottom("Quick_Picks");
+    }
+    public void verify_add_to_fav_and_remove_from_fav() {
+        wait.wait_for_second(2);
+        if (verify.check_element_is_present("Add_to_favorities")) {
+            System.out.println("Add_to_favorities is displayed.");
+            element.click("Add_to_favorities");
+            wait.wait_for_second(5);
+            verify.element_is_present("Remove_from_favorites");
+        } else if (verify.check_element_is_present("Remove_from_favorites")) {
+            System.out.println("Remove_from_favorites is displayed.");
+            element.click("Remove_from_favorites");
+            wait.wait_for_second(3);
+            element.click("Add_to_favorities");
+            wait.wait_for_second(5);
+            verify.element_is_present("Remove_from_favorites");
+        } else {
+            System.out.println("Neither Add_to_favorities nor Remove_from_favorites is visible.");
+            throw new IllegalStateException("Expected element not found on the screen.");
+        }
+    }
+    public void verify_download_and_delete_from_downloads() {
+        wait.wait_for_second(2);
+        if(verify.check_element_is_present("Download_button")){
+            System.out.println("Download_button is displayed.");
+            element.click("Download_button");
+            wait.wait_for_second(15);
+            verify.element_is_present("Delete_from_download");
+        } else if (verify.check_element_is_present("Delete_from_download")) {
+            System.out.println("Delete_from_download is displayed.");
+            element.click("Delete_from_download");
+            wait.wait_for_second(2);
+            element.click("Delete_Item");
+            wait.wait_for_second(2);
+            element.click("Download_button");
+            wait.wait_for_second(15);
+            verify.element_is_present("Delete_from_download");
+        }
+
+    }
+
 
 }
 

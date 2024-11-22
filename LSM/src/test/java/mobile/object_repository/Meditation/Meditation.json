@@ -329,6 +329,18 @@
     "locator_type": "xpath",
     "android_locator": "(//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[*]/android.widget.Button)[2]"
   },
+  "meditations_series_add_to_fav": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[3]"
+  },
+  "meditations_series_share": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]"
+  },
   "Edit_button": {
     "platform": "android",
     "element_type": "button",
@@ -375,13 +387,13 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Add to favorites\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Add to favorites     \"]"
   },
-  "Share": {
+  "Share_button": {
     "platform": "android",
     "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Share\"]"
+    "locator_type": "accessibility-id",
+    "android_locator": "Share-icon"
   },
   "Quick_Picks_Kebab_Icon": {
     "platform": "android",
@@ -389,10 +401,46 @@
     "locator_type": "xpath",
     "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[4]/android.view.View[3]/android.view.View"
   },
-  "Download": {
+  "Download_button": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": ""
+    "android_locator": "//android.widget.TextView[@text=\"Download\"]"
+  },
+  "Delete_from_download": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Delete from downloads\"]"
+  },
+  "Remove_from_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Remove from favorites\"]"
+  },
+  "Quick_Picks": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Quick Picks\"]"
+  },
+  "Navigate_back": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]"
+  },
+  "Motivation": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Motivation\"]"
+  },
+  "Delete_Item": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Delete\"]"
   }
 }

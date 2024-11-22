@@ -239,4 +239,38 @@ public void switch_to_context(String context_name) {
             }
         }
     }
+    public void scrollUpToTop(String elementLocator) {
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        Dimension screenSize = driver.manage().window().getSize();
+
+        int startX = (int) (screenSize.getWidth() * 0.50);
+        int startY = (int) (screenSize.getHeight() * 0.20);
+        int endY = (int) (screenSize.getHeight() * 0.80);
+
+        boolean canScrollFurther = true;
+
+        while (canScrollFurther) {
+            try {
+                WebElement targetElement = element.find(elementLocator);
+                if (targetElement.isDisplayed()) {
+                    System.out.println("Element is visible: " + elementLocator);
+                    canScrollFurther = false;
+                } else {
+                    System.out.println("Element is not fully visible, scrolling...");
+                }
+            } catch (Exception e) {
+                System.out.println("Element not found, continuing to scroll...");
+            }
+            if (canScrollFurther) {
+                Sequence scroll = new Sequence(finger, 0);
+                scroll.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY));
+                scroll.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+                scroll.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), startX, endY));
+                scroll.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+                driver.perform(Arrays.asList(scroll));
+            }
+        }
+    }
+
 }

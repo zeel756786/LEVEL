@@ -724,5 +724,203 @@ public class Meditations_Test extends base {
         meditation_page.waitForTextElementAppear("Stress & Anxiety");
       //  meditation_page.scroll_down_to_the_Text("Stress & Anxiety");
     }
-
+    @Test()
+    public void Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the English language on the Stress & Anxiety screen");
+        //  Verify that the user tap on the Hindi language on the "Stress & Anxiety" screen Mind_037
+        //  Verify that the user tap on the Marathi language on the "Stress & Anxiety" screen Mind_038
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.scroll_to_buttom_till_end();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.wait_for_ten_second();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.verify_english_track_present_on_page();
+        meditation_page.scroll_up_to_meditations_series();
+        meditation_page.verify_and_click_on_hindi_language();
+        meditation_page.verify_hindi_track_present_on_page();
+        meditation_page.verify_and_click_on_marathi_language();
+        meditation_page.verify_marathi_track_present_on_page();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Serieson_stress_Anxiety_screen_Mind_039(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the English language on the Stress & Anxiety screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.scroll_to_buttom_till_end();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.wait_for_ten_second();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.verify_and_click_on_Meditation_Series_Kebab_Icon();
+        meditation_page.verify_scroll_Down_to_Quick_Picks();
+        meditation_page.verify_and_click_on_Quick_Picks_Kebab_Icon();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the see all  for the Motivation serieses ");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.scroll_to_buttom_till_end();
+        meditation_page.click_on_motivation_button();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.verify_english_track_series_motivation_present_on_page();
+        meditation_page.verify_and_click_on_hindi_language();
+        meditation_page.verify_hindi_track_series_motivation_present_on_page();
+        meditation_page.verify_and_click_on_marathi_language();
+        meditation_page.verify_marathi_track_series_motivation_present_on_page();
+    }
+    @Test()
+    public void Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user play and listen the Meditation Series of Motivation series");
+     //   Verify that the user pause the Meditation Series of "Motivation" series_Mind_053
+     //   Verify that the user share the Meditation Series of "Motivation" series_Mind_054
+     //   Verify that the user Add to favourite the Meditation Series of "Motivation" series_Mind_055
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.scroll_to_buttom_till_end();
+        meditation_page.click_on_motivation_button();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_motivation_present_page();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.verify_and_click_on_meditations_series_first_video();
+        meditation_page.verify_and_click_on_cancel_button();
+        meditation_page.scroll_up_to_top_of_the_page();
+        meditation_page.verify_and_click_on_meditations_series_play_button();
+        meditation_page.verify_and_click_on_meditations_series_stop_button();
+        meditation_page.verify_and_click_on_meditations_series_add_to_fav_and_share();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the English language on the Motivation screen");
+     //   Verify that the user tap on the Hindi language on the "Motivation" screen_Mind_058
+     //    Verify that the user tap on the Marathi language on the "Motivation" screen_Mind_059
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.scroll_to_buttom_till_end();
+        meditation_page.click_on_motivation_button();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_motivation_present_page();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.verify_english_track_series_motivation_present_on_page();
+        meditation_page.verify_english_track_series_quick_picks_motivation_present_on_page();
+        meditation_page.scroll_up_to_top_hindi_present_on_page();
+        meditation_page.verify_and_click_on_hindi_language();
+        meditation_page.verify_hindi_track_series_motivation_present_on_page();
+        meditation_page.verify_and_click_on_marathi_language();
+        meditation_page.verify_marathi_track_series_motivation_present_on_page();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the kebab menu of the Meditation Series on Motivation screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.scroll_to_buttom_till_end();
+        meditation_page.click_on_motivation_button();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_motivation_present_page();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.verify_and_click_on_Meditation_Series_Kebab_Icon();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the kebab menu of the Quick Picks on Motivation  screen");
+       // Verify that the user see the added favourites of Meditation serieses in the "Add to Favourite"_Mind_062
+      //  Verify that the user see the downloaded Meditation serieses in the "Download"_Mind_063
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.scroll_to_buttom_till_end();
+        meditation_page.click_on_motivation_button();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_motivation_present_page();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.scroll_down_Quick_Picks();
+        meditation_page.verify_and_click_on_Quick_Picks_Kebab_Icon();
+        meditation_page.verify_add_to_fav_and_remove_from_fav();
+        meditation_page.verify_download_and_delete_from_downloads();
+    }
 }
