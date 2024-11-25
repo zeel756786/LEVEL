@@ -57,7 +57,7 @@ public class Meditation_Page {
         androidDriver = (AndroidDriver) driver;
         device = new Device(androidDriver);
     }
-    public void wait_for_ten_second(){
+    public void wait_for_five_second(){
         wait.wait_for_second(5);
     }
     public void verify_and_click_on_Meditations(){
@@ -238,6 +238,13 @@ public class Meditation_Page {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Reset");
         element.click("Reset");
+        wait_for_five_second();
+        waitForTextElementAppear("Focus Series");
+        waitForTextElementAppear("Anxiety Series");
+        verify_and_click_on_hindi_language();
+        waitForTextElementAppear("Exam Series (हिन्दी)");
+        verify_and_click_on_marathi_language();
+        waitForTextElementAppear("Focus Series (मराठी)");
     }
     public void verify_meditations_for_traders_present_on_page(){
         wait.wait_until_element_is_visible("meditations_for_traders");
@@ -287,30 +294,48 @@ public class Meditation_Page {
         wait.wait_until_element_is_visible("english_language");
         verify.element_is_present("english_language");
         element.click("english_language");
+        wait_for_five_second();
+        waitForTextElementAppear("Focus Series");
+        waitForTextElementAppear("Exam Series");
+        waitForTextElementAppear("Anxiety Series");
     }
     public void verify_and_click_on_hindi_language() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("hindi_language");
         verify.element_is_present("hindi_language");
         element.click("hindi_language");
+        wait_for_five_second();
+        waitForTextElementAppear("Train Your Mind Series (हिन्दी)");
+        waitForTextElementAppear("Exam Series (हिन्दी)");
+        waitForTextElementAppear("Focus Series (हिन्दी)");
     }
     public void verify_and_click_on_marathi_language() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("marathi_language");
         verify.element_is_present("marathi_language");
         element.click("marathi_language");
+        wait_for_five_second();
+        waitForTextElementAppear("Beginner's Series (मराठी)");
+        waitForTextElementAppear("Focus Series (मराठी)");
+
     }
     public void verify_and_click_on_gujarati_language() {
+        device.sliding("marathi_language",-600,0);
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("gujarati_language");
         verify.element_is_present("gujarati_language");
         element.click("gujarati_language");
+        wait_for_five_second();
+        waitForTextElementAppear("Beginner's Series (ગુજરાતી)");
     }
     public void verify_and_click_on_bengali_language() {
+        device.sliding("marathi_language",-1400,0);
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Bengali_language");
         verify.element_is_present("Bengali_language");
         element.click("Bengali_language");
+        wait_for_five_second();
+        waitForTextElementAppear("Beginner's Series (বাংলা)");
     }
     public void verify_and_click_on_digi_mala() {
         wait.wait_for_second(2);
@@ -338,9 +363,10 @@ public class Meditation_Page {
         element.click("digi_mala_play_back_speed");
     }
     public void verify_and_click_on_share_button_of_breakdown_work() {
-        wait.wait_for_second(2);
-        wait.wait_until_element_is_visible("share_break_down_work");
+        wait.wait_for_second(8);
+      //  wait.wait_until_element_is_visible("share_break_down_work");
         element.click("share_break_down_work");
+    //    element.click("share_break_down_work");
         wait.wait_for_second(5);
     }
     public void verify_and_click_on_see_all() {
@@ -349,16 +375,25 @@ public class Meditation_Page {
         element.click("see_all");
     }
     public void verify_and_click_on_tamil_language() {
+        device.sliding("marathi_language",-2000,0);
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Tamil_language");
         verify.element_is_present("Tamil_language");
         element.click("Tamil_language");
+        wait_for_five_second();
+        waitForTextElementAppear("Beginner's Series (தமிழ்)");
+        waitForTextElementAppear("Train Your Mind Series (தமிழ்)");
     }
+
     public void verify_and_click_on_kannada_language() {
+        device.sliding("marathi_language",-2000,0);
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Kannada_language");
         verify.element_is_present("Kannada_language");
         element.click("Kannada_language");
+        wait_for_five_second();
+        waitForTextElementAppear("Beginner's Series");
+        waitForTextElementAppear("21 Days Challenge (ಕನ್ನಡ)");
     }
     public void verify_and_click_on_edit_button() {
         wait.wait_for_second(2);
@@ -559,9 +594,9 @@ public class Meditation_Page {
     }
     public void waitForTextElementAppear(String text) {
         int maxAttempts = 0;
-        while (maxAttempts < 2) {
+        while (maxAttempts < 3) {
             try {
-                if (driver.findElement(By.xpath("//android.widget.TextView[contains(@text, '" + text + "')]")).isDisplayed()) {
+                if (driver.findElement(By.xpath("//android.widget.TextView[contains(@text, \"" + text + "\")]")).isDisplayed()) {
                     System.out.println("Text '" + text + "' is displayed");
                     break;
                 }
@@ -620,14 +655,21 @@ public class Meditation_Page {
     public void scroll_to_buttom_till_end(){
         device.scrollDownToBottoms("stress_axiety");
     }
+    public void scroll_to_buttom_personalised_for_you(){
+        device.scrollDownToBottoms("personalised_for_you");
+    }
+    public void scroll_to_buttom_breakdown_at_work(){
+        device.scrollDownToBottoms("Break_down_at_work");
+    }
     public void verify_english_track_present_on_page()
     {
+        wait.wait_for_second(5);
         try {
             waitForTextElementAppear("Anxiety Series");
             waitForTextElementAppear("Breakup Series");
             waitForTextElementAppear("Eat Mindfully");
             waitForTextElementAppear("Quick Body Scan");
-            waitForTextElementAppear("Avoid Stress Eating");
+            waitForTextElementAppear("Beat Performance Anxiety");
         }
         catch(NoSuchElementException e)
         {
@@ -636,7 +678,6 @@ public class Meditation_Page {
     }
     public void scroll_up_to_meditations_series(){
         wait.wait_for_second(5);
-     //   device.scroll_up_to_the_Text("Meditation Series");
         device.scrollUpToTop("Meditation Series");
     }
     public void verify_hindi_track_present_on_page(){
@@ -707,9 +748,25 @@ public class Meditation_Page {
         wait.wait_for_second(5);
         device.scrollUpToTop("Navigate_back");
     }
+    public void verify_and_click_on_share_button(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("meditations_series_share");
+        element.click("meditations_series_share");
+        wait.wait_for_second(5);
+    }
+    public void verify_and_click_on_add_to_fav_button(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("meditations_series_add_to_fav");
+        element.click("meditations_series_add_to_fav");
+    }
+
     public void scroll_up_to_top_hindi_present_on_page(){
         wait.wait_for_second(5);
         device.scrollUpToTop("hindi_language");
+    }
+    public void scroll_up_to_top_marathi_present_on_page(){
+        wait.wait_for_second(5);
+        device.scrollUpToTop("marathi_language");
     }
     public void print_text_value() {
         WebElement element =  driver.findElement(By.xpath("(//android.widget.TextView)[3]"));
@@ -720,7 +777,7 @@ public class Meditation_Page {
     }
     public void scroll_down_Quick_Picks(){
         wait.wait_for_second(2);
-        device.scrollDownToBottom("Quick_Picks");
+        device.scrollDownToBottom("Quick_Pick");
     }
     public void verify_add_to_fav_and_remove_from_fav() {
         wait.wait_for_second(2);

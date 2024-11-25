@@ -7,9 +7,7 @@ import io.appium.java_client.ios.IOSDriver;
 import io.unity.framework.readers.json_file_readers;
 import io.unity.framework.runner.TestRunner;
 import io.unity.performaction.autoweb.Element;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Pause;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
@@ -20,17 +18,29 @@ import java.util.Collections;
 
 import static java.time.Duration.ofMillis;
 import static java.util.Collections.singletonList;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.PointerInput;
-import org.openqa.selenium.interactions.Sequence;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.FluentWait;
 
 import java.time.Duration;
-import java.util.Arrays;
+import java.util.function.Function;
+
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 
 public class Device {
     AppiumDriver driver;
     Element element;
+    AndroidDriver androidDriver;
     json_file_readers reader = new json_file_readers();
     private Duration STEP_DURATION = Duration.ofMillis(1);
     private Duration NO_TIME = Duration.ofMillis(0);
@@ -39,6 +49,7 @@ public class Device {
     public Device(AppiumDriver dri) {
         this.driver = dri;
         element = new Element(driver);
+        androidDriver = (AndroidDriver) driver;
     }
 
 
@@ -270,6 +281,89 @@ public void switch_to_context(String context_name) {
 
                 driver.perform(Arrays.asList(scroll));
             }
+        }
+    }
+
+    public void verifySearchBoxEnterAndClearText(String[] searchTerms, Map<String, Runnable> verificationMethods) {
+        WebElement searchButton = androidDriver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"clear\"]"));
+
+        for (String searchTerm : searchTerms) {
+            WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
+            searchBox.click();
+            searchBox.sendKeys(searchTerm);
+            searchButton.click();
+            searchBox.clear();
+          //  searchBox.sendKeys(searchTerm);
+          //  searchButton.click();
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+            if (verificationMethods.containsKey(searchTerm)) {
+                androidDriver.hideKeyboard();
+                verificationMethods.get(searchTerm).run();
+                System.out.println("Search for " + searchTerm + " passed.");
+            } else {
+                System.out.println("No verification method found for " + searchTerm + ".");
+            }
+            searchButton.click();
+        }
+    }
+    public void waitForTextElementAppear(String text) {
+        int maxAttempts = 0;
+        while (maxAttempts < 2) {
+            try {
+                if (driver.findElement(By.xpath("//android.widget.TextView[contains(@text, '" + text + "')]")).isDisplayed()) {
+                    System.out.println("Text '" + text + "' is displayed");
+                    break;
+                }
+            } catch (NoSuchElementException e) {
+
+               scrollDown();
+            }
+            maxAttempts++;
+        }
+    }
+    public void scrollDown() {
+
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+
+        int startX = driver.manage().window().getSize().width / 2;
+        int startY = (int) (driver.manage().window().getSize().height * 0.7);
+        int endY = (int) (driver.manage().window().getSize().height * 0.3);
+
+        Sequence scroll = new Sequence(finger, 1)
+                .addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY))
+                .addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
+                .addAction(finger.createPointerMove(Duration.ofMillis(500), PointerInput.Origin.viewport(), startX, endY))
+                .addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+        androidDriver.perform(Arrays.asList(scroll));
+    }
+    public void fluentWaitAndPrintElementText(String textName, int timeoutInSeconds, int pollingInSeconds) {
+        FluentWait<AppiumDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(timeoutInSeconds))
+                .pollingEvery(Duration.ofSeconds(pollingInSeconds))
+                .ignoring(NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class);
+
+        WebElement element = wait.until(new Function<WebDriver, WebElement>() {
+            public WebElement apply(WebDriver driver) {
+                try {
+                    String dynamicXPath = "//android.widget.TextView[contains(@text, '" + textName + "')]";
+                    WebElement element = driver.findElement(By.xpath(dynamicXPath));
+                    if (element.isDisplayed()) {
+                        return element;
+                    }
+                } catch (NoSuchElementException e) {
+                    scrollDown();
+                }
+                return null;
+            }
+        });
+
+        if (element != null) {
+            System.out.println("Element found: " + element.getText());
+        } else {
+            System.out.println("Element not found after timeout");
         }
     }
 

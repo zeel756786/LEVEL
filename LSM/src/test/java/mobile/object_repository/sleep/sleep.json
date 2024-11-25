@@ -172,5 +172,137 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text='Delete playlist']"
+  },
+  "Sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep\"]"
+  },
+  "Sleep_for": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Search for\"]"
+  },
+  "Sleep_Anxiety_meditations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep Anxiety Meditation\"]"
+  },
+  "Sleep_Anxiety_meditations_hindi": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep Anxiety Meditation (हिन्दी)\"]"
+  },
+  "All_Categories": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"All Categories\"]"
+  },
+  "Sleep_Music": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep Music\"]"
+  },
+  "Search": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Search\"]"
+  },
+  "Sufi_Music_for_deep_sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sufi Music For Deep Sleep\"]"
+  },
+  "Quick_Deep_Sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Quick Deep Sleep\"]"
+  },
+  "Indian_Raga_for_Deep_Sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Indian Raga For Deep Sleep\"]"
+  },
+  "Sleep_Story": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep Story\"]"
+  },
+  "Stream_Dreams_for_Better_Sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Indian Raga For Deep Sleep\"]"
+  },
+  "Ramayan": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Ramayan\"]"
+  },
+  "Ramayana": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Stream Dreams for Better Sleep\"]"
+  },
+  "tune_deep_sleep_with_music": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"icon\"])[1]"
+  },
+  "tune_deep_sleep_with_meditations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"icon\"])[2]"
+  },
+  "tune_deep_sleep_with_stories": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View[@content-desc=\"icon\"])[3]"
+  },
+  "sleep_music": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Sleep Music\"]"
+  },
+  "sleep_Meditations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Sleep Meditations\"]"
+  },
+  "sleep_stories": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Sleep Stories\"]"
+  },
+  "new_arrivals_first_music_sleep_meditations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "((//android.widget.TextView[@text=\"Sleep Meditations\"])[1]/following-sibling::android.widget.TextView)[1]"
+  },
+  "see_all": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"see all\"]"
   }
 }

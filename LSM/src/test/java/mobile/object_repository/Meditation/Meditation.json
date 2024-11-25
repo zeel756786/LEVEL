@@ -45,7 +45,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ImageView"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.ImageView"
   },
   "Explore_Meditations_Button": {
     "platform": "android",
@@ -135,7 +135,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[6]"
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[7]"
   },
   "Apply": {
     "platform": "android",
@@ -309,7 +309,13 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[*]/android.view.View[3]/android.view.View"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[4]/android.view.View[3]/android.view.View"
+  },
+  "Break_down_at_work": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Breakdown at work?\"]"
   },
   "cancel": {
     "platform": "android",
@@ -345,7 +351,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.view.View[@content-desc=\"Edit\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Edit\"]"
   },
   "motivation": {
     "platform": "android",
@@ -376,6 +382,12 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Stress & Anxiety\"]"
+  },
+  "personalised_for_you": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Personalised for you\"]"
   },
   "Meditation_Series_Kebab_Icon": {
     "platform": "android",
@@ -419,7 +431,7 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Remove from favorites\"]"
   },
-  "Quick_Picks": {
+  "Quick_Pick": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
