@@ -77,25 +77,28 @@ public class signin_page {
     public void verify_learn_from_experts() {
         wait.wait_until_element_is_visible("learn_from_experts");
         verify.element_is_present("learn_from_experts");
+        verify.element_is_present("Expertly_curated_meditations_to_help");
         System.out.println("Element 'learn_from_experts. is visible.");
     }
 
     public void verify_meditation() {
         wait.wait_until_element_is_visible("meditation");
         verify.element_is_present("meditation");
+        verify.element_is_present("Improve_productivity_inner_peace_text");
         System.out.println("Element 'meditation. is visible.");
     }
 
     public void verify_workouts() {
         wait.wait_until_element_is_visible("workouts");
         verify.element_is_present("workouts");
+        verify.element_is_present("Relax_with_yoga_or_charge_up_with_intense_HIIT_workouts_text");
         System.out.println("Element 'workouts. is visible.");
     }
 
     public void verify_sleep() {
-        wait.wait_for_second(2);
-        wait.wait_until_element_is_visible("sleep_menu");
-        verify.element_is_present("sleep_menu");
+        wait.wait_until_element_is_visible("Sleep");
+        verify.element_is_present("Sleep");
+        verify.element_is_present("Improve_sleep_quality_and_experience_text");
         System.out.println("Element 'sleep. is visible.");
     }
 
@@ -280,8 +283,8 @@ public class signin_page {
     }
 
     public void verify_text_what_type_of_meditations_are_you_looking_for_present_on_page() {
-        wait.wait_for_second(2);
         wait.wait_until_element_is_visible("what_type_of_meditations_are_you_looking_for");
+        verify.element_is_present("what_type_of_meditations_are_you_looking_for");
     }
 
     public void verify_stress_and_anxiety_present_on_page() {
@@ -543,15 +546,16 @@ public class signin_page {
         wait.wait_until_element_is_visible("thank_you");
         verify.element_is_present("thank_you");
         System.out.println("Element 'Thank You Page' is visible.");
-
+        wait.wait_for_second(5);
     }
     public void click_on_enter_the_referral_code() {
         wait.wait_for_second(2);
+        device.scrollDownToBottom("enter_the_code_text_field");
         wait.wait_until_element_is_visible("enter_the_code_text_field");
         verify.element_is_present("enter_the_code_text_field");
         element.click("enter_the_code_text_field");
-        element.enter_text("enter_the_code_text_field","12345");
-        wait.wait_for_second(5);
+        element.enter_text("enter_the_code_text_field", "12345");
+        androidDriver.hideKeyboard();
     }
     public void keyboard_hide() {
         wait.wait_for_second(2);
@@ -780,8 +784,6 @@ public class signin_page {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("one_four_nine_plan");
         verify.element_is_present("one_four_nine_plan");
-        device.scrollDownToBottom("what_you_get");
-        wait.wait_for_second(1);
         verify.element_is_present("one_nine_nine_plan");
     }
 }

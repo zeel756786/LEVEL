@@ -17,11 +17,23 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Learn from Experts\"]"
   },
+  "Expertly_curated_meditations_to_help": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Expertly curated meditations to help you\nde-stress, reduce overthinking and for\nbetter focus.\"]"
+  },
   "meditation": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Meditation\n\"]"
+  },
+  "Improve_productivity_inner_peace_text": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Improve productivity, inner peace\nand focus with our vast library of\nmeditations.\"]"
   },
   "workouts": {
     "platform": "android",
@@ -29,11 +41,23 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Workouts\n\"]"
   },
-  "sleep_menu": {
+  "Relax_with_yoga_or_charge_up_with_intense_HIIT_workouts_text": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Sleep\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Relax with yoga, or charge up with\nintense HIIT workouts.\"]"
+  },
+  "Sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep\n\"]"
+  },
+  "Improve_sleep_quality_and_experience_text": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Improve sleep quality and\nexperience deep rest with a wide\nvariety of sleep stories.\"]"
   },
   "back_arrow": {
     "platform": "android",
@@ -189,7 +213,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Enter the code\"]"
+    "android_locator": "(//android.widget.TextView[@text=\"Enter the code\"]/parent::android.widget.EditText)[1]"
   },
   "what_type_of_meditations_are_you_looking_for": {
     "platform": "android",
@@ -197,7 +221,7 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"What type of meditations are you looking for? \"]"
   },
-  "what_are_you_looking_for ": {
+  "what_are_you_looking_for": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
