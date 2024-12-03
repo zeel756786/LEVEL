@@ -1,7 +1,7 @@
 package mobile.tests.Payment;
 import io.unity.framework.init.base;
 import io.unity.framework.remotegrid.LambdaTestConfig;
-import mobile.object_repository.payment.payment_page;
+import mobile.object_repository.Payment.payment_page;
 import mobile.object_repository.Onboarding.signin_page;
 import mobile.object_repository.sleep_playlist.Sleep_Playlist_Page;
 import mobile.object_repository.today_music_playlist.Today_Music_Page;

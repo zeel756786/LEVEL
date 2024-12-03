@@ -1,0 +1,272 @@
+{
+  "Insights": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Insights\"]"
+  },
+  "League": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"League\"]"
+  },
+  "My_activity": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"My activity\"]"
+  },
+  "Introducing_leagues_boost_your_daily_activity": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Introducing Leagues,\nboost your daily activity\nwith fun challenges and\nrewards\"]"
+  },
+  "complete_activities_to_advance_to_the_next_league": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Complete activities to\nadvance to the\nnext league\"]"
+  },
+  "complete_daily_activities_to_stay_in_the_qualifying_zone": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Complete daily activities\nto stay in the qualifying\n zone\"]"
+  },
+  "i_button_of_League_of_super_Mind": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"What is Performance\"]"
+  },
+  "what_are_leagues": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"What are Leagues?\"]"
+  },
+  "Leagues_are_the_new_xp_leaderboard": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Leagues are the new XP leaderboard. Compete with users across the globe and elevate yourself to the next level!\"]"
+  },
+  "How_it_works": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"How it works?\"]"
+  },
+  "Each_league_has_thirty_participants_complete_activities": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Each league has 30 participants. Complete activities, earn XP, get in the Promotion zone & advance to next league.\"]"
+  },
+  "Ready_for_the_big_Leagues": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Ready for the big Leagues?\"]"
+  },
+  "Streak": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Streak\"]"
+  },
+  "you_have_out_of_streak_freeze_available": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, 'You have') and contains(@text, 'out of') and contains(@text, 'Streak Freeze available.')]"
+  },
+  "current_streak": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Current streak\"]"
+  },
+  "current_streak_count": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text='Current streak']/preceding-sibling::android.widget.TextView[contains(@text, '')])[10]"
+  },
+  "Highest_streak": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Highest streak\"]"
+  },
+  "Highest_streak_count": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Highest streak\"]/preceding-sibling::android.widget.TextView[contains(@text, '')])[12]"
+  },
+  "Time_spent_on_your_practice": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Time spent on your practice\"]"
+  },
+  "view_activity_history": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"View Activity History\"]"
+  },
+  "Set_reminders": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Set reminders\"]"
+  },
+  "weekly_comparison": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Weekly Comparison\"]"
+  },
+  "your_average_number_of_activities_dropped": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"This week, your average number of activities dropped 100% from last week. To boost your consistency, commit to streaks after an activity.\"]"
+  },
+  "Mindful_days_this_week": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Mindful days this week\"]"
+  },
+  "your_league_ranking": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Your league ranking\"]"
+  },
+  "league_of_supermind": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"League of SuperMinds?\"]"
+  },
+  "My_Statistics": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"My statistics\"]"
+  },
+  "Meditations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Meditation\"])[1]"
+  },
+  "Session": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Sessions\"])[1]"
+  },
+  "Session_count": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Meditation\"])[1]/following-sibling::android.widget.TextView[contains(@text, '')][1]"
+  },
+  "xp": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"XP\"])[1]"
+  },
+  "xp_count": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Meditation\"])[1]/following-sibling::android.widget.TextView[contains(@text, '')][3]"
+  },
+  "super_charge_your_mind": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"bottom banner\"]"
+  },
+  "what_is_streak_freeze": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"What is Streak Freeze?\"]"
+  },
+  "It_is_a_feature": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"It is a feature that ensures your streak is unbroken even if you miss a day.\"]"
+  },
+  "click_on_the_Frozen_icon": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Click on the Frozen icon on the Streaks bar. When you ‘freeze’ a missed day, that day will count as part of your streak!\"]"
+  },
+  "image": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"image\"]"
+  },
+  "How_often_can_you_see_it": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"How often can you use it?\"]"
+  },
+  "Add_a_new_reminder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add a new reminder\"]"
+  },
+  "Reminder_Screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Reminder\"]"
+  },
+  "Set_a_reminder_for_hour": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[1])[3]"
+  },
+  "Set_a_reminder_for_minutes": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View/android.view.View/android.view.View[1]/android.view.View[2])[1]"
+  },
+  "sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep\"]"
+  },
+  "save_new_reminder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Save new reminder\"]"
+  },
+  "time_of_reminder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep\"]/following-sibling::android.widget.TextView[contains(@text, 'PM') or contains(@text, 'AM')]"
+  }
+}

@@ -29,11 +29,11 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Workouts\n\"]"
   },
-  "sleep": {
+  "sleep_menu": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Sleep\n\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Sleep\"]"
   },
   "back_arrow": {
     "platform": "android",
@@ -478,5 +478,29 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[5]"
+  },
+  "show_all_plan": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Show all plans\"]"
+  },
+  "what_you_get": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"What you get:\"]"
+  },
+  "one_four_nine_plan": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"₹ 149 / Month\"]"
+  },
+  "one_nine_nine_plan": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"₹ 199 / Month\"]"
   }
 }

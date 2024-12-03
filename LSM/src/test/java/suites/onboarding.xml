@@ -64,4 +64,49 @@
             </class>
         </classes>
     </test>
+    <test name = "Verify that the user Enter correct name in your Name field on Tell us about yourself for personalised recommendations screen OB 009">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user uncheck the checkbox of I agree to receive marketing communications from Level SuperMind on Tell us about yourself for personalised recommendations screen OB 014 and OB 015">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the terms and conditions hyperlink on Tell us about yourself for personalised recommendations screen OB 016">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user enter the valid referral code on on Tell us about yourself for personalised recommendations screen OB 017">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user select only three type of meditations from the What type of meditations are you looking for screen and tap on right arrow icon OB 019">
+        <classes>
+            <class name = "mobile.tests.Onboarding.signin_test" >
+                <methods>
+                    <include name="Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>

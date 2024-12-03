@@ -3,6 +3,7 @@ package mobile.object_repository.Onboarding;
 import com.github.javafaker.Faker;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
+import io.unity.performaction.automob.Device;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
@@ -25,13 +26,14 @@ public class signin_page {
     Verify verify = null;
     Wait wait = null;
     AndroidDriver androidDriver = null;
-
+    Device device = null;
     public signin_page(WebDriver driver) {
         this.driver = driver;
         element = new Element(driver);
         verify = new Verify(driver);
         wait = new Wait(driver);
         androidDriver = (AndroidDriver) driver;
+        device = new Device(androidDriver);
     }
     public void wait_for_ten_second(){
         wait.wait_for_second(10);
@@ -91,8 +93,9 @@ public class signin_page {
     }
 
     public void verify_sleep() {
-        wait.wait_until_element_is_visible("sleep");
-        verify.element_is_present("sleep");
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("sleep_menu");
+        verify.element_is_present("sleep_menu");
         System.out.println("Element 'sleep. is visible.");
     }
 
@@ -734,7 +737,7 @@ public class signin_page {
         if (fullText.contains(termsAndConditions)) {
             WebElement  clickableTerms = driver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'terms and conditions')]"));
             clickableTerms.click();
-            wait.wait_for_second(5);
+            wait.wait_for_second(10);
         } else {
             System.out.println("Text does not contain 'terms and conditions'");
         }
@@ -768,6 +771,18 @@ public class signin_page {
 
             System.out.println("An error occurred: " + e.getMessage());
         }
+    }
+    public void click_on_show_all_plan(){
+        wait.wait_for_second(2);
+        element.click("show_all_plan");
+    }
+    public void verify_on_show_all_plan(){
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("one_four_nine_plan");
+        verify.element_is_present("one_four_nine_plan");
+        device.scrollDownToBottom("what_you_get");
+        wait.wait_for_second(1);
+        verify.element_is_present("one_nine_nine_plan");
     }
 }
 

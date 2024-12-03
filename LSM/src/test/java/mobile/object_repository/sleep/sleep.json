@@ -243,19 +243,19 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Indian Raga For Deep Sleep\"]"
-  },
-  "Ramayan": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Ramayan\"]"
-  },
-  "Ramayana": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Stream Dreams for Better Sleep\"]"
+  },
+  "Mahabharat": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Mahabharat\"]"
+  },
+  "Lessons_from_mahabharat": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Lessons From Mahabharat (हिन्दी)\"]"
   },
   "tune_deep_sleep_with_music": {
     "platform": "android",
@@ -299,10 +299,118 @@
     "locator_type": "xpath",
     "android_locator": "((//android.widget.TextView[@text=\"Sleep Meditations\"])[1]/following-sibling::android.widget.TextView)[1]"
   },
-  "see_all": {
+  "new_arrivals_first_music_sleep_kebeb_icon": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"see all\"]"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[2]"
+  },
+  "Download_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Download\"]"
+  },
+  "Delete_from_download": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Delete from downloads\"]"
+  },
+  "Share": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Share\"]"
+  },
+  "Add_to_favorities": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add to favorites     \"]"
+  },
+  "Remove_from_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Remove from favorites\"]"
+  },
+  "Download_section_sleep_home_page": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.ImageView[@content-desc=\"favorite\"])[2]"
+  },
+  "New_Arrivals_first_music_sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Sleep Stories\"]/following-sibling::android.widget.TextView)[1]"
+  },
+  "fav_muusic_new_arrivals": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[5]"
+  },
+  "download_fav_music_new_arrivals": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"download_activity\"]"
+  },
+  "share_fav_music_new_arrivals": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[3]"
+  },
+  "Find_out_here": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Find out here\"]"
+  },
+  "English_language": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Button[@text=\"English\"]"
+  },
+  "Hindi_language": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@text=\"हिंदी (Hindi)\"]"
+  },
+  "navigate_back_button_best_and_worst_bedrooms_colors": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]"
+  },
+  "share_of_best_and_worst_bedrooms_colors": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[3]/android.view.View[3]/android.view.View"
+  },
+  "Sleep_Meditations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Sleep Meditations\"])[4]/following-sibling::android.widget.TextView[1]"
+  },
+  "Hambergur_menu_button_sleep_meditations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[1]"
+  },
+  "share_this_sleep_story": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Share this sleep story\"]"
   }
 }

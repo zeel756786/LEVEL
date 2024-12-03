@@ -293,8 +293,8 @@ public void switch_to_context(String context_name) {
             searchBox.sendKeys(searchTerm);
             searchButton.click();
             searchBox.clear();
-          //  searchBox.sendKeys(searchTerm);
-          //  searchButton.click();
+            searchBox.sendKeys(searchTerm);
+            searchButton.click();
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
             if (verificationMethods.containsKey(searchTerm)) {
@@ -309,9 +309,9 @@ public void switch_to_context(String context_name) {
     }
     public void waitForTextElementAppear(String text) {
         int maxAttempts = 0;
-        while (maxAttempts < 2) {
+        while (maxAttempts < 3) {
             try {
-                if (driver.findElement(By.xpath("//android.widget.TextView[contains(@text, '" + text + "')]")).isDisplayed()) {
+                if (driver.findElement(By.xpath("//android.widget.TextView[contains(@text, \"" + text + "\")]")).isDisplayed()) {
                     System.out.println("Text '" + text + "' is displayed");
                     break;
                 }
@@ -338,33 +338,10 @@ public void switch_to_context(String context_name) {
 
         androidDriver.perform(Arrays.asList(scroll));
     }
-    public void fluentWaitAndPrintElementText(String textName, int timeoutInSeconds, int pollingInSeconds) {
-        FluentWait<AppiumDriver> wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(timeoutInSeconds))
-                .pollingEvery(Duration.ofSeconds(pollingInSeconds))
-                .ignoring(NoSuchElementException.class)
-                .ignoring(StaleElementReferenceException.class);
-
-        WebElement element = wait.until(new Function<WebDriver, WebElement>() {
-            public WebElement apply(WebDriver driver) {
-                try {
-                    String dynamicXPath = "//android.widget.TextView[contains(@text, '" + textName + "')]";
-                    WebElement element = driver.findElement(By.xpath(dynamicXPath));
-                    if (element.isDisplayed()) {
-                        return element;
-                    }
-                } catch (NoSuchElementException e) {
-                    scrollDown();
-                }
-                return null;
-            }
-        });
-
-        if (element != null) {
-            System.out.println("Element found: " + element.getText());
-        } else {
-            System.out.println("Element not found after timeout");
-        }
+    public void horizontalScrollRightToTexts(String text) {
+        driver.findElement(new AppiumBy.ByAndroidUIAutomator(
+                "new UiScrollable(new UiSelector().scrollable(true))" +
+                        ".setAsHorizontalList()" +
+                        ".scrollForward().scrollIntoView(new UiSelector().text(\"" + text + "\"));"));
     }
-
 }

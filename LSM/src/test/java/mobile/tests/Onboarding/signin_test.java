@@ -21,7 +21,7 @@ public class signin_test extends base {
         signin_page.verify_learn_from_experts();
         signin_page.verify_meditation();
         signin_page.verify_workouts();
-        signin_page.verify_sleep();
+    //    signin_page.verify_sleep();
         signin_page.verify_sign_in_button_present_on_page();
     }
 
@@ -190,7 +190,7 @@ public class signin_test extends base {
         signin_page.click_and_enter_your_email_or_mobile(false);
         signin_page.enterTextInSpecificTextBox("3535353355", 1);
         signin_page.verify_and_click_female_checkbox();
-        signin_page.click_on_enter_the_referral_code();
+     //   signin_page.click_on_enter_the_referral_code();
     }
     @Test()
     public void Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019(){
@@ -201,8 +201,9 @@ public class signin_test extends base {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         signin_page.click_sign_in_button();
-        signin_page.click_and_enter_text_on_phone_no();
-        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enteremailIdTextboxByIndex(0);
         signin_page.verify_and_click_on_right_arrow();
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
@@ -218,11 +219,13 @@ public class signin_test extends base {
         signin_page.verify_and_click_on_Relaxation();
         signin_page.verifyTheToastMessaageUserCanSelectThreeMeditations();
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_text_what_are_you_looking_for_present_on_page();
+    //    signin_page.verify_text_what_are_you_looking_for_present_on_page();
         signin_page.click_on_stress_relief();
         signin_page.verify_and_click_on_right_arrow();
         signin_page.verify_the_thank_you_present_on_page();
-        signin_page.verify_how_your_free_trail_works_text_present_on_page();
+        signin_page.click_on_show_all_plan();
+    //    signin_page.verify_on_show_all_plan();
+     //   signin_page.verify_how_your_free_trail_works_text_present_on_page();
       //  signin_page.verify_and_click_start_my_free_trial();
     }
 

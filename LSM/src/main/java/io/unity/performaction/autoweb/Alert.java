@@ -1,7 +1,10 @@
 package io.unity.performaction.autoweb;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -48,6 +51,14 @@ public class Alert {
         org.openqa.selenium.Alert alert = new WebDriverWait(driver, Duration.ofSeconds(60))
                 .until(ExpectedConditions.alertIsPresent());
         alert.sendKeys(text);
+    }
+    public void doubleClickElement(String element_Name) {
+
+        WebElement element = new WebDriverWait(driver, Duration.ofSeconds(60))
+                .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(element_Name)));
+        Actions actions = new Actions(driver);
+
+        actions.doubleClick(element).perform();
     }
 
 }

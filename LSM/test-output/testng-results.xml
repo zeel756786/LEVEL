@@ -1,20 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[verify Get_started is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[verify welcome_to_level_supermind is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[verify learn_from_experts is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[verify meditation is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[verify workouts is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[verify sign_in is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Get_started]]>
+    </line>
+    <line>
+      <![CDATA[verify sign_in_page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
       <![CDATA[Click on sign_in]]>
     </line>
     <line>
-      <![CDATA[verify phone is displayed]]>
+      <![CDATA[verify sign_in_page is displayed]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
     </line>
     <line>
-      <![CDATA[verify email is displayed]]>
+      <![CDATA[Click on sign_in]]>
+    </line>
+    <line>
+      <![CDATA[Click on email]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_email_id]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_the_code_text_box]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[verify customise_your_experience is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign_in]]>
+    </line>
+    <line>
+      <![CDATA[Click on email]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_email_id]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign_in]]>
     </line>
     <line>
       <![CDATA[Click on enter_mobile_no]]>
@@ -41,28 +128,19 @@
       <![CDATA[Click on right_arrow]]>
     </line>
     <line>
-      <![CDATA[Click on hamburger]]>
+      <![CDATA[Click on sign_in]]>
     </line>
     <line>
-      <![CDATA[Click on Settings]]>
+      <![CDATA[Click on enter_mobile_no]]>
     </line>
     <line>
       <![CDATA[Click on sign_in]]>
     </line>
     <line>
-      <![CDATA[verify phone is displayed]]>
+      <![CDATA[Click on email]]>
     </line>
     <line>
-      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-    </line>
-    <line>
-      <![CDATA[verify email is displayed]]>
-    </line>
-    <line>
-      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-    </line>
-    <line>
-      <![CDATA[Click on enter_mobile_no]]>
+      <![CDATA[Click on enter_email_id]]>
     </line>
     <line>
       <![CDATA[verify right_arrow is enable]]>
@@ -86,28 +164,49 @@
       <![CDATA[Click on right_arrow]]>
     </line>
     <line>
-      <![CDATA[Click on hamburger]]>
+      <![CDATA[verify customise_your_experience is displayed]]>
     </line>
     <line>
-      <![CDATA[Click on Manage_subscription]]>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on your_name_text_field]]>
+    </line>
+    <line>
+      <![CDATA[Click on your_phone_number]]>
+    </line>
+    <line>
+      <![CDATA[Click on female]]>
+    </line>
+    <line>
+      <![CDATA[Click on check_box_of_I_agree_receive_marketing]]>
+    </line>
+    <line>
+      <![CDATA[Click on check_box_of_I_agree_receive_marketing]]>
+    </line>
+    <line>
+      <![CDATA[Click on check_box_of_I_agree_to_the_terms_and_conditions]]>
+    </line>
+    <line>
+      <![CDATA[Click on check_box_of_I_agree_to_the_terms_and_conditions]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
     </line>
     <line>
       <![CDATA[Click on sign_in]]>
     </line>
     <line>
-      <![CDATA[verify phone is displayed]]>
+      <![CDATA[Click on email]]>
     </line>
     <line>
-      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-    </line>
-    <line>
-      <![CDATA[verify email is displayed]]>
-    </line>
-    <line>
-      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-    </line>
-    <line>
-      <![CDATA[Click on enter_mobile_no]]>
+      <![CDATA[Click on enter_email_id]]>
     </line>
     <line>
       <![CDATA[verify right_arrow is enable]]>
@@ -131,76 +230,410 @@
       <![CDATA[Click on right_arrow]]>
     </line>
     <line>
-      <![CDATA[Click on hamburger]]>
-    </line>
-    <line>
-      <![CDATA[Click on Manage_subscription]]>
-    </line>
-    <line>
-      <![CDATA[verify Explore_all_plans is displayed]]>
+      <![CDATA[verify customise_your_experience is displayed]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
     </line>
     <line>
-      <![CDATA[Click on Explore_all_plans]]>
+      <![CDATA[Click on your_name_text_field]]>
     </line>
     <line>
-      <![CDATA[verify select_your_plan is displayed]]>
+      <![CDATA[Click on your_phone_number]]>
+    </line>
+    <line>
+      <![CDATA[Click on female]]>
+    </line>
+    <line>
+      <![CDATA[Click on check_box_of_I_agree_receive_marketing]]>
+    </line>
+    <line>
+      <![CDATA[Click on check_box_of_I_agree_to_the_terms_and_conditions]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign_in]]>
+    </line>
+    <line>
+      <![CDATA[Click on email]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_email_id]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_the_code_text_box]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
     </line>
     <line>
-      <![CDATA[verify one_four_nine_months is displayed]]>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign_in]]>
+    </line>
+    <line>
+      <![CDATA[Click on email]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_email_id]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
     </line>
     <line>
-      <![CDATA[verify one_nine_nine_months is displayed]]>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_the_code_text_box]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
     </line>
     <line>
-      <![CDATA[verify two_nine_nine_months is displayed]]>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on your_name_text_field]]>
+    </line>
+    <line>
+      <![CDATA[Click on your_phone_number]]>
+    </line>
+    <line>
+      <![CDATA[Click on female]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign_in]]>
+    </line>
+    <line>
+      <![CDATA[Click on email]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_email_id]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
     </line>
     <line>
-      <![CDATA[verify see_benefits is displayed]]>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on enter_the_code_text_box]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
     </line>
     <line>
       <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on your_name_text_field]]>
+    </line>
+    <line>
+      <![CDATA[Click on your_phone_number]]>
+    </line>
+    <line>
+      <![CDATA[Click on female]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on stress_and_anxiety]]>
+    </line>
+    <line>
+      <![CDATA[Click on focus_and_productivity]]>
+    </line>
+    <line>
+      <![CDATA[Click on Relaxation]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[Click on stress_relief]]>
+    </line>
+    <line>
+      <![CDATA[verify right_arrow is enable]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on right_arrow]]>
+    </line>
+    <line>
+      <![CDATA[verify thank_you is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on show_all_plan]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-11T20:13:39 IST" name="Payment Flow " finished-at="2024-11-11T20:18:37 IST" duration-ms="298050">
+  <suite started-at="2024-12-03T18:13:20 IST" name="Onboarding Flow " finished-at="2024-12-03T18:26:53 IST" duration-ms="813158">
     <groups>
     </groups>
-    <test started-at="2024-11-11T20:13:39 IST" name="Verify that the user tap on hamburger icon on Today PYT 001" finished-at="2024-11-11T20:15:06 IST" duration-ms="87338">
-      <class name="mobile.tests.Payment.Payment_Test">
-        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Payment.Payment_Test@50eac852]" started-at="2024-11-11T20:13:39 IST" name="init" finished-at="2024-11-11T20:13:58 IST" duration-ms="19007" status="PASS">
+    <test started-at="2024-12-03T18:13:20 IST" name="Verify that the user open the installed app OB 001" finished-at="2024-12-03T18:14:10 IST" duration-ms="50074">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@3835c46]" started-at="2024-12-03T18:13:20 IST" name="init" finished-at="2024-12-03T18:13:41 IST" duration-ms="21015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001()[pri:0, instance:mobile.tests.Payment.Payment_Test@50eac852]" started-at="2024-11-11T20:13:58 IST" name="Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001" finished-at="2024-11-11T20:15:05 IST" duration-ms="67595" status="PASS">
+        <test-method signature="Verify_that_the_user_open_the_installed_app_OB_001()[pri:0, instance:mobile.tests.Onboarding.signin_test@3835c46]" started-at="2024-12-03T18:13:41 IST" name="Verify_that_the_user_open_the_installed_app_OB_001" finished-at="2024-12-03T18:14:10 IST" duration-ms="28281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verify Get_started is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[verify welcome_to_level_supermind is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[verify learn_from_experts is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[verify meditation is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[verify workouts is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[verify sign_in is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_open_the_installed_app_OB_001 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@3835c46]" started-at="2024-12-03T18:14:10 IST" name="tear_down" finished-at="2024-12-03T18:14:10 IST" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_open_the_installed_app_OB_001 status=SUCCESS method=signin_test.Verify_that_the_user_open_the_installed_app_OB_001()[pri:0, instance:mobile.tests.Onboarding.signin_test@3835c46] output=verify Get_started is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user open the installed app OB 001 -->
+    <test started-at="2024-12-03T18:14:10 IST" name="Verify that the user tap on the Get Started button OB 002" finished-at="2024-12-03T18:14:39 IST" duration-ms="28967">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@67d48005]" started-at="2024-12-03T18:14:10 IST" name="init" finished-at="2024-12-03T18:14:29 IST" duration-ms="18274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_tap_on_the_Get_Started_button_OB_002()[pri:0, instance:mobile.tests.Onboarding.signin_test@67d48005]" started-at="2024-12-03T18:14:29 IST" name="Verify_that_the_user_tap_on_the_Get_Started_button_OB_002" finished-at="2024-12-03T18:14:39 IST" duration-ms="10045" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Get_started]]>
+            </line>
+            <line>
+              <![CDATA[verify sign_in_page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_tap_on_the_Get_Started_button_OB_002 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@67d48005]" started-at="2024-12-03T18:14:39 IST" name="tear_down" finished-at="2024-12-03T18:14:39 IST" duration-ms="645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_tap_on_the_Get_Started_button_OB_002 status=SUCCESS method=signin_test.Verify_that_the_user_tap_on_the_Get_Started_button_OB_002()[pri:0, instance:mobile.tests.Onboarding.signin_test@67d48005] output=Click on Get_started]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user tap on the Get Started button OB 002 -->
+    <test started-at="2024-12-03T18:14:39 IST" name="Verify that the user tap on the Sign In button OB 003" finished-at="2024-12-03T18:15:13 IST" duration-ms="33233">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@12468a38]" started-at="2024-12-03T18:14:39 IST" name="init" finished-at="2024-12-03T18:14:58 IST" duration-ms="18327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_tap_on_the_Sign_In_button_OB_003()[pri:0, instance:mobile.tests.Onboarding.signin_test@12468a38]" started-at="2024-12-03T18:14:58 IST" name="Verify_that_the_user_tap_on_the_Sign_In_button_OB_003" finished-at="2024-12-03T18:15:12 IST" duration-ms="14296" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Click on sign_in]]>
             </line>
             <line>
-              <![CDATA[verify phone is displayed]]>
+              <![CDATA[verify sign_in_page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_tap_on_the_Sign_In_button_OB_003 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@12468a38]" started-at="2024-12-03T18:15:12 IST" name="tear_down" finished-at="2024-12-03T18:15:13 IST" duration-ms="608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_tap_on_the_Sign_In_button_OB_003 status=SUCCESS method=signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003()[pri:0, instance:mobile.tests.Onboarding.signin_test@12468a38] output=Click on sign_in]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user tap on the Sign In button OB 003 -->
+    <test started-at="2024-12-03T18:15:13 IST" name="Verify that the user Sign in with valid Email OB 004" finished-at="2024-12-03T18:16:20 IST" duration-ms="67340">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@5876a9af]" started-at="2024-12-03T18:15:13 IST" name="init" finished-at="2024-12-03T18:15:31 IST" duration-ms="18369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_Sign_in_with_valid_Email_OB_004()[pri:0, instance:mobile.tests.Onboarding.signin_test@5876a9af]" started-at="2024-12-03T18:15:31 IST" name="Verify_that_the_user_Sign_in_with_valid_Email_OB_004" finished-at="2024-12-03T18:16:19 IST" duration-ms="48343" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign_in]]>
+            </line>
+            <line>
+              <![CDATA[Click on email]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_email_id]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
             </line>
             <line>
               <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
             </line>
             <line>
-              <![CDATA[verify email is displayed]]>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_the_code_text_box]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
             </line>
             <line>
               <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[verify customise_your_experience is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_Sign_in_with_valid_Email_OB_004 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@5876a9af]" started-at="2024-12-03T18:16:19 IST" name="tear_down" finished-at="2024-12-03T18:16:20 IST" duration-ms="625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_Sign_in_with_valid_Email_OB_004 status=SUCCESS method=signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004()[pri:0, instance:mobile.tests.Onboarding.signin_test@5876a9af] output=Click on sign_in]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user Sign in with valid Email OB 004 -->
+    <test started-at="2024-12-03T18:16:20 IST" name="Verify that the user Sign in with invalid Email OB 005" finished-at="2024-12-03T18:17:04 IST" duration-ms="43699">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@6572421]" started-at="2024-12-03T18:16:20 IST" name="init" finished-at="2024-12-03T18:16:38 IST" duration-ms="18197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_Sign_in_with_invalid_Email_OB_005()[pri:0, instance:mobile.tests.Onboarding.signin_test@6572421]" started-at="2024-12-03T18:16:38 IST" name="Verify_that_the_user_Sign_in_with_invalid_Email_OB_005" finished-at="2024-12-03T18:17:03 IST" duration-ms="24872" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign_in]]>
+            </line>
+            <line>
+              <![CDATA[Click on email]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_email_id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_Sign_in_with_invalid_Email_OB_005 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@6572421]" started-at="2024-12-03T18:17:03 IST" name="tear_down" finished-at="2024-12-03T18:17:04 IST" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_Sign_in_with_invalid_Email_OB_005 status=SUCCESS method=signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005()[pri:0, instance:mobile.tests.Onboarding.signin_test@6572421] output=Click on sign_in]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user Sign in with invalid Email OB 005 -->
+    <test started-at="2024-12-03T18:17:04 IST" name="Verify that the user Sign with valid Phone number OB 006" finished-at="2024-12-03T18:18:36 IST" duration-ms="92620">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@6d763516]" started-at="2024-12-03T18:17:04 IST" name="init" finished-at="2024-12-03T18:17:22 IST" duration-ms="18223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_Sign_with_valid_Phone_number_OB_006()[pri:0, instance:mobile.tests.Onboarding.signin_test@6d763516]" started-at="2024-12-03T18:17:22 IST" name="Verify_that_the_user_Sign_with_valid_Phone_number_OB_006" finished-at="2024-12-03T18:18:36 IST" duration-ms="73756" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign_in]]>
             </line>
             <line>
               <![CDATA[Click on enter_mobile_no]]>
@@ -226,52 +659,66 @@
             <line>
               <![CDATA[Click on right_arrow]]>
             </line>
-            <line>
-              <![CDATA[Click on hamburger]]>
-            </line>
-            <line>
-              <![CDATA[Click on Settings]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001 -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Payment.Payment_Test@50eac852]" started-at="2024-11-11T20:15:05 IST" name="tear_down" finished-at="2024-11-11T20:15:06 IST" duration-ms="698" status="PASS">
+        </test-method> <!-- Verify_that_the_user_Sign_with_valid_Phone_number_OB_006 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@6d763516]" started-at="2024-12-03T18:18:36 IST" name="tear_down" finished-at="2024-12-03T18:18:36 IST" duration-ms="640" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001 status=SUCCESS method=Payment_Test.Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001()[pri:0, instance:mobile.tests.Payment.Payment_Test@50eac852] output=Click on sign_in]]]>
+                <![CDATA[[TestResult name=Verify_that_the_user_Sign_with_valid_Phone_number_OB_006 status=SUCCESS method=signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006()[pri:0, instance:mobile.tests.Onboarding.signin_test@6d763516] output=Click on sign_in]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-      </class> <!-- mobile.tests.Payment.Payment_Test -->
-    </test> <!-- Verify that the user tap on hamburger icon on Today PYT 001 -->
-    <test started-at="2024-11-11T20:15:06 IST" name="Verify that the user tap on the Manage Subscription PYT 002" finished-at="2024-11-11T20:16:29 IST" duration-ms="82695">
-      <class name="mobile.tests.Payment.Payment_Test">
-        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Payment.Payment_Test@3e58a80e]" started-at="2024-11-11T20:15:06 IST" name="init" finished-at="2024-11-11T20:15:24 IST" duration-ms="17923" status="PASS">
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user Sign with valid Phone number OB 006 -->
+    <test started-at="2024-12-03T18:18:36 IST" name="Verify that the user Sign with invalid Phone number OB 007" finished-at="2024-12-03T18:19:16 IST" duration-ms="39950">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@515aebb0]" started-at="2024-12-03T18:18:36 IST" name="init" finished-at="2024-12-03T18:18:55 IST" duration-ms="18309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002()[pri:0, instance:mobile.tests.Payment.Payment_Test@3e58a80e]" started-at="2024-11-11T20:15:24 IST" name="Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002" finished-at="2024-11-11T20:16:28 IST" duration-ms="64111" status="PASS">
+        <test-method signature="Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007()[pri:0, instance:mobile.tests.Onboarding.signin_test@515aebb0]" started-at="2024-12-03T18:18:55 IST" name="Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007" finished-at="2024-12-03T18:19:16 IST" duration-ms="21086" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Click on sign_in]]>
             </line>
             <line>
-              <![CDATA[verify phone is displayed]]>
-            </line>
-            <line>
-              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-            </line>
-            <line>
-              <![CDATA[verify email is displayed]]>
-            </line>
-            <line>
-              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-            </line>
-            <line>
               <![CDATA[Click on enter_mobile_no]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@515aebb0]" started-at="2024-12-03T18:19:16 IST" name="tear_down" finished-at="2024-12-03T18:19:16 IST" duration-ms="553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007 status=SUCCESS method=signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007()[pri:0, instance:mobile.tests.Onboarding.signin_test@515aebb0] output=Click on sign_in]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user Sign with invalid Phone number OB 007 -->
+    <test started-at="2024-12-03T18:19:16 IST" name="Verify that the user Enter correct name in your Name field on Tell us about yourself for personalised recommendations screen OB 009" finished-at="2024-12-03T18:20:58 IST" duration-ms="102193">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@6c64cb25]" started-at="2024-12-03T18:19:16 IST" name="init" finished-at="2024-12-03T18:19:34 IST" duration-ms="18153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009()[pri:0, instance:mobile.tests.Onboarding.signin_test@6c64cb25]" started-at="2024-12-03T18:19:34 IST" name="Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009" finished-at="2024-12-03T18:20:58 IST" duration-ms="83507" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign_in]]>
+            </line>
+            <line>
+              <![CDATA[Click on email]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_email_id]]>
             </line>
             <line>
               <![CDATA[verify right_arrow is enable]]>
@@ -295,55 +742,265 @@
               <![CDATA[Click on right_arrow]]>
             </line>
             <line>
-              <![CDATA[Click on hamburger]]>
+              <![CDATA[verify customise_your_experience is displayed]]>
             </line>
             <line>
-              <![CDATA[Click on Manage_subscription]]>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on your_name_text_field]]>
+            </line>
+            <line>
+              <![CDATA[Click on your_phone_number]]>
+            </line>
+            <line>
+              <![CDATA[Click on female]]>
+            </line>
+            <line>
+              <![CDATA[Click on check_box_of_I_agree_receive_marketing]]>
+            </line>
+            <line>
+              <![CDATA[Click on check_box_of_I_agree_receive_marketing]]>
+            </line>
+            <line>
+              <![CDATA[Click on check_box_of_I_agree_to_the_terms_and_conditions]]>
+            </line>
+            <line>
+              <![CDATA[Click on check_box_of_I_agree_to_the_terms_and_conditions]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002 -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Payment.Payment_Test@3e58a80e]" started-at="2024-11-11T20:16:28 IST" name="tear_down" finished-at="2024-11-11T20:16:29 IST" duration-ms="659" status="PASS">
+        </test-method> <!-- Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@6c64cb25]" started-at="2024-12-03T18:20:58 IST" name="tear_down" finished-at="2024-12-03T18:20:58 IST" duration-ms="532" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002 status=SUCCESS method=Payment_Test.Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002()[pri:0, instance:mobile.tests.Payment.Payment_Test@3e58a80e] output=Click on sign_in]]]>
+                <![CDATA[[TestResult name=Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009 status=SUCCESS method=signin_test.Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009()[pri:0, instance:mobile.tests.Onboarding.signin_test@6c64cb25] output=Click on sign_in]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-      </class> <!-- mobile.tests.Payment.Payment_Test -->
-    </test> <!-- Verify that the user tap on the Manage Subscription PYT 002 -->
-    <test started-at="2024-11-11T20:16:29 IST" name="Verify that the user tap on the Show all plans PYT 003 and PYT 004" finished-at="2024-11-11T20:18:37 IST" duration-ms="127987">
-      <class name="mobile.tests.Payment.Payment_Test">
-        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:mobile.tests.Payment.Payment_Test@4fb0f2b9]" started-at="2024-11-11T20:13:39 IST" name="beforeSuiteWorks" finished-at="2024-11-11T20:13:39 IST" duration-ms="90" status="PASS">
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user Enter correct name in your Name field on Tell us about yourself for personalised recommendations screen OB 009 -->
+    <test started-at="2024-12-03T18:20:58 IST" name="Verify that the user uncheck the checkbox of I agree to receive marketing communications from Level SuperMind on Tell us about yourself for personalised recommendations screen OB 014 and OB 015" finished-at="2024-12-03T18:22:24 IST" duration-ms="85857">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@5c5eefef]" started-at="2024-12-03T18:20:58 IST" name="init" finished-at="2024-12-03T18:21:17 IST" duration-ms="18511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015()[pri:0, instance:mobile.tests.Onboarding.signin_test@5c5eefef]" started-at="2024-12-03T18:21:17 IST" name="Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015" finished-at="2024-12-03T18:22:24 IST" duration-ms="66782" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign_in]]>
+            </line>
+            <line>
+              <![CDATA[Click on email]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_email_id]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_the_code_text_box]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[verify customise_your_experience is displayed]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on your_name_text_field]]>
+            </line>
+            <line>
+              <![CDATA[Click on your_phone_number]]>
+            </line>
+            <line>
+              <![CDATA[Click on female]]>
+            </line>
+            <line>
+              <![CDATA[Click on check_box_of_I_agree_receive_marketing]]>
+            </line>
+            <line>
+              <![CDATA[Click on check_box_of_I_agree_to_the_terms_and_conditions]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@5c5eefef]" started-at="2024-12-03T18:22:24 IST" name="tear_down" finished-at="2024-12-03T18:22:24 IST" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015 status=SUCCESS method=signin_test.Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015()[pri:0, instance:mobile.tests.Onboarding.signin_test@5c5eefef] output=Click on sign_in]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user uncheck the checkbox of I agree to receive marketing communications from Level SuperMind on Tell us about yourself for personalised recommendations screen OB 014 and OB 015 -->
+    <test started-at="2024-12-03T18:22:24 IST" name="Verify that the user tap on the terms and conditions hyperlink on Tell us about yourself for personalised recommendations screen OB 016" finished-at="2024-12-03T18:23:44 IST" duration-ms="80254">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@595b007d]" started-at="2024-12-03T18:22:24 IST" name="init" finished-at="2024-12-03T18:22:43 IST" duration-ms="18488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016()[pri:0, instance:mobile.tests.Onboarding.signin_test@595b007d]" started-at="2024-12-03T18:22:43 IST" name="Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016" finished-at="2024-12-03T18:23:44 IST" duration-ms="61173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign_in]]>
+            </line>
+            <line>
+              <![CDATA[Click on email]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_email_id]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_the_code_text_box]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@595b007d]" started-at="2024-12-03T18:23:44 IST" name="tear_down" finished-at="2024-12-03T18:23:44 IST" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016 status=SUCCESS method=signin_test.Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016()[pri:0, instance:mobile.tests.Onboarding.signin_test@595b007d] output=Click on sign_in]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user tap on the terms and conditions hyperlink on Tell us about yourself for personalised recommendations screen OB 016 -->
+    <test started-at="2024-12-03T18:23:44 IST" name="Verify that the user enter the valid referral code on on Tell us about yourself for personalised recommendations screen OB 017" finished-at="2024-12-03T18:25:02 IST" duration-ms="77948">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@399f45b1]" started-at="2024-12-03T18:23:44 IST" name="init" finished-at="2024-12-03T18:24:03 IST" duration-ms="18366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017()[pri:0, instance:mobile.tests.Onboarding.signin_test@399f45b1]" started-at="2024-12-03T18:24:03 IST" name="Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017" finished-at="2024-12-03T18:25:02 IST" duration-ms="58960" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on sign_in]]>
+            </line>
+            <line>
+              <![CDATA[Click on email]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_email_id]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[Click on enter_the_code_text_box]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[Click on your_name_text_field]]>
+            </line>
+            <line>
+              <![CDATA[Click on your_phone_number]]>
+            </line>
+            <line>
+              <![CDATA[Click on female]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@399f45b1]" started-at="2024-12-03T18:25:02 IST" name="tear_down" finished-at="2024-12-03T18:25:02 IST" duration-ms="620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017 status=SUCCESS method=signin_test.Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017()[pri:0, instance:mobile.tests.Onboarding.signin_test@399f45b1] output=Click on sign_in]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user enter the valid referral code on on Tell us about yourself for personalised recommendations screen OB 017 -->
+    <test started-at="2024-12-03T18:25:02 IST" name="Verify that the user select only three type of meditations from the What type of meditations are you looking for screen and tap on right arrow icon OB 019" finished-at="2024-12-03T18:26:53 IST" duration-ms="110958">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:mobile.tests.Onboarding.signin_test@79e2c065]" started-at="2024-12-03T18:13:20 IST" name="beforeSuiteWorks" finished-at="2024-12-03T18:13:20 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuiteWorks -->
-        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Payment.Payment_Test@4fb0f2b9]" started-at="2024-11-11T20:16:29 IST" name="init" finished-at="2024-11-11T20:16:47 IST" duration-ms="17916" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.Onboarding.signin_test@79e2c065]" started-at="2024-12-03T18:25:02 IST" name="init" finished-at="2024-12-03T18:25:20 IST" duration-ms="18063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004()[pri:0, instance:mobile.tests.Payment.Payment_Test@4fb0f2b9]" started-at="2024-11-11T20:16:47 IST" name="Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004" finished-at="2024-11-11T20:18:36 IST" duration-ms="109495" status="PASS">
+        <test-method signature="Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019()[pri:0, instance:mobile.tests.Onboarding.signin_test@79e2c065]" started-at="2024-12-03T18:25:20 IST" name="Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019" finished-at="2024-12-03T18:26:53 IST" duration-ms="92232" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Click on sign_in]]>
             </line>
             <line>
-              <![CDATA[verify phone is displayed]]>
+              <![CDATA[Click on email]]>
             </line>
             <line>
-              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-            </line>
-            <line>
-              <![CDATA[verify email is displayed]]>
-            </line>
-            <line>
-              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-            </line>
-            <line>
-              <![CDATA[Click on enter_mobile_no]]>
+              <![CDATA[Click on enter_email_id]]>
             </line>
             <line>
               <![CDATA[verify right_arrow is enable]]>
@@ -367,64 +1024,76 @@
               <![CDATA[Click on right_arrow]]>
             </line>
             <line>
-              <![CDATA[Click on hamburger]]>
+              <![CDATA[Click on your_name_text_field]]>
             </line>
             <line>
-              <![CDATA[Click on Manage_subscription]]>
+              <![CDATA[Click on your_phone_number]]>
             </line>
             <line>
-              <![CDATA[verify Explore_all_plans is displayed]]>
+              <![CDATA[Click on female]]>
             </line>
             <line>
-              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
-            </line>
-            <line>
-              <![CDATA[Click on Explore_all_plans]]>
-            </line>
-            <line>
-              <![CDATA[verify select_your_plan is displayed]]>
+              <![CDATA[verify right_arrow is enable]]>
             </line>
             <line>
               <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
             </line>
             <line>
-              <![CDATA[verify one_four_nine_months is displayed]]>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[Click on stress_and_anxiety]]>
+            </line>
+            <line>
+              <![CDATA[Click on focus_and_productivity]]>
+            </line>
+            <line>
+              <![CDATA[Click on Relaxation]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
             </line>
             <line>
               <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
             </line>
             <line>
-              <![CDATA[verify one_nine_nine_months is displayed]]>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[Click on stress_relief]]>
+            </line>
+            <line>
+              <![CDATA[verify right_arrow is enable]]>
             </line>
             <line>
               <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
             </line>
             <line>
-              <![CDATA[verify two_nine_nine_months is displayed]]>
+              <![CDATA[Click on right_arrow]]>
+            </line>
+            <line>
+              <![CDATA[verify thank_you is displayed]]>
             </line>
             <line>
               <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
             </line>
             <line>
-              <![CDATA[verify see_benefits is displayed]]>
-            </line>
-            <line>
-              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+              <![CDATA[Click on show_all_plan]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004 -->
-        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Payment.Payment_Test@4fb0f2b9]" started-at="2024-11-11T20:18:36 IST" name="tear_down" finished-at="2024-11-11T20:18:37 IST" duration-ms="574" status="PASS">
+        </test-method> <!-- Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019 -->
+        <test-method is-config="true" signature="tear_down(org.testng.ITestResult)[pri:0, instance:mobile.tests.Onboarding.signin_test@79e2c065]" started-at="2024-12-03T18:26:53 IST" name="tear_down" finished-at="2024-12-03T18:26:53 IST" duration-ms="661" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004 status=SUCCESS method=Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004()[pri:0, instance:mobile.tests.Payment.Payment_Test@4fb0f2b9] output=Click on sign_in]]]>
+                <![CDATA[[TestResult name=Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019 status=SUCCESS method=signin_test.Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019()[pri:0, instance:mobile.tests.Onboarding.signin_test@79e2c065] output=Click on sign_in]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-      </class> <!-- mobile.tests.Payment.Payment_Test -->
-    </test> <!-- Verify that the user tap on the Show all plans PYT 003 and PYT 004 -->
-  </suite> <!-- Payment Flow  -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </test> <!-- Verify that the user select only three type of meditations from the What type of meditations are you looking for screen and tap on right arrow icon OB 019 -->
+  </suite> <!-- Onboarding Flow  -->
 </testng-results>
