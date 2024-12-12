@@ -1,76 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [LSM Android App Regression]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="To verify when the user enters the any keyword in search field of the Add item to playlist screen SLP PL 009(failed)">
+<suite name="Failed suite [Onboarding Flow ]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify that the user open the installed app OB 001(failed)">
     <classes>
-      <class name="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test">
+      <class name="mobile.tests.Onboarding.signin_test">
         <methods>
-          <include name="init"/>
-          <include name="beforeSuiteWorks"/>
-          <include name="To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009"/>
-          <include name="tear_down"/>
-        </methods>
-      </class> <!-- mobile.tests.Sleep_Playlist.Sleep_Playlist_Test -->
-    </classes>
-  </test> <!-- To verify when the user enters the any keyword in search field of the Add item to playlist screen SLP PL 009(failed) -->
-  <test thread-count="5" name="To verify when user try to add more than 50 tracks in the any created playlist SLP PL 014(failed)">
-    <classes>
-      <class name="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test">
-        <methods>
-          <include name="To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_SLP_PL_014"/>
+          <include name="Verify_that_the_user_open_the_installed_app_OB_001"/>
           <include name="init"/>
           <include name="beforeSuiteWorks"/>
           <include name="tear_down"/>
         </methods>
-      </class> <!-- mobile.tests.Sleep_Playlist.Sleep_Playlist_Test -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
     </classes>
-  </test> <!-- To verify when user try to add more than 50 tracks in the any created playlist SLP PL 014(failed) -->
-  <test thread-count="5" name="To verify when the user taps on the More Vert icon on the any added track from the playlist SLP PL 025(failed)">
+  </test> <!-- Verify that the user open the installed app OB 001(failed) -->
+  <test thread-count="5" name="Verify that the user tap on the Get Started button OB 002(failed)">
     <classes>
-      <class name="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test">
+      <class name="mobile.tests.Onboarding.signin_test">
         <methods>
-          <include name="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_025"/>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="Verify_that_the_user_tap_on_the_Get_Started_button_OB_002"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </classes>
+  </test> <!-- Verify that the user tap on the Get Started button OB 002(failed) -->
+  <test thread-count="5" name="Verify that the user tap on the Sign In button OB 003(failed)">
+    <classes>
+      <class name="mobile.tests.Onboarding.signin_test">
+        <methods>
+          <include name="Verify_that_the_user_tap_on_the_Sign_In_button_OB_003"/>
           <include name="init"/>
           <include name="beforeSuiteWorks"/>
           <include name="tear_down"/>
         </methods>
-      </class> <!-- mobile.tests.Sleep_Playlist.Sleep_Playlist_Test -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
     </classes>
-  </test> <!-- To verify when the user taps on the More Vert icon on the any added track from the playlist SLP PL 025(failed) -->
-  <test thread-count="5" name="To verify when the user taps on the plus Add to this Playlist option on the bottom sheet SLP PL 027(failed)">
+  </test> <!-- Verify that the user tap on the Sign In button OB 003(failed) -->
+  <test thread-count="5" name="Verify that the user Sign in with valid Email OB 004(failed)">
     <classes>
-      <class name="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test">
+      <class name="mobile.tests.Onboarding.signin_test">
         <methods>
           <include name="init"/>
           <include name="beforeSuiteWorks"/>
-          <include name="To_verify_when_the_user_taps_on_the_plus_Add_to_this_Playlist_option_on_the_bottom_sheet_SLP_PL_027"/>
+          <include name="Verify_that_the_user_Sign_in_with_valid_Email_OB_004"/>
           <include name="tear_down"/>
         </methods>
-      </class> <!-- mobile.tests.Sleep_Playlist.Sleep_Playlist_Test -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
     </classes>
-  </test> <!-- To verify when the user taps on the plus Add to this Playlist option on the bottom sheet SLP PL 027(failed) -->
-  <test thread-count="5" name="To verify when the user taps on the Add to favorites option on the bottom sheet SLP PL 044(failed)">
+  </test> <!-- Verify that the user Sign in with valid Email OB 004(failed) -->
+  <test thread-count="5" name="Verify that the user Sign in with invalid Email OB 005(failed)">
     <classes>
-      <class name="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test">
+      <class name="mobile.tests.Onboarding.signin_test">
+        <methods>
+          <include name="Verify_that_the_user_Sign_in_with_invalid_Email_OB_005"/>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </classes>
+  </test> <!-- Verify that the user Sign in with invalid Email OB 005(failed) -->
+  <test thread-count="5" name="Verify that the user Sign with valid Phone number OB 006(failed)">
+    <classes>
+      <class name="mobile.tests.Onboarding.signin_test">
         <methods>
           <include name="init"/>
           <include name="beforeSuiteWorks"/>
-          <include name="To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044"/>
+          <include name="Verify_that_the_user_Sign_with_valid_Phone_number_OB_006"/>
           <include name="tear_down"/>
         </methods>
-      </class> <!-- mobile.tests.Sleep_Playlist.Sleep_Playlist_Test -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
     </classes>
-  </test> <!-- To verify when the user taps on the Add to favorites option on the bottom sheet SLP PL 044(failed) -->
-  <test thread-count="5" name="To verify when the user taps on the Add Items button SLP PL 048(failed)">
+  </test> <!-- Verify that the user Sign with valid Phone number OB 006(failed) -->
+  <test thread-count="5" name="Verify that the user Sign with invalid Phone number OB 007(failed)">
     <classes>
-      <class name="mobile.tests.Sleep_Playlist.Sleep_Playlist_Test">
+      <class name="mobile.tests.Onboarding.signin_test">
         <methods>
           <include name="init"/>
           <include name="beforeSuiteWorks"/>
-          <include name="To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048"/>
+          <include name="Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007"/>
           <include name="tear_down"/>
         </methods>
-      </class> <!-- mobile.tests.Sleep_Playlist.Sleep_Playlist_Test -->
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
     </classes>
-  </test> <!-- To verify when the user taps on the Add Items button SLP PL 048(failed) -->
-</suite> <!-- Failed suite [LSM Android App Regression] -->
+  </test> <!-- Verify that the user Sign with invalid Phone number OB 007(failed) -->
+  <test thread-count="5" name="Verify that the user Enter correct name in your Name field on Tell us about yourself for personalised recommendations screen OB 009(failed)">
+    <classes>
+      <class name="mobile.tests.Onboarding.signin_test">
+        <methods>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </classes>
+  </test> <!-- Verify that the user Enter correct name in your Name field on Tell us about yourself for personalised recommendations screen OB 009(failed) -->
+  <test thread-count="5" name="Verify that the user uncheck the checkbox of I agree to receive marketing communications from Level SuperMind on Tell us about yourself for personalised recommendations screen OB 014 and OB 015(failed)">
+    <classes>
+      <class name="mobile.tests.Onboarding.signin_test">
+        <methods>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </classes>
+  </test> <!-- Verify that the user uncheck the checkbox of I agree to receive marketing communications from Level SuperMind on Tell us about yourself for personalised recommendations screen OB 014 and OB 015(failed) -->
+  <test thread-count="5" name="Verify that the user tap on the terms and conditions hyperlink on Tell us about yourself for personalised recommendations screen OB 016(failed)">
+    <classes>
+      <class name="mobile.tests.Onboarding.signin_test">
+        <methods>
+          <include name="Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016"/>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </classes>
+  </test> <!-- Verify that the user tap on the terms and conditions hyperlink on Tell us about yourself for personalised recommendations screen OB 016(failed) -->
+  <test thread-count="5" name="Verify that the user enter the valid referral code on on Tell us about yourself for personalised recommendations screen OB 017(failed)">
+    <classes>
+      <class name="mobile.tests.Onboarding.signin_test">
+        <methods>
+          <include name="init"/>
+          <include name="Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </classes>
+  </test> <!-- Verify that the user enter the valid referral code on on Tell us about yourself for personalised recommendations screen OB 017(failed) -->
+  <test thread-count="5" name="Verify that the user select only three type of meditations from the What type of meditations are you looking for screen and tap on right arrow icon OB 019(failed)">
+    <classes>
+      <class name="mobile.tests.Onboarding.signin_test">
+        <methods>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- mobile.tests.Onboarding.signin_test -->
+    </classes>
+  </test> <!-- Verify that the user select only three type of meditations from the What type of meditations are you looking for screen and tap on right arrow icon OB 019(failed) -->
+</suite> <!-- Failed suite [Onboarding Flow ] -->

@@ -2,15 +2,14 @@ package mobile.object_repository.Onboarding;
 
 import com.github.javafaker.Faker;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.offset.PointOption;
 import io.unity.performaction.automob.Device;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -152,7 +151,6 @@ public class signin_page {
     public void click_and_enter_text_on_email_id() {
         wait.wait_for_second(2);
         element.click("enter_email_id");
-        wait.wait_for_second(5);
     }
     public void verify_and_click() {
         wait.wait_for_second(2);
@@ -732,14 +730,18 @@ public class signin_page {
         }
     }
     public void click_on_terms_and_conditions() {
-        WebElement termsElement = driver.findElement(By.xpath("//android.widget.TextView[@text='I agree to the terms and conditions of Level SuperMind. *']"));
+        WebElement termsElement = androidDriver.findElement(By.xpath("//android.widget.TextView[@text=\"I agree to the terms and conditions of Level SuperMind. *\"]"));
 
         String fullText = termsElement.getText();
 
         String termsAndConditions = "terms and conditions";
 
         if (fullText.contains(termsAndConditions)) {
-            WebElement  clickableTerms = driver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'terms and conditions')]"));
+
+            String[] parts = fullText.split(termsAndConditions);
+            System.out.println("Text before 'terms and conditions': " + parts[0]);
+            System.out.println("Text after 'terms and conditions': " + parts[1]);
+            WebElement  clickableTerms = androidDriver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'terms and conditions')]"));
             clickableTerms.click();
             wait.wait_for_second(10);
         } else {
@@ -785,6 +787,13 @@ public class signin_page {
         wait.wait_until_element_is_visible("one_four_nine_plan");
         verify.element_is_present("one_four_nine_plan");
         verify.element_is_present("one_nine_nine_plan");
+    }
+    public void click_on_pop_up() {
+        try {
+            element.click("close");
+        } catch (Exception e) {
+            System.out.println("Pop Up not visible on UI");
+        }
     }
 }
 

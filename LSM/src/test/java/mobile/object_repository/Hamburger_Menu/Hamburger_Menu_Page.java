@@ -47,6 +47,22 @@ public class Hamburger_Menu_Page {
         verify.element_is_present("Reminder");
         verify.element_is_present("Rate_us");
     }
+    public void click_on_Activity_History_Details(){
+        element.click("Activity_History_Details");
+    }
+    public void verify_activity_history_details_screen_present_on_page() {
+        wait.wait_for_second(1);
+        verify.element_is_present("Activity_History_Screen");
+        String monthsText= element.get_element_text("months");
+        System.out.println("Months: " + monthsText);
+        if (verify.check_element_is_present("Activity_Details")) {
+            String activityHistory = element.get_element_text("Activity_Details");
+            System.out.println("Activity History: " + activityHistory);
+        } else if (verify.check_element_is_present("Oops_it_seems_there")) {
+            String oopsMessage = element.get_element_text("Oops_it_seems_there");
+            System.out.println("Oops Message: " + oopsMessage);
+        }
+    }
     public void verify_and_click_on_View_Profile(){
         verify.element_is_present("View_Profile");
         element.click("View_Profile");
@@ -135,6 +151,18 @@ public class Hamburger_Menu_Page {
     public void verify_Redeem_your_gift_card_screen(){
         wait.wait_until_element_is_visible("Redeem_your_gift_card");
         verify.element_is_present("Redeem_your_gift_card");
+    }
+    public void enter_coupon_code_gift_card_screen(){
+        wait.wait_for_second(2);
+        element.click("Enter_code");
+        element.enter_text("Enter_code","1234");
+        androidDriver.hideKeyboard();
+    }
+    public void click_on_Redeem_button(){
+       element.click("Redeem");
+    }
+    public void verify_Code_Invalid_or_Redeemed_Message(){
+      verify.element_is_present("Code_Invalid_or_Redeemed");
     }
     public void click_on_My_Purchases(){
         wait.wait_for_second(2);
@@ -311,6 +339,10 @@ public class Hamburger_Menu_Page {
        wait.wait_for_second(2);
        element.click("verify_your_email_id");
     }
+    public void click_on_verify_your_contact_number(){
+        wait.wait_for_second(2);
+        element.click("Verify_your_contact_number");
+    }
     public void verify_otp_screen_present_on_page(){
         wait.wait_for_second(2);
         verify.element_is_present("verify_otp_screen");
@@ -374,6 +406,7 @@ public class Hamburger_Menu_Page {
         verify.element_is_present("Share_your_Gift_Cards");
         wait.wait_for_second(2);
         device.horizontalScrollRightToTexts("Redeem");
+        wait.wait_for_second(2);
         verify.element_is_present("Redeem");
     }
 }

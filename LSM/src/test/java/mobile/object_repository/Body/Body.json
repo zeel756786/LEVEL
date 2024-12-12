@@ -1,0 +1,830 @@
+{
+  "Body": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Body\"]"
+  },
+  "Search_for": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Search for\"]"
+  },
+  "Search_Text_box": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.EditText"
+  },
+  "clear_searh_text_field": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"clear\"]"
+  },
+  "Beginner": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Beginner\"]"
+  },
+  "Intermediate": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Intermediate\"]"
+  },
+  "Advanced": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Advanced\"]"
+  },
+  "Workout": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Workout\"]"
+  },
+  "Sleep_Time_Yoga": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep Time Yoga\"]"
+  },
+  "Sleep_Time_Yoga_Hindi": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep Time Yoga (हिन्दी)\"]"
+  },
+  "yoga": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Guide to Office Yoga\"]"
+  },
+  "Hindi_Yoga": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Guide to Office Yoga (हिन्दी)\"]"
+  },
+  "Day_one_yoga": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Day 1: Gentle Yoga Stretches\"]"
+  },
+  "Day_three_yoga": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Day 3: Gentle Yoga Stretching\"]"
+  },
+  "one_five_min_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"15 Min HIIT \"]"
+  },
+  "two_zero_min_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"20 Min HIIT \"]"
+  },
+  "full_body_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Full Body HIIT\"]"
+  },
+  "upper_body_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Upper Body HIIT\"]"
+  },
+  "lower_body_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Lower Body HIIT\"]"
+  },
+  "Core_Endurance_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Core Endurance - HIIT\"]"
+  },
+  "Intense_Lower_Body_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Intense Lower Body HIIT\"]"
+  },
+  "Build_your_Endurance_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Build Your Endurance\"]"
+  },
+  "A_Fresh_Beginning": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"A Fresh Beginning\"]"
+  },
+  "upper_Body_Workout": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Day 1: Upper Body Workout\"]"
+  },
+  "Day_seven_Full_Body_Relaxation": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Day 7: Full-Body Relaxation\"]"
+  },
+  "Full_body_Relaxation": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Full-Body Relaxation\"]"
+  },
+  "Basics_For_Beginners": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Basics For Beginners\"]"
+  },
+  "Yoga_Series_Beginners": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Yoga Series - Beginners\"]"
+  },
+  "Full_Body_Workout": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Day 2: Full Body Workout\"]"
+  },
+  "Yoga_Series_Intermediate": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Yoga Series - Intermediate\"]"
+  },
+  "Dawn_of_a_new_day": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Dawn Of A New Day\"]"
+  },
+  "Dawn_of_a_new_day_hindi": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Dawn Of A New Day (हिन्दी)\"]"
+  },
+  "Intense_Full_Body_Workout": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Intense Full Body Workout\"]"
+  },
+  "Free": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Free\"]"
+  },
+  "Balance_of_Trilogy": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Balance of Trilogy - 1\"]"
+  },
+  "This_Week": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"This week\"]"
+  },
+  "Workouts_Completed": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Workouts\nCompleted\"]"
+  },
+  "Workouts_Task": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Workouts\nCompleted\"]/preceding-sibling::android.widget.TextView[@text=\"0\"]"
+  },
+  "Time_Spent": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Time spent\n(in minutes)\"]/preceding-sibling::android.widget.TextView[@text=\"0\"])[2]"
+  },
+  "Explore_Workout_HIIT": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"HIIT\"]"
+  },
+  "Workout_HIIT_Screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"HIIT\"]"
+  },
+  "lsm": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]//android.widget.TextView[2]"
+  },
+  "Explore_other_workouts": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Explore other workouts\"]"
+  },
+  "Kebab_Menu": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[3]//android.view.View"
+  },
+  "Add_to_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add to favorites     \"]"
+  },
+  "Download": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Download\"]"
+  },
+  "Share": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Share\"]"
+  },
+  "Remove_from_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Remove from favorites\"]"
+  },
+  "Delete_from_downloads": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Delete from downloads\"]"
+  },
+  "Delete": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Delete\"]"
+  },
+  "Yoga": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Yoga\"])[2]"
+  },
+  "Yoga_Screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Yoga\"]"
+  },
+  "Relaxation": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Relaxation\"]"
+  },
+  "Relaxation_Screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Relaxation\"]"
+  },
+  "Strength_Training": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Strength Training\"]"
+  },
+  "Strength_Training_Screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Strength Training\"]"
+  },
+  "see_all": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"see all\"]"
+  },
+  "coaches_screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Coaches\"]"
+  },
+  "Explore_Coaches": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Explore Coaches\"]"
+  },
+  "search_by_coach_name": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Search by coach name\"]"
+  },
+  "Giftin": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Giftin\"]"
+  },
+  "Amogh": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Amogh\"]"
+  },
+  "Anusha": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Anusha\"]"
+  },
+  "Browse_by_coach_giftin": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Giftin\"]/parent::android.view.View/child::android.view.View/child::android.view.View)[1]"
+  },
+  "Giftin_is_our_in_house_ACSM_certified_fitness_trainer": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, \"Giftin, is our in-house ACSM-certified fitness trainer\")]"
+  },
+  "Appreciate": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Appreciate\"]"
+  },
+  "Appreciate_Toast_Message": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"You appreciated Giftin\"]"
+  },
+  "Follow": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Follow\"]"
+  },
+  "Follow_Toast_Message": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"You're now following Giftin\"]"
+  },
+  "Filter": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Filter\"]"
+  },
+  "Filter_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Filter\"]/preceding-sibling::android.view.View[5]"
+  },
+  "workout_series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[1]"
+  },
+  "Quick_Picks": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[2]"
+  },
+  "Both_Default": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[3]"
+  },
+  "Newest": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[4]"
+  },
+  "Unplayed": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[5]"
+  },
+  "previously_played": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[6]"
+  },
+  "Apply": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Apply\"]"
+  },
+  "Filter_Series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[6]//android.widget.TextView[2]"
+  },
+  "kebab_menu_giftin_coaches": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[6]/android.view.View[4]/android.view.View"
+  },
+  "giftin_coaches_Add_to_favorities": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add to favorites\"]"
+  },
+  "share_this_series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Share this series\"]"
+  },
+  "view_all_episodes": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"View all episodes\"]"
+  },
+  "cancel": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Cancel\"]"
+  },
+  "Activate": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Activate\"]"
+  },
+  "Do_not_disturb_permission": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Do not disturb permission\"]"
+  },
+  "schedule_a_reminder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Schedule a reminder\"]"
+  },
+  "Rate_this_series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Rate this series\"]"
+  },
+  "Set_a_reminder_for_hour": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[1])[3]"
+  },
+  "Set_a_reminder_for_minutes": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.view.View/android.view.View/android.view.View[1]/android.view.View[2])[1]"
+  },
+  "Activity_Label": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Activity Label\"]"
+  },
+  "sleep": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Sleep\"]"
+  },
+  "save_new_reminder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Save new reminder\"]"
+  },
+  "give_the_rating": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.ImageView[@content-desc=\"star\"])[4]"
+  },
+  "submit_feedback": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Submit feedback\"]"
+  },
+  "Thank_you": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Thank You\"]"
+  },
+  "workout_Series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[3]//android.view.View[@content-desc=\"thumbnail_holder\"]"
+  },
+  "Start_Workout": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Start Workout\"]"
+  },
+  "Step_Tracker": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Step Tracker\"]"
+  },
+  "Activate_Google_Fit": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Activate Google Fit\"]"
+  },
+  "google_account_pop": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.FrameLayout[@resource-id=\"android:id/content\"]"
+  },
+  "Fatloss_Series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]//android.widget.TextView[3]"
+  },
+  "Remove_to_Favorite_list": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"add to favorites button\"]"
+  },
+  "Add_from_favorites_list": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.ImageView[4]"
+  },
+  "Toast_Message": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"Series added to favorites\"]"
+  },
+  "Toast_Message_Removed": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"Series removed from favorites\"]"
+  },
+  "Share_Series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@content-desc=\"expand_icon\"]"
+  },
+  "Do_not_show_this_again": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.CheckBox"
+  },
+  "Dnd_mode_off": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]"
+  },
+  "Dnd_permission_required": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"DND Permission Required\"]"
+  },
+  "Allow": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Allow\"]"
+  },
+  "Deny": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Deny\"]"
+  },
+  "HIIT_Kebab_menu": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[5]/android.view.View[2]/android.view.View"
+  },
+  "workout_removed": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"Workout removed from favorites\"]"
+  },
+  "workout_added": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Toast[@text=\"Workout added to favorites\"]"
+  },
+  "Trending": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Trending\"]"
+  },
+  "intense_back_pain_arrow": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[4]"
+  },
+  "intense_back_pain_page": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[1]"
+  },
+  "English": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Button[@text=\"English\"]"
+  },
+  "Hindi": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@text=\"हिंदी (Hindi)\"]"
+  },
+  "Read_this_blog_in_page": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Read this blog in:\"]"
+  },
+  "intense_back_pain_hindi_text": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@resource-id=\"__next\"]//android.widget.TextView[2]"
+  },
+  "Trending_Series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]//android.view.View[@content-desc=\"thumbnail_holder\"]"
+  },
+  "supercharge_your_mind": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"bottom banner\"]"
+  },
+  "Trending_series_share_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"expand_icon\"]"
+  },
+  "Trending_series_download_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"download_activity\"]"
+  },
+  "Trending_series_add_to_fav_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[1]/android.widget.ImageView[5]"
+  },
+  "Remove_add_to_fav_Trending_Series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"add to favorites button\"]"
+  },
+  "Trending_series_dnd_mode_off": {
+  "platform": "android",
+  "element_type": "button",
+  "locator_type": "xpath",
+  "android_locator": "//android.widget.TextView[@text=\"DND mode off\"]"
+  },
+  "close": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"close\"]"
+  },
+  "Strength_your_Back": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Strengthen Your Back\"]"
+  },
+  "Strength_your_Legs": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Strengthen Your Legs\"]"
+  },
+  "Lower_Back_Strength": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Lower Back Strength\"]"
+  },
+  "For_Upper_Body_Strength": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"For Upper Body Strength\"]"
+  },
+  "Full_Body_Relaxation": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Full-Body Relaxation\"]"
+  },
+  "Stretch_It_More": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Stretch It More\"]"
+  },
+  "FatlossSeriesSWeekly": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Fatloss Series - Weekly\"]"
+  },
+  "Fat_loss": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Fat Loss\"]"
+  }
+}

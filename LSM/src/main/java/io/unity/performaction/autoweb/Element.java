@@ -3,10 +3,12 @@ package io.unity.performaction.autoweb;
 
 import com.google.common.net.MediaType;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.AppiumDriver;
 import io.unity.framework.exception.locator_validation_exception;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.NetworkInterceptor;
@@ -16,13 +18,16 @@ import org.openqa.selenium.interactions.WheelInput;
 import org.openqa.selenium.remote.http.HttpResponse;
 import org.openqa.selenium.remote.http.Route;
 import org.openqa.selenium.support.ui.Select;
-
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Consumer;
+
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.PointerInput;
+import org.openqa.selenium.interactions.Sequence;
+import java.time.Duration;
 
 import static org.openqa.selenium.remote.http.Contents.utf8String;
 
@@ -534,5 +539,177 @@ public class Element {
         String ra = RandomStringUtils.randomAlphabetic(3);
         return ra;
     }
+
+    public void get_elements_multiple_texts(String locator_value) {
+        try {
+            List<WebElement> elements = driver.findElements(By.xpath(locator_value));
+
+            System.out.println("Number of elements found: " + elements.size());
+
+            for (WebElement element : elements) {
+                String text = element.getText();
+                System.out.println("element text: " + text);
+            }
+        } catch (Exception e) {
+            System.out.println("Error occurred: " + e.getMessage());
+        }
+    }
+
+    public void get_elements_multiple_texts_with_scroll(String locator_value, String element_name) {
+        try {
+            boolean canScrollFurther = true;
+            int scrollCount = 0;
+            List<WebElement> allElements = new ArrayList<>();
+
+            while (canScrollFurther) {
+                List<WebElement> elements = driver.findElements(By.xpath(locator_value));
+                System.out.println("Number of elements found: " + elements.size());
+                allElements.addAll(elements);
+
+                for (WebElement element : elements) {
+                    String text = element.getText();
+                    System.out.println("Element text: " + text);
+                }
+
+                canScrollFurther = isScrollable(element_name);
+
+                if (canScrollFurther) {
+                    scrollDownToBottom(element_name);
+                    scrollCount++;
+                    System.out.println("Scrolled down " + scrollCount + " times.");
+                }
+            }
+
+            System.out.println("Total elements retrieved: " + allElements.size());
+        } catch (Exception e) {
+            System.out.println("Error occurred: " + e.getMessage());
+        }
+    }
+
+    public void scrollDownToBottom(String element_name) {
+        PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        Dimension screenSize = driver.manage().window().getSize();
+
+        int startX = (int) (screenSize.getWidth() * 0.50);
+        int startY = (int) (screenSize.getHeight() * 0.80);
+        int endY = (int) (screenSize.getHeight() * 0.20);
+
+        boolean canScrollFurther = true;
+
+        while (canScrollFurther) {
+            Sequence scroll = new Sequence(finger, 0);
+
+            scroll.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY));
+            scroll.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+            scroll.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), startX, endY));
+            scroll.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+        //    driver.perform(Arrays.asList(scroll));
+
+            canScrollFurther = isScrollable(element_name);
+        }
+    }
+    public boolean isScrollable(String element_name) {
+        try {
+            WebElement element = driver.findElement(By.xpath(element_name));
+            return element.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+
+
+//    public boolean isScrollable() {
+//        try {
+//            // Implement a general check for scrollability
+//            // Adjust this logic for your app's specific scroll container or layout
+//            return (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scroll", Map.of("direction", "down"));
+//        } catch (Exception e) {
+//            System.err.println("Error checking scrollability: " + e.getMessage());
+//            return false;
+//        }
+//    }
+
+
+    public void getElementsMultipleTextsWithScroll() {
+        String textValueXPath = "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]//android.widget.TextView[2]";
+
+        try {
+            boolean canScrollFurther = true;
+            int scrollCount = 0;
+            int maxScrolls = 50; // Safety limit to avoid infinite loops
+            Set<String> seenTexts = new HashSet<>(); // To store unique texts
+
+            while (canScrollFurther && scrollCount < maxScrolls) {
+                // Get all visible elements matching the XPath
+                List<WebElement> elements = driver.findElements(By.xpath(textValueXPath));
+
+                System.out.println("Number of elements found in this scroll: " + elements.size());
+
+                for (WebElement element : elements) {
+                    String text = element.getText();
+
+                    // Print only new, unique texts
+                    if (seenTexts.add(text)) {
+                        System.out.println("Element text: " + text);
+                    }
+                }
+
+                // Scroll to the next set of elements
+                canScrollFurther = isScrollable();
+
+                if (canScrollFurther) {
+                    scrollDown(); // Perform the scroll
+                    scrollCount++;
+                    System.out.println("Scrolled down " + scrollCount + " times.");
+                } else {
+                    System.out.println("No more elements to scroll.");
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Error occurred: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    public void scrollDown() {
+        try {
+            // Initialize PointerInput for touch gestures
+            PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+            Dimension screenSize = driver.manage().window().getSize();
+
+            int startX = (int) (screenSize.getWidth() * 0.50); // Middle of the screen horizontally
+            int startY = (int) (screenSize.getHeight() * 0.80); // Start swipe near the bottom
+            int endY = (int) (screenSize.getHeight() * 0.20);   // End swipe near the top
+
+            // Create a scroll (swipe) gesture
+            Sequence scroll = new Sequence(finger, 0);
+            scroll.addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), startX, startY));
+            scroll.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()));
+            scroll.addAction(finger.createPointerMove(Duration.ofMillis(1000), PointerInput.Origin.viewport(), startX, endY));
+            scroll.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+            // Perform the gesture
+          //  driver.perform(Arrays.asList(scroll));
+        } catch (Exception e) {
+            System.err.println("Scroll down failed: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    public boolean isScrollable() {
+        try {
+            // Check if the screen can scroll further
+            return (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", Map.of(
+                    "direction", "down",
+                    "percent", 3
+            ));
+        } catch (Exception e) {
+            System.err.println("Error checking scrollability: " + e.getMessage());
+            return false;
+        }
+    }
+
 
 }

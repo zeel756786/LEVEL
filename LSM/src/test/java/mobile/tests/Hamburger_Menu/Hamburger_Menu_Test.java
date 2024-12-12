@@ -98,6 +98,26 @@ public class Hamburger_Menu_Test extends base {
         hamburger_menu_page.verify_downloads_screen_present_on_page();
     }
     @Test()
+    public void Verify_that_the_user_tap_on_the_Activity_History_sub_menu_of_the_Hamburger_menu_HBM_006(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the Activity History sub menu of the hamburger menu.");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        hamburger_menu_page.verify_and_click_on_hamburger_menu();
+        hamburger_menu_page.click_on_Activity_History_Details();
+        hamburger_menu_page.verify_activity_history_details_screen_present_on_page();
+    }
+    @Test()
     public void Verify_that_the_user_tap_on_the_Gift_a_Subscription_sub_menu_of_the_Hamburger_menu_HBM_007(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Gift a Subscription' sub menu of the hamburger menu.");
@@ -162,6 +182,9 @@ public class Hamburger_Menu_Test extends base {
         hamburger_menu_page.click_on_Gift_a_Subscription_on_page();
         hamburger_menu_page.click_on_Got_a_coupon_code_Right_Arrow();
         hamburger_menu_page.verify_Redeem_your_gift_card_screen();
+        hamburger_menu_page.enter_coupon_code_gift_card_screen();
+        hamburger_menu_page.click_on_Redeem_button();
+        hamburger_menu_page.verify_Code_Invalid_or_Redeemed_Message();
     }
     @Test()
     public void Verify_that_the_user_tap_on_the_My_Purchases_on_the_top_right_corner_of_the_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_014(){
@@ -365,6 +388,29 @@ public class Hamburger_Menu_Test extends base {
         hamburger_menu_page.verify_and_click_on_select_your_gender();
         hamburger_menu_page.verify_and_click_on_save_button_of_edit_profile();
         hamburger_menu_page.click_on_verify_your_email_id();
+        hamburger_menu_page.verify_otp_screen_present_on_page();
+    }
+    @Test()
+    public void Verify_that_the_user_verify_the_contact_number_if_user_has_sign_up_using_email_address_by_using_edit_profile_HBM_037(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user verify the contact number if user has sign up using email address by using edit profile.");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enteremailIdTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        hamburger_menu_page.verify_and_click_on_hamburger_menu();
+        hamburger_menu_page.click_on_view_profile();
+        hamburger_menu_page.verify_and_click_on_edit_profile_screen();
+        hamburger_menu_page.click_on_verify_your_contact_number();
         hamburger_menu_page.verify_otp_screen_present_on_page();
     }
     @Test()

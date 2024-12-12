@@ -882,6 +882,149 @@ public class Meditations_Test extends base {
         meditation_page.verify_and_click_on_Quick_Picks_Kebab_Icon();
     }
     @Test()
+    public void Verify_that_the_user_tap_on_the_see_all_for_the_Focus_Productivity_serieses_Mind_041(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the see all  for the Focus Productivity serieses ");
+    //  Verify that the user tap on the Bengali language on the "Focus & Productivity" screen_Mind_048
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_pop_up();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.click_on_Focus_and_Productivity();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_focus_productivity_screen_series();
+    }
+    @Test()
+    public void Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Focus_Productivity_series_Mind_042(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user play and listen the Meditation Series of Focus Productivity series");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_pop_up();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.click_on_Focus_and_Productivity();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.click_on_Focus_and_Productivity_Meditation_Series();
+        meditation_page.verify_and_click_on_cancel_button();
+        meditation_page.scroll_up_to_top_of_the_page();
+        meditation_page.click_on_play_and_pause_Productivity_Meditation_Series();
+        meditation_page.click_on_add_to_favorites_and_share_focus_productivity_series();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_English_language_on_the_Focus_Productivity_screen_Mind_047(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the English language on the Focus Productivity screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_pop_up();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.click_on_Focus_and_Productivity();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_and_click_on_tap_english_language_focus_productivity_series();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Focus_Productivity_screen_Mind_049(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the kebab menu of the Meditation Series on Focus Productivity screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_pop_up();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.click_on_Focus_and_Productivity();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_and_click_on_Meditation_Series_Kebab_Icon();
+        meditation_page.verify_share_button_present_on_page();
+    }
+    @Test()
+    public void Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Focus_Productivity_screen_Mind_050(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user tap on the kebab menu of the Quick Picks on Focus Productivity screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_pop_up();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.click_on_Focus_and_Productivity();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_and_click_on_Quick_Picks_Kebab_Icon();
+        meditation_page.verify_add_to_fav_and_downloads_button();
+        meditation_page.verify_share_button_present_on_page();
+    }
+    @Test()
+    public void Verify_that_the_user_share_the_Meditation_Series_of_Focus_Productivity_series(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user share the Meditation Series of Focus Productivity series");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_pop_up();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.click_on_Focus_and_Productivity();
+        meditation_page.verify_and_click_on_see_all();
+        meditation_page.verify_and_click_on_english_language();
+        meditation_page.click_on_Focus_and_Productivity_Meditation_Series();
+        meditation_page.verify_and_click_on_cancel_button();
+        meditation_page.scroll_up_to_top_of_the_page();
+    }
+    @Test()
     public void Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the see all  for the Motivation serieses ");

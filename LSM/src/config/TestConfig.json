@@ -12,7 +12,7 @@
     "lsm": {
       "appiumPlatform": "Android",
       "platform": "Android",
-      "app": "app-debug-3.apk",
+      "app": "Yearly_Wrap_11Dec.apk",
       "capabilities": {
         "projectName": "LSM Mobile App",
         "platformName": "Android",

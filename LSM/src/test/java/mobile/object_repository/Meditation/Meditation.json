@@ -333,7 +333,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[*]/android.widget.Button)[2]"
+    "android_locator": "(//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[*]/android.widget.Button)[3]"
   },
   "meditations_series_add_to_fav": {
     "platform": "android",
@@ -454,5 +454,53 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Delete\"]"
+  },
+  "Focus_and_Productivity": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Focus and Productivity\"]"
+  },
+  "Focus_Productivity_Screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[@text=\"Focus & Productivity\"]"
+  },
+  "Focus_productivity_series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]//android.widget.TextView[2]"
+  },
+  "Focus_productivity_series_play": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.widget.Button"
+  },
+  "Focus_productivity_series_add_to_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[3]"
+  },
+  "Focus_productivity_series_share": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[2]"
+  },
+  "Focus_productivity_series_remove_from_favorites": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"add to favorites button\"]"
+  },
+  "Focus_productivity_share": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Share\"]"
   }
 }

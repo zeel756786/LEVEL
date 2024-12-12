@@ -13,13 +13,12 @@ import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 
 import java.time.Duration;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 import static java.time.Duration.ofMillis;
 import static java.util.Collections.singletonList;
 import org.openqa.selenium.WebElement;
-import java.util.Map;
+
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -344,4 +343,127 @@ public void switch_to_context(String context_name) {
                         ".setAsHorizontalList()" +
                         ".scrollForward().scrollIntoView(new UiSelector().text(\"" + text + "\"));"));
     }
+
+    public void get_elements_multiple_texts_with_scroll(String element_name) {
+        String text_value = "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]//android.widget.TextView[2]";
+        try {
+            boolean canScrollFurther = true;
+            int scrollCount = 0;
+            int maxScrolls = 20; // Safety limit for scrolls
+            Set<String> seenTexts = new HashSet<>(); // To avoid re-printing duplicates
+
+            while (canScrollFurther && scrollCount < maxScrolls) {
+                // Get all visible elements during the current scroll
+                List<WebElement> elements = driver.findElements(By.xpath(text_value));
+                System.out.println("Number of elements found in this scroll: " + elements.size());
+
+                for (WebElement element : elements) {
+                    String text = element.getText();
+
+                    // Print only new texts
+                    if (seenTexts.add(text)) {
+                        System.out.println("Element text: " + text);
+                      //  canScrollFurther = isScrollable(element_name);
+//                        if (canScrollFurther) {
+//                            scrollDownToBottom(element_name);
+//                            scrollCount++;
+//                            System.out.println("Scrolled down " + scrollCount + " times.");
+//                        } else {
+//                            System.out.println("No more elements to scroll.");
+//                        }
+                    }
+                }
+                canScrollFurther = isScrollable(element_name);
+
+                if (canScrollFurther) {
+                    scrollDownToBottom(element_name);
+                    scrollCount++;
+                    System.out.println("Scrolled down " + scrollCount + " times.");
+                } else {
+                    System.out.println("No more elements to scroll.");
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Error occurred: " + e.getMessage());
+        }
+    }
+    public void get_elements_multiplE( String scrollableElementXpath) {
+        String locator_value="//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]//android.widget.TextView[2]";
+        try {
+            int scrollCount = 0;
+            int maxScrolls = 20; // Safety limit to prevent infinite scrolling
+            Set<String> seenTexts = new HashSet<>(); // To avoid duplicates
+
+            boolean canScrollFurther = true;
+            while (canScrollFurther && scrollCount < maxScrolls) {
+                // Fetch all visible elements matching the locator
+                List<WebElement> elements = driver.findElements(By.xpath(locator_value));
+                System.out.println("Number of elements found in this scroll: " + elements.size());
+
+                for (WebElement element : elements) {
+                    String text = element.getText();
+
+                    if (seenTexts.add(text)) {
+                        System.out.println("Element text: " + text);
+                    }
+                }
+
+                // Scroll down to the bottom of the visible area
+                scrollDownToBottom(scrollableElementXpath);
+                scrollCount++;
+                System.out.println("Scrolled down " + scrollCount + " times.");
+
+                // Check if more scrolling is possible
+                canScrollFurther = isScrollable(scrollableElementXpath);
+            }
+
+            System.out.println("All elements have been retrieved. Total scrolls: " + scrollCount);
+        } catch (Exception e) {
+            System.err.println("Error occurred: " + e.getMessage());
+        }
+    }
+
+
+
+    public void get_elements_multiple_texts(String scrollableElementXpath) {
+        String textLocator = "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]//android.widget.TextView[2]";
+        try {
+            boolean canScrollFurther = true;
+            int scrollCount = 0;
+            int maxScrolls = 20; // Safety limit for scrolls
+            Set<String> seenTexts = new HashSet<>(); // To avoid re-printing duplicates
+
+            while (canScrollFurther && scrollCount < maxScrolls) {
+                // Find all currently visible texts
+                List<WebElement> elements = driver.findElements(By.xpath(textLocator));
+                System.out.println("Number of elements found in this scroll: " + elements.size());
+
+                for (WebElement element : elements) {
+                    String text = element.getText();
+
+                    // Print only new texts
+                    if (seenTexts.add(text)) {
+                        System.out.println("Element text: " + text);
+                    }
+                }
+
+                // Check if further scrolling is possible
+                canScrollFurther = isScrollable(scrollableElementXpath);
+
+                if (canScrollFurther) {
+                    // Scroll down to reveal more content
+                    scrollDownToBottom(scrollableElementXpath);
+                    scrollCount++;
+                    System.out.println("Scrolled down " + scrollCount + " times.");
+                } else {
+                    System.out.println("No more elements to scroll.");
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Error occurred during scrolling: " + e.getMessage());
+        }
+    }
+
+
+
 }
