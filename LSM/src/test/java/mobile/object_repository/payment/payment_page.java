@@ -2,6 +2,7 @@ package mobile.object_repository.Payment;
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
+import io.unity.performaction.automob.Device;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
@@ -20,6 +21,7 @@ public class payment_page {
     Verify verify = null;
     Wait wait = null;
     AndroidDriver androidDriver = null;
+    Device device = null;
 
     public payment_page(WebDriver driver) {
         this.driver = driver;
@@ -27,6 +29,7 @@ public class payment_page {
         verify = new Verify(driver);
         wait = new Wait(driver);
         androidDriver = (AndroidDriver) driver;
+        device = new Device(androidDriver);
     }
 
     public void verify_and_click_on_manage_subscription() {
@@ -183,6 +186,31 @@ public class payment_page {
             ));
         } while (canScrollMore);
 
+    }
+    public void click_on_Buy_Subscription(){
+        wait.wait_for_second(1);
+        element.click("Buy_subscription");
+        }
+    public void verify_Default_plan_149_selected(){
+        verify.element_is_present("Default_plan");
+    }
+    public void verify_and_click_on_show_all_plans(){
+        verify.element_is_present("Show_all_plans");
+        element.click("Show_all_plans");
+    }
+    public void verify_paid_annually_pan(){
+      verify.element_is_present("Paid_annually");
+      String paidannually = element.get_element_text("one_four_nine");
+      System.out.println("paid annually is plan "+paidannually);
+    }
+    public void verify_paid_half_yearly_plan(){
+        verify.element_is_present("paid_half_yearly");
+        String paidhalfYearly= element.get_element_text("one_nine_nine");
+        System.out.println("paid half yearly is plan "+paidhalfYearly);
+    }
+    public void verify_paid_monthly_plan(){
+        verify.element_is_present("Paid_monthly");
+        String paidmonthly= element.get_element_text("two_nine_nine");
     }
 }
 

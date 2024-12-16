@@ -1,0 +1,409 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Meditation Flow " >
+    <test name = "Verify that the user tap on the Meditation footer menu Mind 001">
+        <classes>
+            <class name ="mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Meditation_footer_menu_Mind_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user search for meditations mantras pranayama using search field Mind 002">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_search_for_meditations_mantras_pranayama_using_search_field_Mind_002"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user user tap on the any technique of Meditation Finder Find your style Mind 003">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_user_tap_on_the_any_technique_of_Meditation_Finder_Find_your_style_Mind_003"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the i icon of any technique of Meditation Finder Find your style Mind 004">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_i_icon_of_any_technique_of_Meditation_Finder_Find_your_style_Mind_004"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Explore Meditations button Mind 005">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Explore_Meditations_button_Mind_005"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Meditation Series and Sort by Newest on Mindfulness screen Mind 006">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Newest_on_Mindfulness_screen_Mind_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Meditation Series and Sort by Unplayed on Mindfulness screen Mind 007">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_007"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Meditation Series and Sort by Previously Played on Mindfulness screen Mind 008">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_008"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Quick Picks and Sort by Newest on Mindfulness screen Mind 009">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_on_Mindfulness_screen_Mind_009"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Quick Picks and Sort by Unplayed on Mindfulness screen Mind 010">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_010"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Quick Picks and Sort by Previously Played on Mindfulness screen Mind 011">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_011"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Both Default and Sort by Newest on Mindfulness screen Mind 012">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Newest_on_Mindfulness_screen_Mind_012"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user apply the filter by Both Default and Sort by Unplayed on Mindfulness screen Mind 013">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_013"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user Reset the Filter and sort Mind 015">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the English language tab Mind 016">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_English_language_tab_Mind_016"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the Hindi language tab Mind 017">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Hindi_language_tab_Mind_017"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the Marathi language tab Mind 018">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Marathi_language_tab_Mind_018"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the Gujarati language tab Mind 019">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Gujarati_language_tab_Mind_019"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the Bengali language tab Mind 020">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Bengali_language_tab_Mind_020"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the Tamil language tab Mind 021">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Tamil_language_tab_Mind_021"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the Kannada language tab Mind 022">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Kannada_language_tab_Mind_022"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user Start the Meditation Timer for the practice Mind 023">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user Start the Digi Mala for Mantra set the bead count and start Mind 024">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user set a Playback Speed for the Digi Mala Mind 025">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user search for the coach by coach name Mind 026">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user share a Breakdown at work Find out here Mind 027">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_share_a_Breakdown_at_work_Find_out_here_Mind_027"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user play the trending Meditation series Mind 028">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_play_the_trending_Meditation_series_Mind_028"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user edit the What type of meditations are you looking for Mind 029">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the see all for the Stress Anxiety serieses Mind 030">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user play and listen the Meditation Series of Stress Anxiety series Mind 031">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Stress_Anxiety_series_Mind_031"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user pause the Meditation Series of Stress Anxiety series Mind 032">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_pause_the_Meditation_Series_of_Stress_Anxiety_series_Mind_032"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user share the Meditation Series of Stress Anxiety series Mind 033">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_share_the_Meditation_Series_of_Stress_Anxiety_series_Mind_033"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user Add to favourite the Meditation Series of Stress Anxiety series Mind 034">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_Add_to_favourite_the_Meditation_Series_of_Stress_Anxiety_series_Mind_034"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the English language on the Stress Anxiety screen Mind 036">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the kebab menu of the Meditation Serieson stress Anxiety screen Mind 039">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Serieson_stress_Anxiety_screen_Mind_039"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the see all for the Focus Productivity serieses Mind 041">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_see_all_for_the_Focus_Productivity_serieses_Mind_041"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user play and listen the Meditation Series of Focus Productivity series Mind 042">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Focus_Productivity_series_Mind_042"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the English language on the Focus Productivity screen Mind 047">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_English_language_on_the_Focus_Productivity_screen_Mind_047"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the kebab menu of the Meditation Series on Focus Productivity screen Mind 049">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Focus_Productivity_screen_Mind_049"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the kebab menu of the Quick Picks on Focus Productivity screen Mind 050">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Focus_Productivity_screen_Mind_050"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the see all for the Motivation serieses Mind 051">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user play and listen the Meditation Series of Motivation series Mind 052">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the English language on the Motivation screen Mind 057">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the kebab menu of the Meditation Series on Motivation screen Mind 060">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name ="Verify that the user tap on the kebab menu of the Quick Picks on Motivation screen Mind 061">
+        <classes>
+            <class name = "mobile.tests.Meditations.Meditations_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

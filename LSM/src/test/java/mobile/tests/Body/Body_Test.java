@@ -685,6 +685,29 @@ public class Body_Test extends base {
         body_page.click_on_workout_series_and_previously_played();
         body_page.verify_filter_series();
     }
+    @Test()
+    public void Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user apply the filter by Quick Picks and Sort by Time after tap on the any coach from the Workouts screen");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Body_Page body_page = new Body_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        body_page.verify_and_click_on_Body();
+        body_page.click_on_giftin_coaches();
+        body_page.click_on_filter_by_button();
+        body_page.click_on_Quicks_Picks_and_Time();
+        body_page.click_on_Remove_Filter();
+        body_page.verify_filter_series();
+    }
 
     @Test()
     public void Verify_that_the_user_tap_on_the_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_061() {

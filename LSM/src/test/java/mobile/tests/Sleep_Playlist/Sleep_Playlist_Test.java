@@ -249,12 +249,7 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
-        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
         sleep_playlist_page.verify_playlist_name_highlighted();
         sleep_playlist_page.enterTextInPlaylistNameTextBox( "Automation");

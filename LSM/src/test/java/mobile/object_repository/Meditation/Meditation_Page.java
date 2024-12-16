@@ -957,7 +957,16 @@ public class Meditation_Page {
        verify.element_is_present("Add_to_favorities");
        verify.element_is_present("Download_button");
     }
-
+    public void verify_and_Select_digi_mala_beads(){
+        wait.wait_for_second(1);
+        device.scrollDownToBottom("Select_bead_count");
+        wait.wait_for_second(1);
+        device.sliding("bead_count_one_one",0,-100);
+    }
+    public void click_on_start_button() {
+        element.click("Start");
+        wait.wait_for_second(15);
+    }
 }
 
 

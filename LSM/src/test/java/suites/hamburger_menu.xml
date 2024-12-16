@@ -1,0 +1,193 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Hamburger Menu " >
+    <test name = "Verify that the user tap on the Hamburger menu HBM 001">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Hamburger_menu_HBM_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user click on the View Profile button HBM 002">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_click_on_the_View_Profile_button_HBM_002"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Manage Subscription option on the side panel menu HBM 003">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Manage_Subscription_option_on_the_side_panel_menu_HBM_003"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the favourite option on the side panel menu HBM 004">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_favourite_option_on_the_side_panel_menu_HBM_004"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Activity History sub menu of the Hamburger menu HBM 006">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Activity_History_sub_menu_of_the_Hamburger_menu_HBM_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Gift a Subscription sub menu of the Hamburger menu HBM 007">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Gift_a_Subscription_sub_menu_of_the_Hamburger_menu_HBM_007"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the How It works hyperlink on the Gift a Premium screen after tapping on the Gift a Subscription sub menu HBM 008">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_How_It_works_hyperlink_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_008"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Got a Coupon code right arrow on the Gift a Premium screen after tapping on the Gift a Subscription sub menu HBM 011">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Got_a_Coupon_code_right_arrow_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_011"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the My Purchases on the top right corner of the on the Gift a Premium screen after tapping on the Gift a Subscription sub menu HBM 014">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_My_Purchases_on_the_top_right_corner_of_the_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_014"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Settings sub menu of the Hamburger menu HBM 015">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Settings_sub_menu_of_the_Hamburger_menu_HBM_015"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Support sub menu of the Hamburger menu HBM 020">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Support_sub_menu_of_the_Hamburger_menu_HBM_020"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Refer and earn sub menu of the Hamburger menu HBM 021">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Refer_and_earn_sub_menu_of_the_Hamburger_menu_HBM_021"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Reminder sub menu of the Hamburger menu HBM 026">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Reminder_sub_menu_of_the_Hamburger_menu_HBM_026"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Rate Us sub menu of the Hamburger menu HBM 028">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Rate_Us_sub_menu_of_the_Hamburger_menu_HBM_028"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Logout sub menu of the Hamburger menu HBM 029">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Logout_sub_menu_of_the_Hamburger_menu_HBM_029"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Stay Logged In button of the pop up after tap on the Logout sub menu of the Hamburger menu HBM 031">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Stay_Logged_In_button_of_the_pop_up_after_tap_on_the_Logout_sub_menu_of_the_Hamburger_menu_HBM_031"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Edit Profile option after tap on the View Profile option on the side panel menu HBM 032">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Edit_Profile_option_after_tap_on_the_View_Profile_option_on_the_side_panel_menu_HBM_032"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user verify the contact number if user has sign up using email address by using edit profile HBM 037">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_verify_the_contact_number_if_user_has_sign_up_using_email_address_by_using_edit_profile_HBM_037"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the View More Activity Details after tapping on the View Profile HBM 040">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_View_More_Activity_Details_after_tapping_on_the_View_Profile_HBM_040"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Delete Account button after tapping on the View Profile HBM 042">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Delete_Account_button_after_tapping_on_the_View_Profile_HBM_042"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Delete my account after tapping on the Delete Account HBM 044">
+        <classes>
+            <class name ="mobile.tests.Hamburger_Menu.Hamburger_Menu_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Delete_my_account_after_tapping_on_the_Delete_Account_HBM_044"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

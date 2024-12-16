@@ -826,5 +826,17 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Fat Loss\"]"
+  },
+  "Time": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[4]"
+  },
+  "Remove_Filters": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Remove Filters\"]"
   }
 }

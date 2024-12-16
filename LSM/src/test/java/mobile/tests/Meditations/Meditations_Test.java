@@ -587,7 +587,30 @@ public class Meditations_Test extends base {
         meditation_page.verify_and_click_on_start_button();
         meditation_page.wait_for_five_second();
     }
-
+    @Test()
+    public void Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user Start the Digi Mala for Mantra set the bead count and start.");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Sleep_Playlist_Page sleep_playlist_page = new Sleep_Playlist_Page(driver);
+        Meditation_Page meditation_page = new Meditation_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_pop_up();
+        meditation_page.verify_and_click_on_Meditations();
+        meditation_page.waitForTextElementAppear("Digi");
+        meditation_page.verify_and_click_on_digi_mala();
+        meditation_page.verify_and_Select_digi_mala_beads();
+        meditation_page.click_on_start_button();
+    }
     @Test()
     public void Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025(){
         LambdaTestConfig config = new LambdaTestConfig(driver);

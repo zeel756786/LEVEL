@@ -457,6 +457,20 @@ public class Body_Page {
         element.click("previously_played");
         element.click("Apply");
     }
+    public void click_on_Quicks_Picks_and_Time() {
+        element.click("Quick_Picks");
+        device.scrollDown();
+        element.click("Time");
+        element.click("Apply");
+    }
+    public void click_on_Remove_Filter() {
+        try {
+            wait.wait_for_second(1);
+            element.click("Remove_Filters");
+        } catch (Exception e) {
+            System.out.println("Remove Filter not visible on UI");
+        }
+    }
     public void verify_filter_series(){
         verify.element_is_present("Filter_Series");
         String filterSeries= element.get_element_text("Filter_Series");

@@ -197,5 +197,54 @@ public class Payment_Test extends base {
         payment_page.verify_two_nine_nine_months_plans_present_on_page();
         payment_page.verify_see_benefits_present_on_page();
     }
+    @Test()
+    public void Verify_that_the_Most_popular_plan_by_default_selected_PYT_005(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the Most popular plan by default selected");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Today_Music_Page today_music_page = new Today_Music_Page(driver);
+        payment_page payment_page = new payment_page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enteremailIdTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        today_music_page.verify_and_click_on_hamburger_button_of_today_page();
+        payment_page.verify_and_click_on_manage_subscription();
+        payment_page.click_on_Buy_Subscription();
+        payment_page.verify_Default_plan_149_selected();
+    }
+    @Test()
+    public void Verify_that_the_All_subscription_plan_displayed_correctly_PYT_006(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the All subscription plan displayed correctly");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Today_Music_Page today_music_page = new Today_Music_Page(driver);
+        payment_page payment_page = new payment_page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_email_id();
+        signin_page.enteremailIdTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        today_music_page.verify_and_click_on_hamburger_button_of_today_page();
+        payment_page.verify_and_click_on_manage_subscription();
+        payment_page.click_on_Buy_Subscription();
+        payment_page.verify_and_click_on_show_all_plans();
+        payment_page.verify_paid_annually_pan();
+        payment_page.verify_paid_half_yearly_plan();
+        payment_page.verify_paid_monthly_plan();
+    }
 }
 

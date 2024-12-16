@@ -75,6 +75,6 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.widget.ImageView[2]"
+    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.view.View[1]/android.view.View"
   }
 }

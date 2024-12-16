@@ -113,7 +113,6 @@ public class Today_Music_Page {
         wait.wait_for_second(5);
     }
     public void verify_and_click_on_hamburger_button_of_today_page(){
-        wait.wait_for_second(2);
         wait.wait_until_element_is_visible("hamburger");
         element.click("hamburger");
     }

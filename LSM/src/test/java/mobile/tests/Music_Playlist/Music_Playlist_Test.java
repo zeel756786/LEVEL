@@ -346,8 +346,8 @@ public class Music_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
+//        signin_page.verify_and_close_feature_alert_pop_up();
+//        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.scroll_down_to_the_Text("Explore");
         sleep_playlist_page.horizontalScrollRightToTexts("Music");
         today_music_page.verify_and_click_on_music();

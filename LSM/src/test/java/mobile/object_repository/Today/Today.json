@@ -51,7 +51,13 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//android.view.View[@content-desc=\"thumbnail_holder\"])[2]"
+    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.view.View[2]/android.view.View[1]"
+  },
+  "Courses": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Courses\"]"
   },
   "All_Courses": {
     "platform": "android",
@@ -172,6 +178,12 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "(//android.widget.TextView[@text=\"From your favourite coaches\"])[1]"
+  },
+  "Journal_Page": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Journal\"]"
   },
   "Journal": {
     "platform": "android",
@@ -507,19 +519,13 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Intention\n10 XP\"]"
+    "android_locator": "//android.widget.TextView[contains(@text, 'Intention')]"
   },
   "Intention_Screen": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Intention\"]"
-  },
-  "Reflection_XP": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Reflection\n10 XP\"]"
   },
   "Shuffle": {
     "platform": "android",
@@ -532,5 +538,155 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[1]"
+  },
+  "Category": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, 'Category')]"
+  },
+  "Add_Category": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Add Category\"]"
+  },
+  "Add_Category_Name": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.EditText[1]"
+  },
+  "Add_a_Subtittle": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.EditText[2]"
+  },
+  "Reflection": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, 'Reflection')]"
+  },
+  "Gratitude": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, 'Gratitude')]"
+  },
+  "To_do": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, 'To-do')]"
+  },
+  "Vision": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, '2024 VISI')]"
+  },
+  "Recap": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, 'RECAP')]"
+  },
+  "Share_Best_Quotes": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[3]/android.view.View[3]"
+  },
+  "Arrow_Button_Best_Quotes": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[3]/android.view.View[4]"
+  },
+  "Best_Quotes_Inner_Screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"navigate_back\"]/following-sibling::android.widget.TextView[1]"
+  },
+  "English_language": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Button[@text=\"English\"]"
+  },
+  "Hindi_language": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@text=\"हिंदी (Hindi)\"]"
+  },
+  "Hindi_content": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[@text=\"Read this blog in:\"])[1]/following-sibling::android.widget.TextView[1]"
+  },
+  "mindfulness_schedule": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]"
+  },
+  "validity_for_seven_days": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Valid for 7 days\"]"
+  },
+  "Buy_now_for_two_nine": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Buy now for ₹29\"]"
+  },
+  "Get_one_at_two_nine": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Get one at ₹29\"]"
+  },
+  "Coupons_for_you": {
+  "platform": "android",
+  "element_type": "button",
+  "locator_type": "xpath",
+  "android_locator": "//android.widget.TextView[@text=\"Coupons for you\"]"
+ },
+  "Coupons_name": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[1]//android.widget.TextView[2]"
+  },
+  "First_Coupons_name": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[1]//android.widget.TextView[2]"
+  },
+  "Second_Coupons_name": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[2]//android.widget.TextView[2]"
+  },
+  "Edit_recommendations": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Edit recommendations\"]"
+  },
+  "Set_a_timer": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Set a timer\"]"
   }
 }

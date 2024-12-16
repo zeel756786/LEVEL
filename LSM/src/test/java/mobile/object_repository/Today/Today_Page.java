@@ -92,6 +92,7 @@ public class Today_Page {
                 androidDriver.hideKeyboard();
                 verify_Invite_Deep_Sleep_present_on_page();
                 verify_A_Journey_to_the_moon_present_on_page();
+                device.scrollDownToBottom("meditations");
                 System.out.println("Search for  meditations  passed.");
 
             } else if (searchTerm.equals("workouts")) {
@@ -116,9 +117,8 @@ public class Today_Page {
     }
 
     public void verify_and_click_on_courses() {
-        wait.wait_for_second(5);
-        //   device.scrollDownToBottom("courses");
-        device.waitForTextElementAppear("Courses");
+           device.scrollDownToBottom("Courses");
+     //   device.waitForTextElementAppear("Courses");
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("courses");
         element.click("courses");
@@ -143,6 +143,8 @@ public class Today_Page {
         device.waitForTextElementAppear("Overthinking");
         device.waitForTextElementAppear("Reminder");
         device.waitForTextElementAppear("Your mindfulness schedule");
+        String schedule=element.get_element_text("mindfulness_schedule");
+        System.out.print("mindfulness schedule "+ schedule);
         device.waitForTextElementAppear("Morning");
         device.waitForTextElementAppear("Night");
         device.waitForTextElementAppear("Start Now");
@@ -272,9 +274,7 @@ public class Today_Page {
     }
 
     public void verify_and_click_on_journal() {
-        wait.wait_for_second(2);
-        device.waitForTextElementAppear("Journal");
-        wait.wait_for_second(2);
+        device.scrollDownToBottom("Journal_Page");
         element.click("Journal");
     }
 
@@ -380,7 +380,16 @@ public class Today_Page {
         wait.wait_for_second(5);
         element.click("play_and_pause_button_for_music");
         wait.wait_for_second(2);
-        element.click("Add_to_favorities_song");
+        if(verify.check_element_is_present("Add_to_favorities_song")){
+            System.out.println("Add_to_favorities_song is displayed");
+            element.click("Add_to_favorities_song");
+        } else if (verify.check_element_is_present("Remove_from_add_to_favorities")) {
+            System.out.println("Remove_from_add_to_favorities is displayed");
+            element.click("Remove_from_add_to_favorities");
+            wait.wait_for_second(1);
+            element.click("Add_to_favorities_song");
+            System.out.println("Successfully Add to Favorities");
+        }
         element.click("Share_button_for_music");
         wait.wait_for_second(5);
     }
@@ -438,6 +447,15 @@ public class Today_Page {
         } catch (Exception e) {
             System.out.println("LSM Shop Now button not found");
         }
+    }
+    public void verify_coupons_for_you_present_on_page() {
+       wait.wait_for_second(1);
+       device.scrollDownToBottoms("supercharge_your_mind");
+       verify.element_is_present("Coupons_for_you");
+       String firstCouponName = element.get_element_text("First_Coupons_name");
+       System.out.println("First Coupon Name is :" + firstCouponName);
+       String secondCouponName = element.get_element_text("Second_Coupons_name");
+       System.out.println("Second Coupon Name is :" + secondCouponName);
     }
 
     public void click_on_my_coupons_and_help_menu_lsm_shop() {
@@ -511,8 +529,40 @@ public class Today_Page {
     }
 
     public void click_on_Intentions() {
+        device.scrollDownToBottoms("Intention_XP");
         element.click("Intention_XP");
-        wait.wait_for_second(2);
+    }
+    public void click_on_Reflection() {
+        device.scrollDownToBottoms("Reflection");
+        element.click("Reflection");
+    }
+    public void click_on_Gratitude() {
+        device.scrollDownToBottoms("Gratitude");
+        element.click("Gratitude");
+    }
+    public void click_on_To_Do() {
+        device.scrollDownToBottoms("Gratitude");
+        wait.wait_for_second(1);
+        device.sliding("Gratitude",-700,0);
+        wait.wait_for_second(1);
+        element.click("To_do");
+    }
+    public void click_on_Vision() {
+        device.scrollDownToBottoms("Gratitude");
+        wait.wait_for_second(1);
+        device.sliding("Gratitude",-700,0);
+        wait.wait_for_second(1);
+        element.click("Vision");
+        wait.wait_for_second(5);
+    }
+    public void click_on_2023_Recap() {
+        device.scrollDownToBottoms("Gratitude");
+        wait.wait_for_second(1);
+        device.sliding("Gratitude",-700,0);
+        wait.wait_for_second(1);
+        device.sliding("Vision",-700,0);
+        wait.wait_for_second(1);
+        element.click("Recap");
     }
 
     public void click_and_choose_the_category_item() {
@@ -520,6 +570,21 @@ public class Today_Page {
         element.click("Shuffle");
         String shuffleName = element.get_element_text("Shuffle_Name");
         System.out.println("Shuffle Name is :" + shuffleName);
+        element.click("Category");
+        element.click("Add_Category");
+    // Enter Add Category Name
+        element.click("Add_Category_Name");
+        wait.wait_for_second(1);
+        element.enter_text("Add_Category_Name", "Automation Testing");
+    // Enter Add a Subtittle
+       element.click("Add_a_Subtittle");
+       element.enter_text("Add_a_Subtittle", "LSM");
+       androidDriver.hideKeyboard();
+    // Save the Category
+       element.click("Add_Category");
+    //  back button of Categories
+       element.click("Navigate_back");
+
         element.click("Record");
         wait.wait_for_second(8);
         device.sliding("swipe_left_to_finish", -100, 0);
@@ -547,5 +612,88 @@ public class Today_Page {
         wait.wait_for_second(2);
         element.click("Back_To_Home");
     }
+    public void click_on_daily_quotes_shareButton(){
+        device.scrollDownToBottoms("supercharge_your_mind");
+        element.click("Share_Best_Quotes");
+        wait.wait_for_second(5);
+    }
+    public void click_on_daily_Arrow_Button_Best_Quotes(){
+        device.scrollDownToBottoms("supercharge_your_mind");
+        element.click("Arrow_Button_Best_Quotes");
+    }
+    public void verify_Best_Quotes_Inner_Screen(){
+        wait.wait_for_second(2);
+        verify.element_is_present("Best_Quotes_Inner_Screen");
+        String Screentext= element.get_element_text("Best_Quotes_Inner_Screen");
+        System.out.println("Best Quotes Innner Screen Name  :" + Screentext);
+    }
+    public void click_on_read_this_blog_in_drop_down(){
+        wait.wait_for_second(2);
+        element.click("English_language");
+        wait.wait_for_second(1);
+        element.click("Hindi_language");
+        String hindiContent= element.get_element_text("Hindi_content");
+        System.out.println("Hindi Content  :" + hindiContent);
+    }
+    public void click_on_Buy_now_for_twenty_nine_rupees(){
+        wait.wait_for_second(2);
+        verify.element_is_present("validity_for_seven_days");
+        element.click("Buy_now_for_two_nine");
+        wait.wait_for_second(1);
+        element.click("Get_one_at_two_nine");
+        wait.wait_for_second(2);
+    }
+    public void click_on_Edit_Button_present_on_page(){
+        device.scrollDownToBottoms("supercharge_your_mind");
+        element.click("Edit_button");
+    }
+    public void verify_Edit_Recommendations_present_on_page(){
+        verify.element_is_present("Edit_recommendations");
+        String locator = "//android.view.View[@content-desc=\"check\"]";
+        int[] indicesToClick = {1, 2, 4, 5};
+        clickElementsByIndices(locator, indicesToClick);
+    }
+    public void click_on_save_button(){
+        wait.wait_for_second(1);
+        element.click("Save");
+    }
+    public void click_on_recommended_for_you(){
+        element.click("Recommended_music_for_you");
+    }
+    public void click_on_set_a_timer(){
+          element.click("Set_a_timer");
 
+    }
+
+    public void handleTimerSetTill() {
+        try {
+            for (int index = 1; index <= 4; index++) {
+                String minutesLocator = "//android.widget.TextView[contains(@text, 'minutes')][" + index + "]";
+                WebElement minutesElement = driver.findElement(By.xpath(minutesLocator));
+                minutesElement.click();
+                String timerSetTillLocator = "//android.widget.TextView[contains(@text, 'Timer set till')]";
+                WebElement timerSetTillElement = driver.findElement(By.xpath(timerSetTillLocator));
+                System.out.println("Timer set till: " + timerSetTillElement.getText());
+                timerSetTillElement.click();
+            }
+        } catch (Exception e) {
+            System.err.println("An error occurred: " + e.getMessage());
+        }
+    }
+
+    public void clickElementsByIndices(String baseLocator, int[] indices) {
+        for (int index : indices) {
+            try {
+                String indexedLocator = String.format("(%s)[%d]", baseLocator, index);
+
+                WebElement element = driver.findElement(By.xpath(indexedLocator));
+
+                element.click();
+                System.out.println("Clicked on element with index: " + index);
+
+            } catch (Exception e) {
+                System.err.println("Failed to click on element with index: " + index + ". Error: " + e.getMessage());
+            }
+        }
+    }
 }
