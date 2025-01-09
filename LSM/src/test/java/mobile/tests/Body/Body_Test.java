@@ -1271,6 +1271,27 @@ public class Body_Test extends base {
         body_page.click_on_share_series_button();
     }
     @Test()
+    public void Verify_that_the_user_check_the_checkbox_of_the_modal_popup_after_tap_on_the_any_workout_series_BDY_072(){
+        LambdaTestConfig config = new LambdaTestConfig(driver);
+        config.addTestName("Verify that the user check the checkbox of the modal popup after tap on the any workout series");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        signin_page signin_page = new signin_page(driver);
+        Body_Page body_page = new Body_Page(driver);
+        signin_page.click_sign_in_button();
+        signin_page.verify_phone_text_present_on_page();
+        signin_page.verify_email_text_present_on_page();
+        signin_page.click_and_enter_text_on_phone_no();
+        signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        body_page.verify_and_click_on_Body();
+        body_page.click_on_giftin_coaches();
+        body_page.verify_and_click_workout_series();
+        body_page.click_Do_not_show_this_again();
+    }
+    @Test()
     public void Verify_that_the_user_tap_on_the_share_icon_from_the_top_right_corner_after_tap_on_the_any_workout_series_BDY_073(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the share icon from the top right corner after tap on the any workout series");
@@ -1318,27 +1339,6 @@ public class Body_Test extends base {
         body_page.click_on_add_to_fav_on_series_giftin_coaches();
     }
 
-    @Test()
-    public void Verify_that_the_user_check_the_checkbox_of_the_modal_popup_after_tap_on_the_any_workout_series_BDY_072(){
-        LambdaTestConfig config = new LambdaTestConfig(driver);
-        config.addTestName("Verify that the user check the checkbox of the modal popup after tap on the any workout series");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        signin_page signin_page = new signin_page(driver);
-        Body_Page body_page = new Body_Page(driver);
-        signin_page.click_sign_in_button();
-        signin_page.verify_phone_text_present_on_page();
-        signin_page.verify_email_text_present_on_page();
-        signin_page.click_and_enter_text_on_phone_no();
-        signin_page.enterMobileNumberTextboxByIndex(0);
-        signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_enter_the_code_text_field();
-        signin_page.enter_6_digit_code(0);
-        signin_page.verify_and_click_on_right_arrow();
-        body_page.verify_and_click_on_Body();
-        body_page.click_on_giftin_coaches();
-        body_page.verify_and_click_workout_series();
-        body_page.click_Do_not_show_this_again();
-    }
     @Test()
     public void Verify_that_the_user_tap_on_the_DND_mode_off_radio_button_after_tap_on_the_any_workout_series_BDY_076(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
