@@ -1,6 +1,11 @@
 package mobile.object_repository.Today;
 
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.ElementOption;
+import io.appium.java_client.touch.offset.PointOption;
 import io.unity.performaction.automob.Device;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
@@ -8,10 +13,15 @@ import io.unity.performaction.autoweb.Wait;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.*;
 
+import java.time.Duration;
+import java.util.Collections;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
+
+
 
 public class Today_Page {
     WebDriver driver = null;
@@ -92,7 +102,6 @@ public class Today_Page {
                 androidDriver.hideKeyboard();
                 verify_Invite_Deep_Sleep_present_on_page();
                 verify_A_Journey_to_the_moon_present_on_page();
-                device.scrollDownToBottom("meditations");
                 System.out.println("Search for  meditations  passed.");
 
             } else if (searchTerm.equals("workouts")) {
@@ -117,8 +126,9 @@ public class Today_Page {
     }
 
     public void verify_and_click_on_courses() {
-           device.scrollDownToBottom("Courses");
-     //   device.waitForTextElementAppear("Courses");
+        wait.wait_for_second(5);
+        //   device.scrollDownToBottom("courses");
+        device.waitForTextElementAppear("Courses");
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("courses");
         element.click("courses");
@@ -143,8 +153,6 @@ public class Today_Page {
         device.waitForTextElementAppear("Overthinking");
         device.waitForTextElementAppear("Reminder");
         device.waitForTextElementAppear("Your mindfulness schedule");
-        String schedule=element.get_element_text("mindfulness_schedule");
-        System.out.print("mindfulness schedule "+ schedule);
         device.waitForTextElementAppear("Morning");
         device.waitForTextElementAppear("Night");
         device.waitForTextElementAppear("Start Now");
@@ -182,27 +190,91 @@ public class Today_Page {
         wait.wait_until_element_is_visible("share_spirituality_kit");
         element.click("share_spirituality_kit");
         wait.wait_for_second(10);
+
     }
 
+    //  public void verify_course_present_on_page(String textToFind, int moveX, int moveY) {
+//      wait.wait_for_second(2);
+//     device.scrollDownToBottom("stress_relief");
+//      wait.wait_until_element_is_visible("stress_relief");
+//     verify.element_is_present("stress_relief");
+//        device.horizontalScrollRightToTexts("sleep");
+//        verify.element_is_present("sleep");
+    //     device.sliding("sleep", -300, 0);
+    // wait.wait_for_second(3);
+    /// verify.element_is_present("Anxiety");
+//        wait.wait_for_second(2);
+//        device.scrollDownToBottom("Spirituality_Course");
+//        verify.element_is_present("Spirituality_Course");
+//        device.sliding("Spirituality_Course", -200, 0);
+//        wait.wait_for_second(2);
+//        verify.element_is_present("Mantra");
+//        device.sliding("Mantra", -200, 0);
+//        verify.element_is_present("shiva_sadhana");
+//
+//        // Define a maximum number of scroll attempts to prevent infinite scrolling
+//        WebElement elementss = driver.findElement(By.xpath("//android.widget.TextView[@text=\"Overthinking\"]"));
+//        int maxScrolls = 10;
+//        boolean isTextFound = false;
+//
+//      //  TouchAction action = new TouchAction(driver);
+//        action.longPress(LongPressOptions.longPressOptions()
+//                        .withElement(ElementOption.element(elementss))
+//                        .withDuration(Duration.ofSeconds(2)))
+//                .release()
+//                .perform();
+//
+//        for (int i = 0; i < maxScrolls; i++) {
+//            try {
+//                WebElement element = driver.findElement(By.xpath("//*[contains(@text, '" + textToFind + "')]"));
+//                if (element.isDisplayed()) {
+//                    System.out.println("Text found: " + textToFind);
+//                    isTextFound = true;
+//                    break;
+//                }
+//            } catch (Exception e) {
+//                // If text is not found, continue scrolling
+//            }
+//
+//            // If text is not found, perform a horizontal scroll
+//            PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+//            Sequence sequence = new Sequence(finger, 1);
+//
+//            int startX = driver.manage().window().getSize().width - moveX; // Start near the right edge
+//            int startY = driver.manage().window().getSize().height / 2; // Middle of the screen
+//
+//            int endX = startX - moveX;
+//            int endY = startY + moveY;
+//
+//            sequence.addAction(finger.createPointerMove(Duration.ofMillis(0),
+//                    PointerInput.Origin.viewport(), startX, startY));
+//
+//            sequence.addAction(finger.createPointerDown(PointerInput.MouseButton.MIDDLE.asArg()));
+//            sequence.addAction(new Pause(finger, Duration.ofMillis(600)));
+//
+//            sequence.addAction(finger.createPointerMove(Duration.ofMillis(600),
+//                    PointerInput.Origin.viewport(), endX, endY));
+//
+//            sequence.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+//
+//            androidDriver.perform(Collections.singletonList(sequence));
+//        }
+//
+//
+//        if (!isTextFound) {
+//            System.out.println("Text not found after " + maxScrolls + " scrolls.");
+//        }
     public void verify_course_present_on_page() {
         wait.wait_for_second(2);
-        wait.wait_until_element_is_visible("stress_relief");
-        verify.element_is_present("stress_relief");
-        device.sliding("stress_relief", -300, 0);
-        wait.wait_for_second(2);
-        verify.element_is_present("sleep");
-        verify.element_is_present("Overthinking");
-        device.sliding("Overthinking", -300, 0);
-        wait.wait_for_second(3);
+        device.scrollDownToBottom("Overthinking_text");
+        wait.wait_until_element_is_visible("Overthinking_text");
+        verify.element_is_present("Overthinking_text");
+        device.sliding("Overthinking_text",-600,0);
+        wait.wait_until_element_is_visible("Anxiety");
         verify.element_is_present("Anxiety");
-        wait.wait_for_second(2);
-        device.scrollDownToBottom("Spirituality_Course");
-        verify.element_is_present("Spirituality_Course");
-        device.sliding("Spirituality_Course", -200, 0);
-        wait.wait_for_second(2);
-        verify.element_is_present("Mantra");
-        device.sliding("Mantra", -200, 0);
-        verify.element_is_present("shiva_sadhana");
+        device.sliding("Anxiety",-1200,0);
+        wait.wait_until_element_is_visible("sleep");
+        verify.element_is_present("sleep");
     }
 
     public void verify_and_click_on_Stress_and_relief() {
@@ -217,7 +289,8 @@ public class Today_Page {
         wait.wait_until_element_is_visible("Overthinking");
         verify.element_is_present("Overthinking");
         wait.wait_for_second(3);
-        device.sliding("Overthinking", -1200, 0);
+        //  device.horizontalScrollRightToTexts("Anxiety");
+        device.sliding("Overthinking_text", -600, 0);
         wait.wait_for_second(5);
         verify.element_is_present("Anxiety");
     }
@@ -237,11 +310,11 @@ public class Today_Page {
         device.sliding("Spirituality_Course", -600, 0);
         wait.wait_for_second(5);
         verify.element_is_present("Mantra");
-        device.sliding("Mantra", -300, 0);
+        device.sliding("Mantra", -600, 0);
         wait.wait_for_second(2);
         verify.element_is_present("shiva_sadhana");
         wait.wait_for_second(2);
-        device.sliding("shiva_sadhana", -300, 0);
+        device.sliding("shiva_sadhana", -1200, 0);
         wait.wait_for_second(2);
         verify.element_is_present("Janmashtami");
     }
@@ -274,7 +347,9 @@ public class Today_Page {
     }
 
     public void verify_and_click_on_journal() {
-        device.scrollDownToBottom("Journal_Page");
+        wait.wait_for_second(2);
+        device.waitForTextElementAppear("Journal");
+        wait.wait_for_second(2);
         element.click("Journal");
     }
 
@@ -380,16 +455,7 @@ public class Today_Page {
         wait.wait_for_second(5);
         element.click("play_and_pause_button_for_music");
         wait.wait_for_second(2);
-        if(verify.check_element_is_present("Add_to_favorities_song")){
-            System.out.println("Add_to_favorities_song is displayed");
-            element.click("Add_to_favorities_song");
-        } else if (verify.check_element_is_present("Remove_from_add_to_favorities")) {
-            System.out.println("Remove_from_add_to_favorities is displayed");
-            element.click("Remove_from_add_to_favorities");
-            wait.wait_for_second(1);
-            element.click("Add_to_favorities_song");
-            System.out.println("Successfully Add to Favorities");
-        }
+        element.click("Add_to_favorities_song");
         element.click("Share_button_for_music");
         wait.wait_for_second(5);
     }
@@ -448,15 +514,6 @@ public class Today_Page {
             System.out.println("LSM Shop Now button not found");
         }
     }
-    public void verify_coupons_for_you_present_on_page() {
-       wait.wait_for_second(1);
-       device.scrollDownToBottoms("supercharge_your_mind");
-       verify.element_is_present("Coupons_for_you");
-       String firstCouponName = element.get_element_text("First_Coupons_name");
-       System.out.println("First Coupon Name is :" + firstCouponName);
-       String secondCouponName = element.get_element_text("Second_Coupons_name");
-       System.out.println("Second Coupon Name is :" + secondCouponName);
-    }
 
     public void click_on_my_coupons_and_help_menu_lsm_shop() {
         wait.wait_for_second(5);
@@ -511,7 +568,9 @@ public class Today_Page {
         verify.element_is_present("Record");
         element.click("Record");
         wait.wait_for_second(10);
-        device.sliding("swipe_left_to_finish", -200, 0);
+        element.click("allow");
+        element.click("allow_permission");
+        device.sliding("swipe_left_to_finish", -300, 0);
         wait.wait_for_second(2);
         element.click("Delete_Icon");
         wait.wait_for_second(2);
@@ -527,14 +586,13 @@ public class Today_Page {
         element.click("Sure_you_want_to_delete_journal");
         wait.wait_for_second(3);
     }
-
     public void click_on_Intentions() {
-        device.scrollDownToBottoms("Intention_XP");
         element.click("Intention_XP");
+        wait.wait_for_second(2);
     }
     public void click_on_Reflection() {
-        device.scrollDownToBottoms("Reflection");
-        element.click("Reflection");
+        device.scrollDownToBottoms("Reflection_XP");
+        element.click("Reflection_XP");
     }
     public void click_on_Gratitude() {
         device.scrollDownToBottoms("Gratitude");
@@ -564,54 +622,69 @@ public class Today_Page {
         wait.wait_for_second(1);
         element.click("Recap");
     }
-
-    public void click_and_choose_the_category_item() {
+    public void click_and_choose_the_category_item(){
         wait.wait_for_second(2);
         element.click("Shuffle");
         String shuffleName = element.get_element_text("Shuffle_Name");
         System.out.println("Shuffle Name is :" + shuffleName);
         element.click("Category");
         element.click("Add_Category");
-    // Enter Add Category Name
+
         element.click("Add_Category_Name");
         wait.wait_for_second(1);
         element.enter_text("Add_Category_Name", "Automation Testing");
-    // Enter Add a Subtittle
-       element.click("Add_a_Subtittle");
-       element.enter_text("Add_a_Subtittle", "LSM");
-       androidDriver.hideKeyboard();
-    // Save the Category
-       element.click("Add_Category");
-    //  back button of Categories
-       element.click("Navigate_back");
-
+        element.click("Add_a_Subtittle");
+        element.enter_text("Add_a_Subtittle", "LSM");
+        androidDriver.hideKeyboard();
+        element.click("Add_Category");
+        wait.wait_for_second(2);
+        element.click("Navigate_back_c");
+        wait.wait_for_second(2);
         element.click("Record");
+        element.click("allow");
+        element.click("allow_permission");
         wait.wait_for_second(8);
         device.sliding("swipe_left_to_finish", -100, 0);
         wait.wait_for_second(2);
         element.click("Delete_Icon");
-        wait.wait_for_second(2);
         element.click("write_your_thoughts");
         wait.wait_for_second(2);
-      //  WebElement textFields = androidDriver.findElement(By.xpath("android.widget.EditText"));
-        String enterText = "Automation Testing";
-        try {
-            WebElement textField = androidDriver.findElement(By.xpath("android.widget.EditText[2]"));
-
-            textField.click();
-            textField.sendKeys(enterText);
-            androidDriver.hideKeyboard();
-
-            System.out.println("Successfully entered text: " + enterText);
-        } catch (NoSuchElementException e) {
-            System.out.println("No Such Element found");
-        }
-
+        element.enter_text("write_your_thoughts","Automation Testing");
         wait.wait_for_second(1);
         element.click("Save");
         wait.wait_for_second(2);
         element.click("Back_To_Home");
     }
+    public void click_and_choose_the_category_item_of_vision_and_recap() {
+        wait.wait_for_second(2);
+        element.click("Category");
+        element.click("Add_Category");
+        element.click("Add_Category_Name");
+        wait.wait_for_second(1);
+        element.enter_text("Add_Category_Name", "Automation Testing");
+        element.click("Add_a_Subtittle");
+        element.enter_text("Add_a_Subtittle", "LSM");
+        androidDriver.hideKeyboard();
+        element.click("Add_Category");
+        wait.wait_for_second(2);
+        element.click("Navigate_back_c");
+        wait.wait_for_second(2);
+        element.click("Record");
+        element.click("allow");
+        element.click("allow_permission");
+        wait.wait_for_second(8);
+        device.sliding("swipe_left_to_finish", -100, 0);
+        wait.wait_for_second(2);
+        element.click("Delete_Icon");
+        element.click("write_your_thoughts");
+        wait.wait_for_second(2);
+        element.enter_text("write_your_thoughts","Automation Testing");
+        wait.wait_for_second(1);
+        element.click("Save");
+        wait.wait_for_second(2);
+        element.click("Back_To_Home");
+    }
+
     public void click_on_daily_quotes_shareButton(){
         device.scrollDownToBottoms("supercharge_your_mind");
         element.click("Share_Best_Quotes");
@@ -661,7 +734,7 @@ public class Today_Page {
         element.click("Recommended_music_for_you");
     }
     public void click_on_set_a_timer(){
-          element.click("Set_a_timer");
+        element.click("Set_a_timer");
 
     }
 
@@ -696,4 +769,5 @@ public class Today_Page {
             }
         }
     }
+
 }

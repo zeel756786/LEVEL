@@ -27,7 +27,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text='₹ 149 / Month']"
+    "android_locator": "//android.widget.TextView[@text='₹ 108 / Month']"
   },
   "one_four_nine_months_plans_button": {
     "platform": "android",
@@ -147,7 +147,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"₹ 149 / Month\"]"
+    "android_locator": "//android.widget.TextView[@text=\"₹ 108 / Month\"]"
   },
   "paid_half_yearly": {
     "platform": "android",
@@ -172,5 +172,11 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"₹ 299 / Month\"]"
+  },
+  "hamburger": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.view.View[1]/android.view.View"
   }
 }

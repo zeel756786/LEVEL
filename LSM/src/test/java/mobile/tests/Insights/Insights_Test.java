@@ -65,6 +65,13 @@ public class Insights_Test extends base {
         signin_page.verify_email_text_present_on_page();
         signin_page.click_and_enter_text_on_phone_no();
         signin_page.enterMobileNumberTextboxByIndex(0);
+        signin_page.verify_and_click_on_right_arrow();
+        signin_page.click_on_enter_the_code_text_field();
+        signin_page.enter_6_digit_code(0);
+        signin_page.verify_and_click_on_right_arrow();
+        insights_page.click_on_Insights_menu();
+        insights_page.verify_the_current_league_ends_in_page();
+        insights_page.printRemainingTime();
     }
     @Test()
     public void Verify_that_the_user_tap_on_the_My_activity_tab_INSGT_005(){
@@ -87,9 +94,9 @@ public class Insights_Test extends base {
         insights_page.verify_the_my_activity_screen_present_on_page();
     }
     @Test()
-    public void Verify_that_the_user_tap_on_the_icon_beside_the_Streak_on_the_My_activity_tab_INSGT_006(){
+    public void Verify_that_the_user_tap_on_the_My_activity_tab_INSGT_006(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
-        config.addTestName("Verify that the user tap on the icon beside the Streak on the My activity tab.");
+        config.addTestName("Verify that the user tap on the My activity tab.");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Insights_Page insights_page = new Insights_Page(driver);
@@ -104,11 +111,31 @@ public class Insights_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         insights_page.click_on_Insights_menu();
         insights_page.click_on_My_activity_present_on_page();
-        insights_page.click_on_i_button_of_league_of_super_mind();
-        insights_page.user_see_the_pop_up_contains_of_streak_freeze_and_how_it_work_and_often_can_you_it();
+        insights_page.verify_the_super_charge_your_mind_in_my_activity_screen_present_on_page();
     }
+    // @Test()
+//    public void Verify_that_the_user_tap_on_the_icon_beside_the_Streak_on_the_My_activity_tab_INSGT_007(){
+//        LambdaTestConfig config = new LambdaTestConfig(driver);
+//        config.addTestName("Verify that the user tap on the icon beside the Streak on the My activity tab.");
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+//        signin_page signin_page = new signin_page(driver);
+//        Insights_Page insights_page = new Insights_Page(driver);
+//        signin_page.click_sign_in_button();
+//        signin_page.verify_phone_text_present_on_page();
+//        signin_page.verify_email_text_present_on_page();
+//        signin_page.click_and_enter_text_on_phone_no();
+//        signin_page.enterMobileNumberTextboxByIndex(0);
+//        signin_page.verify_and_click_on_right_arrow();
+//        signin_page.click_on_enter_the_code_text_field();
+//        signin_page.enter_6_digit_code(0);
+//        signin_page.verify_and_click_on_right_arrow();
+//        insights_page.click_on_Insights_menu();
+//        insights_page.click_on_My_activity_present_on_page();
+//        insights_page.click_on_i_button_of_league_of_super_mind();
+//        insights_page.user_see_the_pop_up_contains_of_streak_freeze_and_how_it_work_and_often_can_you_it();
+//    }
     @Test()
-    public void Verify_that_the_user_tap_on_the_View_Activity_History_on_the_My_activity_tab_INSGT_007(){
+    public void Verify_that_the_user_tap_on_the_View_Activity_History_on_the_My_activity_tab_INSGT_008(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the View Activity History on the My activity tab.");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -125,9 +152,11 @@ public class Insights_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         insights_page.click_on_Insights_menu();
         insights_page.click_on_My_activity_present_on_page();
+        insights_page.click_on_view_activity_history();
+        insights_page.Verify_month_of_history();
     }
     @Test()
-    public void Verify_that_the_user_tap_on_the_Set_reminders_on_the_My_activity_tab_INSGT_008(){
+    public void Verify_that_the_user_tap_on_the_Set_reminders_on_the_My_activity_tab_INSGT_009(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the Set reminders on the My activity tab.");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -148,5 +177,7 @@ public class Insights_Test extends base {
         insights_page.click_on_Reminder_present_on_page();
         insights_page.set_the_Reminder_present_on_page();
         insights_page.click_on_save_new_reminder();
+        insights_page.Verify_reminder_screen();
+
     }
 }

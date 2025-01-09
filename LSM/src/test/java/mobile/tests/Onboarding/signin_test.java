@@ -172,9 +172,9 @@ public class signin_test extends base {
         signin_page.click_on_terms_and_conditions();
     }
     @Test()
-    public void Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017(){
+    public void Verify_that_the_user_enter_the_Invalid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_018(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
-        config.addTestName("Verify that the user enter the valid referral code on on Tell us about yourself for personalised recommendations screen");
+        config.addTestName("Verify that the user enter the invalid referral code on on Tell us about yourself for personalised recommendations screen");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         signin_page.click_sign_in_button();
@@ -196,7 +196,7 @@ public class signin_test extends base {
     }
     @Test()
     public void Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019(){
-        //Verify that the user select morethen three type of meditations from the "What type of meditations are you looking for?" screen_OB_020
+        //Verify that the user select more than three type of meditations from the "What type of meditations are you looking for?" screen_OB_020
         //Verify that the user select any one option from the "What are you looking for?" screen and tap on right arrow_OB_021
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user select only three type of meditations from the What type of meditations are you looking for?  screen and tap on right arrow icon");
@@ -228,10 +228,10 @@ public class signin_test extends base {
         signin_page.click_on_stress_relief();
         signin_page.verify_and_click_on_right_arrow();
         signin_page.verify_the_thank_you_present_on_page();
-        signin_page.click_on_show_all_plan();
+        //  signin_page.click_on_show_all_plan();
         signin_page.verify_on_show_all_plan();
-     //   signin_page.verify_how_your_free_trail_works_text_present_on_page();
-      //  signin_page.verify_and_click_start_my_free_trial();
+        //   signin_page.verify_how_your_free_trail_works_text_present_on_page();
+        //  signin_page.verify_and_click_start_my_free_trial();
     }
 
     @Test

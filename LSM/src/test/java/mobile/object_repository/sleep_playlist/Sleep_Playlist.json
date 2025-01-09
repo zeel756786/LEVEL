@@ -17,7 +17,7 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text='Music']"
   },
-  "meditation": {
+  "meditation_button": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
@@ -75,7 +75,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Search…\"]"
+    "android_locator": "//android.widget.EditText"
   },
   "clear": {
     "platform": "android",
@@ -122,8 +122,8 @@
   "ancient_wisdom_drop_down": {
     "platform": "android",
     "element_type": "button",
-    "locator_type": "accessibility-id",
-    "android_locator": "Drop Up"
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.ImageView[@content-desc=\"Drop Up\"])[1]"
   },
   "close_drop_down_collapse_button": {
     "platform": "android",
@@ -159,7 +159,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"The Fearless Lord Ganesha (मराठी)\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Mrigtrishna (मराठी)\"]"
   },
   "stories_from_puranas": {
     "platform": "android",
@@ -192,11 +192,11 @@
     "android_locator": "//android.widget.TextView[@text=\"Go To Playlist\"]"
   },
   "more_vert": {
-  "platform": "android",
-  "element_type": "button",
-  "locator_type": "xpath",
-  "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.ImageView[2]"
- },
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.ImageView[2]"
+  },
   "delete_playlist": {
     "platform": "android",
     "element_type": "button",

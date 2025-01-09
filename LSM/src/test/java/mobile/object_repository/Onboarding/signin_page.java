@@ -2,14 +2,15 @@ package mobile.object_repository.Onboarding;
 
 import com.github.javafaker.Faker;
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.touch.offset.PointOption;
 import io.unity.performaction.automob.Device;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,6 +27,7 @@ public class signin_page {
     Wait wait = null;
     AndroidDriver androidDriver = null;
     Device device = null;
+
     public signin_page(WebDriver driver) {
         this.driver = driver;
         element = new Element(driver);
@@ -34,9 +36,11 @@ public class signin_page {
         androidDriver = (AndroidDriver) driver;
         device = new Device(androidDriver);
     }
-    public void wait_for_ten_second(){
+
+    public void wait_for_ten_second() {
         wait.wait_for_second(10);
     }
+
     public void enterTextInSpecificTextBox(String text, int textBoxIndex) {
         try {
 
@@ -56,20 +60,22 @@ public class signin_page {
             System.out.println("Error entering text: " + e.getMessage());
         }
     }
-    public void verify_get_started_button_present_on_page(){
+
+    public void verify_get_started_button_present_on_page() {
         wait.wait_until_element_is_visible("Get_started");
         verify.element_is_present("Get_started");
         System.out.println("Element 'get_started' is visible.");
     }
-    public void verify_and_click_on_started_button_present_on_page(){
+
+    public void verify_and_click_on_started_button_present_on_page() {
         wait.wait_until_element_is_visible("Get_started");
         element.click("Get_started");
     }
 
     public void verify_welcome_to_level_supermind() {
-            wait.wait_until_element_is_visible("welcome_to_level_supermind");
-            verify.element_is_present("welcome_to_level_supermind");
-            System.out.println("Element 'welcome_to_level_supermind' is visible.");
+        wait.wait_until_element_is_visible("welcome_to_level_supermind");
+        verify.element_is_present("welcome_to_level_supermind");
+        System.out.println("Element 'welcome_to_level_supermind' is visible.");
     }
 
 
@@ -112,6 +118,7 @@ public class signin_page {
         wait.wait_until_element_is_visible("sign_in");
         verify.element_is_present("sign_in");
     }
+
     public void verify_sign_in_present_on_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("sign_in_page");
@@ -148,10 +155,13 @@ public class signin_page {
         wait.wait_for_second(5);
 
     }
+
     public void click_and_enter_text_on_email_id() {
         wait.wait_for_second(2);
         element.click("enter_email_id");
+        wait.wait_for_second(5);
     }
+
     public void verify_and_click() {
         wait.wait_for_second(2);
         element.click("enter_email_id");
@@ -181,6 +191,7 @@ public class signin_page {
         wait.wait_until_element_is_visible("right_arrow");
         verify.element_is_enable("right_arrow");
         element.click("right_arrow");
+        wait.wait_for_second(2);
     }
 
     public void click_on_enter_the_code_text_field() {
@@ -189,6 +200,7 @@ public class signin_page {
         element.click("enter_the_code_text_box");
         wait.wait_for_second(5);
     }
+
     public void verify_customise_your_experience_text() {
         try {
             wait.wait_for_second(2);
@@ -310,11 +322,13 @@ public class signin_page {
         wait.wait_until_element_is_visible("stress_and_anxiety");
         element.click("stress_and_anxiety");
     }
+
     public void click_on_focus_and_productivity() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("focus_and_productivity");
         element.click("focus_and_productivity");
     }
+
     public void verify_and_click_on_Relaxation() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Relaxation");
@@ -351,34 +365,13 @@ public class signin_page {
         wait.wait_for_second(2);
         element.click("stress_relief");
     }
-    public void click_on_show_now_present_on_page(){
-        try {
-            wait.wait_until_element_is_visible("shop_now");
-            element.click("shop_now");
-        }
-        catch (Exception e)
-        {
-            System.out.println("LSM Shop not found");
-        }
-    }
-
-
-    public void click_on_navigate_back_button_present_on_page() {
-        try {
-            wait.wait_until_element_is_visible("navigate_back");
-            element.click("navigate_back");
-        }
-        catch (Exception e)
-        {
-            System.out.println("Navigate back not found");
-        }
-    }
 
     public void verify_how_your_free_trail_works_text_present_on_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("how_your_free_trail_works");
         verify.element_is_present("how_your_free_trail_works");
     }
+
     public void verify_and_click_start_my_free_trial() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("start_my_free_trial");
@@ -472,51 +465,64 @@ public class signin_page {
         wait.wait_until_element_is_visible("are_you_sure_logout");
         element.click("are_you_sure_logout");
     }
+
     public void verify_and_click_on_view_profile() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("view_profile");
         element.click("view_profile");
     }
+
     public void verify_and_click_on_edit_profile() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("edit_profile");
         element.click("edit_profile");
     }
+
     public void verify_back_arrow_button_present_on_page() {
         wait.wait_until_element_is_visible("back_arrow_button");
     }
+
     public void verify_and_click_on_back_arrow_button_present_on_page() {
         wait.wait_until_element_is_visible("back_arrow_button");
         element.click("back_arrow_button");
     }
+
     public void verify_longest_streak_present_on_page() {
         wait.wait_until_element_is_visible("longest_streak");
     }
+
     public void verify_total_xp_present_on_page() {
         wait.wait_until_element_is_visible("total_xp");
     }
+
     public void verify_total_activities_on_page() {
         wait.wait_until_element_is_visible("total_activities");
     }
+
     public void verify_and_click_on_delete_account() {
         wait.wait_until_element_is_visible("delete_account");
         element.click("delete_account");
     }
+
     public void verify_and_click_on_delete_my_account() {
         wait.wait_until_element_is_visible("delete_my_account");
         element.click("delete_my_account");
     }
+
     public void verify_we_are_really_sad_to_see_you_go_present_on_page() {
         wait.wait_until_element_is_visible("we_are_really_sad_to_see_you_go");
     }
+
     public void verify_and_click_on_i_ve_found_other_apps_to_achieve_my_goals_present_on_page() {
         wait.wait_until_element_is_visible("i_ve_found_other_apps_to_achieve_my_goals");
         element.click("i_ve_found_other_apps_to_achieve_my_goals");
     }
+
     public void verify_and_click_delete_Account() {
         wait.wait_until_element_is_visible("Delete_Account");
         element.click("Delete_Account");
     }
+
     public void verify_and_click_on_i_agree_receive_marketing() {
         wait.wait_for_second(1);
         wait.wait_until_element_is_visible("check_box_of_I_agree_receive_marketing");
@@ -524,11 +530,13 @@ public class signin_page {
         wait.wait_for_second(1);
         element.click("check_box_of_I_agree_receive_marketing");
     }
+
     public void verify_and_uncheck_on_i_agree_receive_marketing() {
         wait.wait_for_second(1);
         wait.wait_until_element_is_visible("check_box_of_I_agree_receive_marketing");
         element.click("check_box_of_I_agree_receive_marketing");
     }
+
     public void verify_and_click_on_i_agree_terms_and_conditions() {
         wait.wait_for_second(1);
         wait.wait_until_element_is_visible("check_box_of_I_agree_to_the_terms_and_conditions");
@@ -536,16 +544,19 @@ public class signin_page {
         wait.wait_for_second(1);
         element.click("check_box_of_I_agree_to_the_terms_and_conditions");
     }
+
     public void verify_and_uncheck_on_i_agree_terms_and_conditions() {
         wait.wait_until_element_is_visible("check_box_of_I_agree_to_the_terms_and_conditions");
         element.click("check_box_of_I_agree_to_the_terms_and_conditions");
     }
+
     public void verify_the_thank_you_present_on_page() {
         wait.wait_until_element_is_visible("thank_you");
         verify.element_is_present("thank_you");
         System.out.println("Element 'Thank You Page' is visible.");
         wait.wait_for_second(5);
     }
+
     public void click_on_enter_the_referral_code() {
         wait.wait_for_second(2);
         device.scrollDownToBottom("enter_the_code_text_field");
@@ -555,6 +566,7 @@ public class signin_page {
         element.enter_text("enter_the_code_text_field", "12345");
         androidDriver.hideKeyboard();
     }
+
     public void keyboard_hide() {
         wait.wait_for_second(2);
         try {
@@ -584,7 +596,8 @@ public class signin_page {
             System.out.println("Invalid index: " + index + " No such text box found ");
         }
     }
-    public void enter_6_digit_code(int index){
+
+    public void enter_6_digit_code(int index) {
         wait.wait_for_second(2);
         List<WebElement> textField = androidDriver.findElements(By.className("android.widget.EditText"));
         textField.get(index).sendKeys("123456");
@@ -607,6 +620,7 @@ public class signin_page {
         }
 
     }
+
     public void enteremailIdTextboxByIndex(int index) {
         wait.wait_for_second(2);
         String emailId = "test@qable.io";
@@ -623,6 +637,7 @@ public class signin_page {
         }
 
     }
+
     public void handle_pop_up() {
         List<WebElement> featureAlert = androidDriver.findElements(By.xpath("//android.widget.TextView[@text='Feature Alert']"));
 
@@ -634,6 +649,7 @@ public class signin_page {
             System.out.println("Feature Alert is not visible. Skipping...");
         }
     }
+
     public void clickOnArrowRightButton() {
         String arrowRightLocator = "(//android.view.View[@content-desc='Arrow Right'])[1]";
 
@@ -656,6 +672,7 @@ public class signin_page {
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
+
     public void clickArrowRightAndVerifyConfirmationMessage() {
 
         String arrowRightLocator = "//android.view.View[@content-desc='Arrow Right']";
@@ -664,7 +681,7 @@ public class signin_page {
 
         try {
 
-            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
             WebElement arrowRightButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(arrowRightLocator)));
             arrowRightButton.click();
             WebElement confirmationToast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(confirmationMessage)));
@@ -694,7 +711,7 @@ public class signin_page {
 
         try {
 
-            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
             WebElement arrowRightButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(arrowRightLocator)));
             arrowRightButton.click();
             WebElement confirmationToast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(confirmationMessage)));
@@ -716,38 +733,23 @@ public class signin_page {
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
-    public void verify_and_close_feature_alert_pop_up() {
-        try {
-            WebElement featureAlertElement = driver.findElement(By.xpath("//android.widget.TextView[@text='Feature Alert']"));
 
-            if (featureAlertElement.isDisplayed()) {
-                WebElement  closeButton = driver.findElement(By.xpath("//android.widget.ImageView[@content-desc='close']"));
-                closeButton.click();
-                System.out.println("Feature Alert closed.");
-            }
-        } catch (Exception e) {
-            System.out.println("Feature Alert is not visible.");
-        }
-    }
     public void click_on_terms_and_conditions() {
-        WebElement termsElement = androidDriver.findElement(By.xpath("//android.widget.TextView[@text=\"I agree to the terms and conditions of Level SuperMind. *\"]"));
+        WebElement termsElement = driver.findElement(By.xpath("//android.widget.TextView[@text='I agree to the terms and conditions of Level SuperMind. *']"));
 
         String fullText = termsElement.getText();
 
         String termsAndConditions = "terms and conditions";
 
         if (fullText.contains(termsAndConditions)) {
-
-            String[] parts = fullText.split(termsAndConditions);
-            System.out.println("Text before 'terms and conditions': " + parts[0]);
-            System.out.println("Text after 'terms and conditions': " + parts[1]);
-            WebElement  clickableTerms = androidDriver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'terms and conditions')]"));
+            WebElement clickableTerms = driver.findElement(By.xpath("//android.widget.TextView[contains(@text, 'terms and conditions')]"));
             clickableTerms.click();
             wait.wait_for_second(10);
         } else {
             System.out.println("Text does not contain 'terms and conditions'");
         }
     }
+
     public void verifyTheToastMessaageUserCanSelectThreeMeditations() {
 
         String RelationShip = "//android.widget.TextView[@text=\"Relationship\"]";
@@ -756,7 +758,7 @@ public class signin_page {
 
         try {
 
-            WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
             WebElement arrowRightButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(RelationShip)));
             arrowRightButton.click();
             WebElement confirmationToast = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(ToastMessage)));
@@ -778,25 +780,28 @@ public class signin_page {
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
-    public void click_on_show_all_plan(){
+
+    public void click_on_show_all_plan() {
         wait.wait_for_second(2);
         element.click("show_all_plan");
     }
-    public void verify_on_show_all_plan(){
+
+    public void verify_on_show_all_plan() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("one_four_nine_plan");
         verify.element_is_present("one_four_nine_plan");
         verify.element_is_present("one_nine_nine_plan");
     }
+
     public void click_on_pop_up() {
         try {
             element.click("close");
         } catch (Exception e) {
             System.out.println("Pop Up not visible on UI");
+            // You can add additional logging or actions here if needed    }}
         }
     }
 }
-
 
 
 

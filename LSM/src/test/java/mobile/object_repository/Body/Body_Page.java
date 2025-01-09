@@ -6,7 +6,6 @@ import io.unity.performaction.autoweb.Alert;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
@@ -16,7 +15,6 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class Body_Page {
-
     WebDriver driver = null;
     Element element = null;
     Verify verify = null;
@@ -75,12 +73,9 @@ public class Body_Page {
         wait.wait_for_second(2);
         verify.element_is_present("Sleep_Time_Yoga");
         verify.element_is_present("Sleep_Time_Yoga_Hindi");
-        device.horizontalScrollRightToTexts("Hindi_Yoga");
-        wait.wait_for_second(1);
-        verify.element_is_present("yoga");
-        verify.element_is_present("Hindi_Yoga");
-        device.horizontalScrollRightToTexts("Day_three_yoga");
-        wait.wait_for_second(1);
+        //   wait.wait_for_second(5);
+        device.scrollDownToBottom("Day_one_yoga");
+        //   wait.wait_for_second(5);
         verify.element_is_present("Day_one_yoga");
         verify.element_is_present("Day_three_yoga");
     }
@@ -89,58 +84,62 @@ public class Body_Page {
         wait.wait_for_second(2);
         verify.element_is_present("one_five_min_HIIT");
         verify.element_is_present("two_zero_min_HIIT");
-        device.horizontalScrollRightToTexts("upper_body_HIIT");
-        wait.wait_for_second(1);
-        verify.element_is_present("full_body_HIIT");
-        verify.element_is_present("upper_body_HIIT");
-        device.horizontalScrollRightToTexts("Core_Endurance_HIIT");
-        wait.wait_for_second(1);
-        verify.element_is_present("lower_body_HIIT");
-        verify.element_is_present("Core_Endurance_HIIT");
-        device.horizontalScrollRightToTexts("Build_your_Endurance_HIIT");
-        wait.wait_for_second(1);
+        device.scrollDownToBottom("Intense_Lower_Body_HIIT");
+        wait.wait_for_second(5);
         verify.element_is_present("Intense_Lower_Body_HIIT");
+        verify.element_is_present("Core_Endurance_HIIT");
+        verify.element_is_present("lower_body_HIIT");
         verify.element_is_present("Build_your_Endurance_HIIT");
-        device.horizontalScrollRightToTexts("upper_Body_Workout");
-        wait.wait_for_second(1);
-        verify.element_is_present("A_Fresh_Beginning");
+        device.scrollUpToTop("Clear");
     }
 
     public void verify_workout_training_present_on_screen() {
         wait.wait_for_second(2);
+        device.scrollDownToBottom("Full_body_Relaxation");
+        wait.wait_for_second(2);
         verify.element_is_present("Full_body_Relaxation");
+        device.scrollUpToTop("Clear");
     }
 
-    public void verify_search_box_enter_and_clear_text() {
+    public void verify_search_for_Yoga() {
+        WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
         WebElement searchButton = androidDriver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"clear\"]"));
-        String[] searchTerms = {"yoga", "HIIT", "workouts"};
 
-        for (String searchTerm : searchTerms) {
-            WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
-            searchBox.click();
-            searchBox.clear();
-            searchBox.sendKeys(searchTerm);
-            searchButton.click();
+        searchBox.click();
+        searchBox.sendKeys("yoga");
+        androidDriver.hideKeyboard();
+        searchButton.click();
 
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        verify_yoga_training_present_on_screen();
+        System.out.println("Search for Yoga passed.");
+    }
 
-            if (searchTerm.equals("yoga")) {
-                androidDriver.hideKeyboard();
-                verify_yoga_training_present_on_screen();
-                System.out.println("Search for yoga  passed.");
+    public void verify_search_for_HIIT() {
+        WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
+        WebElement searchButton = androidDriver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"clear\"]"));
 
-            } else if (searchTerm.equals("HIIT")) {
-                androidDriver.hideKeyboard();
-                verify_HIIT_training_present_on_screen();
-                System.out.println("Search for HIIT passed.");
+        searchBox.click();
+        searchBox.sendKeys("HIIT");
+        androidDriver.hideKeyboard();
+        searchButton.click();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        verify_HIIT_training_present_on_screen();
+        System.out.println("Search for HIIT passed.");
+    }
 
-            } else if (searchTerm.equals("workouts")) {
-                androidDriver.hideKeyboard();
-                verify_workout_training_present_on_screen();
-                System.out.println("Search for workout  passed.");
-            }
-            searchButton.click();
-        }
+    public void verify_search_for_Workouts() {
+        WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
+        WebElement searchButton = androidDriver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"clear\"]"));
+
+        searchBox.click();
+        searchBox.sendKeys("workouts");
+        androidDriver.hideKeyboard();
+        searchButton.click();
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        verify_workout_training_present_on_screen();
+        System.out.println("Search for Workouts passed.");
     }
 
     public void verify_workout_screen_on_page() {
@@ -152,10 +151,7 @@ public class Body_Page {
     public void verify_Beginners_Series_present_on_page() {
         verify.element_is_present("Basics_For_Beginners");
         verify.element_is_present("Yoga_Series_Beginners");
-        device.sliding("Yoga_Series_Beginners", -900, 0);
-        verify.element_is_present("full_body_HIIT");
-        verify.element_is_present("Full_Body_Workout");
-        device.sliding("Full_Body_Workout", -900, 0);
+        device.scrollDownToBottom("Build_your_Endurance_HIIT");
         verify.element_is_present("Build_your_Endurance_HIIT");
     }
 
@@ -182,9 +178,9 @@ public class Body_Page {
         androidDriver.hideKeyboard();
         verify.element_is_present("Dawn_of_a_new_day");
         verify.element_is_present("Dawn_of_a_new_day_hindi");
-        device.sliding("Dawn_of_a_new_day_hindi", -800, 0);
         verify.element_is_present("Intense_Full_Body_Workout");
     }
+
     public void click_on_pop_up() {
         try {
             element.click("close");
@@ -193,6 +189,7 @@ public class Body_Page {
             // You can add additional logging or actions here if needed
         }
     }
+
     public void enter_Frequently_in_search_text_field() {
         enter_data_in_search_box("Frequently Repeated");
         wait.wait_for_second(2);
@@ -202,6 +199,7 @@ public class Body_Page {
         device.sliding("Basics_For_Beginners", -700, 0);
         verify.element_is_present("one_five_min_HIIT");
     }
+
     public void enter_Strength_Training_in_search_text_field() {
         enter_data_in_search_box("Strength_Training");
         wait.wait_for_second(2);
@@ -212,6 +210,7 @@ public class Body_Page {
         verify.element_is_present("Lower_Back_Strength");
         verify.element_is_present("For_Upper_Body_Strength");
     }
+
     public void enter_Relaxation_in_search_text_field() {
         enter_data_in_search_box("Relaxation");
         wait.wait_for_second(2);
@@ -221,6 +220,7 @@ public class Body_Page {
         verify.element_is_present("Day_seven_Full_Body_Relaxation");
         verify.element_is_present("Stretch_It_More");
     }
+
     public void enter_Fat_Loss_in_search_text_field() {
         enter_data_in_search_box("Fat_loss");
         wait.wait_for_second(2);
@@ -256,7 +256,7 @@ public class Body_Page {
     }
 
     public void click_on_Relaxation_Explore_Workouts() {
-        device.sliding("Relaxation", -500, 0);
+        device.sliding("Relaxation", -100, 0);
         element.click("Relaxation");
     }
 
@@ -288,6 +288,7 @@ public class Body_Page {
         wait.wait_until_element_is_visible("Strength_Training_Screen");
         verify.element_is_present("Strength_Training_Screen");
     }
+
     public void verify_Workout_of_HIIT() {
         wait.wait_for_second(2);
         device.waitForTextElementAppear("15 Min HIIT");
@@ -295,6 +296,7 @@ public class Body_Page {
         device.waitForTextElementAppear("Build Your Endurance");
         device.waitForTextElementAppear("A Fresh Beginning");
     }
+
     public void verify_yoga_of_HIIT() {
         wait.wait_for_second(2);
         device.waitForTextElementAppear("Strong Like A Warrior");
@@ -302,6 +304,7 @@ public class Body_Page {
         device.waitForTextElementAppear("Power Up");
         device.waitForTextElementAppear("For A Rock Solid Core");
     }
+
     public void verify_Relaxation_of_HIIT() {
         wait.wait_for_second(2);
         device.waitForTextElementAppear("Stretch It More");
@@ -309,6 +312,7 @@ public class Body_Page {
         device.waitForTextElementAppear("Keep Your Joints Happy");
         device.waitForTextElementAppear("For A Deep Sleep");
     }
+
     public void verify_Strength_Training_of_HIIT() {
         wait.wait_for_second(2);
         device.waitForTextElementAppear("Basics For Beginners");
@@ -316,7 +320,6 @@ public class Body_Page {
         device.waitForTextElementAppear("Hold It There");
         device.waitForTextElementAppear("Tone Your Glutes");
     }
-
 
     public void click_on_kebab_menu() {
         wait.wait_for_second(1);
@@ -326,7 +329,7 @@ public class Body_Page {
     public void verify_Add_to_favorites_Download_Share_button() {
         wait.wait_for_second(2);
         verify.element_is_present("Add_to_favorites");
-        //  verify.element_is_present("Download");
+        verify.element_is_present("Download");
         verify.element_is_present("Share");
     }
 
@@ -416,11 +419,13 @@ public class Body_Page {
         device.scrollDownToBottom("Giftin");
         element.click("Browse_by_coach_giftin");
     }
+
     public void click_on_giftin_coaches_kebab_menu() {
         wait.wait_for_second(1);
         device.scrollDownToBottoms("Filter");
         element.click("kebab_menu_giftin_coaches");
     }
+
     public void verify_details_of_trainer_appreciate_follow_button() {
         String textDetails = element.get_element_text("Giftin_is_our_in_house_ACSM_certified_fitness_trainer");
         System.out.println("Trainer details:" + textDetails);
@@ -436,33 +441,88 @@ public class Body_Page {
         String followtoastMessage = element.get_element_text("Follow_Toast_Message");
         System.out.println("Follow Toast message:" + followtoastMessage);
     }
+
     public void click_on_filter_by_button() {
-       device.scrollDownToBottom("Filter");
-       element.click("Filter_button");
+        device.scrollDownToBottom("Filter_button");
+        element.click("Filter_button");
     }
+
     public void click_on_workout_series_and_newest() {
-      element.click("workout_series");
-      element.click("Newest");
-      element.click("Apply");
+        element.click("workout_series");
+        element.click("Newest");
+        element.click("Apply");
     }
+
     public void click_on_workout_series_and_unplayed() {
         element.click("workout_series");
         device.scrollDown();
         element.click("Unplayed");
         element.click("Apply");
     }
+
     public void click_on_workout_series_and_previously_played() {
         element.click("workout_series");
         device.scrollDown();
         element.click("previously_played");
         element.click("Apply");
     }
+
     public void click_on_Quicks_Picks_and_Time() {
         element.click("Quick_Picks");
         device.scrollDown();
         element.click("Time");
         element.click("Apply");
     }
+
+    public void click_on_Quicks_Picks_and_Newest() {
+        element.click("Quick_Picks");
+        device.scrollDown();
+        element.click("Newest_button");
+        element.click("Apply");
+    }
+
+    public void click_on_Quicks_Picks_and_Unplayed() {
+        element.click("Quick_Picks");
+        device.scrollDown();
+        element.click("Unplayed_Button");
+        element.click("Apply");
+    }
+
+    public void click_on_Quicks_Picks_and_Previously_Played() {
+        element.click("Quick_Picks");
+        device.scrollDown();
+        element.click("previously_played_button");
+        element.click("Apply");
+    }
+
+    public void click_on_Both_and_Time() {
+        wait.wait_for_second(5);
+        device.scrollDown();
+        element.click("Time");
+        element.click("Apply");
+    }
+
+    public void click_on_Both_and_Newest() {
+        wait.wait_for_second(5);
+        device.scrollDown();
+        element.click("Newest_button");
+        element.click("Apply");
+    }
+
+    public void click_on_Both_and_Unplayed() {
+        wait.wait_for_second(5);
+        device.scrollDown();
+        element.click("Unplayed_Button");
+        element.click("Apply");
+    }
+
+    public void click_on_Both_and_Previously_Played() {
+        wait.wait_for_second(5);
+        device.scrollDown();
+        element.click("previously_played_button");
+        element.click("Apply");
+    }
+
     public void click_on_Remove_Filter() {
         try {
             wait.wait_for_second(1);
@@ -471,11 +531,13 @@ public class Body_Page {
             System.out.println("Remove Filter not visible on UI");
         }
     }
-    public void verify_filter_series(){
+
+    public void verify_filter_series() {
         verify.element_is_present("Filter_Series");
-        String filterSeries= element.get_element_text("Filter_Series");
+        String filterSeries = element.get_element_text("Filter_Series");
         System.out.println("Filter Series:" + filterSeries);
     }
+
     public void verify_add_to_fav_on_giftin_coaches() {
         wait.wait_for_second(2);
         if (verify.check_element_is_present("giftin_coaches_Add_to_favorities")) {
@@ -490,13 +552,15 @@ public class Body_Page {
             throw new IllegalStateException("Expected element not found on the screen.");
         }
     }
-    public void verify_share_series_view_all_episodes_schedule_reminder_and_Rate_this_series(){
+
+    public void verify_share_series_view_all_episodes_schedule_reminder_and_Rate_this_series() {
         wait.wait_for_second(2);
         verify.element_is_present("share_this_series");
         verify.element_is_present("view_all_episodes");
         verify.element_is_present("schedule_a_reminder");
         verify.element_is_present("Rate_this_series");
     }
+
     public void click_on_add_to_fav_on_Kebab_Menu_giftin_coaches() {
         wait.wait_for_second(2);
         if (verify.check_element_is_present("giftin_coaches_Add_to_favorities")) {
@@ -512,10 +576,12 @@ public class Body_Page {
             throw new IllegalStateException("Expected element not found on the screen.");
         }
     }
-    public void click_on_share_this_series(){
+
+    public void click_on_share_this_series() {
         element.click("share_this_series");
         wait.wait_for_second(5);
     }
+
     public void click_on_view_all_episodes() {
         try {
             element.click("view_all_episodes");
@@ -524,6 +590,7 @@ public class Body_Page {
             System.out.println("An error occurred while clicking on view all episodes or cancel: " + e.getMessage());
         }
     }
+
     public void verify_episodes_present_on_page() {
         wait.wait_for_second(2);
         device.waitForTextElementAppear("Day 1: Upper Body Workout");
@@ -534,121 +601,143 @@ public class Body_Page {
         device.waitForTextElementAppear("Day 6: Intense Lower Body");
         device.waitForTextElementAppear("Day 7: Full-Body Relaxation");
     }
-    public void set_the_Reminder_present_on_page(){
+
+    public void set_the_Reminder_present_on_page() {
         wait.wait_for_second(2);
-        device.sliding("Set_a_reminder_for_hour",0,-200);
+        device.sliding("Set_a_reminder_for_hour", 0, -200);
         wait.wait_for_second(2);
-        device.sliding("Set_a_reminder_for_minutes",0,-100);
+        device.sliding("Set_a_reminder_for_minutes", 0, -100);
         verify.element_is_present("Activity_Label");
         element.click("sleep");
     }
-    public void click_on_save_new_reminder(){
+
+    public void click_on_save_new_reminder() {
         wait.wait_for_second(2);
         element.click("save_new_reminder");
         wait.wait_for_second(10);
     }
-    public void click_on_schedule_a_reminder(){
+
+    public void click_on_schedule_a_reminder() {
         element.click("schedule_a_reminder");
 
     }
-    public void click_on_Rate_this_series(){
+
+    public void click_on_Rate_this_series() {
         element.click("Rate_this_series");
     }
-    public void verify_and_click_on_give_the_rating_star(){
+
+    public void verify_and_click_on_give_the_rating_star() {
         element.click("give_the_rating");
         element.click("Search_Text_box");
-        element.enter_text("Search_Text_box","Automation");
+        element.enter_text("Search_Text_box", "Automation");
         element.click("submit_feedback");
-        String text= element.get_element_text("Thank_you");
-        System.out.println("Thank you text is :"+ text);
+        String text = element.get_element_text("Thank_you");
+        System.out.println("Thank you text is :" + text);
         wait.wait_for_second(2);
     }
-    public void verify_and_click_workout_series(){
+
+    public void verify_and_click_workout_series() {
         device.scrollDownToBottom("Filter");
         element.click("workout_Series");
     }
-    public void verify_the_pop_up_close(){
-       wait.wait_for_second(1);
-       verify.element_is_present("Fatloss_Series");
-       String seriesName= element.get_element_text("Fatloss_Series");
-       System.out.println("Series Name:" + seriesName);
-       wait.wait_for_second(1);
+
+    public void verify_the_pop_up_close() {
+        wait.wait_for_second(1);
+        verify.element_is_present("Fatloss_Series");
+        String seriesName = element.get_element_text("Fatloss_Series");
+        System.out.println("Series Name:" + seriesName);
+        wait.wait_for_second(1);
     }
-    public void verify_and_click_start_workout(){
+
+    public void verify_and_click_start_workout() {
         element.click("Start_Workout");
         wait.wait_for_second(20);
     }
+
     public void click_on_cancel_button() {
         try {
             wait.wait_for_second(2);
             element.click("cancel");
         } catch (Exception e) {
-            System.out.println(" clicking on the cancel button not vissible" );
+            System.out.println(" clicking on the cancel button not vissible");
         }
     }
+
     public void click_on_Step_Tracker() {
-       device.scrollDownToBottom("Step_Tracker");
-       element.click("Step_Tracker");
-       verify.element_is_present("Activate_Google_Fit");
-       element.click("Activate_Google_Fit");
+        device.scrollDownToBottom("Step_Tracker");
+        element.click("Step_Tracker");
+        verify.element_is_present("Activate_Google_Fit");
+        element.click("Activate_Google_Fit");
     }
-    public void verify_the_pop_up(){
+
+    public void verify_the_pop_up() {
         verify.element_is_present("google_account_pop");
     }
-    public void click_on_activate_button_pop_up(){
+
+    public void click_on_activate_button_pop_up() {
         verify.element_is_present("Activate");
         verify.element_is_present("cancel");
         element.click("Activate");
+        wait.wait_until_element_is_visible("Do_not_disturb_permission");
+        wait.wait_for_second(2);
         verify.element_is_present("Do_not_disturb_permission");
     }
+
     public void click_on_add_to_fav_on_series_giftin_coaches() {
         wait.wait_for_second(2);
         if (verify.check_element_is_present("Add_from_favorites_list")) {
             element.click("Add_from_favorites_list");
-            String toastMessage= element.get_element_text("Toast_Message");
-            System.out.println("Toast message is :"+ toastMessage);
+            String toastMessage = element.get_element_text("Toast_Message");
+            System.out.println("Toast message is :" + toastMessage);
             verify.element_is_present("Remove_to_Favorite_list");
             element.click("Remove_to_Favorite_list");
-            String toastMessageRemoved= element.get_element_text("Toast_Message_Removed");
-            System.out.println("Toast message Removed :"+ toastMessageRemoved);
+            String toastMessageRemoved = element.get_element_text("Toast_Message_Removed");
+            System.out.println("Toast message Removed :" + toastMessageRemoved);
         } else if (verify.check_element_is_present("Remove_to_Favorite_list")) {
             element.click("Remove_to_Favorite_list");
-            String toastMessageRemoved= element.get_element_text("Toast_Message_Removed");
-            System.out.println("Toast message Removed :"+ toastMessageRemoved);
+            String toastMessageRemoved = element.get_element_text("Toast_Message_Removed");
+            System.out.println("Toast message Removed :" + toastMessageRemoved);
             wait.wait_for_second(1);
             element.click("Add_from_favorites_list");
-            String toastMessage= element.get_element_text("Toast_Message");
-            System.out.println("Toast message is :"+ toastMessage);
+            String toastMessage = element.get_element_text("Toast_Message");
+            System.out.println("Toast message is :" + toastMessage);
         } else {
             System.out.println("Neither Add_to_favorities nor Remove_from_favorites is visible.");
             throw new IllegalStateException("Expected element not found on the screen.");
         }
     }
-    public void click_on_share_series_button(){
+
+    public void click_on_share_series_button() {
         element.click("Share_Series");
         wait.wait_for_second(5);
     }
-    public void click_Do_not_show_this_again(){
+
+    public void click_Do_not_show_this_again() {
         element.click("Do_not_show_this_again");
     }
-    public void verify_DND_pop_up(){
+
+    public void verify_DND_pop_up() {
+        wait.wait_for_second(2);
         element.click("Dnd_mode_off");
         wait.wait_for_second(2);
-     //   verify.element_is_present("Dnd_permission_required");
+        //   verify.element_is_present("Dnd_permission_required");
         verify.element_is_present("Allow");
         verify.element_is_present("Deny");
     }
+
     public void click_on_upper_body_workout() {
         device.scrollDownToBottom("upper_Body_Workout");
         element.click("upper_Body_Workout");
         wait.wait_for_second(20);
     }
+
     public void click_on_HIIT_Kebab_menu() {
         wait.wait_for_second(2);
         device.scrollDownToBottoms("Day_seven_Full_Body_Relaxation");
         wait.wait_for_second(2);
         element.click("HIIT_Kebab_menu");
     }
+
     public void verify_add_to_favorities_download_and_share_button_present_on_screen() {
         if (verify.check_element_is_present("Add_to_favorites")) {
             System.out.println("Add_to_favorities is displayed.");
@@ -675,6 +764,7 @@ public class Body_Page {
         wait.wait_for_second(1);
         verify.element_is_present("Share");
     }
+
     public void click_on_Add_to_favorites_download_and_share_button() {
         if (verify.check_element_is_present("Add_to_favorites")) {
             System.out.println("Add_to_favorities is displayed.");
@@ -708,32 +798,37 @@ public class Body_Page {
         element.click("Share");
         wait.wait_for_second(5);
     }
-    public void click_on_intense_back_pain_arrow_button(){
-        device.scrollDownToBottom("Trending");
+
+    public void click_on_intense_back_pain_arrow_button() {
+        device.scrollDownToBottom("Find_out_here");
         wait.wait_for_second(2);
         element.click("intense_back_pain_arrow");
         wait.wait_for_second(2);
     }
-    public void verify_intense_back_pain_present_on_page(){
-       verify.element_is_present("intense_back_pain_page");
-       String text= element.get_element_text("intense_back_pain_page");
-       System.out.println("Text is :"+ text);
+
+    public void verify_intense_back_pain_present_on_page() {
+        verify.element_is_present("intense_back_pain_page");
+        String text = element.get_element_text("intense_back_pain_page");
+        System.out.println("Text is :" + text);
     }
-    public void click_on_English_and_select_Hindi_language_of_drop_down(){
+
+    public void click_on_English_and_select_Hindi_language_of_drop_down() {
         wait.wait_for_second(2);
         verify.element_is_present("Read_this_blog_in_page");
         element.click("English");
         wait.wait_for_second(2);
         element.click("Hindi");
-        String hindiText= element.get_element_text("intense_back_pain_hindi_text");
-        System.out.println("Hindi Text is :"+ hindiText);
+        String hindiText = element.get_element_text("intense_back_pain_hindi_text");
+        System.out.println("Hindi Text is :" + hindiText);
     }
-    public void click_on_trending_series_workout(){
+
+    public void click_on_trending_series_workout() {
         device.scrollDownToBottoms("supercharge_your_mind");
         verify.element_is_present("Trending_Series");
         element.click("Trending_Series");
     }
-    public void verify_description_add_to_fav_download_and_share_button_trending_series(){
+
+    public void verify_description_add_to_fav_download_and_share_button_trending_series() {
         wait.wait_for_second(1);
         verify.element_is_present("Trending_series_share_button");
         verify.element_is_present("Trending_series_download_button");
@@ -741,11 +836,13 @@ public class Body_Page {
         verify.element_is_present("Trending_series_dnd_mode_off");
         verify.element_is_present("Start_Workout");
     }
-    public void share_trending_workout_series(){
+
+    public void share_trending_workout_series() {
         element.click("Trending_series_share_button");
         wait.wait_for_second(5);
     }
-    public void verify_and_click_on_add_to_favorities_button_trending_series(){
+
+    public void verify_and_click_on_add_to_favorities_button_trending_series() {
         if (verify.check_element_is_present("Trending_series_add_to_fav_button")) {
             System.out.println("Add_to_favorities is displayed.");
             element.click("Trending_series_add_to_fav_button");
@@ -756,13 +853,67 @@ public class Body_Page {
             wait.wait_for_second(5);
         }
     }
-    public void verify_and_click_on_download_button_trending_series(){
-         wait.wait_for_second(1);
-         wait.wait_until_element_is_visible("Trending_series_download_button");
-         element.click("Trending_series_download_button");
-         wait.wait_for_second(15);
+
+    public void verify_and_click_on_download_button_trending_series() {
+        wait.wait_for_second(1);
+        wait.wait_until_element_is_visible("Trending_series_download_button");
+        element.click("Trending_series_download_button");
+        wait.wait_for_second(15);
+    }
+
+    public void verify_and_click_on_intense_back_pain_share() {
+        device.scrollDownToBottom("Find_out_here");
+        wait.wait_for_second(1);
+        element.click("Share_intense_back_pain");
+        wait.wait_for_second(5);
+    }
+
+    public void click_on_My_Downloads() {
+        wait.wait_for_second(1);
+        if (verify.check_element_is_present("Download")) {
+            System.out.println("Download is displayed.");
+            element.click("Download");
+            wait.wait_for_second(15);
+            verify.element_is_present("Delete_from_downloads");
+        } else if (verify.check_element_is_present("Delete_from_downloads")) {
+            element.click("Delete_from_downloads");
+            element.click("Delete");
+            element.click("Download");
+            wait.wait_for_second(15);
+            verify.element_is_present("Delete_from_downloads");
+        }
+    }
+
+    public void verify_and_click_on_My_Downloads() {
+        wait.wait_for_second(1);
+        element.click("My_Downloads_on_screen");
+        wait.wait_for_second(1);
+        verify.element_is_present("My_Downloads_page");
+        verify.element_is_present("Oops_it_looks_downloads");
+    }
+
+    public void verify_and_click_on_Add_to_favorites() {
+        wait.wait_for_second(1);
+        element.click("Add_to_favorites_on_screen");
+        verify.element_is_present("Add_to_favorites_screen");
+        String workout = element.get_element_text("Add_to_favorites_workout");
+        System.out.println("Workout is " + workout);
+    }
+    public void enter_Full_Body_Workout_in_search_text_field() {
+        enter_data_in_search_box("Full_Body");
+        wait.wait_for_second(2);
+        androidDriver.hideKeyboard();
+        verify.element_is_present("Intense_Full_Body_Workout");
+        verify.element_is_present("Full_Body_Workout");
+        device.scrollDownToBottom("full_body_HIIT");
+        verify.element_is_present("full_body_HIIT");
+    }
+    public void enter_PCOD_in_search_text_field() {
+        enter_data_in_search_box("PCOD");
+        wait.wait_for_second(2);
+        androidDriver.hideKeyboard();
+        verify.element_is_present("PCOD_Series");
     }
 
 }
-
 

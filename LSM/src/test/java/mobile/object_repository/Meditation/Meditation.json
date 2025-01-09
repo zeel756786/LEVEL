@@ -1,5 +1,5 @@
 {
-  "Meditation": {
+  "Meditation_1": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
@@ -45,7 +45,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.ImageView"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.widget.ImageView"
   },
   "Explore_Meditations_Button": {
     "platform": "android",
@@ -93,7 +93,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[6]"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[3]"
   },
   "Radio_button_meditation_series": {
     "platform": "android",
@@ -135,7 +135,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[7]"
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[6]"
   },
   "Apply": {
     "platform": "android",
@@ -303,19 +303,19 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Neha\nRanglani \"]"
+    "android_locator": "//android.widget.TextView[@text=\"Neha\nRanglani\"]"
   },
   "share_break_down_work": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[4]/android.view.View[3]/android.view.View"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[4]/android.view.View[3]"
   },
-  "Break_down_at_work": {
+  "Trending": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Breakdown at work?\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Trending\"]"
   },
   "cancel": {
     "platform": "android",
@@ -333,7 +333,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[*]/android.widget.Button)[3]"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[5]/android.widget.Button"
   },
   "meditations_series_add_to_fav": {
     "platform": "android",
@@ -411,7 +411,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[4]/android.view.View[3]/android.view.View"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[6]/android.view.View[3]/android.view.View"
   },
   "Download_button": {
     "platform": "android",
@@ -455,6 +455,42 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Delete\"]"
   },
+  "Meditation_timer": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Meditation\nTimer\"]"
+  },
+  "Mantra_a": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Mantra\"]"
+  },
+  "Meditation Finder": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Meditation Finder\"]"
+  },
+  "Preventive Care": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Preventive Care\"]"
+  },
+  "Select_bead_count": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Select bead count\"]"
+  },
+  "bead_count_one_one": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"11\"]"
+  },
   "Focus_and_Productivity": {
     "platform": "android",
     "element_type": "button",
@@ -485,12 +521,6 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.ImageView[3]"
   },
-  "Focus_productivity_series_share": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.ImageView[2]"
-  },
   "Focus_productivity_series_remove_from_favorites": {
     "platform": "android",
     "element_type": "button",
@@ -502,17 +532,5 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Share\"]"
-  },
-  "Select_bead_count": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Select bead count\"]"
-  },
-  "bead_count_one_one": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"11\"]"
   }
 }

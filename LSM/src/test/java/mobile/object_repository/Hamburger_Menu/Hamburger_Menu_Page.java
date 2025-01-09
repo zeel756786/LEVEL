@@ -47,22 +47,6 @@ public class Hamburger_Menu_Page {
         verify.element_is_present("Reminder");
         verify.element_is_present("Rate_us");
     }
-    public void click_on_Activity_History_Details(){
-        element.click("Activity_History_Details");
-    }
-    public void verify_activity_history_details_screen_present_on_page() {
-        wait.wait_for_second(1);
-        verify.element_is_present("Activity_History_Screen");
-        String monthsText= element.get_element_text("months");
-        System.out.println("Months: " + monthsText);
-        if (verify.check_element_is_present("Activity_Details")) {
-            String activityHistory = element.get_element_text("Activity_Details");
-            System.out.println("Activity History: " + activityHistory);
-        } else if (verify.check_element_is_present("Oops_it_seems_there")) {
-            String oopsMessage = element.get_element_text("Oops_it_seems_there");
-            System.out.println("Oops Message: " + oopsMessage);
-        }
-    }
     public void verify_and_click_on_View_Profile(){
         verify.element_is_present("View_Profile");
         element.click("View_Profile");
@@ -159,10 +143,10 @@ public class Hamburger_Menu_Page {
         androidDriver.hideKeyboard();
     }
     public void click_on_Redeem_button(){
-       element.click("Redeem");
+        element.click("Redeem");
     }
     public void verify_Code_Invalid_or_Redeemed_Message(){
-      verify.element_is_present("Code_Invalid_or_Redeemed");
+        verify.element_is_present("Code_Invalid_or_Redeemed");
     }
     public void click_on_My_Purchases(){
         wait.wait_for_second(2);
@@ -171,10 +155,10 @@ public class Hamburger_Menu_Page {
         element.click("My_Purchases");
     }
     public void verify_the_Your_Purchase_History_screen(){
-      wait.wait_for_second(2);
-      wait.wait_until_element_is_visible("Your_Purchase_History");
-      verify.element_is_present("Your_Purchase_History");
-      verify.element_is_present("Gift_Level_Super_Mind_Premium_now");
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("Your_Purchase_History");
+        verify.element_is_present("Your_Purchase_History");
+        verify.element_is_present("Gift_Level_Super_Mind_Premium_now");
 
     }
     public void click_on_Settings_sub_menu(){
@@ -190,23 +174,23 @@ public class Hamburger_Menu_Page {
         verify.element_is_present("Terms_and_Conditions");
         verify.element_is_present("Privacy_Policy");
         verify.element_is_present("Connect_with_us_on_Social");
-            element.click("Notifications");
-            wait.wait_for_second(2);
-            performNavigateBack(1);
-            verify.element_is_present("Settings");
-            wait.wait_for_second(2);
-            element.click("Terms_and_Conditions");
-            wait.wait_for_second(2);
-            performNavigateBack(1);
-            verify.element_is_present("Settings");
-            wait.wait_for_second(2);
-            element.click("Privacy_Policy");
-            wait.wait_for_second(2);
-            performNavigateBack(1);
-            verify.element_is_present("Settings");
-            wait.wait_for_second(2);
-            element.click("Connect_with_us_on_Social");
-        }
+        element.click("Notifications");
+        wait.wait_for_second(2);
+        performNavigateBack(1);
+        verify.element_is_present("Settings");
+        wait.wait_for_second(2);
+        element.click("Terms_and_Conditions");
+        wait.wait_for_second(2);
+        performNavigateBack(1);
+        verify.element_is_present("Settings");
+        wait.wait_for_second(2);
+        element.click("Privacy_Policy");
+        wait.wait_for_second(2);
+        performNavigateBack(1);
+        verify.element_is_present("Settings");
+        wait.wait_for_second(2);
+        element.click("Connect_with_us_on_Social");
+    }
 
     public void performNavigateBack(int count) {
         for (int j = 0; j < count; j++) {
@@ -308,16 +292,16 @@ public class Hamburger_Menu_Page {
         element.click("Edit_Profile");
     }
     public void click_on_name_email_id_phone_and_enter_the_data(int index,  String textToEnter){
-      try {
-          wait.wait_for_second(2);
-          WebElement textFiled = androidDriver.findElement(By.xpath("//android.widget.EditText[" + index + "]"));
-          textFiled.click();
-          textFiled.clear();
-          textFiled.sendKeys(textToEnter);
-          androidDriver.hideKeyboard();
-      }catch (Exception e){
-          System.out.println("Failed to handle the text filed");
-      }
+        try {
+            wait.wait_for_second(2);
+            WebElement textFiled = androidDriver.findElement(By.xpath("//android.widget.EditText[" + index + "]"));
+            textFiled.click();
+            textFiled.clear();
+            textFiled.sendKeys(textToEnter);
+            androidDriver.hideKeyboard();
+        }catch (Exception e){
+            System.out.println("Failed to handle the text filed");
+        }
     }
     public void enter_the_value_in_name_email_id_phone_text_filed(){
         click_on_name_email_id_phone_and_enter_the_data(1,"Zeel");
@@ -333,15 +317,11 @@ public class Hamburger_Menu_Page {
     public void verify_and_click_on_save_button_of_edit_profile(){
         element.click("save_button");
         String profileUpdated= element.get_element_text("Profile_updated_successfully");
-       System.out.println("Profile updated successfully :"+ profileUpdated);
+        System.out.println("Profile updated successfully :"+ profileUpdated);
     }
     public void click_on_verify_your_email_id(){
-       wait.wait_for_second(2);
-       element.click("verify_your_email_id");
-    }
-    public void click_on_verify_your_contact_number(){
         wait.wait_for_second(2);
-        element.click("Verify_your_contact_number");
+        element.click("verify_your_email_id");
     }
     public void verify_otp_screen_present_on_page(){
         wait.wait_for_second(2);
@@ -351,14 +331,7 @@ public class Hamburger_Menu_Page {
         device.scrollDownToBottom("Help_and_Support");
         element.click("view_more_activity_details");
     }
-    public void verify_activity_history_details_present_on_page(){
-        wait.wait_for_second(2);
-     //   verify.element_is_present("Activity_History");
-        String year= element.get_element_text("Month_Year");
-        System.out.println("Year of the Month:" + year);
-        String historyMessage= element.get_element_text("Oops_it_seems");
-        System.out.println("History Message:" + historyMessage);
-    }
+
     public void click_on_refer_and_win(){
         performNavigateBack(1);
         wait.wait_for_second(2);
@@ -366,12 +339,12 @@ public class Hamburger_Menu_Page {
         wait.wait_for_second(5);
     }
     public void verify_and_click_on_Delete_Account_and_pause_my_account(){
-       device.scrollDownToBottom("Help_and_Support");
-       element.click("Delete_Account");
-       verify.element_is_present("pause_my_account");
-       verify.element_is_present("Delete_my_account");
-       element.click("pause_my_account");
-       verify.element_is_present("Get_Started");
+        device.scrollDownToBottom("Help_and_Support");
+        element.click("Delete_Account");
+        verify.element_is_present("pause_my_account");
+        verify.element_is_present("Delete_my_account");
+        element.click("pause_my_account");
+        verify.element_is_present("Get_Started");
     }
     public void verify_and_click_on_Delete_Account_and_delete_my_account(){
         device.scrollDownToBottom("Help_and_Support");
@@ -408,6 +381,26 @@ public class Hamburger_Menu_Page {
         device.horizontalScrollRightToTexts("Redeem");
         wait.wait_for_second(2);
         verify.element_is_present("Redeem");
+    }
+    public void click_on_Activity_History_Details(){
+        element.click("Activity_History_Details");
+    }
+    public void verify_activity_history_details_screen_present_on_page() {
+        wait.wait_for_second(1);
+        verify.element_is_present("Activity_History_Screen");
+        String monthsText= element.get_element_text("months");
+        System.out.println("Months: " + monthsText);
+        if (verify.check_element_is_present("Activity_Details")) {
+            String activityHistory = element.get_element_text("Activity_Details");
+            System.out.println("Activity History: " + activityHistory);
+        } else if (verify.check_element_is_present("Oops_it_seems")) {
+            String oopsMessage = element.get_element_text("Oops_it_seems");
+            System.out.println("Oops Message: " + oopsMessage);
+        }
+    }
+    public void click_on_verify_your_contact_number(){
+        wait.wait_for_second(2);
+        element.click("Verify_your_contact_number");
     }
 }
 

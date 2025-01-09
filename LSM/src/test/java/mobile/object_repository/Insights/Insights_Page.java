@@ -6,7 +6,11 @@ import io.unity.performaction.autoweb.Alert;
 import io.unity.performaction.autoweb.Element;
 import io.unity.performaction.autoweb.Verify;
 import io.unity.performaction.autoweb.Wait;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class Insights_Page {
     WebDriver driver = null;
@@ -36,7 +40,7 @@ public class Insights_Page {
         verify.element_is_present("League");
     }
     public void click_League_present_on_page(){
-       element.click("League");
+        element.click("League");
     }
     public void verify_My_activity_present_on_page(){
         wait.wait_until_element_is_visible("My_activity");
@@ -69,14 +73,14 @@ public class Insights_Page {
         verify.element_is_present("what_are_leagues");
         String leagueText= element.get_element_text("Leagues_are_the_new_xp_leaderboard");
         System.out.println("League text is :"+ leagueText);
-        device.sliding("what_are_leagues",-400,0);
-     //   device.horizontalScrollRightToTexts("How_it_works");
+        device.sliding("what_are_leagues",-800,0);
+        //device.horizontalScrollRightToTexts("How_it_works");
         verify.element_is_present("How_it_works");
         String workText= element.get_element_text("Each_league_has_thirty_participants_complete_activities");
         System.out.println("Work text is :"+ workText);
         wait.wait_for_second(1);
-        device.sliding("How_it_works",-200,0);
-    //    device.horizontalScrollRightToTexts("Ready_for_the_big_Leagues");
+        device.sliding("How_it_works",-800,0);
+        //  device.horizontalScrollRightToTexts("Ready_for_the_big_Leagues");
         wait.wait_for_second(1);
         verify.element_is_present("Ready_for_the_big_Leagues");
     }
@@ -97,14 +101,13 @@ public class Insights_Page {
         verify.element_is_present("Set_reminders");
         verify.element_is_present("your_average_number_of_activities_dropped");
         wait.wait_for_second(1);
-        device.scrollDownToBottom("weekly_comparison");
-        wait.wait_for_second(1);
         verify.element_is_present("weekly_comparison");
-        wait.wait_for_second(1);
+
+    }
+    public void verify_the_super_charge_your_mind_in_my_activity_screen_present_on_page(){
         device.scrollDownToBottom("Mindful_days_this_week");
         wait.wait_for_second(1);
         verify.element_is_present("Mindful_days_this_week");
-        wait.wait_for_second(1);
         device.scrollDownToBottom("your_league_ranking");
         verify.element_is_present("your_league_ranking");
         wait.wait_for_second(1);
@@ -115,6 +118,8 @@ public class Insights_Page {
         String sessionCount= element.get_element_text("Session_count");
         System.out.println("Session count is :"+ sessionCount);
     }
+
+
     public void user_see_the_pop_up_contains_of_streak_freeze_and_how_it_work_and_often_can_you_it(){
         wait.wait_for_second(2);
         verify.element_is_present("what_is_streak_freeze");
@@ -159,4 +164,65 @@ public class Insights_Page {
         System.out.println("Time is :"+ time);
         wait.wait_for_second(5);
     }
+    public void verify_the_current_league_ends_in_page() {
+        wait.wait_for_second(2);
+        device.scrollDownToBottom("current_league_ends_in");
+        verify.element_is_present("current_league_ends_in");
+    }
+    public void printRemainingTime() {
+        try {
+            List<WebElement> timeElements = androidDriver.findElements(By.xpath("//android.widget.TextView[@text='Current league ends in:']/following-sibling::android.widget.TextView"));
+
+            for (int i = 0; i <=timeElements.size()-1; i++) {
+                if (i==13) {
+                    System.out.print("#");
+                    continue;
+                }
+                {
+                    WebElement timeElement = timeElements.get(i);
+                    String timeValue = timeElement.getText();
+                    System.out.print(timeValue);
+                }
+
+            }
+        }
+
+        catch (Exception e) {
+            System.out.println("Error extracting the time: " + e.getMessage());
+        }
+    }
+    public void printRemainingSceond() {
+        try {
+            // Find the elements that hold the time components
+            WebElement daysElement = androidDriver.findElement(By.xpath("//android.widget.TextView[@text=\"4\"]"));
+            wait.wait_for_second(2);
+            WebElement hoursElement = androidDriver.findElement(By.xpath("//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]"));
+            wait.wait_for_second(2);
+            WebElement minutesElement = androidDriver.findElement(By.xpath("//android.widget.TextView[@text=\"Sec\"]"));
+            wait.wait_for_second(2);
+            // Extract the text from each element
+            String days = daysElement.getText();
+            String hours = hoursElement.getText();
+            String minutes = minutesElement.getText();
+
+            // Print the remaining time in the format dd:hh:mm:ss
+            System.out.println("Remaining Time: " + days + ":" + hours + ":" + minutes );
+
+        } catch (Exception e) {
+            System.out.println("Error extracting the time: " + e.getMessage());
+        }
+    }
+
+    public void Verify_month_of_history(){
+        wait.wait_for_second(2);
+        verify.element_is_present("month_of_history");
+        String month= element.get_element_text("month_of_history");
+        System.out.println("month_of_history :"+ month);
+        wait.wait_for_second(5);
+    }
+    public void Verify_reminder_screen(){
+        wait.wait_for_second(2);
+        verify.element_is_present("Reminder_Screen");
+    }
+
 }

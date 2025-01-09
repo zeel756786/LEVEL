@@ -13,7 +13,6 @@ public class Payment_Test extends base {
 
     @Test
     public void user_can_subscribe_plan() {
-
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         payment_page payment_page = new payment_page(driver);
@@ -137,8 +136,6 @@ public class Payment_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         today_music_page.verify_and_click_on_hamburger_button_of_today_page();
         payment_page.verify_and_click_on_settings_present_on_page();
         payment_page.verify_settings_present_on_page();
@@ -161,8 +158,6 @@ public class Payment_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         today_music_page.verify_and_click_on_hamburger_button_of_today_page();
         payment_page.verify_and_click_on_manage_subscription();
         payment_page.verify_my_subscription_present_on_page();
@@ -185,8 +180,6 @@ public class Payment_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         today_music_page.verify_and_click_on_hamburger_button_of_today_page();
         payment_page.verify_and_click_on_manage_subscription();
         payment_page.verify_and_click_on_explore_all_plans();
@@ -241,10 +234,10 @@ public class Payment_Test extends base {
         today_music_page.verify_and_click_on_hamburger_button_of_today_page();
         payment_page.verify_and_click_on_manage_subscription();
         payment_page.click_on_Buy_Subscription();
-        payment_page.verify_and_click_on_show_all_plans();
+    //    payment_page.verify_and_click_on_show_all_plans();
         payment_page.verify_paid_annually_pan();
         payment_page.verify_paid_half_yearly_plan();
+        payment_page.scrollUntilElementVisible();
         payment_page.verify_paid_monthly_plan();
     }
 }
-

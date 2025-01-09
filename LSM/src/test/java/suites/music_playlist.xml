@@ -1,0 +1,355 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Music_Playlist ">
+    <test name="To verify when the user taps on the 'Create Playlist' button on the 'Your Playlist' section Music_PL_001">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the use taps on the the 'Playlist Name' filed Music_PL_003">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Cancel' button Music PL 004">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when user try to taps on the Create Button on the Create Playlist screen without entering any data in the Playlist Name field Music PL 005">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when user try to taps on the Create Button on the Create Playlist screen after entering any data in the Playlist Name field Music PL 006">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_Music_PL_006"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user enters the any keyword in search field of the Add item to playlist screen Music PL 008">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_Music_PL_008"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the Expand icon on the any category from the list Music PL 010">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Expand_icon_on_the_any_category_from_the_list_Music_PL_010"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Collapse' icon on the any category from the list Music PL 011">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_Music_PL_011"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Select all' radio button of the expanded list of music tracks Music PL 012">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Select_all_radio_button_of_the_expanded_list_of_music_tracks_Music_PL_012"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Select all' radio button of the expanded list of music tracks Music PL 013">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_Music_PL_013"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Add music +' button on the any music track from the expanded music list Music PL 014">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Add_music_button_on_the_any_music_track_from_the_expanded_music_list_Music_PL_014"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Selected' icon on the selected music track from the expanded music list Music PL 015">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_Music_PL_015"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when user swaps left from the 'Categories' Screen Music PL 017">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_verify_when_user_wraps_left_from_the_Categories_Screen_Music_PL_017"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the the user try to taping on the 'Go To Playlist' button without selecting any music track Music PL 018">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_music_track_Music_PL_018"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the the user try to taping on the 'Go To Playlist' button after selecting music track Music PL 0019">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_Music_PL_019"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Back' button Music PL 021">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_the_user_taps_on_the_Back_button_Music_PL_021"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'More Vert' icon beside the playlist name Music PL 022">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_beside_the_playlist_name_Music_PL_022"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Play' button Music PL 023">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Play_button_Music_PL_023"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Close' icon on the bottom sheet Music PL 025">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_Music_PL_025"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the '+ Add to this Playlist' option on the bottom sheet Music PL 026">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Add_to_this_Playlist_option_on_the_bottom_sheet_Music_PL_026"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Delete playlist' option on the bottom sheet Music PL 027">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Delete_playlist_option_on_the_bottom_sheet_Music_PL_027"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'No' button on the delete playlist confirmation popup Music PL 029">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_Music_PL_029"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Yes' button on the delete playlist confirmation popup Music PL 030">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Yes_button_on_the_delete_playlist_confirmation_popup_Music_PL_030"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Edit Playlist' option on the bottom sheet Music PL 031">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Edit_Playlist_on_the_bottom_sheet_Music_PL_031"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user try to tap on the 'Save' button without applying any changes in the created playlist Music PL 033">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_try_to_tap_on_the_Save_button_without_applying_any_changes_in_the_created_playlist_Music_PL_033"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify that the user is able to update the playlist name Music PL 034">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_that_the_user_is_able_to_update_the_playlist_name_Music_PL_034"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'x Remove' icon on the any available track in the playlist Music PL 035">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_x_Remove_icon_on_the_any_available_track_in_the_playlist_Music_PL_035"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'x Remove' icon on the any available track in the playlist Music PL 036">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_that_the_user_is_able_to_reorder_the_track_available_in_the_playlist_Music_PL_036"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user try to tap on the 'Save' button after removing the playlist name Music PL 037">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_name_Music_PL_037"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'More Vert' icon beside the playlist name Music PL 041">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_More_Vert_icon_on_track_song_name_Music_PL_041"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'Add to favorites' option on the bottom sheet Music PL 043">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_Music_PL_043"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the Share this music option on the bottom sheet Music PL 044">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Share_this_music_option_on_the_bottom_sheet_Music_PL_044"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'More Vert' icon beside the playlist name Music PL 045">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_Music_PL_045"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user can Add a new reminder on the Reminder screen after tapping on the Reminder sub menu Music PL 046">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="Verify_that_the_user_can_Add_a_new_reminder_on_the_Reminder_screen_after_tapping_on_the_Reminder_sub_menu_Music_PL_046"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'More Vert' icon beside the playlist name Music PL 047">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Rate_this_music_option_on_the_bottom_sheet_SLP_PL_047"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the Add More button Music PL 048">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_when_the_user_taps_on_the_Add_More_button_Music_PL_48"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify that the user is able to add the any currently played track into the created playlist Music PL 049">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_into_the_created_playlist_music_PL_49"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify that the user is able to add the any currently played track into the created playlist Music PL 050">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_music_PL_50"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="To verify when the user taps on the 'More Vert' icon beside the playlist name Music PL 052">
+        <classes>
+            <class name="mobile.tests.Music_Playlist.Music_Playlist_Test">
+                <methods>
+                    <include name="To_verify_that_the_user_is_able_to_add_the_track_into_the_created_playlist_using_Add_more_button_Music_PL_52"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

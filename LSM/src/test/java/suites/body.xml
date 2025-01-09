@@ -1,0 +1,526 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Body Flow ">
+    <test name="Verify that the user tap on the Body footer menu BDY 001">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Body_footer_menu_BDY_001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user search for the yoga using the search field BDY 002">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_search_for_the_yoga_using_the_search_field_BDY_002"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user search or the HIIT using the search field BDY 003">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify that the user search for the workout using the search field BDY 003"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user search or the HIIT using the search field BDY 004">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_search_for_the_workout_using_the_search_field_BDY_004"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Beginner workout tab on the Workouts screen BDY 005">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Beginner_workout_tab_on_the_Workouts_screen_BDY_005"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Intermediate workout tab on the Workouts screen BDY 006">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Intermediate_workout_tab_on_the_Workouts_screen_BDY_006"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Advanced workout tab on the Workouts screen BDY 007">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Advanced_workout_tab_on_the_Workouts_screen_BDY_007"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify_that_the_user_apply_the_filter_as_New_workout_tab_on_the_Search_screen_BDY_008">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_New_workout_tab_on_the_Search_screen_BDY_008"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify_that_the_user_apply_the_filter_as_Free_workout_tab_on_the_Search_screen_BDY_009">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Free_workout_tab_on_the_Search_screen_BDY_009"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Frequently Repeated workout tab on the Search screen BDY 010">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Frequently_Repeated_workout_tab_on_the_Search_screen_BDY_010"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Strength Training workout tab on the Search screen BDY 011">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Strength_Training_workout_tab_on_the_Search_screen_BDY_011"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Relaxation workout tab on the Search screen BDY 012">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Relaxation_workout_tab_on_the_Search_screen_BDY_012"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Fat Loss workout tab on the Search screen BDY 013">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Fat_Loss_workout_tab_on_the_Search_screen_BDY_013"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as PCOD workout tab on the Search screen BDY 014">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_PCOD_workout_tab_on_the_Search_screen_BDY_014"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter as Full Body Workout tab on the Search screen. BDY 015">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_as_Full_Body_Workout_workout_tab_on_the_Search_screen_BDY_015"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user see the Workouts Completed for this week BDY 16.">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_see_the_Workouts_Completed_for_this_week_BDY_016"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the HIIT of the Explore Workouts from the Workouts screen BDY 18">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_HIIT_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_018"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the kebab menu of the HIIT screen BDY 19.">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_HIIT_screen_BDY_019"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Add to favourite option of the kebab menu from the HIIT screen BDY_20.">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_HIIT_screen_BDY_020"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Share option of the kebab menu from the HIIT screen BDY_22.">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Share_option_of_the_kebab_menu_from_the_HIIT_screen_BDY_022"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Yoga of the Explore Workouts from the Workouts screen BDY_23.">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Yoga_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_023"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Yoga of the Explore Workouts from the Workouts screen BDY_024">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Yoga_screen_BDY_024"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Add to favourite option of the kebab menu from the Yoga screen BDY_025">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Yoga_screen_BDY_025"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Relaxation of the Explore Workouts from the Workouts screen BDY_029">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Relaxation_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_029"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the kebab menu of the Relaxation screen BDY 030">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Relaxation_screen_BDY_030"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Add to favourite option of the kebab menu from the Relaxation screen BDY_031">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Relaxation_screen_BDY_031"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Strength Training of the Explore Workouts from the Workouts screen BDY_031">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Strength_Training_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_035"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the kebab menu of the Strength Training_screen BDY 036">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Strength_Training_screen_BDY_036"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Add to favourite option of the kebab menu from the Strength Training screen BDY 037">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Strength_Training_screen_BDY_037"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the see all of the Browse by coach from the Workouts screen BDY 041">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_see_all_of_the_Browse_by_coach_from_the_Workouts_screen_BDY_041"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the any coach from the Browse by coach from the Workouts screen BDY_043">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_any_coach_from_the_Browse_by_coach_from_the_Workouts_screen_BDY_043"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter by Workout Series and Sort by Newest after tap on the any coach from the Workouts screen">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Newest_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_047"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter by Workout Series and Sort by Unplayed after tap on the any coach from the Workouts screen BDY_048">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Unplayed_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_048"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter by Workout Series and Sort by Previously Played after tap on the any coach from the Workouts screen BDY_049">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Previously_Played_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_049"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user apply the filter by Quick Picks and Sort by Time after tap on the any coach from the Workouts screen BDY_051">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the kebab menu after tap on the any coach from the Workouts screen BDY_061">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_061"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Add to favourite option of kebab menu after tap on the any coach from the Workouts screen BDY_062">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_062"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Share this series option of kebab menu after tap on the any coach from the Workouts screen BDY_063">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Share_this_series_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_063"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the View all episodes option of kebab menu after tap on the any coach from the Workouts screen BDY_64">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_View_all_episodes_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_064"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Schedule a reminder option of kebab menu after tap on the any coach from the Workouts screen BDY_65">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Schedule_a_reminder_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_065"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the View this series option of kebab menu after tap on the any coach from the Workouts screen BDY_66">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_View_this_series_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_066"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user play the workout series after tap on the any coach from the Workouts screen BDY_67">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_play_the_workout_series_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_067"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the right arrow of the Step Tracker from the Workouts screen BDY_68">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_right_arrow_of_the_Step_Tracker_from_the_Workouts_screen_BDY_068"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the any series from the Workouts screen BDY_69">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_any_series_from_the_workouts_screen_BDY_069"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Cancel button of the modal popup after tap on the any workout series BDY_071">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Cancel_button_of_the_modal_popup_after_tap_on_the_any_workout_series_BDY_071"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user check the checkbox of the modal popup after tap on the any workout series BDY_072">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_check_the_checkbox_of_the_modal_popup_after_tap_on_the_any_workout_series_BDY_072"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the DND mode off radio button after tap on the any workout series BDY_076">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_DND_mode_off_radio_button_after_tap_on_the_any_workout_series_BDY_076"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Start Workout after tap on the any workout series BDY_077">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Start_Workout_button_after_tap_on_the_any_workout_series_BDY_077"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the kebab menu after tap on the any workout series BDY_078">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_after_tap_on_the_any_workout_series_BDY_078"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Add to favourite option of the kebab menu after tap on the any workout series BDY_079">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_after_tap_on_the_any_workout_series_BDY_079"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user share the Easy Yoga streches for office series from the Workouts screen BDY_082">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_share_the_Easy_Yoga_streches_for_office_series_from_the_Workouts_screen_BDY_082"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user select the reading language from the dropdown for reading the blog on the Feeling like an imposter at work screen BDY_084">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_select_the_reading_language_from_the_dropdown_for_reading_the_blog_on_the_Feeling_like_an_imposter_at_work_screen_BDY_084"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Trending workout series from the Workout screen BDY_085">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Trending_workout_series_from_the_Workout_screen_BDY_085"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Add to favourite icon after tap on the Trending workout series BDY_087">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Add_to_favourite_icon_after_tap_on_the_Trending_workout_series_BDY_087"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the toggle after tap on the Trending workout series BDY_089">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_toggle_after_tap_on_the_Trending_workout_series_BDY_089"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user tap on the Start Workout button after tap on the Trending workout series BDY_091">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Start_Workout_button_after_tap_on_the_Trending_workout_series_BDY_091"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user see the added favourites of workout serieses in the Add to Favourite BDY_092">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_see_the_added_favourites_of_workout_serieses_in_the_Add_to_Favourite_BDY_092"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Verify that the user see the downloaded workout serieses in the Download BDY_093">
+        <classes>
+            <class name="mobile.tests.Body.Body_Test">
+                <methods>
+                    <include name="Verify_that_the_user_see_the_downloaded_workout_serieses_in_the_Download_BDY_093"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

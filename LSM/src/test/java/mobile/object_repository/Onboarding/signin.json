@@ -111,7 +111,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Enter your email\"]"
+    "android_locator": "//android.widget.TextView[@text='Enter your email']"
   },
   "plus_nine_one_code": {
     "platform": "android",
@@ -519,7 +519,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"₹ 149 / Month\"]"
+    "android_locator": "//android.widget.TextView[@text=\"₹ 149 108/ Month\"]"
   },
   "one_nine_nine_plan": {
     "platform": "android",
@@ -527,10 +527,10 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"₹ 199 / Month\"]"
   },
-  "close": {
+  "two_nine_nine_plan": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.ImageView[@content-desc=\"close\"]"
+    "android_locator": "//android.widget.TextView[@text=\"₹ 299 / Month\"]"
   }
 }

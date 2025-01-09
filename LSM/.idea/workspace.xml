@@ -44,273 +44,292 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Runner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Advanced_workout_tab_on_the_Workouts_screen_BDY_007.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Beginner_workout_tab_on_the_Workouts_screen_BDY_005.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Fat_Loss_workout_tab_on_the_Search_screen_BDY_013.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Free_workout_tab_on_the_Search_screen_BDY_009.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Frequently_Repeated_workout_tab_on_the_Search_screen_BDY_010.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Intermediate_workout_tab_on_the_Workouts_screen_BDY_006.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_New_workout_tab_on_the_Search_screen_BDY_008.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Relaxation_workout_tab_on_the_Search_screen_BDY_012.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Strength_Training_workout_tab_on_the_Search_screen_BDY_011.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Newest_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_047.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Previously_Played_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_049.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Unplayed_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_048.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_play_the_workout_series_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_067.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_search_for_the_yoga_using_the_search_field_BDY_002.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_see_the_Workouts_Completed_for_this_week_BDY_016.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_select_the_reading_language_from_the_dropdown_for_reading_the_blog_on_the_Feeling_like_an_imposter_at_work_screen_BDY_084.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_icon_after_tap_on_the_Trending_workout_series_BDY_087.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_062.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_after_tap_on_the_any_workout_series_BDY_079.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_HIIT_screen_BDY_020.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Relaxation_screen_BDY_031.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Strength_Training_screen_BDY_037.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Yoga_screen_BDY_025.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Body_footer_menu_BDY_001.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Cancel_button_of_the_modal_popup_after_tap_on_the_any_workout_series_BDY_071.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_DND_mode_off_radio_button_after_tap_on_the_any_workout_series_BDY_076.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_HIIT_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_018.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Relaxation_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_029.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Schedule_a_reminder_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_065.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Share_option_of_the_kebab_menu_from_the_HIIT_screen_BDY_022.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Start_Workout_button_after_tap_on_the_any_workout_series_BDY_077.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_Trending_workout_series_from_the_Workout_screen_BDY_085.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_View_all_episodes_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_064.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_View_this_series_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_066.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_any_coach_from_the_Browse_by_coach_from_the_Workouts_screen_BDY_043.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_any_series_from_the_workouts_screen_BDY_069.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_061.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_after_tap_on_the_any_workout_series_BDY_078.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_HIIT_screen_BDY_019.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Relaxation_screen_BDY_030.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Strength_Training_screen_BDY_036.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Yoga_screen_BDY_024.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_right_arrow_of_the_Step_Tracker_from_the_Workouts_screen_BDY_068.executor": "Run",
-    "TestNG.Body_Test.Verify_that_the_user_tap_on_the_see_all_of_the_Browse_by_coach_from_the_Workouts_screen_BDY_041.executor": "Run",
-    "TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_click_on_the_View_Profile_button_HBM_002.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Activity_History_sub_menu_of_the_Hamburger_menu_HBM_006.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Delete_Account_button_after_tapping_on_the_View_Profile_HBM_042.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Delete_my_account_after_tapping_on_the_Delete_Account_HBM_044.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Edit_Profile_option_after_tap_on_the_View_Profile_option_on_the_side_panel_menu_HBM_032.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Gift_a_Subscription_sub_menu_of_the_Hamburger_menu_HBM_007.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Got_a_Coupon_code_right_arrow_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_011.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Hamburger_menu_HBM_001.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_How_It_works_hyperlink_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_008.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Logout_sub_menu_of_the_Hamburger_menu_HBM_029.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Manage_Subscription_option_on_the_side_panel_menu_HBM_003.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_My_Purchases_on_the_top_right_corner_of_the_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_014.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Refer_and_earn_sub_menu_of_the_Hamburger_menu_HBM_021.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Reminder_sub_menu_of_the_Hamburger_menu_HBM_026.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Settings_sub_menu_of_the_Hamburger_menu_HBM_015.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Stay_Logged_In_button_of_the_pop_up_after_tap_on_the_Logout_sub_menu_of_the_Hamburger_menu_HBM_031.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_View_More_Activity_Details_after_tapping_on_the_View_Profile_HBM_040.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_favourite_option_on_the_side_panel_menu_HBM_004.executor": "Run",
-    "TestNG.Hamburger_Menu_Test.Verify_that_the_user_verify_the_contact_number_if_user_has_sign_up_using_email_address_by_using_edit_profile_HBM_037.executor": "Run",
-    "TestNG.Insights_Test.Verify_that_the_user_tap_on_the_I_icon_of_the_League_of_SuperMinds_on_the_Insights_screen_INSGT_003.executor": "Run",
-    "TestNG.Insights_Test.Verify_that_the_user_tap_on_the_Insights_footer_menu_INSGT_001.executor": "Run",
-    "TestNG.Insights_Test.Verify_that_the_user_tap_on_the_My_activity_tab_INSGT_005.executor": "Run",
-    "TestNG.Insights_Test.Verify_that_the_user_tap_on_the_Set_reminders_on_the_My_activity_tab_INSGT_008.executor": "Run",
-    "TestNG.Insights_Test.Verify_that_the_user_tap_on_the_icon_beside_the_Streak_on_the_My_activity_tab_INSGT_006.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_Add_to_favourite_the_Meditation_Series_of_Stress_Anxiety_series_Mind_034.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Newest_on_Mindfulness_screen_Mind_012.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_013.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Newest_on_Mindfulness_screen_Mind_006.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_008.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_007.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_on_Mindfulness_screen_Mind_009.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_011.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_010.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_pause_the_Meditation_Series_of_Stress_Anxiety_series_Mind_032.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Focus_Productivity_series_Mind_042.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Stress_Anxiety_series_Mind_031.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_play_the_trending_Meditation_series_Mind_028.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_search_for_meditations_mantras_pranayama_using_search_field_Mind_002.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_share_a_Breakdown_at_work_Find_out_here_Mind_027.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_share_the_Meditation_Series_of_Stress_Anxiety_series_Mind_033.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Bengali_language_tab_Mind_020.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_tab_Mind_016.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Explore_Meditations_button_Mind_005.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Gujarati_language_tab_Mind_019.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Hindi_language_tab_Mind_017.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Kannada_language_tab_Mind_022.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Marathi_language_tab_Mind_018.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Meditation_footer_menu_Mind_001.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Tamil_language_tab_Mind_021.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_i_icon_of_any_technique_of_Meditation_Finder_Find_your_style_Mind_004.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Focus_Productivity_screen_Mind_049.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Serieson_stress_Anxiety_screen_Mind_039.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Focus_Productivity_screen_Mind_050.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Focus_Productivity_serieses_Mind_040.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030.executor": "Run",
-    "TestNG.Meditations_Test.Verify_that_the_user_user_tap_on_the_any_technique_of_Meditation_Finder_Find_your_style_Mind_003.executor": "Run",
-    "TestNG.Meditations_Test.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_Music_PL_008.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_button_on_the_any_music_track_from_the_expanded_music_list_Music_PL_014.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_Music_PL_011.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Expand_icon_on_the_any_category_from_the_list_Music_PL_010.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Select_all_radio_button_of_the_expanded_list_of_music_tracks_Music_PL_012.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_Music_PL_015.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_Music_PL_013.executor": "Run",
-    "TestNG.Music_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005.executor": "Run",
-    "TestNG.Music_Playlist_Test.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_All_subscription_plan_displayed_correctly_PYT_006.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_Most_popular_plan_by_default_selected_PYT_005.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004.executor": "Run",
-    "TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_004.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_spaces_not_allowed.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_special_character_not_allowed.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_dash.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_few_digits.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_more_than_10_digits.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_spaces.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_format_with_invalid_otp.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_name_in_onb_registration_form.executor": "Run",
-    "TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_phone_no_in_onb_registration_form.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_into_the_created_playlist_SLP_PL_049.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_reorder_the_track_availables_in_the_playlist_SLP_PL_037.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_update_the_playlist_name_SLP_PL_035.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_theCreate_Playlist_screen_SLP_PL_003.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_Add_Items_to_playlist_screen_SLP_PL_008.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_delete_playlist_confirmation_popup_SLP_PL_029.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_use_taps_on_the_Playlist_Name_filed_SLP_PL_004.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Back_buttonSLP_PL_022.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_SLP_PL_005.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_026.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_SLP_PL_012.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_SLP_PL_002.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Delete_playlist_option_on_the_bottom_sheet_SLP_PL_028.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Edit_Playlist_option_option_on_the_bottom_sheet_SLP_PL_032.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_025.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_041.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_SLP_PL_030.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Play_button_SLP_PL_024.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_SLP_PL_045.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Yes_delete_playlist_button_on_the_delete_playlist_confirmation_popup_SLP_PL_031.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_any_language_filter_below_the_search_field_SLP_PL_010_and_SLP_PL_011.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_plus_Add_to_this_Playlist_option_on_the_bottom_sheet_SLP_PL_027.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_x_Remove_icon_on_the_any_available_track_in_the_playlist_SLP_PL_036.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_without_applying_any_changes_in_the_created_playlist_SLP_PL_034.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_SLP_PL_014.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_SLP_PL_007.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_SLP_PL_006.executor": "Run",
-    "TestNG.Sleep_Playlist_Test.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_Add_to_favourite_the_Sleep_Stories_of_New_Arrivals_series_SLP_011.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_apply_the_filter_for_the_categories_SLP_003.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_create_Playlist_SLP_019.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_download_the_Sleep_Stories_of_New_Arrivals_series_SLP_012.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_see_the_downloaded_Meditation_serieses_in_the_Downloads_SLP_018.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_share_the_Best_Worst_Bedroom_Colors_SLP_020.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_share_the_Meditation_Series_of_sleep_meditations_series_SLP_010.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_English_language_on_Sleep_Stories_of_New_Arrivals_screen_SLP_014.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Hindi_language_on_Sleep_Stories_of_New_Arrivals_series_SLP_015.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Sleep_footer_menu_SLP_001.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Meditation_SLP_005.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Music_SLP_004.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Stories_SLP_006.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Sleep_Stories_of_New_Arrivals_series_SLP_016.executor": "Run",
-    "TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_see_all_for_the_New_Arrivals_serieses_SLP_007.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_buy_the_Overthinking_starter_kit_from_the_Overthinking_screen_by_tapping_on_Buy_now_for_₹29_TDY_008.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_edit_the_Recommended_for_you_Meditations_TY_026.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TDY_027.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TY_027.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_see_the_Coupans_for_you_on_the_LSM_Shop_screen_TDY_040.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_select_the_reading_language_from_the_dropdown_for_reading_the_blog_on_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_052.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_set_a_timer_for_the_Series_from_the_Recommended_for_you_activities_TDY_032.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_share_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_050.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_share_the_Feeling_like_an_imposter_at_work_TDY_033.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_share_the_Feeling_like_an_imposter_at_work_TY_033.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_right_arrow_of_the_Upcoming_Brand_Unlocks_TY_039.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_2023_RECAP_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_049.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_2024_VISION_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_048.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Courses_from_the_Courses_screen_TY_012.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Explore_Now_from_the_Introducing_Courses_TY_013.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_From_your_favourite_coaches_tab_from_the_Courses_screen_TY_018.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Gratitude_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_046.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_History_tab_from_the_Journal_screen_TY_042.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Intention_of_the_Journal_with_Prompts_from_the_journal_screen_TY_044.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Journal_from_the_Explore_TY_022.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Music_from_the_Explore_TY_025.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_My_Coupons_icon_on_the_LSM_Shop_screen_TDY_037.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_My_Coupons_icon_on_the_LSM_Shop_screen_TD_037.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_My_Coupons_icon_on_the_LSM_Shop_screen_TY_037.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Reflection_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_045.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Spiritual_tab_from_the_Courses_screen_TY_016.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Start_Journey_fron_the_Introducing_Courses_Spirituality_TY_008.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Stop_Overthinking_fronm_the_Introducing_Courses_Overthinking_TDY_006.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Stress_relief_tab_from_the_Courses_screen_TY_014.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_To_do_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_047.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Today_footer_menu_TDY_001.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_Write_Now_button_of_the_Express_yourself_from_the_Journal_screen_TY_043.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_right_arrow_of_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_051.executor": "Run",
-    "TestNG.Today_Test.Verify_that_the_user_tap_on_the_right_arrow_of_the_Feeling_like_an_imposter_at_work_TY_034.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_create_playlist.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_edit_playlist_name.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_play_music_in_playlist_item.executor": "Run",
-    "TestNG.sanity_test.To_verify_user_can_search_music_in_add_item_to_playlist.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_open_the_installed_app_OB_001.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_tap_on_the_Get_Started_button_OB_002.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016.executor": "Run",
-    "TestNG.signin_test.Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015.executor": "Run",
-    "TestNG.signin_test.user_can_login_the_account_by_mobile_no.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/mobile/app",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Advanced_workout_tab_on_the_Workouts_screen_BDY_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Beginner_workout_tab_on_the_Workouts_screen_BDY_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Fat_Loss_workout_tab_on_the_Search_screen_BDY_013.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Free_workout_tab_on_the_Search_screen_BDY_009.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Frequently_Repeated_workout_tab_on_the_Search_screen_BDY_010.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Full_Body_Workout_workout_tab_on_the_Search_screen_BDY_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Intermediate_workout_tab_on_the_Workouts_screen_BDY_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_New_workout_tab_on_the_Search_screen_BDY_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_PCOD_workout_tab_on_the_Search_screen_BDY_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Relaxation_workout_tab_on_the_Search_screen_BDY_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_as_Strength_Training_workout_tab_on_the_Search_screen_BDY_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_052.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Newest_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_047.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Previously_Played_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_049.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Workout_Series_and_Sort_by_Unplayed_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_048.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_play_the_workout_series_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_067.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_search_for_the_yoga_using_the_search_field_BDY_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_see_the_Workouts_Completed_for_this_week_BDY_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_see_the_added_favourites_of_workout_serieses_in_the_Add_to_Favourite_BDY_091.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_see_the_downloaded_workout_serieses_in_the_Download_BDY_092.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_select_the_reading_language_from_the_dropdown_for_reading_the_blog_on_the_Feeling_like_an_imposter_at_work_screen_BDY_084.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_share_the_Easy_Yoga_streches_for_office_series_from_the_Workouts_screen_BDY_082.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_To_Favourite_icon_from_the_top_right_corner_after_tap_on_the_any_workout_series_BDY_074.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_icon_after_tap_on_the_Trending_workout_series_BDY_087.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_062.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_after_tap_on_the_any_workout_series_BDY_079.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_HIIT_screen_BDY_020.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Relaxation_screen_BDY_031.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Strength_Training_screen_BDY_037.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Add_to_favourite_option_of_the_kebab_menu_from_the_Yoga_screen_BDY_025.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Body_footer_menu_BDY_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Cancel_button_of_the_modal_popup_after_tap_on_the_any_workout_series_BDY_071.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_DND_mode_off_radio_button_after_tap_on_the_any_workout_series_BDY_076.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Download_option_of_the_kebab_menu_from_the_Relaxation_screen_BDY_032.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Download_option_of_the_kebab_menu_from_the_Strength_Training_screen_BDY_038.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Download_option_of_the_kebab_menu_from_the_Yoga_screen_BDY_026.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_HIIT_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Relaxation_of_the_Explore_Workouts_from_the_Workouts_screen_BDY_029.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Schedule_a_reminder_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_065.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Share_option_of_the_kebab_menu_from_the_HIIT_screen_BDY_022.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Start_Workout_button_after_tap_on_the_Trending_workout_series_BDY_090.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Start_Workout_button_after_tap_on_the_any_workout_series_BDY_077.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_Trending_workout_series_from_the_Workout_screen_BDY_085.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_View_all_episodes_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_064.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_View_this_series_option_of_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_066.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_any_coach_from_the_Browse_by_coach_from_the_Workouts_screen_BDY_043.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_any_series_from_the_workouts_screen_BDY_069.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_061.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_after_tap_on_the_any_workout_series_BDY_078.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_HIIT_screen_BDY_019.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Relaxation_screen_BDY_030.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Strength_Training_screen_BDY_036.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Yoga_screen_BDY_024.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_right_arrow_of_the_Step_Tracker_from_the_Workouts_screen_BDY_068.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_see_all_of_the_Browse_by_coach_from_the_Workouts_screen_BDY_041.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_share_icon_from_the_top_right_corner_after_tap_on_the_any_workout_series_BDY_073.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Body_Test.Verify_that_the_user_tap_on_the_toggle_after_tap_on_the_Trending_workout_series_BDY_089.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/suites/lsm_android_test.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_click_on_the_View_Profile_button_HBM_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Activity_History_sub_menu_of_the_Hamburger_menu_HBM_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Delete_Account_button_after_tapping_on_the_View_Profile_HBM_042.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Delete_my_account_after_tapping_on_the_Delete_Account_HBM_044.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Edit_Profile_option_after_tap_on_the_View_Profile_option_on_the_side_panel_menu_HBM_032.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Gift_a_Subscription_sub_menu_of_the_Hamburger_menu_HBM_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Got_a_Coupon_code_right_arrow_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Hamburger_menu_HBM_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_How_It_works_hyperlink_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Logout_sub_menu_of_the_Hamburger_menu_HBM_029.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Manage_Subscription_option_on_the_side_panel_menu_HBM_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_My_Purchases_on_the_top_right_corner_of_the_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Refer_and_earn_sub_menu_of_the_Hamburger_menu_HBM_021.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Reminder_sub_menu_of_the_Hamburger_menu_HBM_026.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Settings_sub_menu_of_the_Hamburger_menu_HBM_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_Stay_Logged_In_button_of_the_pop_up_after_tap_on_the_Logout_sub_menu_of_the_Hamburger_menu_HBM_031.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_View_More_Activity_Details_after_tapping_on_the_View_Profile_HBM_040.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_tap_on_the_favourite_option_on_the_side_panel_menu_HBM_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Hamburger_Menu_Test.Verify_that_the_user_verify_the_contact_number_if_user_has_sign_up_using_email_address_by_using_edit_profile_HBM_037.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Insights_Test.Verify_that_the_user_see_the_timer_for_the_Current_league_ends_in_INSGT_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Insights_Test.Verify_that_the_user_tap_on_the_I_icon_of_the_League_of_SuperMinds_on_the_Insights_screen_INSGT_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Insights_Test.Verify_that_the_user_tap_on_the_Insights_footer_menu_INSGT_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Insights_Test.Verify_that_the_user_tap_on_the_My_activity_tab_INSGT_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Insights_Test.Verify_that_the_user_tap_on_the_Set_reminders_on_the_My_activity_tab_INSGT_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Insights_Test.Verify_that_the_user_tap_on_the_View_Activity_History_on_the_My_activity_tab_INSGT_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Insights_Test.Verify_that_the_user_tap_on_the_icon_beside_the_Streak_on_the_My_activity_tab_INSGT_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_Add_to_favourite_the_Meditation_Series_of_Stress_Anxiety_series_Mind_034.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_Reset_the_Filter_and_sort_Mind_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_Start_the_Meditation_Timer_for_the_practice_Mind_023.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Newest_on_Mindfulness_screen_Mind_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Both_Default_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_013.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Newest_on_Mindfulness_screen_Mind_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Meditation_Series_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Newest_on_Mindfulness_screen_Mind_009.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Previously_Played_on_Mindfulness_screen_Mind_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Unplayed_on_Mindfulness_screen_Mind_010.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_edit_the_What_type_of_meditations_are_you_looking_for_Mind_029.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_pause_the_Meditation_Series_of_Stress_Anxiety_series_Mind_032.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Focus_Productivity_series_Mind_042.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Stress_Anxiety_series_Mind_031.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_play_the_trending_Meditation_series_Mind_028.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_search_for_meditations_mantras_pranayama_using_search_field_Mind_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_search_for_the_coach_by_coach_name_Mind_026.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_set_a_Playback_Speed_for_the_Digi_Mala_Mind_025.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_share_a_Breakdown_at_work_Find_out_here_Mind_027.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_share_the_Meditation_Series_of_Focus_Productivity_series.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_share_the_Meditation_Series_of_Stress_Anxiety_series_Mind_033.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Bengali_language_tab_Mind_020.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Focus_Productivity_screen_Mind_047.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_on_the_Stress_Anxiety_screen_Mind_036.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_English_language_tab_Mind_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Explore_Meditations_button_Mind_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Gujarati_language_tab_Mind_019.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Hindi_language_tab_Mind_017.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Kannada_language_tab_Mind_022.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Marathi_language_tab_Mind_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Meditation_footer_menu_Mind_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_Tamil_language_tab_Mind_021.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_i_icon_of_any_technique_of_Meditation_Finder_Find_your_style_Mind_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Focus_Productivity_screen_Mind_049.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Series_on_Motivation_screen_Mind_060.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Meditation_Serieson_stress_Anxiety_screen_Mind_039.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Focus_Productivity_screen_Mind_050.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Focus_Productivity_serieses_Mind_040.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Focus_Productivity_serieses_Mind_041.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_tap_on_the_see_all_for_the_Stress_Anxiety_serieses_Mind_030.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.Verify_that_the_user_user_tap_on_the_any_technique_of_Meditation_Finder_Find_your_style_Mind_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Meditations_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_use_taps_on_the_the_Playlist_Name_filed_Music_PL_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_Music_PL_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_button_on_the_any_music_track_from_the_expanded_music_list_Music_PL_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_Music_PL_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_Music_PL_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_Music_PL_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Expand_icon_on_the_any_category_from_the_list_Music_PL_010.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Select_all_radio_button_of_the_expanded_list_of_music_tracks_Music_PL_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_Music_PL_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_Music_PL_013.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_Music_PL_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Music_Playlist_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_All_subscription_plan_displayed_correctly_PYT_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_Most_popular_plan_by_default_selected_PYT_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_hamburger_icon_on_Today_PYT_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Manage_Subscription_PYT_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_spaces_not_allowed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_email_id_format_with_special_character_not_allowed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_dash.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_few_digits.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_more_than_10_digits.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_invalid_phone_no_format_with_spaces.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_format_with_invalid_otp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_name_in_onb_registration_form.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInNegative_Test.To_verify_when_the_user_try_login_with_valid_email_id_without_enter_phone_no_in_onb_registration_form.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_into_the_created_playlist_SLP_PL_049.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_reorder_the_track_availables_in_the_playlist_SLP_PL_037.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_that_the_user_is_able_to_update_the_playlist_name_SLP_PL_035.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_theCreate_Playlist_screen_SLP_PL_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_Add_Items_to_playlist_screen_SLP_PL_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_the_UI_of_the_delete_playlist_confirmation_popup_SLP_PL_029.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_use_taps_on_the_Playlist_Name_filed_SLP_PL_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_enters_the_any_keyword_in_search_field_of_the_Add_item_to_playlist_screen_SLP_PL_009.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_tap_on_the_Save_button_after_removing_the_tracks_in_the_playlist_SLP_PL_040.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_Items_button_SLP_PL_048.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_music_plus_button_on_the_any_music_track_from_the_expanded_music_list_SLP_PL_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Add_to_favorites_option_on_the_bottom_sheet_SLP_PL_044.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Back_buttonSLP_PL_022.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Cancel_button_SLP_PL_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_026.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Close_icon_on_the_bottom_sheet_SLP_PL_043.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Collapse_icon_on_the_any_category_from_the_list_SLP_PL_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Create_Playlist_button_on_the_Your_Playlist_section_SLP_PL_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Delete_playlist_option_on_the_bottom_sheet_SLP_PL_028.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Edit_Playlist_option_option_on_the_bottom_sheet_SLP_PL_032.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_beside_the_playlist_name_SLP_PL_023.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_025.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_041.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_More_Vert_icon_on_the_any_added_track_from_the_playlist_SLP_PL_042.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_No_button_on_the_delete_playlist_confirmation_popup_SLP_PL_030.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Play_button_SLP_PL_024.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Rate_this_meditation_option_on_the_bottom_sheet_SLP_PL_047.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_017.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Remove_Filters_button_in_the_expanded_music_track_list_SLP_PL_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Schedule_a_reminder_option_on_the_bottom_sheet_SLP_PL_045.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Selected_icon_on_the_selected_music_track_from_the_expanded_music_list_SLP_PL_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Sleep_menu_on_th_bottom_menu_bar_SLP_PL_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_Yes_delete_playlist_button_on_the_delete_playlist_confirmation_popup_SLP_PL_031.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_any_language_filter_below_the_search_field_SLP_PL_010_and_SLP_PL_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_plus_Add_to_this_Playlist_option_on_the_bottom_sheet_SLP_PL_027.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_on_the_x_Remove_icon_on_the_any_available_track_in_the_playlist_SLP_PL_036.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_taps_swaps_left_from_the_categories_Screen_SLP_PL_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_after_removing_the_playlist_SLP_PL_038.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_tap_on_the_Save_button_without_applying_any_changes_in_the_created_playlist_SLP_PL_034.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_after_selecting_music_track_SLP_PL_020.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_the_user_try_to_taping_on_the_Go_To_Playlist_button_without_selecting_any_music_track_SLP_PL_019.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_add_more_than_50_tracks_in_the_any_created_playlist_SLP_PL_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_after_entering_any_data_in_the_Playlist_Name_field_SLP_PL_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.To_verify_when_user_try_to_taps_on_the_Create_Button_on_the_Create_Playlist_screen_without_entering_any_data_in_the_Playlist_Name_field_SLP_PL_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Playlist_Test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_Add_to_favourite_the_Sleep_Stories_of_New_Arrivals_series_SLP_011.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_apply_the_filter_for_the_categories_SLP_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_create_Playlist_SLP_019.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_download_the_Sleep_Stories_of_New_Arrivals_series_SLP_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_see_the_downloaded_Meditation_serieses_in_the_Downloads_SLP_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_share_the_Best_Worst_Bedroom_Colors_SLP_020.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_share_the_Meditation_Series_of_sleep_meditations_series_SLP_010.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_English_language_on_Sleep_Stories_of_New_Arrivals_screen_SLP_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Hindi_language_on_Sleep_Stories_of_New_Arrivals_series_SLP_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Sleep_footer_menu_SLP_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Meditation_SLP_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Music_SLP_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Stories_SLP_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_kebab_menu_of_the_Sleep_Stories_of_New_Arrivals_series_SLP_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sleep_Test.Verify_that_the_user_tap_on_the_see_all_for_the_New_Arrivals_serieses_SLP_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_buy_the_Overthinking_starter_kit_from_the_Overthinking_screen_by_tapping_on_Buy_now_for_₹29_TDY_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_edit_the_Recommended_for_you_Meditations_TY_026.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TDY_027.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TY_027.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_see_the_Coupans_for_you_on_the_LSM_Shop_screen_TDY_040.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_select_the_reading_language_from_the_dropdown_for_reading_the_blog_on_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_052.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_set_a_timer_for_the_Series_from_the_Recommended_for_you_activities_TDY_032.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_share_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_050.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_share_the_Feeling_like_an_imposter_at_work_TDY_033.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_share_the_Feeling_like_an_imposter_at_work_TY_033.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_right_arrow_of_the_Upcoming_Brand_Unlocks_TY_039.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_2023_RECAP_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_049.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_2024_VISION_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_048.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Courses_from_the_Courses_screen_TY_012.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Explore_Now_from_the_Introducing_Courses_TY_013.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_From_your_favourite_coaches_tab_from_the_Courses_screen_TY_018.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Gratitude_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_046.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_History_tab_from_the_Journal_screen_TY_042.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Intention_of_the_Journal_with_Prompts_from_the_journal_screen_TY_044.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Journal_from_the_Explore_TY_022.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Music_from_the_Explore_TY_025.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_My_Coupons_icon_on_the_LSM_Shop_screen_TDY_037.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_My_Coupons_icon_on_the_LSM_Shop_screen_TD_037.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_My_Coupons_icon_on_the_LSM_Shop_screen_TY_037.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Reflection_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_045.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Spiritual_tab_from_the_Courses_screen_TY_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Start_Journey_fron_the_Introducing_Courses_Spirituality_TY_008.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Stop_Overthinking_fronm_the_Introducing_Courses_Overthinking_TDY_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Stress_relief_tab_from_the_Courses_screen_TDY_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Stress_relief_tab_from_the_Courses_screen_TY_014.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_To_do_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_047.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Today_footer_menu_TDY_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_Write_Now_button_of_the_Express_yourself_from_the_Journal_screen_TY_043.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_right_arrow_of_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_051.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Today_Test.Verify_that_the_user_tap_on_the_right_arrow_of_the_Feeling_like_an_imposter_at_work_TY_034.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_create_playlist.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_edit_playlist_name.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_play_music_in_playlist_item.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.sanity_test.To_verify_user_can_search_music_in_add_item_to_playlist.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Enter_correct_name_in_your_Name_field_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_009.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_in_with_invalid_Email_OB_005.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_in_with_valid_Email_OB_004.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_with_invalid_Phone_number_OB_007.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_Sign_with_valid_Phone_number_OB_006.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_enter_the_valid_referral_code_on_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_017.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_open_the_installed_app_OB_001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_select_only_three_type_of_meditations_from_the_What_type_of_meditations_are_you_looking_for_screen_and_tap_on_right_arrow_icon_OB_019.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_tap_on_the_Get_Started_button_OB_002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_tap_on_the_Sign_In_button_OB_003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_tap_on_the_terms_and_conditions_hyperlink_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_016.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.Verify_that_the_user_uncheck_the_checkbox_of_I_agree_to_receive_marketing_communications_from_Level_SuperMind_on_Tell_us_about_yourself_for_personalised_recommendations_screen_OB_014_and_OB_015.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.signin_test.user_can_login_the_account_by_mobile_no.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Harshal/Desktop/LSM_Project/LEVEL/LSM/src/test/java/mobile/app&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Harshal\Desktop\LSM_Project\LEVEL\LSM\src\test\java\mobile\app" />
@@ -319,7 +338,7 @@
       <recent name="E:\LSM_Project\LSM\src\test\java\mobile\object_repository" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="runner.Runner" />
       <module name="LSM" />
@@ -330,62 +349,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Body_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LSM" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.tests.Body.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mobile.tests.Body" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Body.Body_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Meditations_Test.Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LSM" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mobile.tests.Meditations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mobile.tests.Meditations" />
-      <option name="MAIN_CLASS_NAME" value="mobile.tests.Meditations.Meditations_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -446,7 +409,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Today_Test.Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TDY_027" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mobile.tests.Payment" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Payment.Payment_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Today_Test.Verify_that_the_user_tap_on_the_2024_VISION_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_048" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LSM" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -459,7 +450,35 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mobile.tests.Today" />
       <option name="MAIN_CLASS_NAME" value="mobile.tests.Today.Today_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TDY_027" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_2024_VISION_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_048" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Today_Test.Verify_that_the_user_tap_on_the_Reflection_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_045" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LSM" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobile.tests.Today.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mobile.tests.Today" />
+      <option name="MAIN_CLASS_NAME" value="mobile.tests.Today.Today_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_tap_on_the_Reflection_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_045" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -496,19 +515,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Runner" />
-      <item itemvalue="TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051" />
-      <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024" />
       <item itemvalue="TestNG.Payment_Test.Verify_that_the_All_subscription_plan_displayed_correctly_PYT_006" />
       <item itemvalue="TestNG.Payment_Test.Verify_that_the_Most_popular_plan_by_default_selected_PYT_005" />
-      <item itemvalue="TestNG.Today_Test.Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TDY_027" />
+      <item itemvalue="TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004" />
+      <item itemvalue="TestNG.Today_Test.Verify_that_the_user_tap_on_the_2024_VISION_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_048" />
+      <item itemvalue="TestNG.Today_Test.Verify_that_the_user_tap_on_the_Reflection_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_045" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Body_Test.Verify_that_the_user_apply_the_filter_by_Quick_Picks_and_Sort_by_Time_after_tap_on_the_any_coach_from_the_Workouts_screen_BDY_051" />
-        <item itemvalue="TestNG.Today_Test.Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TDY_027" />
-        <item itemvalue="TestNG.Meditations_Test.Verify_that_the_user_Start_the_Digi_Mala_for_Mantra_set_the_bead_count_and_start_Mind_024" />
         <item itemvalue="TestNG.Payment_Test.Verify_that_the_All_subscription_plan_displayed_correctly_PYT_006" />
         <item itemvalue="TestNG.Payment_Test.Verify_that_the_Most_popular_plan_by_default_selected_PYT_005" />
+        <item itemvalue="TestNG.Payment_Test.Verify_that_the_user_tap_on_the_Show_all_plans_PYT_003_and_PYT_004" />
+        <item itemvalue="TestNG.Today_Test.Verify_that_the_user_tap_on_the_2024_VISION_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_048" />
+        <item itemvalue="TestNG.Today_Test.Verify_that_the_user_tap_on_the_Reflection_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_045" />
       </list>
     </recent_temporary>
   </component>
@@ -540,16 +559,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mobile/tests/Sleep_Playlist/Sleep_Playlist_Test.java</url>
-          <line>1125</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

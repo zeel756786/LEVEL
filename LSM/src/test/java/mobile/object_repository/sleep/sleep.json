@@ -173,17 +173,17 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text='Delete playlist']"
   },
-  "Sleep": {
+  "Sleep_Menu": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Sleep\"]"
   },
-  "Sleep_for": {
+  "Sleep_for sleep": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Search for\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Search for sleep\"]"
   },
   "Sleep_Anxiety_meditations": {
     "platform": "android",
@@ -393,13 +393,13 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[3]/android.view.View[3]/android.view.View"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[3]/android.view.View"
   },
   "Sleep_Meditations": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//android.widget.TextView[@text=\"Sleep Meditations\"])[4]/following-sibling::android.widget.TextView[1]"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[5]/android.view.View[1]"
   },
   "Hambergur_menu_button_sleep_meditations": {
     "platform": "android",
@@ -407,10 +407,33 @@
     "locator_type": "xpath",
     "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[1]"
   },
+  "close": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"close\"]"},
   "share_this_sleep_story": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Share this sleep story\"]"
+  },
+  "Copy_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Button[@resource-id=\"android:id/chooser_copy_button\"]"
+  },
+  "Non_Sleep_Deep_Rest": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Non Sleep Deep Rest (NSDR)\"]"
+  },
+  "Non_Sleep_Deep_Rest_Hindi": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Non Sleep Deep Rest (NSDR) (हिन्दी)\"]"
   }
 }

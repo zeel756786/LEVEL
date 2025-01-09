@@ -3,7 +3,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.view.View[1]/android.view.View"
+    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.view.View[1]/android.view.View "
   },
   "Manage_subscription": {
     "platform": "android",
@@ -489,7 +489,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[contains(@text, \"Oops, it seems\")]"
+    "android_locator": "//android.widget.TextView[@text=\"Oops, it seems there are no activities\nrecorded on this date.\"]"
   },
   "refer_and_win": {
     "platform": "android",
@@ -545,12 +545,6 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Code Invalid or Redeemed\"]"
   },
-  "Verify_your_contact_number": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Verify your contact number\"]"
-  },
   "Activity_History_Screen": {
     "platform": "android",
     "element_type": "button",
@@ -563,16 +557,16 @@
     "locator_type": "xpath",
     "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[3]/android.view.View//android.widget.TextView[2]"
   },
-  "Oops_it_seems_there": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Oops, it seems there are no activities\nrecorded on this date.\"]"
-  },
   "months": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[contains(@text, '202')]"
+  },
+  "Verify_your_contact_number": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Verify your contact number\"]"
   }
 }

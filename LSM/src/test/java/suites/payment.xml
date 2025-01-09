@@ -28,4 +28,22 @@
             </class>
         </classes>
     </test>
+    <test name = "Verify that the Most popular plan by default selected PYT 005">
+        <classes>
+            <class name = "mobile.tests.Payment.Payment_Test" >
+                <methods>
+                    <include name="Verify_that_the_Most_popular_plan_by_default_selected_PYT_005"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the All subscription plan displayed correctly PYT 006">
+        <classes>
+            <class name = "mobile.tests.Payment.Payment_Test" >
+                <methods>
+                    <include name="Verify_that_the_All_subscription_plan_displayed_correctly_PYT_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>

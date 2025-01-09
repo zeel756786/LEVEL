@@ -51,13 +51,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.view.View[@resource-id=\"TodayScreenLazyColumn\"]/android.view.View[2]/android.view.View[1]"
-  },
-  "Courses": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Courses\"]"
+    "android_locator": "(//android.widget.TextView[@text=\"Explore\"]/following-sibling::*/child::android.view.View)[1]"
   },
   "All_Courses": {
     "platform": "android",
@@ -69,19 +63,19 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//android.widget.TextView[@text=\"Stress relief\"])[1]"
+    "android_locator": "(//android.widget.TextView[@text=\"Stress Relief\"])[1]"
   },
   "Spiritual": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Spiritual\"]"
+    "android_locator": "(//android.widget.TextView[@text=\"Spiritual Growth\"])[1]"
   },
   "Overthinking": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Overthinking\"]"
+    "android_locator": "(//android.widget.ScrollView//following-sibling::android.view.View)[8]"
   },
   "Overthinking_Screen": {
     "platform": "android",
@@ -179,17 +173,11 @@
     "locator_type": "xpath",
     "android_locator": "(//android.widget.TextView[@text=\"From your favourite coaches\"])[1]"
   },
-  "Journal_Page": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Journal\"]"
-  },
   "Journal": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//android.view.View[@content-desc=\"thumbnail_holder\"])[3]"
+    "android_locator": "(//android.widget.TextView[@text=\"Explore\"]/following-sibling::android.view.View//android.view.View[@content-desc=\"thumbnail_holder\"])[2]"
   },
   "Journal_Screen": {
     "platform": "android",
@@ -281,7 +269,7 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text='Cancel']"
   },
-  "Navigate_back": {
+  "Navigate_back_c": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
@@ -495,7 +483,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Write your thoughts...\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Write your thoughts...\"]/parent::android.widget.EditText"
   },
   "Back_To_Home": {
     "platform": "android",
@@ -519,7 +507,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[contains(@text, 'Intention')]"
+    "android_locator": "//android.widget.TextView[@text=\"Journal with Prompts:\"]/following-sibling::android.view.View/(//android.view.View[@content-desc=\"thumbnail_holder\"])[1]"
   },
   "Intention_Screen": {
     "platform": "android",
@@ -527,17 +515,17 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Intention\"]"
   },
+  "Reflection_XP": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Reflection\n10 XP\"]"
+  },
   "Shuffle": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Shuffle\"]"
-  },
-  "Shuffle_Name": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[1]"
   },
   "Category": {
     "platform": "android",
@@ -563,47 +551,65 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.EditText[2]"
   },
-  "Reflection": {
+  "Overthinking_text": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[contains(@text, 'Reflection')]"
+    "android_locator": "//android.widget.TextView[@text=\"Introducing courses for a clear mind and better performance\"]"
+  },
+  "allow": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Allow\"]"
+  },
+  "allow_permission": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.Button[@resource-id=\"com.android.packageinstaller:id/permission_allow_button\"]"
+  },
+  "Shuffle_Name": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.TextView[contains(@text, 'h')])[1]"
   },
   "Gratitude": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[contains(@text, 'Gratitude')]"
+    "android_locator": "//android.widget.TextView[@text=\"Gratitude\n10 XP\"]"
   },
   "To_do": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[contains(@text, 'To-do')]"
+    "android_locator": "//android.widget.TextView[@text=\"To-do\n10 XP\"]"
   },
   "Vision": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[contains(@text, '2024 VISI')]"
+    "android_locator": "//android.widget.TextView[@text=\"2025 VISION\n10 XP\"]"
   },
   "Recap": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[contains(@text, 'RECAP')]"
+    "android_locator": "//android.widget.TextView[@text=\"2024 RECAP\n10 XP\"]"
   },
   "Share_Best_Quotes": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.view.View[3]/android.view.View[3]"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[3]/android.view.View[3]/android.view.View"
   },
   "Arrow_Button_Best_Quotes": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.view.View[3]/android.view.View[4]"
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[3]/android.view.View[4]/android.view.View"
   },
   "Best_Quotes_Inner_Screen": {
     "platform": "android",
@@ -652,41 +658,5 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Get one at ₹29\"]"
-  },
-  "Coupons_for_you": {
-  "platform": "android",
-  "element_type": "button",
-  "locator_type": "xpath",
-  "android_locator": "//android.widget.TextView[@text=\"Coupons for you\"]"
- },
-  "Coupons_name": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[1]//android.widget.TextView[2]"
-  },
-  "First_Coupons_name": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[1]//android.widget.TextView[2]"
-  },
-  "Second_Coupons_name": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[2]//android.widget.TextView[2]"
-  },
-  "Edit_recommendations": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Edit recommendations\"]"
-  },
-  "Set_a_timer": {
-    "platform": "android",
-    "element_type": "button",
-    "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Set a timer\"]"
   }
 }

@@ -283,29 +283,6 @@ public void switch_to_context(String context_name) {
         }
     }
 
-    public void verifySearchBoxEnterAndClearText(String[] searchTerms, Map<String, Runnable> verificationMethods) {
-        WebElement searchButton = androidDriver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"clear\"]"));
-
-        for (String searchTerm : searchTerms) {
-            WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
-            searchBox.click();
-            searchBox.sendKeys(searchTerm);
-            searchButton.click();
-            searchBox.clear();
-            searchBox.sendKeys(searchTerm);
-            searchButton.click();
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
-            if (verificationMethods.containsKey(searchTerm)) {
-                androidDriver.hideKeyboard();
-                verificationMethods.get(searchTerm).run();
-                System.out.println("Search for " + searchTerm + " passed.");
-            } else {
-                System.out.println("No verification method found for " + searchTerm + ".");
-            }
-            searchButton.click();
-        }
-    }
     public void waitForTextElementAppear(String text) {
         int maxAttempts = 0;
         while (maxAttempts < 3) {

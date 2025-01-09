@@ -237,7 +237,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"HIIT\"]"
+    "android_locator": "(//android.view.View[@content-desc=\"thumbnail_holder\"])[1]"
   },
   "Workout_HIIT_Screen": {
     "platform": "android",
@@ -303,7 +303,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "(//android.widget.TextView[@text=\"Yoga\"])[2]"
+    "android_locator": "(//android.view.View[@content-desc=\"thumbnail_holder\"])[2]"
   },
   "Yoga_Screen": {
     "platform": "android",
@@ -393,7 +393,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Appreciate\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Appreciated\"]"
   },
   "Appreciate_Toast_Message": {
     "platform": "android",
@@ -405,7 +405,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"Follow\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Following\"]"
   },
   "Follow_Toast_Message": {
     "platform": "android",
@@ -449,17 +449,35 @@
     "locator_type": "xpath",
     "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[4]"
   },
+  "Newest_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[5]"
+  },
   "Unplayed": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[5]"
   },
+  "Unplayed_Button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[6]"
+  },
   "previously_played": {
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[6]"
+  },
+  "previously_played_button": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ScrollView/android.widget.RadioButton[7]"
   },
   "Apply": {
     "platform": "android",
@@ -735,7 +753,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]//android.view.View[@content-desc=\"thumbnail_holder\"]"
+    "android_locator": "//android.widget.TextView[@text=\"Trending\"]/following-sibling::android.view.View[1]"
   },
   "supercharge_your_mind": {
     "platform": "android",
@@ -768,10 +786,10 @@
     "android_locator": "//android.widget.ImageView[@content-desc=\"add to favorites button\"]"
   },
   "Trending_series_dnd_mode_off": {
-  "platform": "android",
-  "element_type": "button",
-  "locator_type": "xpath",
-  "android_locator": "//android.widget.TextView[@text=\"DND mode off\"]"
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"DND mode off\"]"
   },
   "close": {
     "platform": "android",
@@ -838,5 +856,61 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Remove Filters\"]"
+  },
+  "Find_out_here": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Find out here\"]"
+  },
+  "Share_intense_back_pain": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View[3]"
+  },
+  "Clear": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.ImageView[@content-desc=\"clear\"]"
+  },
+
+  "My_Downloads_on_screen": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "(//android.widget.ImageView[@content-desc=\"favorite\"])[2]"
+  },
+
+  "My_Downloads_page": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"My Downloads\"]"
+  },
+  "Oops_it_looks_downloads": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Oops! It looks like there's nothing in your\ndownloads.\"]"
+  },
+  "PCOD": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.EditText[@text=\"PCOD\"]"
+  },
+  "PCOD_Series": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"PCOD Series\"]"
+  },
+  "Full_Body": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.EditText[@text=\"Full Body Workout\"]"
   }
 }

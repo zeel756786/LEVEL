@@ -135,7 +135,7 @@
     "platform": "android",
     "element_type": "button",
     "locator_type": "xpath",
-    "android_locator": "//android.widget.TextView[@text=\"This week, your average number of activities dropped 100% from last week. To boost your consistency, commit to streaks after an activity.\"]"
+    "android_locator": "//android.widget.TextView[@text=\"This week, your average number of activities dropped 0% from last week. To boost your consistency, commit to streaks after an activity.\"]"
   },
   "Mindful_days_this_week": {
     "platform": "android",
@@ -268,5 +268,17 @@
     "element_type": "button",
     "locator_type": "xpath",
     "android_locator": "//android.widget.TextView[@text=\"Sleep\"]/following-sibling::android.widget.TextView[contains(@text, 'PM') or contains(@text, 'AM')]"
+  },
+  "current_league_ends_in": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[@text=\"Current league ends in:\"]"
+  },
+  "month_of_history": {
+    "platform": "android",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "android_locator": "//android.widget.TextView[contains(@text, '202')]"
   }
 }

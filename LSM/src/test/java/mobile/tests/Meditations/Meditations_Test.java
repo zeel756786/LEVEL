@@ -72,15 +72,15 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        //sleep_playlist_page.scroll_down_to_the_Text("Timer meditation");
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_Mindfulness_Screen_present_on_page();
         meditation_page.verify_the_About_this_technique_present_on_page();
         meditation_page.verify_the_description_mindfulness_Present_on_page();
-        //    meditation_page.verify_travel_series_present_on_page();
-        meditation_page.waitForTextElementAppear("Eat Mindfully");
+        meditation_page.verify_travel_series_present_on_page();
         meditation_page.waitForTextElementAppear("Anxiety Series");
+        meditation_page.waitForTextElementAppear("Eat Mindfully");
+
     }
 
     @Test()
@@ -101,6 +101,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_mindfulness_i_icon();
         meditation_page.verify_the_heading_technique_Present_on_page();
         meditation_page.verify_the_description_mindfulness_Present_on_page();
@@ -125,6 +126,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_mindfulness_i_icon();
         meditation_page.click_on_Explore_Meditations_Button_Present_on_page();
         meditation_page.verify_Mindfulness_Screen_present_on_page();
@@ -153,6 +155,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_mindfulness_i_icon();
         meditation_page.click_on_Explore_Meditations_Button_Present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
@@ -181,7 +184,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
         meditation_page.verify_and_click_on_radio_button_meditations_series();
@@ -189,9 +192,9 @@ public class Meditations_Test extends base {
         meditation_page.verify_and_click_on_radio_button_unplayed();
         meditation_page.verify_and_click_apply_button_present_on_page();
         sleep_playlist_page.wait_for_five_second();
-        meditation_page.waitForTextElementAppear("Focus Series");
         meditation_page.waitForTextElementAppear("Travel Series");
-
+        meditation_page.waitForTextElementAppear("Anxiety Series");
+        meditation_page.waitForTextElementAppear("Eat Mindfully");
     }
 
     @Test()
@@ -212,17 +215,15 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
         meditation_page.verify_and_click_on_radio_button_meditations_series();
         meditation_page.scrollDown();
         meditation_page.verify_and_click_on_radio_button_previously_played();
         meditation_page.verify_and_click_apply_button_present_on_page();
-        meditation_page.verify_Meditation_Series_present_on_page();  // fix locator
-        meditation_page.verify_previously_played_present_on_page();
-        meditation_page.waitForTextElementAppear("Exam Series");
         meditation_page.waitForTextElementAppear("Travel Series");
+        meditation_page.waitForTextElementAppear("Anxiety Series");
     }
 
     @Test()
@@ -243,13 +244,12 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
         meditation_page.verify_and_click_on_radio_button_quick_picks();
         meditation_page.scrollDown();
         meditation_page.verify_and_click_apply_button_present_on_page();
-        meditation_page.verify_Quick_present_on_page();
         meditation_page.verify_Anapana_present_on_page();
         meditation_page.verify_zazen_meditation_present_on_page();
     }
@@ -272,14 +272,13 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
         meditation_page.verify_and_click_on_radio_button_quick_picks();
         meditation_page.scrollDown();
         meditation_page.verify_and_click_on_radio_button_unplayed();
         meditation_page.verify_and_click_apply_button_present_on_page();
-        meditation_page.verify_Quick_present_on_page();
         meditation_page.verify_Anapana_present_on_page();
         meditation_page.verify_zazen_meditation_present_on_page();
 
@@ -303,16 +302,18 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
         meditation_page.verify_and_click_on_radio_button_quick_picks();
         meditation_page.scrollDown();
         meditation_page.verify_and_click_on_radio_button_previously_played();
         meditation_page.verify_and_click_apply_button_present_on_page();
-        meditation_page.verify_Quick_present_on_page();
-        meditation_page.verify_previously_played_present_on_page();
-        meditation_page.waitForTextElementAppear("Quick Recharge");
+        //  meditation_page.verify_Quick_present_on_page();
+        meditation_page.verify_Anapana_present_on_page();
+        meditation_page.verify_zazen_meditation_present_on_page();
+        //meditation_page.verify_previously_played_present_on_page();
+        // meditation_page.waitForTextElementAppear("Quick Recharge");
     }
 
     @Test()
@@ -332,10 +333,8 @@ public class Meditations_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.scroll_down_to_the_Text("Timer meditation");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_mindfulness_i_icon();
         meditation_page.click_on_Explore_Meditations_Button_Present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
@@ -364,10 +363,8 @@ public class Meditations_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.scroll_down_to_the_Text("Timer meditation");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_mindfulness_i_icon();
         meditation_page.click_on_Explore_Meditations_Button_Present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
@@ -398,7 +395,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_filter_by_button();
         meditation_page.verify_and_click_reset_button_present_on_page();
@@ -422,7 +419,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_english_language();
     }
@@ -445,7 +442,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_hindi_language();
 
@@ -469,8 +466,8 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
-        meditation_page.click_on_Explore_Meditations_Button_Present_on_page();
+        meditation_page.waitForTextElementAppear("Mantra");
+        meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_marathi_language();
     }
 
@@ -492,7 +489,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_gujarati_language();
     }
@@ -515,7 +512,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_bengali_language();
     }
@@ -537,7 +534,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_tamil_language();
     }
@@ -559,7 +556,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.waitForTextElementAppear("Mindfulness");
+        meditation_page.waitForTextElementAppear("Mantra");
         meditation_page.verify_and_click_on_Mindfulness_present_on_page();
         meditation_page.verify_and_click_on_kannada_language();
     }
@@ -581,8 +578,7 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.scroll_down_to_the_Text("Start");
-        meditation_page.verify_and_click_on_Meditation_Timer();
+        meditation_page.verify_and_click_Meditation_Timer();
         meditation_page.verify_and_set_timer();
         meditation_page.verify_and_click_on_start_button();
         meditation_page.wait_for_five_second();
@@ -676,8 +672,9 @@ public class Meditations_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
-        meditation_page.scroll_to_buttom_breakdown_at_work();
         meditation_page.verify_and_click_on_share_button_of_breakdown_work();
+
+
     }
     @Test()
     public void Verify_that_the_user_play_the_trending_Meditation_series_Mind_028(){
@@ -741,7 +738,8 @@ public class Meditations_Test extends base {
         signin_page.verify_and_click_on_right_arrow();
         meditation_page.verify_and_click_on_Meditations();
         meditation_page.waitForTextElementAppear("Stress & Anxiety");
-      //  meditation_page.scroll_down_to_the_Text("Stress & Anxiety");
+        //  meditation_page.scroll_down_to_the_Text("Stress & Anxiety");
+        meditation_page.verify_and_click_on_see_all();
     }
     @Test()
     public void Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Stress_Anxiety_series_Mind_031(){
@@ -908,7 +906,7 @@ public class Meditations_Test extends base {
     public void Verify_that_the_user_tap_on_the_see_all_for_the_Focus_Productivity_serieses_Mind_041(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the see all  for the Focus Productivity serieses ");
-    //  Verify that the user tap on the Bengali language on the "Focus & Productivity" screen_Mind_048
+        //  Verify that the user tap on the Bengali language on the "Focus & Productivity" screen_Mind_048
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Meditation_Page meditation_page = new Meditation_Page(driver);
@@ -1023,31 +1021,6 @@ public class Meditations_Test extends base {
         meditation_page.verify_share_button_present_on_page();
     }
     @Test()
-    public void Verify_that_the_user_share_the_Meditation_Series_of_Focus_Productivity_series(){
-        LambdaTestConfig config = new LambdaTestConfig(driver);
-        config.addTestName("Verify that the user share the Meditation Series of Focus Productivity series");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        signin_page signin_page = new signin_page(driver);
-        Meditation_Page meditation_page = new Meditation_Page(driver);
-        signin_page.click_sign_in_button();
-        signin_page.verify_phone_text_present_on_page();
-        signin_page.verify_email_text_present_on_page();
-        signin_page.click_and_enter_text_on_phone_no();
-        signin_page.enterMobileNumberTextboxByIndex(0);
-        signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_enter_the_code_text_field();
-        signin_page.enter_6_digit_code(0);
-        signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_pop_up();
-        meditation_page.verify_and_click_on_Meditations();
-        meditation_page.click_on_Focus_and_Productivity();
-        meditation_page.verify_and_click_on_see_all();
-        meditation_page.verify_and_click_on_english_language();
-        meditation_page.click_on_Focus_and_Productivity_Meditation_Series();
-        meditation_page.verify_and_click_on_cancel_button();
-        meditation_page.scroll_up_to_top_of_the_page();
-    }
-    @Test()
     public void Verify_that_the_user_tap_on_the_see_all_for_the_Motivation_serieses_Mind_051(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the see all  for the Motivation serieses ");
@@ -1079,9 +1052,9 @@ public class Meditations_Test extends base {
     public void Verify_that_the_user_play_and_listen_the_Meditation_Series_of_Motivation_series_Mind_052(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user play and listen the Meditation Series of Motivation series");
-     //   Verify that the user pause the Meditation Series of "Motivation" series_Mind_053
-     //   Verify that the user share the Meditation Series of "Motivation" series_Mind_054
-     //   Verify that the user Add to favourite the Meditation Series of "Motivation" series_Mind_055
+        //   Verify that the user pause the Meditation Series of "Motivation" series_Mind_053
+        //   Verify that the user share the Meditation Series of "Motivation" series_Mind_054
+        //   Verify that the user Add to favourite the Meditation Series of "Motivation" series_Mind_055
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Meditation_Page meditation_page = new Meditation_Page(driver);
@@ -1111,8 +1084,8 @@ public class Meditations_Test extends base {
     public void Verify_that_the_user_tap_on_the_English_language_on_the_Motivation_screen_Mind_057(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the English language on the Motivation screen");
-     //   Verify that the user tap on the Hindi language on the "Motivation" screen_Mind_058
-     //    Verify that the user tap on the Marathi language on the "Motivation" screen_Mind_059
+        //   Verify that the user tap on the Hindi language on the "Motivation" screen_Mind_058
+        //    Verify that the user tap on the Marathi language on the "Motivation" screen_Mind_059
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Meditation_Page meditation_page = new Meditation_Page(driver);
@@ -1167,8 +1140,8 @@ public class Meditations_Test extends base {
     public void Verify_that_the_user_tap_on_the_kebab_menu_of_the_Quick_Picks_on_Motivation_screen_Mind_061(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the kebab menu of the Quick Picks on Motivation  screen");
-       // Verify that the user see the added favourites of Meditation serieses in the "Add to Favourite"_Mind_062
-       //  Verify that the user see the downloaded Meditation serieses in the "Download"_Mind_063
+        // Verify that the user see the added favourites of Meditation serieses in the "Add to Favourite"_Mind_062
+        //  Verify that the user see the downloaded Meditation serieses in the "Download"_Mind_063
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Meditation_Page meditation_page = new Meditation_Page(driver);

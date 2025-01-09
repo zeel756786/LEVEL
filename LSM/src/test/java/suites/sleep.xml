@@ -1,0 +1,130 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Sleep Flow " >
+    <test name = "Verify that the user tap on the Sleep footer menu SLP 001">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Sleep_footer_menu_SLP_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user apply the filter for the categories SLP 003">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_apply_the_filter_for_the_categories_SLP_003"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Tune in to deep sleep with Music SLP 004">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Music_SLP_004"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Tune in to deep sleep with Meditation SLP 005">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Meditation_SLP_005"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Tune in to deep sleep with Stories SLP 006">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Tune_in_to_deep_sleep_with_Stories_SLP_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the see all for the New Arrivals serieses SLP 007">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_see_all_for_the_New_Arrivals_serieses_SLP_007"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user share the Meditation Series of sleep meditations series SLP 010">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_share_the_Meditation_Series_of_sleep_meditations_series_SLP_010"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user Add to favourite the Sleep Stories of New Arrivals series SLP 011">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_Add_to_favourite_the_Sleep_Stories_of_New_Arrivals_series_SLP_011"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the English  language on Sleep Stories of New Arrivals screen SLP 014">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_English_language_on_Sleep_Stories_of_New_Arrivals_screen_SLP_014"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Hindi language on Sleep Stories of New Arrivals series SLP 015">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Hindi_language_on_Sleep_Stories_of_New_Arrivals_series_SLP_015"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the kebab menu of the Sleep Stories of New Arrivals series SLP 016">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_kebab_menu_of_the_Sleep_Stories_of_New_Arrivals_series_SLP_016"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify_that_the_user_see_the_downloaded_Meditation_serieses_in_the_Downloads_SLP_018">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_see_the_downloaded_Meditation_serieses_in_the_Downloads_SLP_018"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user create Playlist SLP 019">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_create_Playlist_SLP_019"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user share the Best Worst  Bedroom Colors SLP 020">
+        <classes>
+            <class name ="mobile.tests.Sleep.Sleep_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_share_the_Best_Worst_Bedroom_Colors_SLP_020"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

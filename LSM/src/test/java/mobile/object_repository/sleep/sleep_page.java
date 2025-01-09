@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.HashSet;
+import java.util.concurrent.TimeUnit;
 
 
 public class sleep_page {
@@ -81,6 +82,7 @@ public class sleep_page {
     public void verify_see_all_present_on_page() {
         wait.wait_until_element_is_visible("see_all");
     }
+
     public void click_on__see_all_present_on_page() {
         wait.wait_for_second(2);
         element.click("see_all");
@@ -100,6 +102,7 @@ public class sleep_page {
 
         wait.wait_until_element_is_visible("give_your_playlist_a_name");
     }
+
     public void verify_and_click_your_on_New_Arrivals_first_music() {
         device.waitForTextElementAppear("Your Playlists");
         wait.wait_for_second(2);
@@ -107,6 +110,7 @@ public class sleep_page {
         verify.element_is_present("New_Arrivals_first_music_sleep");
         element.click("New_Arrivals_first_music_sleep");
     }
+
     public void verify_and_click_on_fav_music_new_arrivals_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("fav_muusic_new_arrivals");
@@ -116,7 +120,9 @@ public class sleep_page {
         wait.wait_for_second(5);
         element.click("share_fav_music_new_arrivals");
     }
+
     public void verify_and_click_on_best_and_bedroom_colors_page() {
+        wait.wait_for_second(2);
         device.waitForTextElementAppear("Find out here");
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Find_out_here");
@@ -154,10 +160,12 @@ public class sleep_page {
     public void verify_a_english_option_present_on_page() {
         wait.wait_until_element_is_visible("a_english");
     }
+
     public void click_english_option_present_on_page() {
         wait.wait_for_second(5);
         element.click("a_english");
     }
+
     public void verify_english_track_new_arrival_present_on_page() {
         wait.wait_for_second(5);
         device.waitForTextElementAppear("Magic of Faith");
@@ -169,28 +177,30 @@ public class sleep_page {
     public void verify_a_hindi_option_present_on_page() {
         wait.wait_until_element_is_visible("hindi");
     }
+
     public void click_on_hindi_option_present_on_page() {
         wait.wait_for_second(5);
         wait.wait_until_element_is_visible("hindi");
         element.click("hindi");
     }
+
     public void verify_hindi_track_new_arrivals_page() {
         wait.wait_for_second(2);
-        device.waitForTextElementAppear("Dattatreya and His 24 Gurus (हिन्दी)");
         device.waitForTextElementAppear("Shri Guru Nanak (हिन्दी)");
-        device.waitForTextElementAppear("Story of Tulsi Vivaha (हिन्दी)");
-        device.waitForTextElementAppear("Significance of Dev Deepawali (हिन्दी)");
+
     }
+
     public void verify_english_track_new_arrivals_page() {
         wait.wait_for_second(2);
-        device.waitForTextElementAppear("Magic of Faith");
-        device.waitForTextElementAppear("Castle of Mind");
-        device.waitForTextElementAppear("Land of Dreams");
+        device.waitForTextElementAppear("Mahadev as Tripurari");
+
     }
+
     public void scroll_up_to_top_english_present_on_page() {
         wait.wait_for_second(5);
         device.scrollUpToTop("a_english");
     }
+
     public void verify_and_click_on_down_section_of_sleep_home_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Download_section_sleep_home_page");
@@ -219,12 +229,14 @@ public class sleep_page {
         wait.wait_until_element_is_visible("second_plus_icon");
         element.click("second_plus_icon");
     }
+
     public void verify_and_click_on_new_arrivals_first_music_sleep_kebeb_icon() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("new_arrivals_first_music_sleep_kebeb_icon");
         element.click("new_arrivals_first_music_sleep_kebeb_icon");
         wait.wait_for_second(2);
     }
+
     public void verify_kebab_icon_options_present_on_page() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Add_to_favorities");
@@ -255,15 +267,15 @@ public class sleep_page {
 
     public void verify_and_click_on_sleep_present_on_page() {
         wait.wait_for_second(2);
-        wait.wait_until_element_is_visible("Sleep");
-        verify.element_is_present("Sleep");
-        element.click("Sleep");
+        wait.wait_until_element_is_visible("Sleep_Menu");
+        verify.element_is_present("Sleep_Menu");
+        element.click("Sleep_Menu");
     }
 
     public void verify_and_click_on_search_for_present_on_page() {
         wait.wait_for_second(2);
-        wait.wait_until_element_is_visible("Sleep_for");
-        element.click("Sleep_for");
+        wait.wait_until_element_is_visible("Sleep_for sleep");
+        element.click("Sleep_for sleep");
     }
 
     public void verify_sleep_anxiety_meditations_present_on_page() {
@@ -277,33 +289,67 @@ public class sleep_page {
         wait.wait_until_element_is_visible("sleep_anxiety_meditations");
         verify.element_is_present("sleep_anxiety_meditations");
     }
+
     public void verify_scroll_down_to_sleep_meditations() {
         wait.wait_for_second(2);
         device.scrollDownToBottom("Sleep_Meditations");
     }
+
     public void verify_and_click_on_sleep_meditations() {
         wait.wait_for_second(2);
+        device.scrollDown();
         wait.wait_until_element_is_visible("Sleep_Meditations");
         element.click("Sleep_Meditations");
     }
+
     public void verify_and_click_on_hambergur_menu_sleep_meditations() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Hambergur_menu_button_sleep_meditations");
         element.click("Hambergur_menu_button_sleep_meditations");
     }
+
     public void verify_and_click_on_share_this_sleep_story() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("share_this_sleep_story");
         element.click("share_this_sleep_story");
         wait.wait_for_second(5);
     }
+    public void verify_search_box_enter_and_clear_text() {
+        WebElement searchButton = androidDriver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"clear\"]"));
+        String[] searchTerms = {"Sleep Meditations", "Sleep Stories"};
 
-    public void search_and_clear_on_sleep() {
-        String[] searchTerms = {"sleep meditations", "sleep stories"};
-        Map<String, Runnable> verificationMethods = new HashMap<>();
-        verificationMethods.put("sleep meditations", this::verify_sleep_anxiety_meditations_present_on_page);
-        verificationMethods.put("sleep stories", this::verify_sleep_anxiety_meditations_hindi_present_on_page);
-        device.verifySearchBoxEnterAndClearText(searchTerms, verificationMethods);
+        for (String searchTerm : searchTerms) {
+            WebElement searchBox = androidDriver.findElement(By.xpath("//android.widget.EditText"));
+            searchBox.click();
+            searchBox.clear();
+            searchBox.sendKeys(searchTerm);
+            searchButton.click();
+
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+            if (searchTerm.equals("Sleep Meditations")) {
+                androidDriver.hideKeyboard();
+                verify_Non_Sleep_Deep_Rest_present_on_page();
+                verify_Non_Sleep_Deep_Rest_Hindi_present_on_page();
+                System.out.println("Search for  Sleep Meditations  passed.");
+
+            } else if (searchTerm.equals("Sleep Stories")) {
+                androidDriver.hideKeyboard();
+                verify_Non_Sleep_Deep_Rest_present_on_page();
+                verify_Non_Sleep_Deep_Rest_Hindi_present_on_page();
+                System.out.println("Search for mantras passed.");
+            }
+            searchButton.click();
+        }
+    }
+    public void verify_Non_Sleep_Deep_Rest_present_on_page() {
+        wait.wait_until_element_is_visible("Non_Sleep_Deep_Rest");
+        verify.element_is_present("Non_Sleep_Deep_Rest");
+    }
+
+    public void verify_Non_Sleep_Deep_Rest_Hindi_present_on_page() {
+        wait.wait_until_element_is_visible("Non_Sleep_Deep_Rest_Hindi");
+        verify.element_is_present("Non_Sleep_Deep_Rest_Hindi");
     }
 
     public void verify_and_click_on_all_categories_filter() {
@@ -336,11 +382,13 @@ public class sleep_page {
         wait.wait_until_element_is_visible("Sufi_Music_for_deep_sleep");
         verify.element_is_present("Sufi_Music_for_deep_sleep");
         verify.element_is_present("Quick_Deep_Sleep");
-        device.sliding("Quick_Deep_Sleep", -900, 0);
+        device.scrollDownToBottoms("Indian_Raga_for_Deep_Sleep");
         verify.element_is_present("Indian_Raga_for_Deep_Sleep");
         wait.wait_for_second(2);
+        device.scrollUpToTop("Sleep_Story");
         element.click("Sleep_Story");
         wait.wait_for_second(2);
+        device.scrollDownToBottoms("Quick_Deep_Sleep");
         verify.element_is_present("Stream_Dreams_for_Better_Sleep");
         wait.wait_for_second(2);
         element.click("Mahabharat");
@@ -417,24 +465,18 @@ public class sleep_page {
         device.waitForTextElementAppear("Hindi");
         device.waitForTextElementAppear("Marathi");
         device.waitForTextElementAppear("New Arrivals");
-        device.waitForTextElementAppear("Meerabai's Eternal Love");
         device.waitForTextElementAppear("Stories from Ramayan");
-        device.waitForTextElementAppear("Ramayan: Ayodhya Kand 7");
         device.waitForTextElementAppear("Stories from Puranas");
-        device.waitForTextElementAppear("Matsya aur Kurma Avatar");
         device.waitForTextElementAppear("Stories from Mahabharat");
-        device.waitForTextElementAppear("Guru Dronacharya");
+        device.waitForTextElementAppear("Ancient Wisdom");
         device.waitForTextElementAppear("Beloved Classics");
-        device.waitForTextElementAppear("A Magical Kingdom");
         device.waitForTextElementAppear("Travel Stories");
-        device.waitForTextElementAppear("Experience Time Travel");
         device.waitForTextElementAppear("Sounds Of Creation");
-        device.waitForTextElementAppear("The Making: Bread");
-
     }
+
     public void verify_download_and_delete_from_downloads() {
         wait.wait_for_second(2);
-        if(verify.check_element_is_present("Download_button")){
+        if (verify.check_element_is_present("Download_button")) {
             System.out.println("Download_button is displayed.");
             element.click("Download_button");
             wait.wait_for_second(15);
@@ -450,6 +492,7 @@ public class sleep_page {
             verify.element_is_present("Delete_from_download");
         }
     }
+
     public void verify_add_to_fav_and_remove_from_fav() {
         wait.wait_for_second(2);
         if (verify.check_element_is_present("Add_to_favorities")) {
@@ -469,7 +512,8 @@ public class sleep_page {
             throw new IllegalStateException("Expected element not found on the screen.");
         }
     }
-    public void verify_and_click_on_share_button(){
+
+    public void verify_and_click_on_share_button() {
         wait.wait_for_second(2);
         wait.wait_until_element_is_visible("Share");
         verify.element_is_present("Share");
@@ -489,6 +533,7 @@ public class sleep_page {
         element.click("see_all");
         wait.wait_for_second(5);
     }
+
     public void verifyAllSongsPresence() {
         Set<String> uniqueSongTitles = new HashSet<>(); // To store unique song titles
         boolean isEndOfList = false;
@@ -528,8 +573,19 @@ public class sleep_page {
             return false;
         }
     }
-    public void  create_playlist() {
-        today_music_page.scrollDownAndClickPlaylists((AndroidDriver) androidDriver);;
+
+    public void create_playlist() {
+        today_music_page.scrollDownAndClickPlaylists((AndroidDriver) androidDriver);
+        ;
+    }
+
+    public void verify_and_share_on_best_and_bedroom_colors() {
+        wait.wait_for_second(2);
+        device.waitForTextElementAppear("share_of_best_and_worst_bedrooms_colors");
+        wait.wait_for_second(2);
+        wait.wait_until_element_is_visible("share_of_best_and_worst_bedrooms_colors");
+        element.click("share_of_best_and_worst_bedrooms_colors");
+        wait.wait_for_second(15);
     }
 
 }

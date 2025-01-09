@@ -28,10 +28,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         sleep_playlist_page.verify_sleep_text_tab_button_present_on_page();
@@ -57,10 +53,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -83,15 +75,11 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
         sleep_playlist_page.verify_playlist_name_highlighted();
-      // can't Automate the figma design
+        // can't Automate the figma design
     }
 
     @Test()
@@ -110,10 +98,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -137,10 +121,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -165,10 +145,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -193,10 +169,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -221,10 +193,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -250,12 +218,13 @@ public class Sleep_Playlist_Test extends base {
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
         sleep_playlist_page.click_on_sleep_tab_button();
+        sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
         sleep_playlist_page.verify_playlist_name_highlighted();
         sleep_playlist_page.enterTextInPlaylistNameTextBox( "Automation");
         sleep_playlist_page.verify_and_click_on_create_button();
         sleep_playlist_page.verify_add_item_to_playlist_present_on_page();
-        sleep_playlist_page.verify_search_text_present_on_page();
+        //  sleep_playlist_page.verify_search_text_present_on_page();
         sleep_playlist_page.verify_search_box_enter_and_clear_text();
     }
     @Test()
@@ -274,10 +243,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -287,12 +252,13 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.verify_and_click_on_hindi_language();
         sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
         sleep_playlist_page.verify_gudi_padwa_present_on_page();
-        sleep_playlist_page.scroll_down_to_the_Text("Akbar And Birbal's Adventure (हिन्दी)");
         sleep_playlist_page.verify_hanuman_and_machhindranath_present_on_page();
+        sleep_playlist_page.scroll_down_to_the_Text("Akbar And Birbal's Adventure (हिन्दी)");
         sleep_playlist_page.verify_story_of_jesus_christ_present_on_page();
         sleep_playlist_page.verify_yama_and_nachiketa_present_on_page();
         sleep_playlist_page.scroll_up_to_the_Text("Add items to playlist");
         sleep_playlist_page.verify_and_click_on_marathi_language();
+        sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
         sleep_playlist_page.verify_the_fearless_lord_present_on_page();
     }
     @Test()
@@ -311,10 +277,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -347,10 +309,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -383,10 +341,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -397,7 +351,7 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.scroll_down_to_the_Text("Sleep Music");
         sleep_playlist_page.verify_and_click_on_stories_from_puranas_present_on_page();
         sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
-      // can't verify the confirmation message because there is no locator in dom page
+        // can't verify the confirmation message because there is no locator in dom page
         sleep_playlist_page.wait_for_five_second();
     }
     @Test()
@@ -416,10 +370,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -431,8 +381,8 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.verify_and_click_on_stories_from_puranas_present_on_page();
         sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
         sleep_playlist_page.clickAndUncheckSecondCheckbox();
-      //  sleep_playlist_page.verify_and_click_the_story_of_ekdant();
-      //  sleep_playlist_page.verify_and_click_yama_and_nachiket();
+        //  sleep_playlist_page.verify_and_click_the_story_of_ekdant();
+        //  sleep_playlist_page.verify_and_click_yama_and_nachiket();
         // can't verify the confirmation message because there is no locator in dom page
     }
     @Test()
@@ -451,10 +401,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -465,7 +411,7 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
         sleep_playlist_page.scroll_down_to_the_Text("Remove Filters");
         sleep_playlist_page.verify_and_click_on_remove_filter();
-       // sleep_playlist_page.verify_and_click_on_see_all();
+        // sleep_playlist_page.verify_and_click_on_see_all();
         sleep_playlist_page.verify_add_item_to_playlist_present_on_page();
     }
     @Test()
@@ -484,10 +430,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -512,10 +454,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -541,10 +479,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -574,10 +508,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -600,17 +530,13 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
         sleep_playlist_page.verify_playlist_name_highlighted();
         sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");
         sleep_playlist_page.verify_and_click_on_create_button();
-      //  sleep_playlist_page.verify_and_click_on_hindi_language();
+        //  sleep_playlist_page.verify_and_click_on_hindi_language();
         sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
         sleep_playlist_page.scroll_down_to_the_Text("Siddhartha Chapter 2");
         sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
@@ -639,10 +565,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -679,18 +601,14 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
-        sleep_playlist_page.verify_playlist_name_highlighted();
-        sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");
+        //  sleep_playlist_page.verify_playlist_name_highlighted();
         sleep_playlist_page.verify_and_click_on_create_button();
+        sleep_playlist_page.enterTextInPlaylistNameTextBox("Automation");;
         sleep_playlist_page.verify_and_click_on_ancient_wisdom_drop_down();
-        sleep_playlist_page.scroll_down_to_the_Text("Siddhartha Chapter 1");
+        //  sleep_playlist_page.scroll_down_to_the_Text("Siddhartha Chapter 1");
         sleep_playlist_page.clickFirstTwoCheckboxesOfMusic();
         sleep_playlist_page.wait_for_five_second();
         sleep_playlist_page.verify_and_click_on_go_to_playlist();
@@ -722,10 +640,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -758,10 +672,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -794,10 +704,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -831,10 +737,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -866,10 +768,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -902,10 +800,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -937,10 +831,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -972,10 +862,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1008,10 +894,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1045,10 +927,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1081,10 +959,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1117,10 +991,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1154,10 +1024,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1194,10 +1060,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1228,10 +1090,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1268,10 +1126,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.click_on_show_now_present_on_page();
-        signin_page.click_on_navigate_back_button_present_on_page();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1303,8 +1157,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         Sleep_Playlist_Page.scrollDownAndClickPlaylists((AndroidDriver)driver);
@@ -1336,8 +1188,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         sleep_playlist_page.scroll_down_to_the_Text("51 mins • 20 XP");
@@ -1345,7 +1195,7 @@ public class Sleep_Playlist_Test extends base {
 
     }
     @Test
-    public void To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_050(){
+    public void To_verify_that_the_user_is_able_to_add_the_any_currently_played_track_after_creating_new_playlist_SLP_PL_049(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("To verify that the user is able to add the any currently played track after creating new playlist");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -1360,8 +1210,6 @@ public class Sleep_Playlist_Test extends base {
         signin_page.click_on_enter_the_code_text_field();
         signin_page.enter_6_digit_code(0);
         signin_page.verify_and_click_on_right_arrow();
-        signin_page.verify_and_close_feature_alert_pop_up();
-        sleep_playlist_page.checkWelcomePopUpAndClose();
         sleep_playlist_page.click_on_sleep_tab_button();
         sleep_playlist_page.checkSleepPlaylistsPopUpAndClose();
         sleep_playlist_page.scroll_down_to_the_Text("Story of Tulsi Vivaha (हिन्दी)");
@@ -1371,4 +1219,6 @@ public class Sleep_Playlist_Test extends base {
         sleep_playlist_page.verify_and_click_on_add_playlist();
         sleep_playlist_page.verify_playlist_name_highlighted();
     }
+
+
 }

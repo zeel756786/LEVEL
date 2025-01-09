@@ -1,0 +1,283 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Today Module Flow " >
+    <test name = "Verify that the user tap on the Today footer menu TDY 001">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Today_footer_menu_TDY_001"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Stop Overthinking fronm the Introducing Courses Overthinking TDY 006">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Stop_Overthinking_fronm_the_Introducing_Courses_Overthinking_TDY_006"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user buy the Overthinking starter kit from the Overthinking screen by tapping on Buy now for ₹29 TDY 008">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_buy_the_Overthinking_starter_kit_from_the_Overthinking_screen_by_tapping_on_Buy_now_for_₹29_TDY_008"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user share the Spirituality starter kit from the Spirituality screen TDY 010">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_share_the_Spirituality_starter_kit_from_the_Spirituality_screen_TDY_010"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user buy the Spirituality starter kit from the Spirituality screen by tapping on Buy now for ₹29 TDY 011">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_buy_the_Spirituality_starter_kit_from_the_Spirituality_screen_by_tapping_on_Buy_now_for_₹29_TDY_011"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Courses from the Courses screen TDY 012">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Courses_from_the_Courses_screen_TDY_012"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Explore Now from the Introducing Courses TDY 013">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Explore_Now_from_the_Introducing_Courses_TDY_013"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Stress relief tab from the Courses screen TDY 014">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Stress_relief_tab_from_the_Courses_screen_TDY_014"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Spiritual tab from the Courses screen TDY 016">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Spiritual_tab_from_the_Courses_screen_TDY_016"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the From your favourite coaches tab from the Courses screen TDY 018">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_From_your_favourite_coaches_tab_from_the_Courses_screen_TDY_018"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Journal from the Explore TDY 022">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Journal_from_the_Explore_TDY_022"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Music from the Explore TDY 025">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Music_from_the_Explore_TDY_025"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that that user edit the Recommended for you Meditations TDY 026">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_edit_the_Recommended_for_you_Meditations_TDY_026"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user play and listen the Series from the Recommended for you activities TDY 027">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_play_and_listen_the_Series_from_the_Recommended_for_you_activities_TDY_027"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user set a timer for the Series from the Recommended for you activities TDY 032">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_set_a_timer_for_the_Series_from_the_Recommended_for_you_activities_TDY_032"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user share the Feeling like an imposter at work TDY 033">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_share_the_Feeling_like_an_imposter_at_work_TDY_033"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the right arrow of the Feeling like an imposter at work TDY 034">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_right_arrow_of_the_Feeling_like_an_imposter_at_work_TDY_034"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the My Coupons icon on the LSM Shop screen TDY 037">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_My_Coupons_icon_on_the_LSM_Shop_screen_TDY_037"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on right arrow of the Upcoming Brand Unlocks TDY 039">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_right_arrow_of_the_Upcoming_Brand_Unlocks_TDY_039"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user see the Coupans for you on the LSM Shop screen TDY 040">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_see_the_Coupans_for_you_on_the_LSM_Shop_screen_TDY_040"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the History tab from the Journal screen TDY 042">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_History_tab_from_the_Journal_screen_TDY_042"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Write Now button of the Express yourself from the Journal screen TDY 043">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Write_Now_button_of_the_Express_yourself_from_the_Journal_screen_TDY_043"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Intention of the Journal with Prompts from the journal screen TDY 044">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Intention_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_044"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Reflection of the Journal with Prompts from the journal screen TDY 045">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Reflection_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_045"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the Gratitude of the Journal with Prompts from the journal screen TDY 046">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_Gratitude_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_046"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the To do of the Journal with Prompts from the journal screen TDY 047">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_To_do_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_047"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the 2024 VISION of the Journal with Prompts from the journal screen TDY 048">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_2024_VISION_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_048"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the 2023 RECAP of the Journal with Prompts from the journal screen TDY 049">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_2023_RECAP_of_the_Journal_with_Prompts_from_the_journal_screen_TDY_049"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user share the Daily quotes for inner growth from the journal screen TDY 050">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_share_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_050"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user tap on the right arrow of the Daily quotes for inner growth from the journal screen TDY 051">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_tap_on_the_right_arrow_of_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_051"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name = "Verify that the user select the reading language from the dropdown for reading the blog on the Daily quotes for inner growth from the journal screen TDY 052">
+        <classes>
+            <class name ="mobile.tests.Today.Today_Test" >
+                <methods>
+                    <include name="Verify_that_the_user_select_the_reading_language_from_the_dropdown_for_reading_the_blog_on_the_Daily_quotes_for_inner_growth_from_the_journal_screen_TDY_052"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

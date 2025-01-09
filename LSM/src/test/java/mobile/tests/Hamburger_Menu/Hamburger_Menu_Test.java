@@ -76,7 +76,7 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_favourite_option_on_the_side_panel_menu_HBM_004(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the favourite option on the side panel menu.");
-        // Verify that the user tap on the Download option on the side panel menu
+        // Verify that the user tap on the Download option on the side panel menu_HBM_005
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -121,8 +121,8 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_Gift_a_Subscription_sub_menu_of_the_Hamburger_menu_HBM_007(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Gift a Subscription' sub menu of the hamburger menu.");
-    //    Verify that the select the Quantity for the Gift Mindfullness on the "Gift a Premium" screen after tapping on the Gift a Subscription"  sub menu_HBM_009
-    //    Verify that the user tap on the "For Corporate Partnerships" right arrow on the "Gift a Premium" screen after tapping on the Gift a Subscription"  sub menu_HBM_010
+        //    Verify that the select the Quantity for the Gift Mindfullness on the "Gift a Premium" screen after tapping on the Gift a Subscription"  sub menu_HBM_009
+        //    Verify that the user tap on the "For Corporate Partnerships" right arrow on the "Gift a Premium" screen after tapping on the Gift a Subscription"  sub menu_HBM_010
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -164,6 +164,7 @@ public class Hamburger_Menu_Test extends base {
     }
     @Test()
     public void Verify_that_the_user_tap_on_the_Got_a_Coupon_code_right_arrow_on_the_Gift_a_Premium_screen_after_tapping_on_the_Gift_a_Subscription_sub_menu_HBM_011(){
+        //Verify that the user enter the invalid Coupon Code and tap on "Redeem" button HBM 013
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Got a Coupon code' right arrow on the 'Gift a Premium' screen after tapping on the 'Gift a Subscription' sub menu.");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -211,10 +212,10 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_Settings_sub_menu_of_the_Hamburger_menu_HBM_015(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Settings' sub menu of the 'Hamburger menu'.");
-     //   Verify that the user tap on the "Notifications" submenu after tapping on the "Settings"_HBM_016
-    //     Verify that the user tap on the "Terms & Condition" submenu after tapping on the "Settings"_HBM_017
-    //    Verify that the user tap on the "Privacy Policy" submenu after tapping on the "Settings"_HBM_018
-    //    Verify that the user tap on the "Connected with us on Social" submenu after tapping on the "Settings"_HBM_019
+        //   Verify that the user tap on the "Notifications" submenu after tapping on the "Settings"_HBM_016
+        //     Verify that the user tap on the "Terms & Condition" submenu after tapping on the "Settings"_HBM_017
+        //    Verify that the user tap on the "Privacy Policy" submenu after tapping on the "Settings"_HBM_018
+        //    Verify that the user tap on the "Connected with us on Social" submenu after tapping on the "Settings"_HBM_019
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -254,9 +255,9 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_Refer_and_earn_sub_menu_of_the_Hamburger_menu_HBM_021(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Refer and earn' sub menu of the 'Hamburger menu'.");
-    //  Verify that the user enter the invalid referral code and tap on the right arrow on the "Refer and Earn" screen after tapping on the "Refer & Earn"  sub menu_HBM_023
-    //  Verify that the user tap on the "Invite a Friend" button on the "Refer and Earn" screen after tapping on the "Refer & Earn"  sub menu_HBM_024
-    //    Verify that the user tap on the "Reward History" on the "Refer and Earn" screen after tapping on the "Refer & Earn"  sub menu_HBM_025
+        //  Verify that the user enter the invalid referral code and tap on the right arrow on the "Refer and Earn" screen after tapping on the "Refer & Earn"  sub menu_HBM_023
+        //  Verify that the user tap on the "Invite a Friend" button on the "Refer and Earn" screen after tapping on the "Refer & Earn"  sub menu_HBM_024
+        //  Verify that the user tap on the "Reward History" on the "Refer and Earn" screen after tapping on the "Refer & Earn"  sub menu_HBM_025
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -281,7 +282,7 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_Reminder_sub_menu_of_the_Hamburger_menu_HBM_026(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Reminder' sub menu of the 'Hamburger menu'.");
-      //  Verify that the user tap on the "Add a new reminder" button on the Reminder screen after tapping on the "Reminder" sub menu_HBM_027
+        //  Verify that the user tap on the "Add a new reminder" button on the Reminder screen after tapping on the "Reminder" sub menu_HBM_027
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -322,7 +323,7 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_Logout_sub_menu_of_the_Hamburger_menu_HBM_029(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Logout' sub menu of the 'Hamburger menu'.");
-     //   Verify that the user tap on the "Log Out" button of the popup after tap on the "Logout" sub menu of the Hamburger menu_HBM_030
+        //   Verify that the user tap on the "Log Out" button of the popup after tap on the "Logout" sub menu of the Hamburger menu_HBM_030
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -364,11 +365,11 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_Edit_Profile_option_after_tap_on_the_View_Profile_option_on_the_side_panel_menu_HBM_032(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Edit Profile' option after tap on the 'View Profile' option on the side panel menu.");
-      //  Verify that the user edit and save the name by using edit profile_HBM_034
-      //  Verify that the user edit and save the Email Id by using edit profile_HBM_035
-     //   Verify that the user edit and save the Phone number by using edit profile_HBM_036
-     //    Verify that the user verify the Email Id if user has sign up using Phone number by using edit profile_HBM_038
-     //    Verify that the user and save the gender by selecting the gender using edit profile._HBM_039
+        //  Verify that the user edit and save the name by using edit profile_HBM_034
+        //  Verify that the user edit and save the Email Id by using edit profile_HBM_035
+        //   Verify that the user edit and save the Phone number by using edit profile_HBM_036
+        //    Verify that the user verify the Email Id if user has sign up using Phone number by using edit profile_HBM_038
+        //    Verify that the user and save the gender by selecting the gender using edit profile._HBM_039
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -417,7 +418,7 @@ public class Hamburger_Menu_Test extends base {
     public void Verify_that_the_user_tap_on_the_View_More_Activity_Details_after_tapping_on_the_View_Profile_HBM_040(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'View More Activity Details' after tapping on the 'View Profile'.");
-     //   Verify that the user tap on the right arrow of the "Refer and Win" after tapping on the "View Profile"_HBM_041
+        //   Verify that the user tap on the right arrow of the "Refer and Win" after tapping on the "View Profile"_HBM_041
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);
@@ -433,14 +434,14 @@ public class Hamburger_Menu_Test extends base {
         hamburger_menu_page.verify_and_click_on_hamburger_menu();
         hamburger_menu_page.click_on_view_profile();
         hamburger_menu_page.verify_and_click_on_view_more_activity_details();
-        hamburger_menu_page.verify_activity_history_details_present_on_page();
+        hamburger_menu_page.verify_activity_history_details_screen_present_on_page();
         hamburger_menu_page.click_on_refer_and_win();
     }
     @Test()
     public void Verify_that_the_user_tap_on_the_Delete_Account_button_after_tapping_on_the_View_Profile_HBM_042(){
         LambdaTestConfig config = new LambdaTestConfig(driver);
         config.addTestName("Verify that the user tap on the 'Delete Account' button after tapping on the 'View Profile'.");
-     // Verify that the user tap on the "Pause my account" after tapping on the "Delete Account"_HBM_043
+        // Verify that the user tap on the "Pause my account" after tapping on the "Delete Account"_HBM_043
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         signin_page signin_page = new signin_page(driver);
         Hamburger_Menu_Page hamburger_menu_page = new Hamburger_Menu_Page(driver);

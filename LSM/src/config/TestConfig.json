@@ -23,7 +23,7 @@
         "noReset": false
       },
       "testNGsuite": [
-        "onboarding.xml"
+        "body.xml"
       ],
       "tesboReportKey": "o7cWl4cUtQzXHuobbYAEFFQNZcFOBB5i",
       "appiumURL": "http://127.0.0.1:4723/"
