@@ -131,7 +131,7 @@
         <classes>
             <class name="mobile.tests.Body.Body_Test">
                 <methods>
-                    <include name="Verify that the user search for the workout using the search field BDY 003"/>
+                    <include name="Verify_that_the_user_search_for_the_HIIT_using_the_search_field_BDY_003"/>
                 </methods>
             </class>
         </classes>
